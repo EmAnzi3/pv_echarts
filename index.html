@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PV Filiali - Dashboard GitHub</title>
+  <meta name="description" content="Dashboard PV con Sankey, mappe provinciali, heatmap e treemap su GitHub Pages.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <div>
+        <h1>Pipeline FV<br>clienti, cantieri e filiali</h1>
+        <p class="lead">Dashboard operativa autonoma su GitHub Pages: responsabilità commerciale della sede cliente, ubicazione dei cantieri e coordinamento interfiliale.</p>
+      </div>
+      <div class="badge">GitHub Pages + ECharts</div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="kpis" id="kpis" aria-label="Indicatori principali"></section>
+
+    <section class="note"><strong>Chiave di lettura:</strong> il file master viene aggiornato una sola volta. Lo script genera <code>data/dashboard.json</code>; la pagina GitHub legge quel JSON e aggiorna Sankey, mappe, heatmap, treemap e tabelle senza Flourish.</section>
+
+    <nav class="nav" aria-label="Navigazione dashboard">
+      <a href="#sankey-card">Sankey</a>
+      <a href="#maps-card">Mappe province</a>
+      <a href="#heatmap-card">Heatmap</a>
+      <a href="#treemap-card">Treemap</a>
+      <a href="#tables-card">Tabelle</a>
+    </nav>
+
+    <section class="grid" id="sankey-card">
+      <article class="card">
+        <div class="head compact">
+          <span class="eyebrow">Sankey</span>
+          <h2>Flussi tra filiale cliente e filiale cantiere</h2>
+          <p>Mostra dove ricade il cantiere rispetto alla filiale proprietaria della relazione cliente.</p>
+        </div>
+        <div class="viz">
+          <div class="controls"><button class="btn active" id="metricMWp">MWp</button><button class="btn" id="metricProjects">N. progetti</button></div>
+          <div id="sankey" class="chart" style="height:calc(100% - 48px)"></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid three" id="maps-card" style="margin-top:20px">
+      <article class="card">
+        <div class="head"><span class="eyebrow">Mappa</span><h2>Cantieri FV per provincia</h2><p>Colore proporzionale ai MWp complessivi dei progetti presenti nella provincia.</p></div>
+        <div class="viz map"><div id="mapCantieri" class="chart"></div></div>
+      </article>
+      <article class="card">
+        <div class="head"><span class="eyebrow">Mappa</span><h2>Sedi clienti per provincia</h2><p>Colore proporzionale al numero di clienti/proponenti con sede legale nella provincia.</p></div>
+        <div class="viz map"><div id="mapClienti" class="chart"></div></div>
+      </article>
+      <article class="card">
+        <div class="head"><span class="eyebrow">Mappa</span><h2>Clienti per provincia - MWp</h2><p>Colore proporzionale ai MWp collegati ai clienti/proponenti con sede nella provincia.</p></div>
+        <div class="viz map"><div id="mapClientiMWp" class="chart"></div></div>
+      </article>
+    </section>
+
+    <section class="grid two" style="margin-top:20px">
+      <article class="card"><div class="head compact"><span class="eyebrow">Barre</span><h2>Top filiali cantiere</h2><p>Dove si concentra il lavoro operativo.</p></div><div class="viz short"><div id="barCantiere" class="chart"></div></div></article>
+      <article class="card"><div class="head compact"><span class="eyebrow">Barre</span><h2>Top filiali cliente</h2><p>Dove si concentra la responsabilità commerciale.</p></div><div class="viz short"><div id="barCliente" class="chart"></div></div></article>
+    </section>
+
+    <section class="grid" id="heatmap-card" style="margin-top:20px">
+      <article class="card"><div class="head compact"><span class="eyebrow">Heatmap</span><h2>Matrice filiale cliente → filiale cantiere</h2><p>Intensità colore proporzionale ai MWp dei progetti collegati.</p></div><div class="viz short"><div id="heatmap" class="chart"></div></div></article>
+    </section>
+
+    <section class="grid two" id="treemap-card" style="margin-top:20px">
+      <article class="card"><div class="head"><span class="eyebrow">Treemap</span><h2>Peso territoriale dei cantieri FV</h2><p>Regione → Provincia → Comune → Cliente → Progetto, pesato per MWp.</p></div><div class="viz short"><div id="treemapGeo" class="chart"></div></div></article>
+      <article class="card"><div class="head"><span class="eyebrow">Treemap</span><h2>Responsabilità cliente e cantieri collegati</h2><p>Filiale cliente → Filiale cantiere → Cliente → Progetto, pesato per MWp.</p></div><div class="viz short"><div id="treemapBranches" class="chart"></div></div></article>
+    </section>
+
+    <section class="grid two" id="tables-card" style="margin-top:20px">
+      <article class="card"><div class="head compact"><span class="eyebrow">Tabella</span><h2>Casi interfiliale prioritari</h2><p>Filiali diverse, ordinati per MWp.</p></div><div class="viz table"><div class="table-wrap"><table id="priorityTable"></table></div></div></article>
+      <article class="card"><div class="head compact"><span class="eyebrow">Tabella</span><h2>Dettaglio progetti</h2><p>Filtro testuale e filtro per esito filiale.</p></div><div class="viz table"><div class="controls"><input id="search" placeholder="Cerca cliente, progetto, filiale..." style="min-width:260px"><select id="esito"><option value="">Tutti</option><option>FILIALE DIVERSA</option><option>STESSA FILIALE</option></select></div><div class="table-wrap"><table id="detailsTable"></table></div></div></article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Nota tecnica: la pagina carica ECharts da CDN e prova a caricare il GeoJSON province da <code>data/limits_IT_provinces.geojson</code>; se assente usa una fonte pubblica Openpolis via jsDelivr. Per massima autonomia, scarica il GeoJSON e salvalo in <code>data/limits_IT_provinces.geojson</code>.</p>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

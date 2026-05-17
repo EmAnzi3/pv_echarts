@@ -1,0 +1,12 @@
+{
+  "aggregatore_path": "C:/Users/anzillotti/OneDrive - CGT Edilizia S.p.a/Alayan Fotovoltaico/Aggregatori/Fotovoltaico_Aggregatore.xlsx",
+  "report_salesforce_path": "input/report_salesforce.xlsx",
+  "output_master_path": "output/Mappa_progetti_clienti_filiali.xlsx",
+  "output_audit_path": "output/audit_abbinamenti.xlsx",
+  "dashboard_json_path": "data/dashboard.json",
+  "excluded_clients": ["skynrg srl", "t.e.a.. gest srl"],
+  "manual_aliases": {
+    "ECOGREEN": "ECO GREEN",
+    "ENERGY4U": "ENERGY4U ABBREVIATO E4U"
+  }
+}

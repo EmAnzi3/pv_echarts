@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 118,
-    "mwp": 5216.814,
-    "same_branch": 20,
-    "different_branch": 98,
-    "different_pct": 83.1,
+    "projects": 120,
+    "mwp": 5311.612,
+    "same_branch": 21,
+    "different_branch": 99,
+    "different_pct": 82.5,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -173,6 +173,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Bologna",
+      "Filiale cantiere": "Rimini",
+      "N. progetti": 1,
+      "MWp": 61.271,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Salerno",
       "Filiale cantiere": "Bari",
       "N. progetti": 1,
@@ -268,6 +275,13 @@
       "Filiale cantiere": "Perugia",
       "N. progetti": 1,
       "MWp": 33.972,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Cagliari",
+      "Filiale cantiere": "Cagliari",
+      "N. progetti": 1,
+      "MWp": 33.527,
       "Clienti unici": 1
     },
     {
@@ -581,6 +595,13 @@
       "Clienti unici": 2
     },
     {
+      "Provincia cantiere": "Ravenna",
+      "Regione cantiere": "Emilia-Romagna",
+      "N. progetti": 2,
+      "MWp": 75.271,
+      "Clienti unici": 2
+    },
+    {
       "Provincia cantiere": "Taranto",
       "Regione cantiere": "Puglia",
       "N. progetti": 2,
@@ -644,6 +665,13 @@
       "Clienti unici": 1
     },
     {
+      "Provincia cantiere": "Sud Sardegna",
+      "Regione cantiere": "Sardegna",
+      "N. progetti": 2,
+      "MWp": 53.515,
+      "Clienti unici": 2
+    },
+    {
       "Provincia cantiere": "Padova",
       "Regione cantiere": "Veneto",
       "N. progetti": 1,
@@ -686,13 +714,6 @@
       "Clienti unici": 1
     },
     {
-      "Provincia cantiere": "Sud Sardegna",
-      "Regione cantiere": "Sardegna",
-      "N. progetti": 1,
-      "MWp": 19.988,
-      "Clienti unici": 1
-    },
-    {
       "Provincia cantiere": "Crotone",
       "Regione cantiere": "Calabria",
       "N. progetti": 1,
@@ -711,13 +732,6 @@
       "Regione cantiere": "Lazio",
       "N. progetti": 2,
       "MWp": 17.0,
-      "Clienti unici": 1
-    },
-    {
-      "Provincia cantiere": "Ravenna",
-      "Regione cantiere": "Emilia-Romagna",
-      "N. progetti": 1,
-      "MWp": 14.0,
       "Clienti unici": 1
     },
     {
@@ -798,9 +812,9 @@
     },
     {
       "Provincia": "Bologna",
-      "Clienti": 5,
-      "Progetti": 7,
-      "MWp": 182.63
+      "Clienti": 6,
+      "Progetti": 8,
+      "MWp": 243.901
     },
     {
       "Provincia": "Bergamo",
@@ -833,7 +847,7 @@
       "MWp": 77.41
     },
     {
-      "Provincia": "",
+      "Provincia": "nan",
       "Clienti": 2,
       "Progetti": 2,
       "MWp": 39.75
@@ -897,6 +911,12 @@
       "Clienti": 1,
       "Progetti": 1,
       "MWp": 46.9
+    },
+    {
+      "Provincia": "Cagliari",
+      "Clienti": 1,
+      "Progetti": 1,
+      "MWp": 33.527
     },
     {
       "Provincia": "Ravenna",
@@ -980,9 +1000,9 @@
     },
     {
       "Filiale cantiere": "Cagliari",
-      "N. progetti": 3,
-      "MWp": 113.448,
-      "Clienti unici": 3
+      "N. progetti": 4,
+      "MWp": 146.975,
+      "Clienti unici": 4
     },
     {
       "Filiale cantiere": "Roma Nomentana",
@@ -1000,6 +1020,12 @@
       "Filiale cantiere": "Sassuolo",
       "N. progetti": 2,
       "MWp": 104.01,
+      "Clienti unici": 2
+    },
+    {
+      "Filiale cantiere": "Rimini",
+      "N. progetti": 2,
+      "MWp": 99.431,
       "Clienti unici": 2
     },
     {
@@ -1048,12 +1074,6 @@
       "Filiale cantiere": "Roma Aurelia",
       "N. progetti": 1,
       "MWp": 43.65,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cantiere": "Rimini",
-      "N. progetti": 1,
-      "MWp": 38.16,
       "Clienti unici": 1
     },
     {
@@ -1114,9 +1134,9 @@
     },
     {
       "Filiale cliente": "Bologna",
-      "N. progetti": 7,
-      "MWp": 182.63,
-      "Clienti unici": 5
+      "N. progetti": 8,
+      "MWp": 243.901,
+      "Clienti unici": 6
     },
     {
       "Filiale cliente": "Catania",
@@ -1188,6 +1208,12 @@
       "Filiale cliente": "Parma",
       "N. progetti": 1,
       "MWp": 56.54,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Cagliari",
+      "N. progetti": 1,
+      "MWp": 33.527,
       "Clienti unici": 1
     },
     {
@@ -1384,6 +1410,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Bologna",
+      "Filiale cantiere": "Rimini",
+      "N. progetti": 1,
+      "MWp": 61.271,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Salerno",
       "Filiale cantiere": "Bari",
       "N. progetti": 1,
@@ -1479,6 +1512,13 @@
       "Filiale cantiere": "Perugia",
       "N. progetti": 1,
       "MWp": 33.972,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Cagliari",
+      "Filiale cantiere": "Cagliari",
+      "N. progetti": 1,
+      "MWp": 33.527,
       "Clienti unici": 1
     },
     {
@@ -1708,7 +1748,7 @@
       "Regione cantiere": "Toscana",
       "Provincia cantiere": "Pisa",
       "Comune cantiere": "Pontedera",
-      "Cliente progetto": "LA FORMICA",
+      "Cliente progetto": "LA FORMICA SRL",
       "Progetto": "FV GELLO DI PONTEDERA",
       "Potenza MWp": 0.0
     },
@@ -1716,7 +1756,7 @@
       "Regione cantiere": "Toscana",
       "Provincia cantiere": "Pisa",
       "Comune cantiere": "Pisa",
-      "Cliente progetto": "ECOGREEN",
+      "Cliente progetto": "ECO GREEN SRL",
       "Progetto": "FV OSPEDALETTO",
       "Potenza MWp": 0.0
     },
@@ -1724,7 +1764,7 @@
       "Regione cantiere": "Toscana",
       "Provincia cantiere": "Pisa",
       "Comune cantiere": "Casciana Terme Lari",
-      "Cliente progetto": "LA FORMICA",
+      "Cliente progetto": "LA FORMICA SRL",
       "Progetto": "FV PERIGNANO",
       "Potenza MWp": 5.4
     },
@@ -2282,6 +2322,14 @@
     },
     {
       "Regione cantiere": "Sardegna",
+      "Provincia cantiere": "Sud Sardegna",
+      "Comune cantiere": "Isili",
+      "Cliente progetto": "VEN.SAR. SRL",
+      "Progetto": "ISILI 2",
+      "Potenza MWp": 33.527
+    },
+    {
+      "Regione cantiere": "Sardegna",
       "Provincia cantiere": "Sassari",
       "Comune cantiere": "Porto Torres",
       "Cliente progetto": "ENI PLENITUDE RENEWABLES ITALY SPA",
@@ -2319,6 +2367,14 @@
       "Cliente progetto": "BLUSOLAR CHIARAVALLE 1 SRL",
       "Progetto": "Blusolar Chiaravalle",
       "Potenza MWp": 38.16
+    },
+    {
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Ravenna",
+      "Comune cantiere": "Massa Lombarda",
+      "Cliente progetto": "STM26 SRL",
+      "Progetto": "FOSSATONE",
+      "Potenza MWp": 61.271
     },
     {
       "Regione cantiere": "Toscana",
@@ -2649,21 +2705,21 @@
     {
       "Filiale cliente": "Livorno",
       "Filiale cantiere": "Livorno",
-      "Cliente progetto": "LA FORMICA",
+      "Cliente progetto": "LA FORMICA SRL",
       "Progetto": "FV GELLO DI PONTEDERA",
       "Potenza MWp": 0.0
     },
     {
       "Filiale cliente": "Livorno",
       "Filiale cantiere": "Livorno",
-      "Cliente progetto": "ECOGREEN",
+      "Cliente progetto": "ECO GREEN SRL",
       "Progetto": "FV OSPEDALETTO",
       "Potenza MWp": 0.0
     },
     {
       "Filiale cliente": "Livorno",
       "Filiale cantiere": "Livorno",
-      "Cliente progetto": "LA FORMICA",
+      "Cliente progetto": "LA FORMICA SRL",
       "Progetto": "FV PERIGNANO",
       "Potenza MWp": 5.4
     },
@@ -3151,6 +3207,13 @@
       "Potenza MWp": 83.3
     },
     {
+      "Filiale cliente": "Cagliari",
+      "Filiale cantiere": "Cagliari",
+      "Cliente progetto": "VEN.SAR. SRL",
+      "Progetto": "ISILI 2",
+      "Potenza MWp": 33.527
+    },
+    {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Sassari",
       "Cliente progetto": "ENI PLENITUDE RENEWABLES ITALY SPA",
@@ -3184,6 +3247,13 @@
       "Cliente progetto": "BLUSOLAR CHIARAVALLE 1 SRL",
       "Progetto": "Blusolar Chiaravalle",
       "Potenza MWp": 38.16
+    },
+    {
+      "Filiale cliente": "Bologna",
+      "Filiale cantiere": "Rimini",
+      "Cliente progetto": "STM26 SRL",
+      "Progetto": "FOSSATONE",
+      "Potenza MWp": 61.271
     },
     {
       "Filiale cliente": "Roma Aurelia",
@@ -3523,7 +3593,7 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
-      "Cliente": "LA FORMICA",
+      "Cliente": "LA FORMICA SRL",
       "Cliente report": "LA FORMICA SRL",
       "Progetto": "FV GELLO DI PONTEDERA",
       "Regione cantiere": "Toscana",
@@ -3542,7 +3612,7 @@
       "Esito": "STESSA FILIALE"
     },
     {
-      "Cliente": "ECOGREEN",
+      "Cliente": "ECO GREEN SRL",
       "Cliente report": "ECO GREEN SRL",
       "Progetto": "FV OSPEDALETTO",
       "Regione cantiere": "Toscana",
@@ -3561,7 +3631,7 @@
       "Esito": "STESSA FILIALE"
     },
     {
-      "Cliente": "LA FORMICA",
+      "Cliente": "LA FORMICA SRL",
       "Cliente report": "LA FORMICA SRL",
       "Progetto": "FV PERIGNANO",
       "Regione cantiere": "Toscana",
@@ -4891,6 +4961,25 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "VEN.SAR. SRL",
+      "Cliente report": "VEN.SAR. SRL",
+      "Progetto": "ISILI 2",
+      "Regione cantiere": "Sardegna",
+      "Provincia cantiere": "Sud Sardegna",
+      "Comune cantiere": "Isili",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Cagliari",
+      "Filiale cliente": "Cagliari",
+      "Provincia sede": "Cagliari",
+      "Comune sede": "CAGLIARI",
+      "Indirizzo sede": "VIA ALGHERO 33",
+      "Tipo account": "Prospect",
+      "MWp": 33.527,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "STESSA FILIALE"
+    },
+    {
       "Cliente": "ENI PLENITUDE RENEWABLES ITALY SPA",
       "Cliente report": "ENI PLENITUDE RENEWABLES ITALY SPA",
       "Progetto": "Aree Sud",
@@ -4986,6 +5075,25 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "STM26 SRL",
+      "Cliente report": "STM26 SRL",
+      "Progetto": "FOSSATONE",
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Ravenna",
+      "Comune cantiere": "Massa Lombarda",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Rimini",
+      "Filiale cliente": "Bologna",
+      "Provincia sede": "Bologna",
+      "Comune sede": "IMOLA",
+      "Indirizzo sede": "VIA PIETRO NENNI 6/E",
+      "Tipo account": "Prospect",
+      "MWp": 61.271,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "ACCIONA ENERGIA GLOBAL ITALIA SRL",
       "Cliente report": "ACCIONA ENERGIA GLOBAL ITALIA SRL",
       "Progetto": "Greppo",
@@ -5052,7 +5160,7 @@
       "Area cantiere": "Sud",
       "Filiale cantiere": "Napoli",
       "Filiale cliente": "Napoli",
-      "Provincia sede": "",
+      "Provincia sede": "nan",
       "Comune sede": "NAPOLI",
       "Indirizzo sede": "CENTRO DIREZIONALE SNC",
       "Tipo account": "Prospect",
@@ -5166,7 +5274,7 @@
       "Area cantiere": "Centro",
       "Filiale cantiere": "Perugia",
       "Filiale cliente": "Napoli",
-      "Provincia sede": "",
+      "Provincia sede": "nan",
       "Comune sede": "NAPOLI",
       "Indirizzo sede": "VIA FRANCESCO CRISPI 98",
       "Tipo account": "Prospect",

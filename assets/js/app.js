@@ -266,7 +266,18 @@ function drawHeatmap(){
   const cols=[...new Set(state.data.heatmap_filiali.map(r=>r['Filiale cantiere']))];
   const data=state.data.heatmap_filiali.map(r=>[cols.indexOf(r['Filiale cantiere']),rows.indexOf(r['Filiale cliente']),+(r.MWp||0)]);
   const max=Math.max(...data.map(x=>x[2]),1);
-  setChart('heatmap',{tooltip:{position:'top',formatter:p=>`${rows[p.data[1]]} → ${cols[p.data[0]]}<br><b>${fmt1.format(p.data[2])} MWp</b>`},grid:{left:130,right:30,top:40,bottom:90},xAxis:{type:'category',data:cols,axisLabel:{rotate:45,fontSize:10}},yAxis:{type:'category',data:rows,axisLabel:{fontSize:10}},visualMap:{min:0,max,calculable:true,orient:'horizontal',left:'center',bottom:0,inRange:{color:['#f7fbff','#6baed6','#08306b']}},series:[{type:'heatmap',data,label:{show:false},emphasis:{itemStyle:{shadowBlur:10,shadowColor:'rgba(0,0,0,.25)'}}}]});
+  setChart('heatmap',{
+    tooltip:{position:'top',formatter:p=>`${rows[p.data[1]]} → ${cols[p.data[0]]}<br><b>${fmt1.format(p.data[2])} MWp</b>`},
+    grid:{left:130,right:30,top:40,bottom:100},
+    xAxis:{type:'category',data:cols,axisLabel:{rotate:45,fontSize:10}},
+    yAxis:{type:'category',data:rows,axisLabel:{fontSize:10}},
+    visualMap:{
+      min:0,max,calculable:true,orient:'horizontal',left:'70%',bottom:8,itemWidth:140,itemHeight:10,
+      text:[`${fmt1.format(max)}`, '0'],textGap:8,textStyle:{fontSize:10,color:'#475569'},
+      inRange:{color:['#eef8ee','#d8f0d2','#a9d9a4','#5fbf6b','#1f7a3f']}
+    },
+    series:[{type:'heatmap',data,label:{show:false},emphasis:{itemStyle:{shadowBlur:10,shadowColor:'rgba(0,0,0,.25)'}},itemStyle:{borderWidth:0.3,borderColor:'#ffffff'}}]
+  });
 }
 function makeTreeGeo(){
   const root={name:'Cantieri FV', children:[]};

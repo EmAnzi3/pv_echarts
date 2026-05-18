@@ -65,22 +65,101 @@ function drawKpis(){
 }
 function initChart(id){ charts[id] = echarts.init(el(id)); return charts[id]; }
 function setChart(id,opt){ (charts[id]||initChart(id)).setOption(opt,true); }
-function palette(){ return ['#0f4c81','#2374ab','#5fa8d3','#8ecae6','#ffb703','#fb8500','#d62828','#6a4c93']; }
+function palette(){ return ['#0f4c81','#2374ab','#5fa8d3','#8ecae6','#6a4c93','#7c3aed','#ffb703','#fb8500','#d62828','#2a9d8f','#577590','#bc6c25','#a7c957','#c9184a']; }
+
+function branchColorMap(metric){
+  const totals = new Map();
+  state.data.flows.forEach(f=>{
+    const v = +f[metric] || 0;
+    const fc = f['Filiale cliente'];
+    const fp = f['Filiale cantiere'];
+    totals.set(fc, (totals.get(fc) || 0) + v);
+    totals.set(fp, (totals.get(fp) || 0) + v);
+  });
+  const ordered = [...totals.entries()].sort((a,b)=>b[1]-a[1] || a[0].localeCompare(b[0], 'it')).map(x=>x[0]);
+  const colors = {};
+  ordered.forEach((name, idx)=>{ colors[name] = palette()[idx % palette().length]; });
+  return colors;
+}
 
 function drawSankey(){
-  const flows = [...state.data.flows].sort((a,b)=>b[state.metric]-a[state.metric]).slice(0,35);
-  const nodes = new Map();
-  flows.forEach(f=>{ nodes.set('C|'+f['Filiale cliente'], {name:'Cliente: '+f['Filiale cliente']}); nodes.set('T|'+f['Filiale cantiere'], {name:'Cantiere: '+f['Filiale cantiere']}); });
-  const links = flows.map(f=>({
-    source:'Cliente: '+f['Filiale cliente'], target:'Cantiere: '+f['Filiale cantiere'], value:+f[state.metric]||0,
-    projects:f['N. progetti'], mwp:f['MWp']
-  }));
+  const metric = state.metric;
+  const flows = state.data.flows
+    .map(f=>({
+      cliente: f['Filiale cliente'],
+      progetto: f['Filiale cantiere'],
+      value: +(f[metric] || 0),
+      projects: +(f['N. progetti'] || 0),
+      mwp: +(f['MWp'] || 0)
+    }))
+    .filter(f=>f.cliente && f.progetto && f.value > 0);
+
+  const sourceTotals = new Map();
+  const targetTotals = new Map();
+  flows.forEach(f=>{
+    sourceTotals.set(f.cliente, (sourceTotals.get(f.cliente) || 0) + f.value);
+    targetTotals.set(f.progetto, (targetTotals.get(f.progetto) || 0) + f.value);
+  });
+
+  const sourceOrder = [...sourceTotals.entries()]
+    .sort((a,b)=>b[1]-a[1] || a[0].localeCompare(b[0], 'it'))
+    .map(x=>x[0]);
+  const targetOrder = [...targetTotals.entries()]
+    .sort((a,b)=>b[1]-a[1] || a[0].localeCompare(b[0], 'it'))
+    .map(x=>x[0]);
+
+  const sIndex = Object.fromEntries(sourceOrder.map((n,i)=>[n,i]));
+  const tIndex = Object.fromEntries(targetOrder.map((n,i)=>[n,i]));
+  const colorMap = branchColorMap(metric);
+
+  const nodes = [
+    ...sourceOrder.map(name=>({name, depth:0, value:sourceTotals.get(name), itemStyle:{color:colorMap[name]}})),
+    ...targetOrder.map(name=>({name, depth:1, value:targetTotals.get(name), itemStyle:{color:colorMap[name]}}))
+  ];
+
+  const links = flows
+    .sort((a,b)=> (sIndex[a.cliente]-sIndex[b.cliente]) || (tIndex[a.progetto]-tIndex[b.progetto]) || (b.value-a.value))
+    .map(f=>({
+      source:f.cliente, target:f.progetto, value:f.value, projects:f.projects, mwp:f.mwp,
+      lineStyle:{color:colorMap[f.cliente], opacity:.32}
+    }));
+
   setChart('sankey',{
-    color: palette(), tooltip:{trigger:'item',formatter:p=>{
-      if(p.dataType==='edge') return `<b>${p.data.source.replace('Cliente: ','')}</b> → <b>${p.data.target.replace('Cantiere: ','')}</b><br>${fmt1.format(p.data.mwp)} MWp<br>${fmt.format(p.data.projects)} progetti`;
-      return p.name;
-    }},
-    series:[{type:'sankey',data:[...nodes.values()],links,emphasis:{focus:'adjacency'},nodeAlign:'justify',nodeWidth:16,nodeGap:12,lineStyle:{color:'gradient',curveness:.5,opacity:.35},label:{fontSize:12,color:'#172033'}}]
+    animationDuration: 500,
+    animationDurationUpdate: 500,
+    tooltip:{
+      trigger:'item',
+      formatter:p=>{
+        if(p.dataType==='edge') return `<b>${p.data.source}</b> → <b>${p.data.target}</b><br>${fmt1.format(p.data.mwp)} MWp<br>${fmt.format(p.data.projects)} progetti`;
+        const isSource = sourceTotals.has(p.name);
+        const total = isSource ? sourceTotals.get(p.name) : targetTotals.get(p.name);
+        const label = isSource ? 'Cliente' : 'Progetti';
+        const unit = metric === 'MWp' ? ' MWp' : ' progetti';
+        return `<b>${p.name}</b><br>${label}: ${fmt1.format(total)}${unit}`;
+      }
+    },
+    graphic:[
+      {type:'text', left: 20, top: 10, style:{text:'Clienti', fill:'#334155', font:'600 13px sans-serif'}},
+      {type:'text', right: 20, top: 10, style:{text:'Progetti', fill:'#334155', font:'600 13px sans-serif', align:'right'}}
+    ],
+    series:[{
+      type:'sankey',
+      top: 34, left: 20, right: 20, bottom: 8,
+      data:nodes,
+      links,
+      emphasis:{focus:'adjacency'},
+      nodeAlign:'justify',
+      nodeWidth:16,
+      nodeGap:10,
+      draggable:false,
+      layoutIterations:32,
+      lineStyle:{color:'source',curveness:.5,opacity:.32},
+      label:{fontSize:12,color:'#172033'},
+      levels:[
+        {depth:0, itemStyle:{borderWidth:0}, lineStyle:{color:'source',opacity:.32}},
+        {depth:1, itemStyle:{borderWidth:0}}
+      ]
+    }]
   });
 }
 function barOption(rows, label, value, unit=''){

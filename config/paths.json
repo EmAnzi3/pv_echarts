@@ -1,5 +1,5 @@
 {
-  "aggregatore_path": "C:/Users/anzillotti/OneDrive - CGT Edilizia S.p.a/Alayan Fotovoltaico/Aggregatori/Fotovoltaico_Aggregatore.xlsx",
+  "aggregatore_path": "C:/Users/anzillotti/OneDrive - Alayan Italia/Alayan Fotovoltaico/Aggregatori/Fotovoltaico_Aggregatore.xlsx",
   "report_salesforce_path": "input/report_salesforce.xlsx",
   "output_master_path": "output/Mappa_progetti_clienti_filiali.xlsx",
   "output_audit_path": "output/audit_abbinamenti.xlsx",

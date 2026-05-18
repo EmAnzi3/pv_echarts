@@ -192,9 +192,38 @@ function drawSankey(){
   });
 }
 
+function interpolateHex(c1, c2, t){
+  const a = c1.match(/\w\w/g).map(x=>parseInt(x,16));
+  const b = c2.match(/\w\w/g).map(x=>parseInt(x,16));
+  const r = a.map((v,i)=>Math.round(v + (b[i]-v)*Math.max(0, Math.min(1, t))));
+  return '#' + r.map(v=>v.toString(16).padStart(2,'0')).join('');
+}
+function valueColor(v, max){
+  const t = max > 0 ? (+v || 0) / max : 0;
+  return interpolateHex('8ecae6', '0f4c81', t);
+}
 function barOption(rows, label, value, unit=''){
-  const r = [...rows].slice(0,10).reverse();
-  return {grid:{left:132,right:22,top:18,bottom:38},tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},xAxis:{type:'value',splitLine:{lineStyle:{color:'#e5e7eb'}}},yAxis:{type:'category',data:r.map(x=>x[label]),axisLabel:{fontSize:11}},series:[{type:'bar',data:r.map(x=>+x[value]||0),itemStyle:{color:'#0f4c81',borderRadius:[0,8,8,0]},label:{show:true,position:'right',formatter:p=>`${fmt1.format(p.value)}${unit}`}}]};
+  const top = [...rows].slice(0,10);
+  const max = Math.max(...top.map(x=>+x[value]||0), 1);
+  const r = top.reverse();
+  return {
+    grid:{left:132,right:34,top:18,bottom:38},
+    tooltip:{trigger:'axis',axisPointer:{type:'shadow'},formatter:params=>{
+      const p = params[0];
+      return `<b>${p.name}</b><br>${fmt1.format(p.value)}${unit}`;
+    }},
+    xAxis:{type:'value',splitLine:{lineStyle:{color:'#e5e7eb'}}},
+    yAxis:{type:'category',data:r.map(x=>x[label]),axisLabel:{fontSize:11}},
+    series:[{
+      type:'bar',
+      data:r.map(x=>+x[value]||0),
+      itemStyle:{
+        borderRadius:[0,8,8,0],
+        color:p=>valueColor(p.value, max)
+      },
+      label:{show:true,position:'right',formatter:p=>`${fmt1.format(p.value)}${unit}`}
+    }]
+  };
 }
 function drawBars(){
   setChart('barCantiere', barOption(state.data.top_cantiere,'Filiale cantiere','N. progetti'));

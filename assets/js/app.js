@@ -217,7 +217,8 @@ function drawMap(id, data, title, subtitle, valueLabel){
       return `<b>${p.name}</b><br>${valueLabel}: <b>${fmt1.format(value)}</b><br>MWp: ${fmt1.format(mwp)}<br>Progetti: ${fmt.format(projects)}<br>Clienti: ${fmt.format(clients)}`;
     }},
     visualMap:{
-      min:0,max,orient:'horizontal',left:'center',bottom:8,itemWidth:8,itemHeight:170,text:['Alto','Basso'],textGap:8,
+      min,max,orient:'horizontal',left:'center',bottom:8,itemWidth:8,itemHeight:170,
+      text:[`${fmt1.format(max)}`, `${fmt1.format(min)}`],textGap:8,
       textStyle:{fontSize:10,color:'#475569'},
       inRange:{color:['#f5f7fb','#fee8c8','#fdbb84','#e34a33','#7f0000']}
     },

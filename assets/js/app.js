@@ -117,6 +117,8 @@ function drawSankey(){
   const sIndex = Object.fromEntries(sourceOrder.map((n,i)=>[n,i]));
   const tIndex = Object.fromEntries(targetOrder.map((n,i)=>[n,i]));
   const colorMap = branchColorMap(metric);
+  const leftPad = Math.max(80, Math.min(220, Math.max(...sourceOrder.map(n=>n.length), 8) * 8));
+  const rightPad = Math.max(110, Math.min(260, Math.max(...targetOrder.map(n=>n.length), 8) * 8));
 
   const nodes = [
     ...sourceOrder.map(name=>({
@@ -162,12 +164,12 @@ function drawSankey(){
       }
     },
     graphic:[
-      {type:'text', left: 20, top: 10, style:{text:'Clienti', fill:'#334155', font:'600 13px sans-serif'}},
-      {type:'text', right: 20, top: 10, style:{text:'Progetti', fill:'#334155', font:'600 13px sans-serif', align:'right'}}
+      {type:'text', left: leftPad - 56, top: 10, style:{text:'Clienti', fill:'#334155', font:'600 13px sans-serif'}},
+      {type:'text', right: rightPad - 56, top: 10, style:{text:'Progetti', fill:'#334155', font:'600 13px sans-serif', align:'right'}}
     ],
     series:[{
       type:'sankey',
-      top: 34, left: 20, right: 20, bottom: 8,
+      top: 34, left: leftPad, right: rightPad, bottom: 8,
       data:nodes,
       links,
       emphasis:{focus:'adjacency'},
@@ -175,7 +177,7 @@ function drawSankey(){
       nodeWidth:16,
       nodeGap:10,
       draggable:false,
-      layoutIterations:32,
+      layoutIterations:0,
       lineStyle:{color:'source',curveness:.5,opacity:.32},
       label:{
         fontSize:12,
@@ -183,8 +185,8 @@ function drawSankey(){
         formatter:p=>cleanSankeyName(p.name)
       },
       levels:[
-        {depth:0, itemStyle:{borderWidth:0}, lineStyle:{color:'source',opacity:.32}},
-        {depth:1, itemStyle:{borderWidth:0}}
+        {depth:0, itemStyle:{borderWidth:0}, lineStyle:{color:'source',opacity:.32}, label:{position:'right'}},
+        {depth:1, itemStyle:{borderWidth:0}, label:{position:'right'}}
       ]
     }]
   });

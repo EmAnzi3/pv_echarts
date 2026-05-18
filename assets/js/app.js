@@ -380,7 +380,7 @@ function treemapStyle(detail=false){
     label:{show:true},
     levels:[
       {
-        depth:1,
+        depth:0,
         itemStyle:{borderColor:'#ffffff',borderWidth:4,gapWidth:5},
         upperLabel:{
           show:true,
@@ -397,21 +397,21 @@ function treemapStyle(detail=false){
         colorSaturation:[0.85, 1]
       },
       {
-        depth:2,
+        depth:1,
         itemStyle:{borderColor:'rgba(255,255,255,.95)',borderWidth:2,gapWidth:2},
         upperLabel:{show:false},
         label:{show:true,color:'#ffffff',fontSize:12,fontWeight:600,overflow:'truncate'},
         colorSaturation:[0.45, 0.75]
       },
       {
-        depth:3,
+        depth:2,
         itemStyle:{borderColor:'rgba(255,255,255,.92)',borderWidth:1,gapWidth:1},
         upperLabel:{show:false},
         label:{show:detail,color:'#ffffff',fontSize:11,overflow:'truncate'},
         colorSaturation:[0.3, 0.6]
       },
       {
-        depth:4,
+        depth:3,
         itemStyle:{borderColor:'rgba(255,255,255,.9)',borderWidth:1,gapWidth:1},
         upperLabel:{show:false},
         label:{show:false},

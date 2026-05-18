@@ -203,8 +203,10 @@ function drawBars(){
 function mapDataCantieri(){ return state.data.province_cantieri.map(r=>({name:normProvince(r['Provincia cantiere']), value:+r.MWp||0, projects:r['N. progetti'], clients:r['Clienti unici'], mwp:r.MWp, region:r['Regione cantiere']})); }
 function mapDataClienti(key='Clienti'){ return state.data.province_clienti.map(r=>({name:normProvince(r.Provincia), value:+r[key]||0, clients:r.Clienti, projects:r.Progetti, mwp:r.MWp})); }
 function drawMap(id, data, title, subtitle, valueLabel){
-  const values = data.map(d=>Number.isFinite(+d.value)? +d.value : 0).filter(v=>v>0);
-  const max = Math.max(...values, 1);
+  const allValues = data.map(d=>Number.isFinite(+d.value)? +d.value : 0);
+  const positiveValues = allValues.filter(v=>v>0);
+  const min = Math.min(...allValues, 0);
+  const max = Math.max(...positiveValues, 1);
   setChart(id,{
     tooltip:{trigger:'item',formatter:p=>{
       const d=p.data; if(!d) return `<b>${p.name}</b><br>Nessun dato`;

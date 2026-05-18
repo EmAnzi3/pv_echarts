@@ -833,7 +833,7 @@
       "MWp": 77.41
     },
     {
-      "Provincia": "nan",
+      "Provincia": "",
       "Clienti": 2,
       "Progetti": 2,
       "MWp": 39.75
@@ -1708,7 +1708,7 @@
       "Regione cantiere": "Toscana",
       "Provincia cantiere": "Pisa",
       "Comune cantiere": "Pontedera",
-      "Cliente progetto": "LA FORMICA SRL",
+      "Cliente progetto": "LA FORMICA",
       "Progetto": "FV GELLO DI PONTEDERA",
       "Potenza MWp": 0.0
     },
@@ -1716,7 +1716,7 @@
       "Regione cantiere": "Toscana",
       "Provincia cantiere": "Pisa",
       "Comune cantiere": "Pisa",
-      "Cliente progetto": "ECO GREEN SRL",
+      "Cliente progetto": "ECOGREEN",
       "Progetto": "FV OSPEDALETTO",
       "Potenza MWp": 0.0
     },
@@ -1724,7 +1724,7 @@
       "Regione cantiere": "Toscana",
       "Provincia cantiere": "Pisa",
       "Comune cantiere": "Casciana Terme Lari",
-      "Cliente progetto": "LA FORMICA SRL",
+      "Cliente progetto": "LA FORMICA",
       "Progetto": "FV PERIGNANO",
       "Potenza MWp": 5.4
     },
@@ -2649,21 +2649,21 @@
     {
       "Filiale cliente": "Livorno",
       "Filiale cantiere": "Livorno",
-      "Cliente progetto": "LA FORMICA SRL",
+      "Cliente progetto": "LA FORMICA",
       "Progetto": "FV GELLO DI PONTEDERA",
       "Potenza MWp": 0.0
     },
     {
       "Filiale cliente": "Livorno",
       "Filiale cantiere": "Livorno",
-      "Cliente progetto": "ECO GREEN SRL",
+      "Cliente progetto": "ECOGREEN",
       "Progetto": "FV OSPEDALETTO",
       "Potenza MWp": 0.0
     },
     {
       "Filiale cliente": "Livorno",
       "Filiale cantiere": "Livorno",
-      "Cliente progetto": "LA FORMICA SRL",
+      "Cliente progetto": "LA FORMICA",
       "Progetto": "FV PERIGNANO",
       "Potenza MWp": 5.4
     },
@@ -3523,7 +3523,7 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
-      "Cliente": "LA FORMICA SRL",
+      "Cliente": "LA FORMICA",
       "Cliente report": "LA FORMICA SRL",
       "Progetto": "FV GELLO DI PONTEDERA",
       "Regione cantiere": "Toscana",
@@ -3542,7 +3542,7 @@
       "Esito": "STESSA FILIALE"
     },
     {
-      "Cliente": "ECO GREEN SRL",
+      "Cliente": "ECOGREEN",
       "Cliente report": "ECO GREEN SRL",
       "Progetto": "FV OSPEDALETTO",
       "Regione cantiere": "Toscana",
@@ -3561,7 +3561,7 @@
       "Esito": "STESSA FILIALE"
     },
     {
-      "Cliente": "LA FORMICA SRL",
+      "Cliente": "LA FORMICA",
       "Cliente report": "LA FORMICA SRL",
       "Progetto": "FV PERIGNANO",
       "Regione cantiere": "Toscana",
@@ -5052,7 +5052,7 @@
       "Area cantiere": "Sud",
       "Filiale cantiere": "Napoli",
       "Filiale cliente": "Napoli",
-      "Provincia sede": "nan",
+      "Provincia sede": "",
       "Comune sede": "NAPOLI",
       "Indirizzo sede": "CENTRO DIREZIONALE SNC",
       "Tipo account": "Prospect",
@@ -5166,7 +5166,7 @@
       "Area cantiere": "Centro",
       "Filiale cantiere": "Perugia",
       "Filiale cliente": "Napoli",
-      "Provincia sede": "nan",
+      "Provincia sede": "",
       "Comune sede": "NAPOLI",
       "Indirizzo sede": "VIA FRANCESCO CRISPI 98",
       "Tipo account": "Prospect",

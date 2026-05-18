@@ -82,12 +82,18 @@ function branchColorMap(metric){
   return colors;
 }
 
+function cleanSankeyName(name){
+  return String(name || '').replace(/^CLIENTE\|/, '').replace(/^PROGETTO\|/, '');
+}
+
 function drawSankey(){
   const metric = state.metric;
   const flows = state.data.flows
     .map(f=>({
       cliente: f['Filiale cliente'],
       progetto: f['Filiale cantiere'],
+      sourceId: 'CLIENTE|' + f['Filiale cliente'],
+      targetId: 'PROGETTO|' + f['Filiale cantiere'],
       value: +(f[metric] || 0),
       projects: +(f['N. progetti'] || 0),
       mwp: +(f['MWp'] || 0)
@@ -113,14 +119,30 @@ function drawSankey(){
   const colorMap = branchColorMap(metric);
 
   const nodes = [
-    ...sourceOrder.map(name=>({name, depth:0, value:sourceTotals.get(name), itemStyle:{color:colorMap[name]}})),
-    ...targetOrder.map(name=>({name, depth:1, value:targetTotals.get(name), itemStyle:{color:colorMap[name]}}))
+    ...sourceOrder.map(name=>({
+      name:'CLIENTE|' + name,
+      depth:0,
+      value:sourceTotals.get(name),
+      itemStyle:{color:colorMap[name]}
+    })),
+    ...targetOrder.map(name=>({
+      name:'PROGETTO|' + name,
+      depth:1,
+      value:targetTotals.get(name),
+      itemStyle:{color:colorMap[name]}
+    }))
   ];
 
   const links = flows
     .sort((a,b)=> (sIndex[a.cliente]-sIndex[b.cliente]) || (tIndex[a.progetto]-tIndex[b.progetto]) || (b.value-a.value))
     .map(f=>({
-      source:f.cliente, target:f.progetto, value:f.value, projects:f.projects, mwp:f.mwp,
+      source:f.sourceId,
+      target:f.targetId,
+      value:f.value,
+      sourceLabel:f.cliente,
+      targetLabel:f.progetto,
+      projects:f.projects,
+      mwp:f.mwp,
       lineStyle:{color:colorMap[f.cliente], opacity:.32}
     }));
 
@@ -130,12 +152,13 @@ function drawSankey(){
     tooltip:{
       trigger:'item',
       formatter:p=>{
-        if(p.dataType==='edge') return `<b>${p.data.source}</b> → <b>${p.data.target}</b><br>${fmt1.format(p.data.mwp)} MWp<br>${fmt.format(p.data.projects)} progetti`;
-        const isSource = sourceTotals.has(p.name);
-        const total = isSource ? sourceTotals.get(p.name) : targetTotals.get(p.name);
-        const label = isSource ? 'Cliente' : 'Progetti';
+        if(p.dataType==='edge') return `<b>${p.data.sourceLabel}</b> → <b>${p.data.targetLabel}</b><br>${fmt1.format(p.data.mwp)} MWp<br>${fmt.format(p.data.projects)} progetti`;
+        const clean = cleanSankeyName(p.name);
+        const isSource = String(p.name).startsWith('CLIENTE|');
+        const total = isSource ? sourceTotals.get(clean) : targetTotals.get(clean);
+        const label = isSource ? 'Clienti' : 'Progetti';
         const unit = metric === 'MWp' ? ' MWp' : ' progetti';
-        return `<b>${p.name}</b><br>${label}: ${fmt1.format(total)}${unit}`;
+        return `<b>${clean}</b><br>${label}: ${fmt1.format(total || 0)}${unit}`;
       }
     },
     graphic:[
@@ -154,7 +177,11 @@ function drawSankey(){
       draggable:false,
       layoutIterations:32,
       lineStyle:{color:'source',curveness:.5,opacity:.32},
-      label:{fontSize:12,color:'#172033'},
+      label:{
+        fontSize:12,
+        color:'#172033',
+        formatter:p=>cleanSankeyName(p.name)
+      },
       levels:[
         {depth:0, itemStyle:{borderWidth:0}, lineStyle:{color:'source',opacity:.32}},
         {depth:1, itemStyle:{borderWidth:0}}
@@ -162,6 +189,7 @@ function drawSankey(){
     }]
   });
 }
+
 function barOption(rows, label, value, unit=''){
   const r = [...rows].slice(0,10).reverse();
   return {grid:{left:132,right:22,top:18,bottom:38},tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},xAxis:{type:'value',splitLine:{lineStyle:{color:'#e5e7eb'}}},yAxis:{type:'category',data:r.map(x=>x[label]),axisLabel:{fontSize:11}},series:[{type:'bar',data:r.map(x=>+x[value]||0),itemStyle:{color:'#0f4c81',borderRadius:[0,8,8,0]},label:{show:true,position:'right',formatter:p=>`${fmt1.format(p.value)}${unit}`}}]};

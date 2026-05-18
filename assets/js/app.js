@@ -203,22 +203,30 @@ function drawBars(){
 function mapDataCantieri(){ return state.data.province_cantieri.map(r=>({name:normProvince(r['Provincia cantiere']), value:+r.MWp||0, projects:r['N. progetti'], clients:r['Clienti unici'], mwp:r.MWp, region:r['Regione cantiere']})); }
 function mapDataClienti(key='Clienti'){ return state.data.province_clienti.map(r=>({name:normProvince(r.Provincia), value:+r[key]||0, clients:r.Clienti, projects:r.Progetti, mwp:r.MWp})); }
 function drawMap(id, data, title, subtitle, valueLabel){
-  const values = data.map(d=>d.value).filter(v=>v>0); const max = Math.max(...values, 1);
+  const values = data.map(d=>Number.isFinite(+d.value)? +d.value : 0).filter(v=>v>0);
+  const max = Math.max(...values, 1);
   setChart(id,{
     tooltip:{trigger:'item',formatter:p=>{
       const d=p.data; if(!d) return `<b>${p.name}</b><br>Nessun dato`;
-      return `<b>${p.name}</b><br>${valueLabel}: <b>${fmt1.format(d.value)}</b><br>MWp: ${fmt1.format(d.mwp||0)}<br>Progetti: ${fmt.format(d.projects||0)}<br>Clienti: ${fmt.format(d.clients||0)}`;
+      const value = Number.isFinite(+d.value) ? +d.value : 0;
+      const mwp = Number.isFinite(+d.mwp) ? +d.mwp : 0;
+      const projects = Number.isFinite(+d.projects) ? +d.projects : 0;
+      const clients = Number.isFinite(+d.clients) ? +d.clients : 0;
+      return `<b>${p.name}</b><br>${valueLabel}: <b>${fmt1.format(value)}</b><br>MWp: ${fmt1.format(mwp)}<br>Progetti: ${fmt.format(projects)}<br>Clienti: ${fmt.format(clients)}`;
     }},
-    visualMap:{min:0,max,orient:'horizontal',left:16,bottom:8,itemWidth:160,text:['Alto','Basso'],inRange:{color:['#f5f7fb','#fee8c8','#fdbb84','#e34a33','#7f0000']}},
-    series:[{name:title,type:'map',map:'italy_provinces',roam:true,layoutCenter:['50%','52%'],layoutSize:'100%',data,emphasis:{label:{show:true}},select:{disabled:true},itemStyle:{borderColor:'#9aa4b2',borderWidth:.7,areaColor:'#f6f8fb'}}]
+    visualMap:{
+      min:0,max,orient:'horizontal',left:'center',bottom:6,itemWidth:92,itemHeight:10,text:['Alto','Basso'],textGap:6,
+      textStyle:{fontSize:10,color:'#475569'},
+      inRange:{color:['#f5f7fb','#fee8c8','#fdbb84','#e34a33','#7f0000']}
+    },
+    series:[{name:title,type:'map',map:'italy_provinces',roam:true,layoutCenter:['50%','48%'],layoutSize:'90%',data,emphasis:{label:{show:true}},select:{disabled:true},itemStyle:{borderColor:'#9aa4b2',borderWidth:.7,areaColor:'#f6f8fb'}}]
   });
 }
 async function drawMaps(){
   if(!state.geoLoaded){
-    ['mapCantieri','mapClienti','mapClientiMWp'].forEach(id=>el(id).innerHTML='<div class="error">GeoJSON province non disponibile. Controlla la connessione o scarica il file in data/limits_IT_provinces.geojson.</div>'); return;
+    ['mapCantieri','mapClientiMWp'].forEach(id=>el(id).innerHTML='<div class="error">GeoJSON province non disponibile. Controlla la connessione o scarica il file in data/limits_IT_provinces.geojson.</div>'); return;
   }
-  drawMap('mapCantieri', mapDataCantieri(), 'Cantieri FV per provincia', '', 'MWp cantieri');
-  drawMap('mapClienti', mapDataClienti('Clienti'), 'Sedi clienti per provincia', '', 'Clienti');
+  drawMap('mapCantieri', mapDataCantieri(), 'Cantieri FV per provincia', '', 'MWp progetti');
   drawMap('mapClientiMWp', mapDataClienti('MWp'), 'Clienti per provincia - MWp', '', 'MWp collegati');
 }
 function drawHeatmap(){

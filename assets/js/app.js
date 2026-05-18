@@ -302,10 +302,34 @@ function drawHeatmap(){
     series:[{type:'heatmap',data,label:{show:false},emphasis:{itemStyle:{shadowBlur:10,shadowColor:'rgba(0,0,0,.25)'}},itemStyle:{borderWidth:0.4,borderColor:'#f2f5f2'}}]
   });
 }
-function treeNode(findIn, name){
-  let x = findIn.find(i => i.name === name);
-  if(!x){ x = { name, children: [] }; findIn.push(x); }
-  return x;
+
+function treeValue(node){
+  if(node.children && node.children.length){
+    node.children.forEach(treeValue);
+    node.value = node.children.reduce((sum, child) => sum + (+child.value || 0), 0);
+    node.children.sort((a,b)=>(b.value||0)-(a.value||0) || String(a.name).localeCompare(String(b.name), 'it'));
+  } else {
+    node.value = Math.max(+node.value || 0, 0.01);
+  }
+  return node;
+}
+function buildGroupedTree(rows, keys){
+  if(!keys.length) return [];
+  const [key, ...rest] = keys;
+  const groups = new Map();
+  rows.forEach(r => {
+    const name = (r[key] || 'ND');
+    if(!groups.has(name)) groups.set(name, []);
+    groups.get(name).push(r);
+  });
+  const nodes = [...groups.entries()].map(([name, items]) => {
+    if(rest.length === 0){
+      return { name, value: items.reduce((sum, row) => sum + Math.max(+row['Potenza MWp'] || 0, 0), 0) || 0.01 };
+    }
+    return treeValue({ name, children: buildGroupedTree(items, rest) });
+  });
+  nodes.sort((a,b)=>(b.value||0)-(a.value||0) || String(a.name).localeCompare(String(b.name), 'it'));
+  return nodes;
 }
 function fillSelect(id, items, allLabel){
   const select = el(id);
@@ -320,30 +344,26 @@ function populateTreemapFilters(){
   fillSelect('geoRegionFilter', regions, 'Tutte le regioni');
   fillSelect('branchFilter', branches, 'Tutte le filiali');
 }
+function applyTreemapColors(nodes){
+  const colors = ['#2F6BFF','#A95BE4','#F04C8B','#2FBF71','#F1AF2C','#41A7F5','#7A67F8','#F57E56','#14A3A5','#6C7A89'];
+  nodes.forEach((node, i) => {
+    node.itemStyle = Object.assign({}, node.itemStyle, { color: colors[i % colors.length], borderColor:'#ffffff', borderWidth:4, gapWidth:4 });
+  });
+  return nodes;
+}
 function makeTreeGeo(selectedRegion=''){
-  const root = [];
-  state.data.treemap_geografica
-    .filter(r => !selectedRegion || (r['Regione cantiere'] || 'ND') === selectedRegion)
-    .forEach(r => {
-      const reg = treeNode(root, r['Regione cantiere'] || 'ND');
-      const prov = treeNode(reg.children, r['Provincia cantiere'] || 'ND');
-      const com = treeNode(prov.children, r['Comune cantiere'] || 'ND');
-      const cli = treeNode(com.children, r['Cliente progetto'] || 'ND');
-      cli.children.push({ name: r.Progetto || 'Progetto', value: Math.max(+r['Potenza MWp'] || 0, 0.01) });
-    });
-  return root;
+  if(!selectedRegion){
+    return applyTreemapColors(buildGroupedTree(state.data.treemap_geografica, ['Regione cantiere','Provincia cantiere']));
+  }
+  const rows = state.data.treemap_geografica.filter(r => (r['Regione cantiere'] || 'ND') === selectedRegion);
+  return applyTreemapColors([{ name: selectedRegion, children: buildGroupedTree(rows, ['Provincia cantiere','Comune cantiere','Cliente progetto']) }].map(treeValue));
 }
 function makeTreeBranches(selectedBranch=''){
-  const root = [];
-  state.data.treemap_filiali
-    .filter(r => !selectedBranch || (r['Filiale cliente'] || 'ND') === selectedBranch)
-    .forEach(r => {
-      const fc = treeNode(root, r['Filiale cliente'] || 'ND');
-      const fp = treeNode(fc.children, r['Filiale cantiere'] || 'ND');
-      const cli = treeNode(fp.children, r['Cliente progetto'] || 'ND');
-      cli.children.push({ name: r.Progetto || 'Progetto', value: Math.max(+r['Potenza MWp'] || 0, 0.01) });
-    });
-  return root;
+  if(!selectedBranch){
+    return applyTreemapColors(buildGroupedTree(state.data.treemap_filiali, ['Filiale cliente','Filiale cantiere']));
+  }
+  const rows = state.data.treemap_filiali.filter(r => (r['Filiale cliente'] || 'ND') === selectedBranch);
+  return applyTreemapColors([{ name: selectedBranch, children: buildGroupedTree(rows, ['Filiale cantiere','Cliente progetto','Progetto']) }].map(treeValue));
 }
 function treemapStyle(){
   return {
@@ -353,29 +373,64 @@ function treemapStyle(){
     animationDurationUpdate:250,
     visibleMin:1,
     breadcrumb:{show:false},
-    color:['#5B8FF9','#61DDAA','#65789B','#F6BD16','#7262FD','#78D3F8','#9661BC','#F6903D','#008685','#F08BB4','#6DC8EC','#9270CA'],
     colorMappingBy:'index',
-    upperLabel:{show:true,height:24,color:'#334155',fontWeight:700,overflow:'truncate'},
-    label:{show:true,color:'#fff',fontSize:12,overflow:'truncate'},
+    squareRatio:1.25,
+    upperLabel:{
+      show:true,
+      height:24,
+      color:'#ffffff',
+      fontWeight:800,
+      fontSize:12,
+      overflow:'truncate',
+      formatter: params => String(params.name || '').toUpperCase()
+    },
+    label:{
+      show:true,
+      color:'#ffffff',
+      fontSize:11,
+      overflow:'truncate'
+    },
     levels:[
-      {itemStyle:{borderColor:'#ffffff',borderWidth:4,gapWidth:5},upperLabel:{show:true,height:26,color:'#334155',fontSize:13,fontWeight:700,overflow:'truncate'}},
-      {itemStyle:{borderColor:'#ffffff',borderWidth:3,gapWidth:3},upperLabel:{show:true,height:22,color:'#334155',fontSize:12,fontWeight:700,overflow:'truncate'}},
-      {itemStyle:{borderColor:'#ffffff',borderWidth:2,gapWidth:2},label:{show:true,color:'#ffffff',fontSize:12,overflow:'truncate'}},
-      {itemStyle:{borderColor:'#ffffff',borderWidth:1,gapWidth:1},label:{show:true,color:'#ffffff',fontSize:11,overflow:'truncate'}}
+      {
+        itemStyle:{borderColor:'#ffffff',borderWidth:4,gapWidth:4},
+        upperLabel:{show:true,height:24,color:'#ffffff',fontSize:12,fontWeight:800,overflow:'truncate',formatter: params => String(params.name || '').toUpperCase()},
+        colorSaturation:[0.85, 1]
+      },
+      {
+        itemStyle:{borderColor:'rgba(255,255,255,.95)',borderWidth:2,gapWidth:2},
+        upperLabel:{show:false},
+        label:{show:true,color:'#ffffff',fontSize:12,fontWeight:600,overflow:'truncate'},
+        colorSaturation:[0.45, 0.75]
+      },
+      {
+        itemStyle:{borderColor:'rgba(255,255,255,.92)',borderWidth:1,gapWidth:1},
+        label:{show:true,color:'#ffffff',fontSize:11,overflow:'truncate'},
+        colorSaturation:[0.3, 0.6]
+      },
+      {
+        itemStyle:{borderColor:'rgba(255,255,255,.9)',borderWidth:1,gapWidth:1},
+        label:{show:false},
+        colorSaturation:[0.25, 0.55]
+      }
     ]
   };
+}
+function treemapTooltip(params){
+  const path = (params.treePathInfo || []).slice(1).map(x => x.name).join(' → ');
+  const value = Array.isArray(params.value) ? params.value[0] : params.value;
+  return `${path || params.name}<br><b>${fmt1.format(value || 0)} MWp</b>`;
 }
 function drawTreemaps(){
   const region = el('geoRegionFilter')?.value || '';
   const branch = el('branchFilter')?.value || '';
   const common = treemapStyle();
   setChart('treemapGeo',{
-    tooltip:{formatter:p=>`${p.name}<br>${fmt1.format((Array.isArray(p.value)?p.value[0]:p.value)||0)} MWp`},
-    series:[{...common,name:'',data:makeTreeGeo(region)}]
+    tooltip:{formatter:treemapTooltip},
+    series:[{...common,data:makeTreeGeo(region)}]
   });
   setChart('treemapBranches',{
-    tooltip:{formatter:p=>`${p.name}<br>${fmt1.format((Array.isArray(p.value)?p.value[0]:p.value)||0)} MWp`},
-    series:[{...common,name:'',data:makeTreeBranches(branch)}]
+    tooltip:{formatter:treemapTooltip},
+    series:[{...common,data:makeTreeBranches(branch)}]
   });
 }
 function renderTable(id,rows,cols){

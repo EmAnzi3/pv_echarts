@@ -215,7 +215,7 @@ function drawMap(id, data, title, subtitle, valueLabel){
       return `<b>${p.name}</b><br>${valueLabel}: <b>${fmt1.format(value)}</b><br>MWp: ${fmt1.format(mwp)}<br>Progetti: ${fmt.format(projects)}<br>Clienti: ${fmt.format(clients)}`;
     }},
     visualMap:{
-      min:0,max,orient:'horizontal',left:'center',bottom:6,itemWidth:92,itemHeight:10,text:['Alto','Basso'],textGap:6,
+      min:0,max,orient:'horizontal',left:'center',bottom:8,itemWidth:160,itemHeight:8,text:['Alto','Basso'],textGap:8,
       textStyle:{fontSize:10,color:'#475569'},
       inRange:{color:['#f5f7fb','#fee8c8','#fdbb84','#e34a33','#7f0000']}
     },
@@ -226,8 +226,8 @@ async function drawMaps(){
   if(!state.geoLoaded){
     ['mapCantieri','mapClientiMWp'].forEach(id=>el(id).innerHTML='<div class="error">GeoJSON province non disponibile. Controlla la connessione o scarica il file in data/limits_IT_provinces.geojson.</div>'); return;
   }
-  drawMap('mapCantieri', mapDataCantieri(), 'Cantieri FV per provincia', '', 'MWp progetti');
-  drawMap('mapClientiMWp', mapDataClienti('MWp'), 'Clienti per provincia - MWp', '', 'MWp collegati');
+  drawMap('mapCantieri', mapDataCantieri(), 'Progetti FV per provincia (MWp)', '', 'MWp progetti');
+  drawMap('mapClientiMWp', mapDataClienti('MWp'), 'Clienti per provincia (MWp)', '', 'MWp collegati');
 }
 function drawHeatmap(){
   const rows=[...new Set(state.data.heatmap_filiali.map(r=>r['Filiale cliente']))];

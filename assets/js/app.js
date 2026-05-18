@@ -277,23 +277,27 @@ function drawHeatmap(){
   const max=Math.max(...data.map(x=>x[2]),1);
   setChart('heatmap',{
     tooltip:{position:'top',formatter:p=>`${rows[p.data[1]]} → ${cols[p.data[0]]}<br><b>${fmt1.format(p.data[2])} MWp</b>`},
-    grid:{left:145,right:38,top:42,bottom:118},
+    graphic:[
+      {type:'text', left: 22, top: 18, style:{text:'Filiale cliente', fill:'#334155', font:'600 13px sans-serif'}},
+      {type:'text', left: 'center', bottom: 18, style:{text:'Filiale progetti', fill:'#334155', font:'600 13px sans-serif', textAlign:'center'}}
+    ],
+    grid:{left:130,right:34,top:52,bottom:116},
     xAxis:{
       type:'category',data:cols,
-      name:'Filiale progetti',nameLocation:'middle',nameGap:76,nameTextStyle:{fontWeight:600,color:'#334155'},
-      axisLabel:{rotate:45,fontSize:10}
+      name:'',
+      axisLabel:{rotate:45,fontSize:10, margin: 12}
     },
     yAxis:{
       type:'category',data:rows,
-      name:'Filiale cliente',nameLocation:'middle',nameGap:104,nameTextStyle:{fontWeight:600,color:'#334155'},
+      name:'',
       axisLabel:{fontSize:10}
     },
     visualMap:{
-      min:0,max,calculable:false,orient:'horizontal',right:38,bottom:8,itemWidth:180,itemHeight:8,
+      min:0,max,calculable:false,orient:'horizontal',left:'72%',bottom:2,itemWidth:8,itemHeight:220,
       text:[`${fmt1.format(max)}`, '0'],textGap:8,textStyle:{fontSize:10,color:'#475569'},
-      inRange:{color:['#eaf7ea','#d8f0d2','#a9d9a4','#5fbf6b','#1f7a3f']}
+      inRange:{color:['#ffffff','#edf7ed','#cfe8cf','#86c98a','#1f7a3f']}
     },
-    series:[{type:'heatmap',data,label:{show:false},emphasis:{itemStyle:{shadowBlur:10,shadowColor:'rgba(0,0,0,.25)'}},itemStyle:{borderWidth:0.3,borderColor:'#ffffff'}}]
+    series:[{type:'heatmap',data,label:{show:false},emphasis:{itemStyle:{shadowBlur:10,shadowColor:'rgba(0,0,0,.25)'}},itemStyle:{borderWidth:0.4,borderColor:'#f2f5f2'}}]
   });
 }
 function makeTreeGeo(){

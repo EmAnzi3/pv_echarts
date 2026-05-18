@@ -264,17 +264,34 @@ async function drawMaps(){
 function drawHeatmap(){
   const rows=[...new Set(state.data.heatmap_filiali.map(r=>r['Filiale cliente']))];
   const cols=[...new Set(state.data.heatmap_filiali.map(r=>r['Filiale cantiere']))];
-  const data=state.data.heatmap_filiali.map(r=>[cols.indexOf(r['Filiale cantiere']),rows.indexOf(r['Filiale cliente']),+(r.MWp||0)]);
+  const lookup = new Map();
+  state.data.heatmap_filiali.forEach(r=>{
+    lookup.set(`${r['Filiale cliente']}|${r['Filiale cantiere']}`, +(r.MWp || 0));
+  });
+  const data=[];
+  rows.forEach((row, y)=>{
+    cols.forEach((col, x)=>{
+      data.push([x, y, lookup.get(`${row}|${col}`) || 0]);
+    });
+  });
   const max=Math.max(...data.map(x=>x[2]),1);
   setChart('heatmap',{
     tooltip:{position:'top',formatter:p=>`${rows[p.data[1]]} → ${cols[p.data[0]]}<br><b>${fmt1.format(p.data[2])} MWp</b>`},
-    grid:{left:130,right:30,top:40,bottom:100},
-    xAxis:{type:'category',data:cols,axisLabel:{rotate:45,fontSize:10}},
-    yAxis:{type:'category',data:rows,axisLabel:{fontSize:10}},
+    grid:{left:145,right:38,top:42,bottom:118},
+    xAxis:{
+      type:'category',data:cols,
+      name:'Filiale progetti',nameLocation:'middle',nameGap:76,nameTextStyle:{fontWeight:600,color:'#334155'},
+      axisLabel:{rotate:45,fontSize:10}
+    },
+    yAxis:{
+      type:'category',data:rows,
+      name:'Filiale cliente',nameLocation:'middle',nameGap:104,nameTextStyle:{fontWeight:600,color:'#334155'},
+      axisLabel:{fontSize:10}
+    },
     visualMap:{
-      min:0,max,calculable:true,orient:'horizontal',left:'70%',bottom:8,itemWidth:140,itemHeight:10,
+      min:0,max,calculable:false,orient:'horizontal',right:38,bottom:8,itemWidth:180,itemHeight:8,
       text:[`${fmt1.format(max)}`, '0'],textGap:8,textStyle:{fontSize:10,color:'#475569'},
-      inRange:{color:['#eef8ee','#d8f0d2','#a9d9a4','#5fbf6b','#1f7a3f']}
+      inRange:{color:['#eaf7ea','#d8f0d2','#a9d9a4','#5fbf6b','#1f7a3f']}
     },
     series:[{type:'heatmap',data,label:{show:false},emphasis:{itemStyle:{shadowBlur:10,shadowColor:'rgba(0,0,0,.25)'}},itemStyle:{borderWidth:0.3,borderColor:'#ffffff'}}]
   });

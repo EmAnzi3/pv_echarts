@@ -186,7 +186,7 @@ function drawSankey(){
       },
       levels:[
         {depth:0, itemStyle:{borderWidth:0}, lineStyle:{color:'source',opacity:.32}, label:{position:'right'}},
-        {depth:1, itemStyle:{borderWidth:0}, label:{position:'right'}}
+        {depth:1, itemStyle:{borderWidth:0}, label:{position:'left'}}
       ]
     }]
   });

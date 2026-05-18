@@ -365,50 +365,55 @@ function makeTreeBranches(selectedBranch=''){
   const rows = state.data.treemap_filiali.filter(r => (r['Filiale cliente'] || 'ND') === selectedBranch);
   return applyTreemapColors([{ name: selectedBranch, children: buildGroupedTree(rows, ['Filiale cantiere','Cliente progetto','Progetto']) }].map(treeValue));
 }
-function treemapStyle(){
+function treemapStyle(detail=false){
   return {
     type:'treemap',
     roam:false,
     nodeClick:false,
     animationDurationUpdate:250,
     visibleMin:1,
+    leafDepth: detail ? 3 : 2,
     breadcrumb:{show:false},
     colorMappingBy:'index',
-    squareRatio:1.25,
-    upperLabel:{
-      show:true,
-      height:24,
-      color:'#ffffff',
-      fontWeight:800,
-      fontSize:12,
-      overflow:'truncate',
-      formatter: params => String(params.name || '').toUpperCase()
-    },
-    label:{
-      show:true,
-      color:'#ffffff',
-      fontSize:11,
-      overflow:'truncate'
-    },
+    squareRatio:1.15,
+    upperLabel:{show:true},
+    label:{show:true},
     levels:[
       {
-        itemStyle:{borderColor:'#ffffff',borderWidth:4,gapWidth:4},
-        upperLabel:{show:true,height:24,color:'#ffffff',fontSize:12,fontWeight:800,overflow:'truncate',formatter: params => String(params.name || '').toUpperCase()},
+        depth:1,
+        itemStyle:{borderColor:'#ffffff',borderWidth:4,gapWidth:5},
+        upperLabel:{
+          show:true,
+          height:24,
+          color:'#ffffff',
+          fontSize:12,
+          fontWeight:800,
+          overflow:'truncate',
+          backgroundColor:'rgba(0,0,0,.10)',
+          padding:[3,6],
+          formatter: params => String(params.name || '').toUpperCase()
+        },
+        label:{show:false},
         colorSaturation:[0.85, 1]
       },
       {
+        depth:2,
         itemStyle:{borderColor:'rgba(255,255,255,.95)',borderWidth:2,gapWidth:2},
         upperLabel:{show:false},
         label:{show:true,color:'#ffffff',fontSize:12,fontWeight:600,overflow:'truncate'},
         colorSaturation:[0.45, 0.75]
       },
       {
+        depth:3,
         itemStyle:{borderColor:'rgba(255,255,255,.92)',borderWidth:1,gapWidth:1},
-        label:{show:true,color:'#ffffff',fontSize:11,overflow:'truncate'},
+        upperLabel:{show:false},
+        label:{show:detail,color:'#ffffff',fontSize:11,overflow:'truncate'},
         colorSaturation:[0.3, 0.6]
       },
       {
+        depth:4,
         itemStyle:{borderColor:'rgba(255,255,255,.9)',borderWidth:1,gapWidth:1},
+        upperLabel:{show:false},
         label:{show:false},
         colorSaturation:[0.25, 0.55]
       }
@@ -423,14 +428,13 @@ function treemapTooltip(params){
 function drawTreemaps(){
   const region = el('geoRegionFilter')?.value || '';
   const branch = el('branchFilter')?.value || '';
-  const common = treemapStyle();
   setChart('treemapGeo',{
     tooltip:{formatter:treemapTooltip},
-    series:[{...common,data:makeTreeGeo(region)}]
+    series:[{...treemapStyle(Boolean(region)),data:makeTreeGeo(region)}]
   });
   setChart('treemapBranches',{
     tooltip:{formatter:treemapTooltip},
-    series:[{...common,data:makeTreeBranches(branch)}]
+    series:[{...treemapStyle(Boolean(branch)),data:makeTreeBranches(branch)}]
   });
 }
 function renderTable(id,rows,cols){

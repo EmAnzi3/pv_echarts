@@ -268,15 +268,17 @@ function drawHeatmap(){
   state.data.heatmap_filiali.forEach(r=>{
     lookup.set(`${r['Filiale cliente']}|${r['Filiale cantiere']}`, +(r.MWp || 0));
   });
-  const data=[];
+  const rawData=[];
   rows.forEach((row, y)=>{
     cols.forEach((col, x)=>{
-      data.push([x, y, lookup.get(`${row}|${col}`) || 0]);
+      rawData.push([x, y, lookup.get(`${row}|${col}`) || 0]);
     });
   });
-  const max=Math.max(...data.map(x=>x[2]),1);
+  const max=Math.max(...rawData.map(x=>x[2]),1);
+  const scaledMax = Math.sqrt(max);
+  const data = rawData.map(d => [d[0], d[1], Math.sqrt(d[2]), d[2]]);
   setChart('heatmap',{
-    tooltip:{position:'top',formatter:p=>`${rows[p.data[1]]} → ${cols[p.data[0]]}<br><b>${fmt1.format(p.data[2])} MWp</b>`},
+    tooltip:{position:'top',formatter:p=>`${rows[p.data[1]]} → ${cols[p.data[0]]}<br><b>${fmt1.format(p.data[3])} MWp</b>`},
     graphic:[
       {type:'text', left: 22, top: 18, style:{text:'Filiale cliente', fill:'#334155', font:'600 13px sans-serif'}},
       {type:'text', left: 'center', bottom: 18, style:{text:'Filiale progetti', fill:'#334155', font:'600 13px sans-serif', textAlign:'center'}}
@@ -293,9 +295,9 @@ function drawHeatmap(){
       axisLabel:{fontSize:10}
     },
     visualMap:{
-      min:0,max,calculable:false,orient:'horizontal',left:'72%',bottom:2,itemWidth:8,itemHeight:220,
+      min:0,max:scaledMax,dimension:2,calculable:false,orient:'horizontal',left:'72%',bottom:2,itemWidth:8,itemHeight:220,
       text:[`${fmt1.format(max)}`, '0'],textGap:8,textStyle:{fontSize:10,color:'#475569'},
-      inRange:{color:['#ffffff','#edf7ed','#cfe8cf','#86c98a','#1f7a3f']}
+      inRange:{color:['#ffffff','#e2f2e2','#b9dfbb','#6dbc74','#1f7a3f']}
     },
     series:[{type:'heatmap',data,label:{show:false},emphasis:{itemStyle:{shadowBlur:10,shadowColor:'rgba(0,0,0,.25)'}},itemStyle:{borderWidth:0.4,borderColor:'#f2f5f2'}}]
   });

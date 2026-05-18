@@ -302,33 +302,81 @@ function drawHeatmap(){
     series:[{type:'heatmap',data,label:{show:false},emphasis:{itemStyle:{shadowBlur:10,shadowColor:'rgba(0,0,0,.25)'}},itemStyle:{borderWidth:0.4,borderColor:'#f2f5f2'}}]
   });
 }
-function makeTreeGeo(){
-  const root={name:'Cantieri FV', children:[]};
-  const find=(arr,name)=>{let x=arr.find(i=>i.name===name); if(!x){x={name,children:[]};arr.push(x)} return x};
-  state.data.treemap_geografica.forEach(r=>{
-    const reg=find(root.children,r['Regione cantiere']||'ND');
-    const prov=find(reg.children,r['Provincia cantiere']||'ND');
-    const com=find(prov.children,r['Comune cantiere']||'ND');
-    const cli=find(com.children,r['Cliente progetto']||'ND');
-    cli.children.push({name:r.Progetto||'Progetto', value:Math.max(+r['Potenza MWp']||0,0.01)});
-  });
-  return root.children;
+function treeNode(findIn, name){
+  let x = findIn.find(i => i.name === name);
+  if(!x){ x = { name, children: [] }; findIn.push(x); }
+  return x;
 }
-function makeTreeBranches(){
-  const root={name:'Filiali', children:[]};
-  const find=(arr,name)=>{let x=arr.find(i=>i.name===name); if(!x){x={name,children:[]};arr.push(x)} return x};
-  state.data.treemap_filiali.forEach(r=>{
-    const fc=find(root.children,r['Filiale cliente']||'ND');
-    const ft=find(fc.children,r['Filiale cantiere']||'ND');
-    const cli=find(ft.children,r['Cliente progetto']||'ND');
-    cli.children.push({name:r.Progetto||'Progetto', value:Math.max(+r['Potenza MWp']||0,0.01)});
-  });
-  return root.children;
+function fillSelect(id, items, allLabel){
+  const select = el(id);
+  if(!select) return;
+  const current = select.value;
+  select.innerHTML = `<option value="">${allLabel}</option>` + items.map(name => `<option value="${name}">${name}</option>`).join('');
+  if(items.includes(current)) select.value = current;
+}
+function populateTreemapFilters(){
+  const regions = [...new Set(state.data.treemap_geografica.map(r => r['Regione cantiere']).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'it'));
+  const branches = [...new Set(state.data.treemap_filiali.map(r => r['Filiale cliente']).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'it'));
+  fillSelect('geoRegionFilter', regions, 'Tutte le regioni');
+  fillSelect('branchFilter', branches, 'Tutte le filiali');
+}
+function makeTreeGeo(selectedRegion=''){
+  const root = [];
+  state.data.treemap_geografica
+    .filter(r => !selectedRegion || (r['Regione cantiere'] || 'ND') === selectedRegion)
+    .forEach(r => {
+      const reg = treeNode(root, r['Regione cantiere'] || 'ND');
+      const prov = treeNode(reg.children, r['Provincia cantiere'] || 'ND');
+      const com = treeNode(prov.children, r['Comune cantiere'] || 'ND');
+      const cli = treeNode(com.children, r['Cliente progetto'] || 'ND');
+      cli.children.push({ name: r.Progetto || 'Progetto', value: Math.max(+r['Potenza MWp'] || 0, 0.01) });
+    });
+  return root;
+}
+function makeTreeBranches(selectedBranch=''){
+  const root = [];
+  state.data.treemap_filiali
+    .filter(r => !selectedBranch || (r['Filiale cliente'] || 'ND') === selectedBranch)
+    .forEach(r => {
+      const fc = treeNode(root, r['Filiale cliente'] || 'ND');
+      const fp = treeNode(fc.children, r['Filiale cantiere'] || 'ND');
+      const cli = treeNode(fp.children, r['Cliente progetto'] || 'ND');
+      cli.children.push({ name: r.Progetto || 'Progetto', value: Math.max(+r['Potenza MWp'] || 0, 0.01) });
+    });
+  return root;
+}
+function treemapStyle(){
+  return {
+    type:'treemap',
+    roam:false,
+    nodeClick:false,
+    animationDurationUpdate:250,
+    visibleMin:1,
+    breadcrumb:{show:false},
+    color:['#5B8FF9','#61DDAA','#65789B','#F6BD16','#7262FD','#78D3F8','#9661BC','#F6903D','#008685','#F08BB4','#6DC8EC','#9270CA'],
+    colorMappingBy:'index',
+    upperLabel:{show:true,height:24,color:'#334155',fontWeight:700,overflow:'truncate'},
+    label:{show:true,color:'#fff',fontSize:12,overflow:'truncate'},
+    levels:[
+      {itemStyle:{borderColor:'#ffffff',borderWidth:4,gapWidth:5},upperLabel:{show:true,height:26,color:'#334155',fontSize:13,fontWeight:700,overflow:'truncate'}},
+      {itemStyle:{borderColor:'#ffffff',borderWidth:3,gapWidth:3},upperLabel:{show:true,height:22,color:'#334155',fontSize:12,fontWeight:700,overflow:'truncate'}},
+      {itemStyle:{borderColor:'#ffffff',borderWidth:2,gapWidth:2},label:{show:true,color:'#ffffff',fontSize:12,overflow:'truncate'}},
+      {itemStyle:{borderColor:'#ffffff',borderWidth:1,gapWidth:1},label:{show:true,color:'#ffffff',fontSize:11,overflow:'truncate'}}
+    ]
+  };
 }
 function drawTreemaps(){
-  const common={type:'treemap',leafDepth:2,upperLabel:{show:true,height:24},label:{show:true,formatter:'{b}'},breadcrumb:{show:true},roam:false,itemStyle:{borderColor:'#fff',borderWidth:2,gapWidth:2}};
-  setChart('treemapGeo',{tooltip:{formatter:p=>`${p.name}<br>${fmt1.format(p.value||0)} MWp`},series:[{...common,name:'Geografia',data:makeTreeGeo()}]});
-  setChart('treemapBranches',{tooltip:{formatter:p=>`${p.name}<br>${fmt1.format(p.value||0)} MWp`},series:[{...common,name:'Filiali',data:makeTreeBranches()}]});
+  const region = el('geoRegionFilter')?.value || '';
+  const branch = el('branchFilter')?.value || '';
+  const common = treemapStyle();
+  setChart('treemapGeo',{
+    tooltip:{formatter:p=>`${p.name}<br>${fmt1.format((Array.isArray(p.value)?p.value[0]:p.value)||0)} MWp`},
+    series:[{...common,name:'',data:makeTreeGeo(region)}]
+  });
+  setChart('treemapBranches',{
+    tooltip:{formatter:p=>`${p.name}<br>${fmt1.format((Array.isArray(p.value)?p.value[0]:p.value)||0)} MWp`},
+    series:[{...common,name:'',data:makeTreeBranches(branch)}]
+  });
 }
 function renderTable(id,rows,cols){
   el(id).innerHTML='<thead><tr>'+cols.map(c=>`<th>${c[0]}</th>`).join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(c=>{let v=r[c[1]]??'';let cls=typeof v==='number'?'num':''; if(c[1]==='Esito') v=`<span class="pill ${v==='FILIALE DIVERSA'?'diff':'same'}">${v}</span>`; return `<td class="${cls}">${v}</td>`}).join('')+'</tr>').join('')+'</tbody>';
@@ -346,11 +394,12 @@ function drawDetailTable(){
 function bind(){
   el('metricMWp').onclick=()=>{state.metric='MWp'; el('metricMWp').classList.add('active'); el('metricProjects').classList.remove('active'); drawSankey();};
   el('metricProjects').onclick=()=>{state.metric='N. progetti'; el('metricProjects').classList.add('active'); el('metricMWp').classList.remove('active'); drawSankey();};
-  el('search').oninput=drawDetailTable; el('esito').onchange=drawDetailTable;
+  el('search').oninput=drawDetailTable; el('esito').onchange=drawDetailTable; if(el('geoRegionFilter')) el('geoRegionFilter').onchange=drawTreemaps; if(el('branchFilter')) el('branchFilter').onchange=drawTreemaps;
 }
 async function boot(){
   try{
     state.data = await fetchJson('data/dashboard.json');
+    populateTreemapFilters();
     drawKpis(); bind(); drawSankey(); drawBars(); drawHeatmap(); drawTreemaps(); drawTables();
     try{ await loadGeo(); await drawMaps(); }catch(e){ console.warn(e); await drawMaps(); }
     setTimeout(resizeAll,500);

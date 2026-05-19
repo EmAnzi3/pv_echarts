@@ -22,7 +22,7 @@ function normProvince(v){
   return PROVINCE_ALIASES[s] || s;
 }
 function el(id){return document.getElementById(id)}
-function resizeAll(){Object.values(charts).forEach(c=>c && c.resize())}
+function resizeAll(){Object.values(charts).forEach(c=>c && c.resize()); if(state.data) drawTreemaps();}
 window.addEventListener('resize', resizeAll);
 
 async function fetchJson(url){
@@ -318,7 +318,7 @@ function buildGroupedTree(rows, keys){
   const [key, ...rest] = keys;
   const groups = new Map();
   rows.forEach(r => {
-    const name = (r[key] || 'ND');
+    const name = r[key] || 'ND';
     if(!groups.has(name)) groups.set(name, []);
     groups.get(name).push(r);
   });
@@ -344,98 +344,104 @@ function populateTreemapFilters(){
   fillSelect('geoRegionFilter', regions, 'Tutte le regioni');
   fillSelect('branchFilter', branches, 'Tutte le filiali');
 }
-function applyTreemapColors(nodes){
-  const colors = ['#2F6BFF','#A95BE4','#F04C8B','#2FBF71','#F1AF2C','#41A7F5','#7A67F8','#F57E56','#14A3A5','#6C7A89'];
-  nodes.forEach((node, i) => {
-    node.itemStyle = Object.assign({}, node.itemStyle, { color: colors[i % colors.length], borderColor:'#ffffff', borderWidth:4, gapWidth:4 });
-  });
-  return nodes;
-}
 function makeTreeGeo(selectedRegion=''){
   if(!selectedRegion){
-    return applyTreemapColors(buildGroupedTree(state.data.treemap_geografica, ['Regione cantiere','Provincia cantiere']));
+    return buildGroupedTree(state.data.treemap_geografica, ['Regione cantiere','Provincia cantiere']);
   }
   const rows = state.data.treemap_geografica.filter(r => (r['Regione cantiere'] || 'ND') === selectedRegion);
-  return applyTreemapColors([{ name: selectedRegion, children: buildGroupedTree(rows, ['Provincia cantiere','Comune cantiere','Cliente progetto']) }].map(treeValue));
+  return buildGroupedTree(rows, ['Provincia cantiere','Comune cantiere','Cliente progetto','Progetto']);
 }
 function makeTreeBranches(selectedBranch=''){
   if(!selectedBranch){
-    return applyTreemapColors(buildGroupedTree(state.data.treemap_filiali, ['Filiale cliente','Filiale cantiere']));
+    return buildGroupedTree(state.data.treemap_filiali, ['Filiale cliente','Filiale cantiere']);
   }
   const rows = state.data.treemap_filiali.filter(r => (r['Filiale cliente'] || 'ND') === selectedBranch);
-  return applyTreemapColors([{ name: selectedBranch, children: buildGroupedTree(rows, ['Filiale cantiere','Cliente progetto','Progetto']) }].map(treeValue));
+  return buildGroupedTree(rows, ['Filiale cantiere','Cliente progetto','Progetto']);
 }
-function treemapStyle(detail=false){
-  return {
-    type:'treemap',
-    roam:false,
-    nodeClick:false,
-    animationDurationUpdate:250,
-    visibleMin:1,
-    leafDepth: detail ? 3 : 2,
-    breadcrumb:{show:false},
-    colorMappingBy:'index',
-    squareRatio:1.15,
-    upperLabel:{show:true},
-    label:{show:true},
-    levels:[
-      {
-        depth:0,
-        itemStyle:{borderColor:'#ffffff',borderWidth:4,gapWidth:5},
-        upperLabel:{
-          show:true,
-          height:24,
-          color:'#ffffff',
-          fontSize:12,
-          fontWeight:800,
-          overflow:'truncate',
-          backgroundColor:'rgba(0,0,0,.10)',
-          padding:[3,6],
-          formatter: params => String(params.name || '').toUpperCase()
-        },
-        label:{show:false},
-        colorSaturation:[0.85, 1]
-      },
-      {
-        depth:1,
-        itemStyle:{borderColor:'rgba(255,255,255,.95)',borderWidth:2,gapWidth:2},
-        upperLabel:{show:false},
-        label:{show:true,color:'#ffffff',fontSize:12,fontWeight:600,overflow:'truncate'},
-        colorSaturation:[0.45, 0.75]
-      },
-      {
-        depth:2,
-        itemStyle:{borderColor:'rgba(255,255,255,.92)',borderWidth:1,gapWidth:1},
-        upperLabel:{show:false},
-        label:{show:detail,color:'#ffffff',fontSize:11,overflow:'truncate'},
-        colorSaturation:[0.3, 0.6]
-      },
-      {
-        depth:3,
-        itemStyle:{borderColor:'rgba(255,255,255,.9)',borderWidth:1,gapWidth:1},
-        upperLabel:{show:false},
-        label:{show:false},
-        colorSaturation:[0.25, 0.55]
-      }
-    ]
-  };
+function treemapTopColor(name, idx){
+  const colors = ['#2F6BFF','#9B51E0','#EB4D8A','#27AE60','#F2C94C','#2D9CDB','#6C5CE7','#F2994A','#00A3A3','#7F8C8D','#56CCF2','#BB6BD9'];
+  return colors[idx % colors.length];
 }
-function treemapTooltip(params){
-  const path = (params.treePathInfo || []).slice(1).map(x => x.name).join(' → ');
-  const value = Array.isArray(params.value) ? params.value[0] : params.value;
-  return `${path || params.name}<br><b>${fmt1.format(value || 0)} MWp</b>`;
+function softenColor(hex, depth){
+  const c = d3.color(hex) || d3.color('#5B8FF9');
+  if(depth <= 1) return c.formatHex();
+  return c.brighter(depth === 2 ? 0.55 : 0.95).formatHex();
+}
+function textColorFor(hex){
+  const c = d3.color(hex);
+  if(!c) return '#fff';
+  const yiq = ((c.r*299)+(c.g*587)+(c.b*114))/1000;
+  return yiq >= 150 ? '#172033' : '#fff';
+}
+function ellipsize(text, maxChars){
+  const s = String(text || '');
+  if(s.length <= maxChars) return s;
+  return s.slice(0, Math.max(1, maxChars-1)) + '…';
+}
+function drawD3Treemap(containerId, nodes){
+  const container = el(containerId);
+  if(!container || typeof d3 === 'undefined') return;
+  container.innerHTML = '';
+  const width = Math.max(container.clientWidth || 600, 320);
+  const height = Math.max(container.clientHeight || 430, 300);
+  const root = d3.hierarchy({name:'root', children:nodes}).sum(d => d.value || 0).sort((a,b)=>b.value-a.value);
+  d3.treemap()
+    .size([width, height])
+    .round(true)
+    .paddingOuter(0)
+    .paddingTop(d => d.depth === 1 ? 26 : 2)
+    .paddingInner(d => d.depth === 0 ? 4 : 2)
+    .tile(d3.treemapSquarify.ratio(1.15))(root);
+
+  const svg = d3.select(container).append('svg')
+    .attr('viewBox', `0 0 ${width} ${height}`)
+    .attr('width', '100%')
+    .attr('height', '100%')
+    .attr('role', 'img');
+
+  const topNodes = root.children || [];
+  const colorMap = new Map(topNodes.map((d,i)=>[d.data.name, treemapTopColor(d.data.name, i)]));
+  const topAncestor = d => d.ancestors().find(a => a.depth === 1) || d;
+
+  const cells = svg.selectAll('g.cell')
+    .data(root.descendants().filter(d => d.depth > 0))
+    .join('g')
+    .attr('class', d => `cell depth-${d.depth}`)
+    .attr('transform', d => `translate(${d.x0},${d.y0})`);
+
+  cells.append('rect')
+    .attr('width', d => Math.max(0, d.x1-d.x0))
+    .attr('height', d => Math.max(0, d.y1-d.y0))
+    .attr('rx', d => d.depth === 1 ? 0 : 1)
+    .attr('fill', d => softenColor(colorMap.get(topAncestor(d).data.name), d.depth))
+    .attr('stroke', '#ffffff')
+    .attr('stroke-width', d => d.depth === 1 ? 3 : 1)
+    .append('title')
+    .text(d => `${d.ancestors().slice(1).map(a=>a.data.name).join(' → ')}\n${fmt1.format(d.value || 0)} MWp`);
+
+  const headers = cells.filter(d => d.depth === 1 && (d.x1-d.x0) > 48 && (d.y1-d.y0) > 34);
+  headers.append('text')
+    .attr('x', 7)
+    .attr('y', 17)
+    .attr('fill', d => textColorFor(softenColor(colorMap.get(d.data.name), d.depth)))
+    .attr('font-size', 12)
+    .attr('font-weight', 800)
+    .text(d => ellipsize(String(d.data.name).toUpperCase(), Math.max(4, Math.floor((d.x1-d.x0)/8))));
+
+  const labels = cells.filter(d => d.depth > 1 && (d.x1-d.x0) > 46 && (d.y1-d.y0) > 24);
+  labels.append('text')
+    .attr('x', 7)
+    .attr('y', 15)
+    .attr('fill', d => textColorFor(softenColor(colorMap.get(topAncestor(d).data.name), d.depth)))
+    .attr('font-size', 12)
+    .attr('font-weight', 600)
+    .text(d => ellipsize(d.data.name, Math.max(4, Math.floor((d.x1-d.x0)/8))));
 }
 function drawTreemaps(){
   const region = el('geoRegionFilter')?.value || '';
   const branch = el('branchFilter')?.value || '';
-  setChart('treemapGeo',{
-    tooltip:{formatter:treemapTooltip},
-    series:[{...treemapStyle(Boolean(region)),data:makeTreeGeo(region)}]
-  });
-  setChart('treemapBranches',{
-    tooltip:{formatter:treemapTooltip},
-    series:[{...treemapStyle(Boolean(branch)),data:makeTreeBranches(branch)}]
-  });
+  drawD3Treemap('treemapGeo', makeTreeGeo(region));
+  drawD3Treemap('treemapBranches', makeTreeBranches(branch));
 }
 function renderTable(id,rows,cols){
   el(id).innerHTML='<thead><tr>'+cols.map(c=>`<th>${c[0]}</th>`).join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(c=>{let v=r[c[1]]??'';let cls=typeof v==='number'?'num':''; if(c[1]==='Esito') v=`<span class="pill ${v==='FILIALE DIVERSA'?'diff':'same'}">${v}</span>`; return `<td class="${cls}">${v}</td>`}).join('')+'</tr>').join('')+'</tbody>';

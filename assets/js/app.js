@@ -346,12 +346,12 @@ function populateTableFilters(){
   const clients = uniqueSorted(rows, 'Filiale cliente');
   const projects = uniqueSorted(rows, 'Filiale cantiere');
   const provinces = uniqueSorted(rows, 'Provincia cantiere');
-  fillSelect('priorityClientFilter', clients, 'Tutte filiali cliente');
-  fillSelect('priorityProjectFilter', projects, 'Tutte filiali progetto');
-  fillSelect('priorityProvinceFilter', provinces, 'Tutte province progetto');
-  fillSelect('detailClientFilter', clients, 'Tutte filiali cliente');
-  fillSelect('detailProjectFilter', projects, 'Tutte filiali progetto');
-  fillSelect('detailProvinceFilter', provinces, 'Tutte province progetto');
+  fillSelect('priorityClientFilter', clients, 'Filiali cliente');
+  fillSelect('priorityProjectFilter', projects, 'Filiali progetto');
+  fillSelect('priorityProvinceFilter', provinces, 'Province progetto');
+  fillSelect('detailClientFilter', clients, 'Filiali cliente');
+  fillSelect('detailProjectFilter', projects, 'Filiali progetto');
+  fillSelect('detailProvinceFilter', provinces, 'Province progetto');
 }
 function rowMatchesTableFilters(row, prefix){
   const client = el(prefix + 'ClientFilter')?.value || '';
@@ -364,8 +364,8 @@ function rowMatchesTableFilters(row, prefix){
 function populateTreemapFilters(){
   const regions = [...new Set(state.data.treemap_geografica.map(r => r['Regione cantiere']).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'it'));
   const branches = [...new Set(state.data.treemap_filiali.map(r => r['Filiale cliente']).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'it'));
-  fillSelect('geoRegionFilter', regions, 'Tutte le regioni');
-  fillSelect('branchFilter', branches, 'Tutte le filiali');
+  fillSelect('geoRegionFilter', regions, 'Regioni');
+  fillSelect('branchFilter', branches, 'Filiali');
 }
 function makeTreeGeo(selectedRegion=''){
   if(!selectedRegion){

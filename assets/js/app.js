@@ -49,17 +49,17 @@ async function loadGeo(){
       return;
     }catch(e){ last=e; }
   }
-  throw last || new Error('GeoJSON province non caricato');
+  throw last || new Error('Mappa province non caricata');
 }
 
 function drawKpis(){
   const s = state.data.summary;
   const items = [
-    ['Progetti mappati', fmt.format(s.projects), 'cantieri inclusi nella correlazione'],
+    ['Progetti mappati', fmt.format(s.projects), 'progetti inclusi nella correlazione'],
     ['Potenza totale', `${fmt1.format(s.mwp)} MWp`, 'somma dei progetti mappati'],
-    ['Stessa filiale', fmt.format(s.same_branch), 'cliente e cantiere coincidono'],
+    ['Stessa filiale', fmt.format(s.same_branch), 'cliente e progetto coincidono'],
     ['Filiale diversa', fmt.format(s.different_branch), 'serve coordinamento interfiliale'],
-    ['Quota interfiliale', `${fmt1.format(s.different_pct)}%`, 'filiale cliente ≠ filiale cantiere']
+    ['Quota interfiliale', `${fmt1.format(s.different_pct)}%`, 'filiale cliente ≠ filiale progetto']
   ];
   el('kpis').innerHTML = items.map(i=>`<div class="kpi"><span>${i[0]}</span><strong>${i[1]}</strong><small>${i[2]}</small></div>`).join('');
 }
@@ -256,7 +256,7 @@ function drawMap(id, data, title, subtitle, valueLabel){
 }
 async function drawMaps(){
   if(!state.geoLoaded){
-    ['mapCantieri','mapClientiMWp'].forEach(id=>el(id).innerHTML='<div class="error">GeoJSON province non disponibile. Controlla la connessione o scarica il file in data/limits_IT_provinces.geojson.</div>'); return;
+    ['mapCantieri','mapClientiMWp'].forEach(id=>el(id).innerHTML='<div class="error">Mappa province temporaneamente non disponibile.</div>'); return;
   }
   drawMap('mapCantieri', mapDataCantieri(), 'Progetti FV per provincia (MWp)', '', 'MWp progetti');
   drawMap('mapClientiMWp', mapDataClienti('MWp'), 'Clienti per provincia (MWp)', '', 'MWp collegati');
@@ -457,7 +457,7 @@ function drawD3Treemap(containerId, nodes){
       .attr('stroke-width', 4)
       .attr('pointer-events', 'none');
 
-    // Header del gruppo, stile Flourish-like.
+    // Header del gruppo.
     g.append('rect')
       .attr('width', w)
       .attr('height', headerH)
@@ -565,7 +565,7 @@ async function boot(){
     try{ await loadGeo(); await drawMaps(); }catch(e){ console.warn(e); await drawMaps(); }
     setTimeout(resizeAll,500);
   }catch(e){
-    document.body.innerHTML=`<div class="wrap"><div class="error"><b>Errore caricamento dashboard.</b><br>${e.message}</div></div>`;
+    document.body.innerHTML=`<div class="wrap"><div class="error"><b>Dati non disponibili al momento.</b><br>Riprova più tardi.</div></div>`;
   }
 }
 boot();

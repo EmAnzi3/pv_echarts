@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PV Filiali - Dashboard GitHub</title>
-  <meta name="description" content="Dashboard PV con Sankey, mappe provinciali, heatmap e treemap su GitHub Pages.">
+  <title>PV Filiali - Dashboard</title>
+  <meta name="description" content="Dashboard interattiva sulla relazione tra clienti, progetti fotovoltaici e filiali.">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
@@ -13,17 +13,17 @@
   <header>
     <div class="topbar">
       <div>
-        <h1>Pipeline FV<br>clienti, cantieri e filiali</h1>
-        <p class="lead">Dashboard operativa autonoma su GitHub Pages: responsabilità commerciale della sede cliente, ubicazione dei cantieri e coordinamento interfiliale.</p>
+        <h1>Pipeline FV<br>clienti, progetti e filiali</h1>
+        <p class="lead">Dashboard interattiva per leggere la relazione tra sedi clienti, progetti fotovoltaici e responsabilità delle filiali.</p>
       </div>
-      <div class="badge">GitHub Pages + ECharts</div>
+      <div class="badge">Dashboard interattiva</div>
     </div>
   </header>
 
   <main class="wrap">
     <section class="kpis" id="kpis" aria-label="Indicatori principali"></section>
 
-    <section class="note"><strong>Chiave di lettura:</strong> il file master viene aggiornato una sola volta. Lo script genera <code>data/dashboard.json</code>; la pagina GitHub legge quel JSON e aggiorna Sankey, mappe, heatmap, treemap e tabelle senza Flourish.</section>
+    <section class="note"><strong>Chiave di lettura:</strong> la dashboard mette in relazione la filiale responsabile della sede cliente con la filiale su cui ricade il progetto FV, evidenziando concentrazioni territoriali e necessità di coordinamento.</section>
 
     <nav class="nav" aria-label="Navigazione dashboard">
       <a href="#sankey-card">Sankey</a>
@@ -59,7 +59,7 @@
     </section>
 
     <section class="grid two" style="margin-top:20px">
-      <article class="card"><div class="head compact"><span class="eyebrow">Barre</span><h2>Top filiali progetti</h2><p>Dove si concentra il presidio operativo dei progetti.</p></div><div class="viz short"><div id="barCantiere" class="chart"></div></div></article>
+      <article class="card"><div class="head compact"><span class="eyebrow">Barre</span><h2>Top filiali progetti</h2><p>Dove si concentrano i progetti.</p></div><div class="viz short"><div id="barCantiere" class="chart"></div></div></article>
       <article class="card"><div class="head compact"><span class="eyebrow">Barre</span><h2>Top filiali cliente</h2><p>Dove si concentra la responsabilità commerciale.</p></div><div class="viz short"><div id="barCliente" class="chart"></div></div></article>
     </section>
 
@@ -89,7 +89,7 @@
         <div class="viz table">
           <div class="controls table-controls">
             <input id="search" placeholder="Cerca cliente, progetto, filiale..." style="min-width:230px">
-            <select id="esito"><option value="">Tutti gli esiti</option><option>FILIALE DIVERSA</option><option>STESSA FILIALE</option></select>
+            <select id="esito"><option value="">Esiti</option><option>FILIALE DIVERSA</option><option>STESSA FILIALE</option></select>
             <select id="detailClientFilter" aria-label="Filtro filiale cliente"></select>
             <select id="detailProjectFilter" aria-label="Filtro filiale progetto"></select>
             <select id="detailProvinceFilter" aria-label="Filtro provincia progetto"></select>
@@ -101,7 +101,7 @@
   </main>
 
   <footer>
-    <p>Nota tecnica: la pagina carica ECharts da CDN e prova a caricare il GeoJSON province da <code>data/limits_IT_provinces.geojson</code>; se assente usa una fonte pubblica Openpolis via jsDelivr. Per massima autonomia, scarica il GeoJSON e salvalo in <code>data/limits_IT_provinces.geojson</code>.</p>
+    <p>Dati aggiornati sulla base delle informazioni disponibili. I valori sono espressi in MWp ove indicato.</p>
   </footer>
   <script src="assets/js/app.js"></script>
 </body>

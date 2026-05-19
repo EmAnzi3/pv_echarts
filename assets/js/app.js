@@ -364,19 +364,24 @@ function treemapTopColor(name, idx){
 }
 function softenColor(hex, depth){
   const c = d3.color(hex) || d3.color('#5B8FF9');
-  if(depth <= 1) return c.formatHex();
-  return c.brighter(depth === 2 ? 0.55 : 0.95).formatHex();
+  return depth <= 1 ? c.formatHex() : c.brighter(0.45).formatHex();
 }
 function textColorFor(hex){
   const c = d3.color(hex);
   if(!c) return '#fff';
   const yiq = ((c.r*299)+(c.g*587)+(c.b*114))/1000;
-  return yiq >= 150 ? '#172033' : '#fff';
+  return yiq >= 155 ? '#172033' : '#fff';
 }
 function ellipsize(text, maxChars){
   const s = String(text || '');
   if(s.length <= maxChars) return s;
   return s.slice(0, Math.max(1, maxChars-1)) + '…';
+}
+function leafRows(node, prefix=[]){
+  if(!node.children || !node.children.length){
+    return [{name:node.name, value:+node.value||0.01, path:[...prefix,node.name]}];
+  }
+  return node.children.flatMap(child => leafRows(child, [...prefix,node.name]));
 }
 function drawD3Treemap(containerId, nodes){
   const container = el(containerId);
@@ -384,14 +389,18 @@ function drawD3Treemap(containerId, nodes){
   container.innerHTML = '';
   const width = Math.max(container.clientWidth || 600, 320);
   const height = Math.max(container.clientHeight || 430, 300);
-  const root = d3.hierarchy({name:'root', children:nodes}).sum(d => d.value || 0).sort((a,b)=>b.value-a.value);
+
+  const total = nodes.reduce((s,n)=>s+(+n.value||0),0) || 1;
+  const topRoot = d3.hierarchy({name:'root', children:nodes.map(n=>({name:n.name,value:n.value}))})
+    .sum(d => d.value || 0)
+    .sort((a,b)=>b.value-a.value);
+
   d3.treemap()
     .size([width, height])
     .round(true)
-    .paddingOuter(0)
-    .paddingTop(d => d.depth === 1 ? 26 : 2)
-    .paddingInner(d => d.depth === 0 ? 4 : 2)
-    .tile(d3.treemapSquarify.ratio(1.15))(root);
+    .paddingOuter(2)
+    .paddingInner(5)
+    .tile(d3.treemapSquarify.ratio(1.25))(topRoot);
 
   const svg = d3.select(container).append('svg')
     .attr('viewBox', `0 0 ${width} ${height}`)
@@ -399,43 +408,89 @@ function drawD3Treemap(containerId, nodes){
     .attr('height', '100%')
     .attr('role', 'img');
 
-  const topNodes = root.children || [];
-  const colorMap = new Map(topNodes.map((d,i)=>[d.data.name, treemapTopColor(d.data.name, i)]));
-  const topAncestor = d => d.ancestors().find(a => a.depth === 1) || d;
-
-  const cells = svg.selectAll('g.cell')
-    .data(root.descendants().filter(d => d.depth > 0))
+  const nodeMap = new Map(nodes.map(n=>[n.name,n]));
+  const groups = svg.selectAll('g.top-group')
+    .data((topRoot.children || []).filter(d => d.depth > 0))
     .join('g')
-    .attr('class', d => `cell depth-${d.depth}`)
+    .attr('class','top-group')
     .attr('transform', d => `translate(${d.x0},${d.y0})`);
 
-  cells.append('rect')
-    .attr('width', d => Math.max(0, d.x1-d.x0))
-    .attr('height', d => Math.max(0, d.y1-d.y0))
-    .attr('rx', d => d.depth === 1 ? 0 : 1)
-    .attr('fill', d => softenColor(colorMap.get(topAncestor(d).data.name), d.depth))
-    .attr('stroke', '#ffffff')
-    .attr('stroke-width', d => d.depth === 1 ? 3 : 1)
-    .append('title')
-    .text(d => `${d.ancestors().slice(1).map(a=>a.data.name).join(' → ')}\n${fmt1.format(d.value || 0)} MWp`);
+  groups.each(function(d, i){
+    const g = d3.select(this);
+    const w = Math.max(0, d.x1 - d.x0);
+    const h = Math.max(0, d.y1 - d.y0);
+    const color = treemapTopColor(d.data.name, i);
+    const headerH = Math.min(26, Math.max(18, h * 0.12));
+    const sourceNode = nodeMap.get(d.data.name);
+    const leaves = sourceNode ? leafRows(sourceNode, []) : [];
 
-  const headers = cells.filter(d => d.depth === 1 && (d.x1-d.x0) > 48 && (d.y1-d.y0) > 34);
-  headers.append('text')
-    .attr('x', 7)
-    .attr('y', 17)
-    .attr('fill', d => textColorFor(softenColor(colorMap.get(d.data.name), d.depth)))
-    .attr('font-size', 12)
-    .attr('font-weight', 800)
-    .text(d => ellipsize(String(d.data.name).toUpperCase(), Math.max(4, Math.floor((d.x1-d.x0)/8))));
+    // Cornice padre, non interattiva: serve solo come contenitore grafico.
+    g.append('rect')
+      .attr('width', w)
+      .attr('height', h)
+      .attr('rx', 0)
+      .attr('fill', color)
+      .attr('stroke', '#ffffff')
+      .attr('stroke-width', 4)
+      .attr('pointer-events', 'none');
 
-  const labels = cells.filter(d => d.depth > 1 && (d.x1-d.x0) > 46 && (d.y1-d.y0) > 24);
-  labels.append('text')
-    .attr('x', 7)
-    .attr('y', 15)
-    .attr('fill', d => textColorFor(softenColor(colorMap.get(topAncestor(d).data.name), d.depth)))
-    .attr('font-size', 12)
-    .attr('font-weight', 600)
-    .text(d => ellipsize(d.data.name, Math.max(4, Math.floor((d.x1-d.x0)/8))));
+    // Header del gruppo, stile Flourish-like.
+    g.append('rect')
+      .attr('width', w)
+      .attr('height', headerH)
+      .attr('fill', color)
+      .attr('pointer-events', 'none');
+
+    g.append('text')
+      .attr('x', 7)
+      .attr('y', Math.min(17, headerH - 5))
+      .attr('fill', textColorFor(color))
+      .attr('font-size', 12)
+      .attr('font-weight', 900)
+      .attr('letter-spacing', '.02em')
+      .attr('pointer-events', 'none')
+      .text(ellipsize(String(d.data.name).toUpperCase(), Math.max(4, Math.floor(w / 8))));
+
+    const bodyH = h - headerH;
+    if(bodyH <= 4 || w <= 8 || !leaves.length) return;
+
+    const childRoot = d3.hierarchy({name:d.data.name, children: leaves})
+      .sum(x => x.value || 0)
+      .sort((a,b)=>b.value-a.value);
+    d3.treemap()
+      .size([w, bodyH])
+      .round(true)
+      .paddingInner(2)
+      .paddingOuter(1)
+      .tile(d3.treemapSquarify.ratio(1.15))(childRoot);
+
+    const leaf = g.append('g')
+      .attr('transform', `translate(0,${headerH})`)
+      .selectAll('g.leaf')
+      .data((childRoot.leaves() || []).filter(x => x.depth > 0))
+      .join('g')
+      .attr('class','leaf')
+      .attr('transform', x => `translate(${x.x0},${x.y0})`);
+
+    leaf.append('rect')
+      .attr('width', x => Math.max(0, x.x1 - x.x0))
+      .attr('height', x => Math.max(0, x.y1 - x.y0))
+      .attr('fill', (x, j) => d3.color(color).brighter(j % 3 === 0 ? .2 : (j % 3 === 1 ? .45 : .7)).formatHex())
+      .attr('stroke','#ffffff')
+      .attr('stroke-width',1.2)
+      .append('title')
+      .text(x => `${x.data.path.join(' → ')}\n${fmt1.format(x.value || 0)} MWp`);
+
+    leaf.filter(x => (x.x1-x.x0) > 46 && (x.y1-x.y0) > 22)
+      .append('text')
+      .attr('x', 6)
+      .attr('y', 15)
+      .attr('fill', x => textColorFor(d3.color(color).brighter(.35).formatHex()))
+      .attr('font-size', 11)
+      .attr('font-weight', 600)
+      .attr('pointer-events','none')
+      .text(x => ellipsize(x.data.name, Math.max(3, Math.floor((x.x1-x.x0)/7))));
+  });
 }
 function drawTreemaps(){
   const region = el('geoRegionFilter')?.value || '';

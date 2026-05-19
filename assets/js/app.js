@@ -338,6 +338,29 @@ function fillSelect(id, items, allLabel){
   select.innerHTML = `<option value="">${allLabel}</option>` + items.map(name => `<option value="${name}">${name}</option>`).join('');
   if(items.includes(current)) select.value = current;
 }
+function uniqueSorted(rows, key){
+  return [...new Set(rows.map(r => r[key]).filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b),'it'));
+}
+function populateTableFilters(){
+  const rows = state.data.details || [];
+  const clients = uniqueSorted(rows, 'Filiale cliente');
+  const projects = uniqueSorted(rows, 'Filiale cantiere');
+  const provinces = uniqueSorted(rows, 'Provincia cantiere');
+  fillSelect('priorityClientFilter', clients, 'Tutte filiali cliente');
+  fillSelect('priorityProjectFilter', projects, 'Tutte filiali progetto');
+  fillSelect('priorityProvinceFilter', provinces, 'Tutte province progetto');
+  fillSelect('detailClientFilter', clients, 'Tutte filiali cliente');
+  fillSelect('detailProjectFilter', projects, 'Tutte filiali progetto');
+  fillSelect('detailProvinceFilter', provinces, 'Tutte province progetto');
+}
+function rowMatchesTableFilters(row, prefix){
+  const client = el(prefix + 'ClientFilter')?.value || '';
+  const project = el(prefix + 'ProjectFilter')?.value || '';
+  const province = el(prefix + 'ProvinceFilter')?.value || '';
+  return (!client || row['Filiale cliente'] === client)
+    && (!project || row['Filiale cantiere'] === project)
+    && (!province || row['Provincia cantiere'] === province);
+}
 function populateTreemapFilters(){
   const regions = [...new Set(state.data.treemap_geografica.map(r => r['Regione cantiere']).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'it'));
   const branches = [...new Set(state.data.treemap_filiali.map(r => r['Filiale cliente']).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'it'));
@@ -501,25 +524,43 @@ function drawTreemaps(){
 function renderTable(id,rows,cols){
   el(id).innerHTML='<thead><tr>'+cols.map(c=>`<th>${c[0]}</th>`).join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(c=>{let v=r[c[1]]??'';let cls=typeof v==='number'?'num':''; if(c[1]==='Esito') v=`<span class="pill ${v==='FILIALE DIVERSA'?'diff':'same'}">${v}</span>`; return `<td class="${cls}">${v}</td>`}).join('')+'</tr>').join('')+'</tbody>';
 }
+function drawPriorityTable(){
+  const rows = state.data.details
+    .filter(r => r.Esito === 'FILIALE DIVERSA')
+    .filter(r => rowMatchesTableFilters(r, 'priority'))
+    .sort((a,b)=>(+b.MWp||0)-(+a.MWp||0))
+    .slice(0,50);
+  renderTable('priorityTable',rows,[['Cliente','Cliente'],['Progetto','Progetto'],['Filiale cliente','Filiale cliente'],['Filiale progetto','Filiale cantiere'],['Provincia','Provincia cantiere'],['MWp','MWp']]);
+}
 function drawTables(){
-  const priority=state.data.details.filter(r=>r.Esito==='FILIALE DIVERSA').sort((a,b)=>b.MWp-a.MWp).slice(0,25);
-  renderTable('priorityTable',priority,[['Cliente','Cliente'],['Progetto','Progetto'],['Filiale cliente','Filiale cliente'],['Filiale cantiere','Filiale cantiere'],['Provincia','Provincia cantiere'],['MWp','MWp']]);
+  drawPriorityTable();
   drawDetailTable();
 }
 function drawDetailTable(){
-  const q=(el('search').value||'').toLowerCase(); const e=el('esito').value;
-  const rows=state.data.details.filter(r=>(!e||r.Esito===e)&&JSON.stringify(r).toLowerCase().includes(q)).slice(0,500);
-  renderTable('detailsTable',rows,[['Cliente','Cliente'],['Progetto','Progetto'],['Comune cantiere','Comune cantiere'],['Prov. cantiere','Provincia cantiere'],['Filiale cantiere','Filiale cantiere'],['Filiale cliente','Filiale cliente'],['Sede cliente','Comune sede'],['MWp','MWp'],['Esito','Esito']]);
+  const q=(el('search').value||'').toLowerCase();
+  const e=el('esito').value;
+  const rows=state.data.details
+    .filter(r=>(!e||r.Esito===e))
+    .filter(r=>rowMatchesTableFilters(r, 'detail'))
+    .filter(r=>JSON.stringify(r).toLowerCase().includes(q))
+    .slice(0,500);
+  renderTable('detailsTable',rows,[['Cliente','Cliente'],['Progetto','Progetto'],['Comune progetto','Comune cantiere'],['Prov. progetto','Provincia cantiere'],['Filiale progetto','Filiale cantiere'],['Filiale cliente','Filiale cliente'],['Sede cliente','Comune sede'],['MWp','MWp'],['Esito','Esito']]);
 }
 function bind(){
   el('metricMWp').onclick=()=>{state.metric='MWp'; el('metricMWp').classList.add('active'); el('metricProjects').classList.remove('active'); drawSankey();};
   el('metricProjects').onclick=()=>{state.metric='N. progetti'; el('metricProjects').classList.add('active'); el('metricMWp').classList.remove('active'); drawSankey();};
-  el('search').oninput=drawDetailTable; el('esito').onchange=drawDetailTable; if(el('geoRegionFilter')) el('geoRegionFilter').onchange=drawTreemaps; if(el('branchFilter')) el('branchFilter').onchange=drawTreemaps;
+  el('search').oninput=drawDetailTable;
+  el('esito').onchange=drawDetailTable;
+  ['detailClientFilter','detailProjectFilter','detailProvinceFilter'].forEach(id=>{ if(el(id)) el(id).onchange=drawDetailTable; });
+  ['priorityClientFilter','priorityProjectFilter','priorityProvinceFilter'].forEach(id=>{ if(el(id)) el(id).onchange=drawPriorityTable; });
+  if(el('geoRegionFilter')) el('geoRegionFilter').onchange=drawTreemaps;
+  if(el('branchFilter')) el('branchFilter').onchange=drawTreemaps;
 }
 async function boot(){
   try{
     state.data = await fetchJson('data/dashboard.json');
     populateTreemapFilters();
+    populateTableFilters();
     drawKpis(); bind(); drawSankey(); drawBars(); drawHeatmap(); drawTreemaps(); drawTables();
     try{ await loadGeo(); await drawMaps(); }catch(e){ console.warn(e); await drawMaps(); }
     setTimeout(resizeAll,500);

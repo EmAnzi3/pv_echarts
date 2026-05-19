@@ -73,8 +73,30 @@
     </section>
 
     <section class="grid two" id="tables-card" style="margin-top:20px">
-      <article class="card"><div class="head compact"><span class="eyebrow">Tabella</span><h2>Casi interfiliale prioritari</h2><p>Filiali diverse, ordinati per MWp.</p></div><div class="viz table"><div class="table-wrap"><table id="priorityTable"></table></div></div></article>
-      <article class="card"><div class="head compact"><span class="eyebrow">Tabella</span><h2>Dettaglio progetti</h2><p>Filtro testuale e filtro per esito filiale.</p></div><div class="viz table"><div class="controls"><input id="search" placeholder="Cerca cliente, progetto, filiale..." style="min-width:260px"><select id="esito"><option value="">Tutti</option><option>FILIALE DIVERSA</option><option>STESSA FILIALE</option></select></div><div class="table-wrap"><table id="detailsTable"></table></div></div></article>
+      <article class="card">
+        <div class="head compact"><span class="eyebrow">Tabella</span><h2>Casi interfiliale prioritari</h2><p>Filiali diverse, ordinati per MWp.</p></div>
+        <div class="viz table">
+          <div class="controls table-controls">
+            <select id="priorityClientFilter" aria-label="Filtro filiale cliente"></select>
+            <select id="priorityProjectFilter" aria-label="Filtro filiale progetto"></select>
+            <select id="priorityProvinceFilter" aria-label="Filtro provincia progetto"></select>
+          </div>
+          <div class="table-wrap"><table id="priorityTable"></table></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="head compact"><span class="eyebrow">Tabella</span><h2>Dettaglio progetti</h2><p>Filtro testuale, esito, filiale cliente, filiale progetto e provincia.</p></div>
+        <div class="viz table">
+          <div class="controls table-controls">
+            <input id="search" placeholder="Cerca cliente, progetto, filiale..." style="min-width:230px">
+            <select id="esito"><option value="">Tutti gli esiti</option><option>FILIALE DIVERSA</option><option>STESSA FILIALE</option></select>
+            <select id="detailClientFilter" aria-label="Filtro filiale cliente"></select>
+            <select id="detailProjectFilter" aria-label="Filtro filiale progetto"></select>
+            <select id="detailProvinceFilter" aria-label="Filtro provincia progetto"></select>
+          </div>
+          <div class="table-wrap"><table id="detailsTable"></table></div>
+        </div>
+      </article>
     </section>
   </main>
 

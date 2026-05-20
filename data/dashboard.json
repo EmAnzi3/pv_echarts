@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 124,
-    "mwp": 5546.01,
+    "projects": 125,
+    "mwp": 5551.41,
     "same_branch": 21,
-    "different_branch": 103,
-    "different_pct": 83.1,
+    "different_branch": 104,
+    "different_pct": 83.2,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -474,6 +474,13 @@
       "Clienti unici": 3
     },
     {
+      "Filiale cliente": "Verona",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 1,
+      "MWp": 5.4,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Rimini",
       "Filiale cantiere": "Catania",
       "N. progetti": 1,
@@ -618,9 +625,9 @@
     {
       "Provincia cantiere": "Ferrara",
       "Regione cantiere": "Emilia-Romagna",
-      "N. progetti": 3,
-      "MWp": 82.45,
-      "Clienti unici": 3
+      "N. progetti": 4,
+      "MWp": 87.85,
+      "Clienti unici": 4
     },
     {
       "Provincia cantiere": "Sassari",
@@ -984,6 +991,12 @@
       "MWp": 9.2
     },
     {
+      "Provincia": "Verona",
+      "Clienti": 1,
+      "Progetti": 1,
+      "MWp": 5.4
+    },
+    {
       "Provincia": "Ancona",
       "Clienti": 1,
       "Progetti": 1,
@@ -1016,16 +1029,16 @@
       "Clienti unici": 6
     },
     {
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 7,
+      "MWp": 196.85,
+      "Clienti unici": 7
+    },
+    {
       "Filiale cantiere": "Perugia",
       "N. progetti": 7,
       "MWp": 196.522,
       "Clienti unici": 7
-    },
-    {
-      "Filiale cantiere": "Bologna",
-      "N. progetti": 6,
-      "MWp": 191.45,
-      "Clienti unici": 6
     },
     {
       "Filiale cantiere": "Livorno",
@@ -1291,6 +1304,12 @@
       "Filiale cliente": "Trento",
       "N. progetti": 1,
       "MWp": 9.2,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Verona",
+      "N. progetti": 1,
+      "MWp": 5.4,
       "Clienti unici": 1
     }
   ],
@@ -1756,6 +1775,13 @@
       "N. progetti": 4,
       "MWp": 5.4,
       "Clienti unici": 3
+    },
+    {
+      "Filiale cliente": "Verona",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 1,
+      "MWp": 5.4,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Rimini",
@@ -2645,6 +2671,14 @@
       "Potenza MWp": 89.0
     },
     {
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Ferrara",
+      "Comune cantiere": "Terre del Reno",
+      "Cliente progetto": "REN UP SRL",
+      "Progetto": "PV Terre del Reno",
+      "Potenza MWp": 5.4
+    },
+    {
       "Regione cantiere": "Calabria",
       "Provincia cantiere": "Crotone",
       "Comune cantiere": "Crotone",
@@ -3529,6 +3563,13 @@
       "Cliente progetto": "MENINAS SRL",
       "Progetto": "CETA",
       "Potenza MWp": 89.0
+    },
+    {
+      "Filiale cliente": "Verona",
+      "Filiale cantiere": "Bologna",
+      "Cliente progetto": "REN UP SRL",
+      "Progetto": "PV Terre del Reno",
+      "Potenza MWp": 5.4
     },
     {
       "Filiale cliente": "Bologna",
@@ -5694,6 +5735,25 @@
       "MWp": 89.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "REN UP SRL",
+      "Cliente report": "REN UP SRL",
+      "Progetto": "PV Terre del Reno",
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Ferrara",
+      "Comune cantiere": "Terre del Reno",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Bologna",
+      "Filiale cliente": "Verona",
+      "Provincia sede": "Verona",
+      "Comune sede": "LEGNANO",
+      "Indirizzo sede": "VIA GOITO 4",
+      "Tipo account": "Prospect",
+      "MWp": 5.4,
+      "Stato progetto": "Attivo",
+      "Fase attuale": "Costruzione",
       "Esito": "FILIALE DIVERSA"
     },
     {

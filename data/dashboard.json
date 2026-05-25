@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 126,
-    "mwp": 5574.39,
-    "same_branch": 21,
-    "different_branch": 105,
-    "different_pct": 83.3,
+    "projects": 131,
+    "mwp": 5739.565,
+    "same_branch": 22,
+    "different_branch": 109,
+    "different_pct": 83.2,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -21,9 +21,9 @@
     {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Catania",
-      "N. progetti": 7,
-      "MWp": 642.41,
-      "Clienti unici": 7
+      "N. progetti": 8,
+      "MWp": 693.06,
+      "Clienti unici": 8
     },
     {
       "Filiale cliente": "Catania",
@@ -40,18 +40,18 @@
       "Clienti unici": 10
     },
     {
+      "Filiale cliente": "Bari",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 5,
+      "MWp": 276.36,
+      "Clienti unici": 5
+    },
+    {
       "Filiale cliente": "Bergamo",
       "Filiale cantiere": "Catania",
       "N. progetti": 1,
       "MWp": 250.0,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Bari",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 4,
-      "MWp": 246.36,
-      "Clienti unici": 4
     },
     {
       "Filiale cliente": "Torino",
@@ -61,18 +61,18 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 10,
+      "MWp": 220.517,
+      "Clienti unici": 8
+    },
+    {
       "Filiale cliente": "Roma Aurelia",
       "Filiale cantiere": "Catania",
       "N. progetti": 4,
       "MWp": 197.32,
       "Clienti unici": 4
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 9,
-      "MWp": 166.117,
-      "Clienti unici": 7
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -348,6 +348,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Salerno",
+      "N. progetti": 1,
+      "MWp": 22.925,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Cosenza",
       "Filiale cantiere": "Catania",
       "N. progetti": 1,
@@ -446,6 +453,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Milano Nord",
+      "N. progetti": 1,
+      "MWp": 7.2,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Cuneo",
       "Filiale cantiere": "Cuneo",
       "N. progetti": 1,
@@ -504,18 +518,18 @@
   ],
   "province_cantieri": [
     {
+      "Provincia cantiere": "Catania",
+      "Regione cantiere": "Sicilia",
+      "N. progetti": 8,
+      "MWp": 712.38,
+      "Clienti unici": 8
+    },
+    {
       "Provincia cantiere": "Enna",
       "Regione cantiere": "Sicilia",
       "N. progetti": 6,
       "MWp": 687.57,
       "Clienti unici": 6
-    },
-    {
-      "Provincia cantiere": "Catania",
-      "Regione cantiere": "Sicilia",
-      "N. progetti": 7,
-      "MWp": 661.73,
-      "Clienti unici": 7
     },
     {
       "Provincia cantiere": "Palermo",
@@ -527,16 +541,16 @@
     {
       "Provincia cantiere": "Foggia",
       "Regione cantiere": "Puglia",
-      "N. progetti": 6,
-      "MWp": 367.83,
-      "Clienti unici": 6
+      "N. progetti": 7,
+      "MWp": 397.83,
+      "Clienti unici": 7
     },
     {
       "Provincia cantiere": "Lecce",
       "Regione cantiere": "Puglia",
-      "N. progetti": 7,
-      "MWp": 244.058,
-      "Clienti unici": 7
+      "N. progetti": 8,
+      "MWp": 298.458,
+      "Clienti unici": 8
     },
     {
       "Provincia cantiere": "Trapani",
@@ -686,6 +700,13 @@
       "Clienti unici": 1
     },
     {
+      "Provincia cantiere": "Potenza",
+      "Regione cantiere": "Basilicata",
+      "N. progetti": 3,
+      "MWp": 62.765,
+      "Clienti unici": 3
+    },
+    {
       "Provincia cantiere": "Perugia",
       "Regione cantiere": "Umbria",
       "N. progetti": 3,
@@ -726,13 +747,6 @@
       "N. progetti": 1,
       "MWp": 40.31,
       "Clienti unici": 1
-    },
-    {
-      "Provincia cantiere": "Potenza",
-      "Regione cantiere": "Basilicata",
-      "N. progetti": 2,
-      "MWp": 39.84,
-      "Clienti unici": 2
     },
     {
       "Provincia cantiere": "Ancona",
@@ -805,6 +819,13 @@
       "Clienti unici": 2
     },
     {
+      "Provincia cantiere": "Monza e della Brianza",
+      "Regione cantiere": "Lombardia",
+      "N. progetti": 1,
+      "MWp": 7.2,
+      "Clienti unici": 1
+    },
+    {
       "Provincia cantiere": "Piacenza",
       "Regione cantiere": "Emilia-Romagna",
       "N. progetti": 1,
@@ -836,9 +857,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 41,
-      "Progetti": 47,
-      "MWp": 2080.522
+      "Clienti": 44,
+      "Progetti": 50,
+      "MWp": 2192.772
     },
     {
       "Provincia": "Roma",
@@ -887,6 +908,12 @@
       "Clienti": 2,
       "Progetti": 2,
       "MWp": 77.41
+    },
+    {
+      "Provincia": "Bari",
+      "Clienti": 2,
+      "Progetti": 2,
+      "MWp": 76.9
     },
     {
       "Provincia": "nan",
@@ -949,12 +976,6 @@
       "MWp": 50.96
     },
     {
-      "Provincia": "Bari",
-      "Clienti": 1,
-      "Progetti": 1,
-      "MWp": 46.9
-    },
-    {
       "Provincia": "Cagliari",
       "Clienti": 1,
       "Progetti": 1,
@@ -965,6 +986,12 @@
       "Clienti": 1,
       "Progetti": 1,
       "MWp": 31.4
+    },
+    {
+      "Provincia": "Alessandria",
+      "Clienti": 1,
+      "Progetti": 1,
+      "MWp": 22.925
     },
     {
       "Provincia": "Cosenza",
@@ -1012,15 +1039,15 @@
   "top_cantiere": [
     {
       "Filiale cantiere": "Catania",
-      "N. progetti": 33,
-      "MWp": 2589.66,
-      "Clienti unici": 32
+      "N. progetti": 34,
+      "MWp": 2640.31,
+      "Clienti unici": 33
     },
     {
       "Filiale cantiere": "Bari",
-      "N. progetti": 32,
-      "MWp": 1082.609,
-      "Clienti unici": 30
+      "N. progetti": 34,
+      "MWp": 1167.009,
+      "Clienti unici": 32
     },
     {
       "Filiale cantiere": "Napoli",
@@ -1057,6 +1084,12 @@
       "N. progetti": 3,
       "MWp": 206.5,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cantiere": "Salerno",
+      "N. progetti": 3,
+      "MWp": 62.765,
+      "Clienti unici": 3
     },
     {
       "Filiale cantiere": "Roma Nomentana",
@@ -1098,12 +1131,6 @@
       "Filiale cantiere": "Torino",
       "N. progetti": 2,
       "MWp": 58.724,
-      "Clienti unici": 2
-    },
-    {
-      "Filiale cantiere": "Salerno",
-      "N. progetti": 2,
-      "MWp": 39.84,
       "Clienti unici": 2
     },
     {
@@ -1155,6 +1182,12 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cantiere": "Milano Nord",
+      "N. progetti": 1,
+      "MWp": 7.2,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cantiere": "Cuneo",
       "N. progetti": 1,
       "MWp": 7.0,
@@ -1164,9 +1197,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 29,
-      "MWp": 1204.838,
-      "Clienti unici": 25
+      "N. progetti": 32,
+      "MWp": 1317.088,
+      "Clienti unici": 28
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -1206,9 +1239,9 @@
     },
     {
       "Filiale cliente": "Torino",
-      "N. progetti": 5,
-      "MWp": 296.487,
-      "Clienti unici": 5
+      "N. progetti": 6,
+      "MWp": 319.412,
+      "Clienti unici": 6
     },
     {
       "Filiale cliente": "Milano Ovest",
@@ -1217,16 +1250,16 @@
       "Clienti unici": 5
     },
     {
+      "Filiale cliente": "Bari",
+      "N. progetti": 5,
+      "MWp": 276.36,
+      "Clienti unici": 5
+    },
+    {
       "Filiale cliente": "Bergamo",
       "N. progetti": 4,
       "MWp": 334.3,
       "Clienti unici": 3
-    },
-    {
-      "Filiale cliente": "Bari",
-      "N. progetti": 4,
-      "MWp": 246.36,
-      "Clienti unici": 4
     },
     {
       "Filiale cliente": "Livorno",
@@ -1324,9 +1357,9 @@
     {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Catania",
-      "N. progetti": 7,
-      "MWp": 642.41,
-      "Clienti unici": 7
+      "N. progetti": 8,
+      "MWp": 693.06,
+      "Clienti unici": 8
     },
     {
       "Filiale cliente": "Catania",
@@ -1343,18 +1376,18 @@
       "Clienti unici": 10
     },
     {
+      "Filiale cliente": "Bari",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 5,
+      "MWp": 276.36,
+      "Clienti unici": 5
+    },
+    {
       "Filiale cliente": "Bergamo",
       "Filiale cantiere": "Catania",
       "N. progetti": 1,
       "MWp": 250.0,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Bari",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 4,
-      "MWp": 246.36,
-      "Clienti unici": 4
     },
     {
       "Filiale cliente": "Torino",
@@ -1364,18 +1397,18 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 10,
+      "MWp": 220.517,
+      "Clienti unici": 8
+    },
+    {
       "Filiale cliente": "Roma Aurelia",
       "Filiale cantiere": "Catania",
       "N. progetti": 4,
       "MWp": 197.32,
       "Clienti unici": 4
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 9,
-      "MWp": 166.117,
-      "Clienti unici": 7
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -1651,6 +1684,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Salerno",
+      "N. progetti": 1,
+      "MWp": 22.925,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Cosenza",
       "Filiale cantiere": "Catania",
       "N. progetti": 1,
@@ -1746,6 +1786,13 @@
       "Filiale cantiere": "Perugia",
       "N. progetti": 1,
       "MWp": 9.2,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Milano Nord",
+      "N. progetti": 1,
+      "MWp": 7.2,
       "Clienti unici": 1
     },
     {
@@ -2135,6 +2182,14 @@
       "Potenza MWp": 225.5
     },
     {
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Catania",
+      "Comune cantiere": "Ramacca",
+      "Cliente progetto": "HF SOLAR 4 SRL",
+      "Progetto": "Ramacca",
+      "Potenza MWp": 50.65
+    },
+    {
       "Regione cantiere": "Puglia",
       "Provincia cantiere": "Lecce",
       "Comune cantiere": "Nardò",
@@ -2389,6 +2444,22 @@
       "Cliente progetto": "ABEI ENERGY GREEN ITALY VI SRL",
       "Progetto": "CSPV LEVERANO",
       "Potenza MWp": 19.578
+    },
+    {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Lecce",
+      "Comune cantiere": "Corigliano d'Otranto",
+      "Cliente progetto": "ARNG SOLAR XI SRL",
+      "Progetto": "CORIGLIANO 43.8",
+      "Potenza MWp": 54.4
+    },
+    {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Foggia",
+      "Comune cantiere": "Cerignola",
+      "Cliente progetto": "MAXIMA PV 1 SRL",
+      "Progetto": "Colmo d'Ischia",
+      "Potenza MWp": 30.0
     },
     {
       "Regione cantiere": "Lazio",
@@ -2712,6 +2783,14 @@
     },
     {
       "Regione cantiere": "Lombardia",
+      "Provincia cantiere": "Monza e della Brianza",
+      "Comune cantiere": "Bovisio-Masciago",
+      "Cliente progetto": "OPEN SOLAR 3 SRL",
+      "Progetto": "PV Bovisio Masciago",
+      "Potenza MWp": 7.2
+    },
+    {
+      "Regione cantiere": "Lombardia",
       "Provincia cantiere": "Milano",
       "Comune cantiere": "Marcallo con Casone",
       "Cliente progetto": "SORGENIA RENEWABLES SRL",
@@ -2781,6 +2860,14 @@
       "Cliente progetto": "SOLAR CENTURY FVGC 4 SRL",
       "Progetto": "La Sterpara",
       "Potenza MWp": 19.96
+    },
+    {
+      "Regione cantiere": "Basilicata",
+      "Provincia cantiere": "Potenza",
+      "Comune cantiere": "Melfi",
+      "Cliente progetto": "FIMENERGIA SRL",
+      "Progetto": "Melfi 7",
+      "Potenza MWp": 22.925
     },
     {
       "Regione cantiere": "Piemonte",
@@ -3104,6 +3191,13 @@
       "Potenza MWp": 225.5
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Catania",
+      "Cliente progetto": "HF SOLAR 4 SRL",
+      "Progetto": "Ramacca",
+      "Potenza MWp": 50.65
+    },
+    {
       "Filiale cliente": "Bologna",
       "Filiale cantiere": "Bari",
       "Cliente progetto": "SOLARANTO SRL",
@@ -3326,6 +3420,20 @@
       "Cliente progetto": "ABEI ENERGY GREEN ITALY VI SRL",
       "Progetto": "CSPV LEVERANO",
       "Potenza MWp": 19.578
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "ARNG SOLAR XI SRL",
+      "Progetto": "CORIGLIANO 43.8",
+      "Potenza MWp": 54.4
+    },
+    {
+      "Filiale cliente": "Bari",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "MAXIMA PV 1 SRL",
+      "Progetto": "Colmo d'Ischia",
+      "Potenza MWp": 30.0
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -3608,6 +3716,13 @@
       "Potenza MWp": 7.0
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Milano Nord",
+      "Cliente progetto": "OPEN SOLAR 3 SRL",
+      "Progetto": "PV Bovisio Masciago",
+      "Potenza MWp": 7.2
+    },
+    {
       "Filiale cliente": "Milano Ovest",
       "Filiale cantiere": "Milano Ovest",
       "Cliente progetto": "SORGENIA RENEWABLES SRL",
@@ -3669,6 +3784,13 @@
       "Cliente progetto": "SOLAR CENTURY FVGC 4 SRL",
       "Progetto": "La Sterpara",
       "Potenza MWp": 19.96
+    },
+    {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Salerno",
+      "Cliente progetto": "FIMENERGIA SRL",
+      "Progetto": "Melfi 7",
+      "Potenza MWp": 22.925
     },
     {
       "Filiale cliente": "Cuneo",
@@ -4480,6 +4602,25 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "HF SOLAR 4 SRL",
+      "Cliente report": "HF SOLAR 4 SRL",
+      "Progetto": "Ramacca",
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Catania",
+      "Comune cantiere": "Ramacca",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Catania",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA GIACOMO LEOPARDI 7",
+      "Tipo account": "Prospect",
+      "MWp": 50.65,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "SOLARANTO SRL",
       "Cliente report": "SOLARANTO SRL",
       "Progetto": "Calabrese",
@@ -5086,6 +5227,44 @@
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "ARNG SOLAR XI SRL",
+      "Cliente report": "ARNG SOLAR XI SRL",
+      "Progetto": "CORIGLIANO 43.8",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Lecce",
+      "Comune cantiere": "Corigliano d'Otranto",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "CORSO EUROPA 13",
+      "Tipo account": "Prospect",
+      "MWp": 54.4,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "MAXIMA PV 1 SRL",
+      "Cliente report": "MAXIMA PV 1 SRL",
+      "Progetto": "Colmo d'Ischia",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Foggia",
+      "Comune cantiere": "Cerignola",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Bari",
+      "Provincia sede": "Bari",
+      "Comune sede": "BARI",
+      "Indirizzo sede": "VIA MARCO PARTIPILO 48",
+      "Tipo account": "Prospect",
+      "MWp": 30.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "STESSA FILIALE"
     },
     {
       "Cliente": "ICA REN ELF SRL",
@@ -5848,6 +6027,25 @@
       "Esito": "STESSA FILIALE"
     },
     {
+      "Cliente": "OPEN SOLAR 3 SRL",
+      "Cliente report": "OPEN SOLAR 3 SRL",
+      "Progetto": "PV Bovisio Masciago",
+      "Regione cantiere": "Lombardia",
+      "Provincia cantiere": "Monza e della Brianza",
+      "Comune cantiere": "Bovisio-Masciago",
+      "Area cantiere": "Nord Ovest",
+      "Filiale cantiere": "Milano Nord",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "PIAZZA CARLO MIRABELLO 2",
+      "Tipo account": "Prospect",
+      "MWp": 7.2,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "SORGENIA RENEWABLES SRL",
       "Cliente report": "SORGENIA RENEWABLES SRL",
       "Progetto": "Ranteghetta",
@@ -6014,6 +6212,25 @@
       "Indirizzo sede": "FORO BUONAPARTE 60",
       "Tipo account": "Prospect",
       "MWp": 19.96,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "FIMENERGIA SRL",
+      "Cliente report": "FIMENERGIA SRL",
+      "Progetto": "Melfi 7",
+      "Regione cantiere": "Basilicata",
+      "Provincia cantiere": "Potenza",
+      "Comune cantiere": "Melfi",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Salerno",
+      "Filiale cliente": "Torino",
+      "Provincia sede": "Alessandria",
+      "Comune sede": "CASALE MONFERRATO",
+      "Indirizzo sede": "VIA LUIGI BUZZI 6",
+      "Tipo account": "Prospect",
+      "MWp": 22.925,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

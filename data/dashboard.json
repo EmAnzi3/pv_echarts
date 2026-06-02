@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 142,
-    "mwp": 6197.794,
+    "projects": 143,
+    "mwp": 6217.065,
     "same_branch": 25,
-    "different_branch": 117,
-    "different_pct": 82.4,
+    "different_branch": 118,
+    "different_pct": 82.5,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -425,6 +425,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Brescia",
+      "N. progetti": 1,
+      "MWp": 19.27,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Napoli",
       "N. progetti": 1,
@@ -840,6 +847,13 @@
       "Clienti unici": 1
     },
     {
+      "Provincia cantiere": "Brescia",
+      "Regione cantiere": "Lombardia",
+      "N. progetti": 1,
+      "MWp": 19.27,
+      "Clienti unici": 1
+    },
+    {
       "Provincia cantiere": "Rieti",
       "Regione cantiere": "Lazio",
       "N. progetti": 2,
@@ -899,9 +913,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 49,
-      "Progetti": 55,
-      "MWp": 2347.374
+      "Clienti": 50,
+      "Progetti": 56,
+      "MWp": 2366.644
     },
     {
       "Provincia": "Roma",
@@ -1230,6 +1244,12 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cantiere": "Brescia",
+      "N. progetti": 1,
+      "MWp": 19.27,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cantiere": "Frosinone",
       "N. progetti": 1,
       "MWp": 18.419,
@@ -1257,9 +1277,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 37,
-      "MWp": 1471.69,
-      "Clienti unici": 33
+      "N. progetti": 38,
+      "MWp": 1490.96,
+      "Clienti unici": 34
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -1818,6 +1838,13 @@
       "Filiale cantiere": "Cosenza",
       "N. progetti": 1,
       "MWp": 19.5,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Brescia",
+      "N. progetti": 1,
+      "MWp": 19.27,
       "Clienti unici": 1
     },
     {
@@ -2924,6 +2951,14 @@
       "Potenza MWp": 2.0
     },
     {
+      "Regione cantiere": "Lombardia",
+      "Provincia cantiere": "Brescia",
+      "Comune cantiere": "Lonato del Garda",
+      "Cliente progetto": "LIO ENERGY BUBO SRL",
+      "Progetto": "PV Lonato del Garda",
+      "Potenza MWp": 19.27
+    },
+    {
       "Regione cantiere": "Calabria",
       "Provincia cantiere": "Crotone",
       "Comune cantiere": "Crotone",
@@ -3939,6 +3974,13 @@
       "Cliente progetto": "MGM SOLAR SRL",
       "Progetto": "PV Cento",
       "Potenza MWp": 2.0
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Brescia",
+      "Cliente progetto": "LIO ENERGY BUBO SRL",
+      "Progetto": "PV Lonato del Garda",
+      "Potenza MWp": 19.27
     },
     {
       "Filiale cliente": "Bologna",
@@ -6384,6 +6426,25 @@
       "Indirizzo sede": "STRADA STATALE 28 SUD 14",
       "Tipo account": "Prospect",
       "MWp": 2.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "LIO ENERGY BUBO SRL",
+      "Cliente report": "LIO ENERGY BUBO SRL",
+      "Progetto": "PV Lonato del Garda",
+      "Regione cantiere": "Lombardia",
+      "Provincia cantiere": "Brescia",
+      "Comune cantiere": "Lonato del Garda",
+      "Area cantiere": "Nord Ovest",
+      "Filiale cantiere": "Brescia",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA ARRIGO BOITO 8",
+      "Tipo account": "Prospect",
+      "MWp": 19.27,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

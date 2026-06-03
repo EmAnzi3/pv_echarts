@@ -80,6 +80,8 @@
             <select id="priorityClientFilter" aria-label="Filtro filiale cliente"></select>
             <select id="priorityProjectFilter" aria-label="Filtro filiale progetto"></select>
             <select id="priorityProvinceFilter" aria-label="Filtro provincia progetto"></select>
+            <button class="btn" type="button" data-export-table="priorityTable" data-export-format="csv" data-export-name="casi_interfiliale_prioritari">Export CSV</button>
+            <button class="btn" type="button" data-export-table="priorityTable" data-export-format="xls" data-export-name="casi_interfiliale_prioritari">Export Excel</button>
           </div>
           <div class="table-wrap"><table id="priorityTable"></table></div>
         </div>
@@ -93,6 +95,8 @@
             <select id="detailClientFilter" aria-label="Filtro filiale cliente"></select>
             <select id="detailProjectFilter" aria-label="Filtro filiale progetto"></select>
             <select id="detailProvinceFilter" aria-label="Filtro provincia progetto"></select>
+            <button class="btn" type="button" data-export-table="detailsTable" data-export-format="csv" data-export-name="dettaglio_progetti">Export CSV</button>
+            <button class="btn" type="button" data-export-table="detailsTable" data-export-format="xls" data-export-name="dettaglio_progetti">Export Excel</button>
           </div>
           <div class="table-wrap"><table id="detailsTable"></table></div>
         </div>
@@ -104,5 +108,55 @@
     <p>Dati aggiornati sulla base delle informazioni disponibili. I valori sono espressi in MWp ove indicato.</p>
   </footer>
   <script src="assets/js/app.js"></script>
+  <script>
+    function tableToMatrix(tableId){
+      const table = document.getElementById(tableId);
+      if(!table) return [];
+      return Array.from(table.querySelectorAll('tr')).map(row =>
+        Array.from(row.querySelectorAll('th,td')).map(cell => cell.innerText.trim().replace(/\s+/g, ' '))
+      );
+    }
+
+    function safeFileName(name){
+      const date = new Date().toISOString().slice(0, 10);
+      return `${String(name || 'export').toLowerCase().replace(/[^a-z0-9_-]+/g, '_')}_${date}`;
+    }
+
+    function downloadBlob(content, filename, type){
+      const blob = new Blob([content], {type});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    function exportTableCsv(tableId, name){
+      const rows = tableToMatrix(tableId);
+      if(rows.length === 0) return;
+      const csv = rows.map(row => row.map(value => `"${String(value).replace(/"/g, '""')}"`).join(';')).join('\n');
+      downloadBlob('\ufeff' + csv, `${safeFileName(name)}.csv`, 'text/csv;charset=utf-8;');
+    }
+
+    function exportTableXls(tableId, name){
+      const table = document.getElementById(tableId);
+      if(!table) return;
+      const html = `<!doctype html><html><head><meta charset="utf-8"></head><body>${table.outerHTML}</body></html>`;
+      downloadBlob(html, `${safeFileName(name)}.xls`, 'application/vnd.ms-excel;charset=utf-8;');
+    }
+
+    document.querySelectorAll('[data-export-table]').forEach(button => {
+      button.addEventListener('click', () => {
+        const tableId = button.dataset.exportTable;
+        const name = button.dataset.exportName;
+        const format = button.dataset.exportFormat;
+        if(format === 'xls') exportTableXls(tableId, name);
+        else exportTableCsv(tableId, name);
+      });
+    });
+  </script>
 </body>
 </html>

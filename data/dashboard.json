@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 143,
-    "mwp": 6217.065,
+    "projects": 145,
+    "mwp": 6268.015,
     "same_branch": 25,
-    "different_branch": 118,
-    "different_pct": 82.5,
+    "different_branch": 120,
+    "different_pct": 82.8,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -363,6 +363,13 @@
     },
     {
       "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 1,
+      "MWp": 26.95,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Roma Aurelia",
       "Filiale cantiere": "Firenze",
       "N. progetti": 1,
       "MWp": 26.6,
@@ -373,6 +380,13 @@
       "Filiale cantiere": "Bologna",
       "N. progetti": 1,
       "MWp": 24.95,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Sassuolo",
+      "N. progetti": 1,
+      "MWp": 24.0,
       "Clienti unici": 1
     },
     {
@@ -672,6 +686,13 @@
       "Clienti unici": 2
     },
     {
+      "Provincia cantiere": "Modena",
+      "Regione cantiere": "Emilia-Romagna",
+      "N. progetti": 3,
+      "MWp": 128.01,
+      "Clienti unici": 3
+    },
+    {
       "Provincia cantiere": "Ragusa",
       "Regione cantiere": "Sicilia",
       "N. progetti": 2,
@@ -679,11 +700,11 @@
       "Clienti unici": 2
     },
     {
-      "Provincia cantiere": "Modena",
+      "Provincia cantiere": "Ferrara",
       "Regione cantiere": "Emilia-Romagna",
-      "N. progetti": 2,
-      "MWp": 104.01,
-      "Clienti unici": 2
+      "N. progetti": 5,
+      "MWp": 114.8,
+      "Clienti unici": 5
     },
     {
       "Provincia cantiere": "Oristano",
@@ -691,13 +712,6 @@
       "N. progetti": 2,
       "MWp": 93.46,
       "Clienti unici": 2
-    },
-    {
-      "Provincia cantiere": "Ferrara",
-      "Regione cantiere": "Emilia-Romagna",
-      "N. progetti": 4,
-      "MWp": 87.85,
-      "Clienti unici": 4
     },
     {
       "Provincia cantiere": "Torino",
@@ -913,15 +927,15 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 50,
-      "Progetti": 56,
-      "MWp": 2366.644
+      "Clienti": 51,
+      "Progetti": 57,
+      "MWp": 2390.644
     },
     {
       "Provincia": "Roma",
-      "Clienti": 20,
-      "Progetti": 21,
-      "MWp": 767.684
+      "Clienti": 21,
+      "Progetti": 22,
+      "MWp": 794.634
     },
     {
       "Provincia": "Bolzano/Bozen",
@@ -1125,9 +1139,9 @@
     },
     {
       "Filiale cantiere": "Bologna",
-      "N. progetti": 9,
-      "MWp": 250.657,
-      "Clienti unici": 9
+      "N. progetti": 10,
+      "MWp": 277.607,
+      "Clienti unici": 10
     },
     {
       "Filiale cantiere": "Napoli",
@@ -1172,16 +1186,16 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cantiere": "Sassuolo",
+      "N. progetti": 3,
+      "MWp": 128.01,
+      "Clienti unici": 3
+    },
+    {
       "Filiale cantiere": "Salerno",
       "N. progetti": 3,
       "MWp": 62.765,
       "Clienti unici": 3
-    },
-    {
-      "Filiale cantiere": "Sassuolo",
-      "N. progetti": 2,
-      "MWp": 104.01,
-      "Clienti unici": 2
     },
     {
       "Filiale cantiere": "Roma Aurelia",
@@ -1277,9 +1291,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 38,
-      "MWp": 1490.96,
-      "Clienti unici": 34
+      "N. progetti": 39,
+      "MWp": 1514.96,
+      "Clienti unici": 35
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -1301,9 +1315,9 @@
     },
     {
       "Filiale cliente": "Roma Aurelia",
-      "N. progetti": 9,
-      "MWp": 437.942,
-      "Clienti unici": 8
+      "N. progetti": 10,
+      "MWp": 464.892,
+      "Clienti unici": 9
     },
     {
       "Filiale cliente": "Bologna",
@@ -1779,6 +1793,13 @@
     },
     {
       "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 1,
+      "MWp": 26.95,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Roma Aurelia",
       "Filiale cantiere": "Firenze",
       "N. progetti": 1,
       "MWp": 26.6,
@@ -1789,6 +1810,13 @@
       "Filiale cantiere": "Bologna",
       "N. progetti": 1,
       "MWp": 24.95,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Sassuolo",
+      "N. progetti": 1,
+      "MWp": 24.0,
       "Clienti unici": 1
     },
     {
@@ -2703,6 +2731,14 @@
       "Potenza MWp": 47.47
     },
     {
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Modena",
+      "Comune cantiere": "Novi di Modena",
+      "Cliente progetto": "LIO ENERGY TAURUS SRL",
+      "Progetto": "PV Novi di Modena",
+      "Potenza MWp": 24.0
+    },
+    {
       "Regione cantiere": "Marche",
       "Provincia cantiere": "Ancona",
       "Comune cantiere": "Chiaravalle",
@@ -2949,6 +2985,14 @@
       "Cliente progetto": "MGM SOLAR SRL",
       "Progetto": "PV Cento",
       "Potenza MWp": 2.0
+    },
+    {
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Ferrara",
+      "Comune cantiere": "Ferrara",
+      "Cliente progetto": "TEP RENEWABLES (FERRARA PV) SRL",
+      "Progetto": "Spinazzino",
+      "Potenza MWp": 26.95
     },
     {
       "Regione cantiere": "Lombardia",
@@ -3759,6 +3803,13 @@
       "Potenza MWp": 47.47
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Sassuolo",
+      "Cliente progetto": "LIO ENERGY TAURUS SRL",
+      "Progetto": "PV Novi di Modena",
+      "Potenza MWp": 24.0
+    },
+    {
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Rimini",
       "Cliente progetto": "BLUSOLAR CHIARAVALLE 1 SRL",
@@ -3974,6 +4025,13 @@
       "Cliente progetto": "MGM SOLAR SRL",
       "Progetto": "PV Cento",
       "Potenza MWp": 2.0
+    },
+    {
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Bologna",
+      "Cliente progetto": "TEP RENEWABLES (FERRARA PV) SRL",
+      "Progetto": "Spinazzino",
+      "Potenza MWp": 26.95
     },
     {
       "Filiale cliente": "Milano Sud",
@@ -5842,6 +5900,25 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "LIO ENERGY TAURUS SRL",
+      "Cliente report": "LIO ENERGY TAURUS SRL",
+      "Progetto": "PV Novi di Modena",
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Modena",
+      "Comune cantiere": "Novi di Modena",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Sassuolo",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA ARRIGO BOITO 8",
+      "Tipo account": "Prospect",
+      "MWp": 24.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "BLUSOLAR CHIARAVALLE 1 SRL",
       "Cliente report": "BLUSOLAR CHIARAVALLE 1 SRL",
       "Progetto": "Blusolar Chiaravalle",
@@ -6426,6 +6503,25 @@
       "Indirizzo sede": "STRADA STATALE 28 SUD 14",
       "Tipo account": "Prospect",
       "MWp": 2.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "TEP RENEWABLES (FERRARA PV) SRL",
+      "Cliente report": "TEP RENEWABLES (FERRARA PV) SRL",
+      "Progetto": "Spinazzino",
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Ferrara",
+      "Comune cantiere": "Ferrara",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Bologna",
+      "Filiale cliente": "Roma Aurelia",
+      "Provincia sede": "Roma",
+      "Comune sede": "ROMA",
+      "Indirizzo sede": "VIA BENEDETTO CROCE 19",
+      "Tipo account": "Prospect",
+      "MWp": 26.95,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

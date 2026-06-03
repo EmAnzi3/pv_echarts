@@ -2,4 +2,4 @@
 
 #geoRegionFilter,#branchFilter{min-width:220px;font-weight:600}
 #geoRegionFilter,#branchFilter{min-width:220px;font-weight:700;border:2px solid #111827;border-radius:10px;padding:9px 12px;background:#fff}.viz.short{height:530px}#treemapGeo svg,#treemapBranches svg{display:block}.cell text{pointer-events:none}
-.table-controls{gap:8px;margin-bottom:14px}.table-controls select{min-width:160px;max-width:210px}.table-controls input{flex:1 1 230px}@media(max-width:900px){.table-controls select,.table-controls input{width:100%;max-width:none}}
+.table-controls{gap:8px;margin-bottom:14px}.table-controls select{min-width:160px;max-width:210px}.table-controls input{flex:1 1 230px}.btn[data-export-table]{background:var(--accent2);border-color:var(--accent2);color:#fff;box-shadow:0 8px 18px rgba(35,116,171,.22)}.btn[data-export-format="xls"]{background:var(--ok);border-color:var(--ok);box-shadow:0 8px 18px rgba(6,118,71,.22)}.btn[data-export-table]:hover{filter:brightness(.94);transform:translateY(-1px)}@media(max-width:900px){.table-controls select,.table-controls input{width:100%;max-width:none}}

@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 145,
-    "mwp": 6268.015,
+    "projects": 146,
+    "mwp": 6288.166,
     "same_branch": 25,
-    "different_branch": 120,
-    "different_pct": 82.8,
+    "different_branch": 121,
+    "different_pct": 82.9,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -12,18 +12,18 @@
   },
   "flows": [
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Catania",
+      "N. progetti": 9,
+      "MWp": 713.56,
+      "Clienti unici": 9
+    },
+    {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Catania",
       "N. progetti": 6,
       "MWp": 701.95,
       "Clienti unici": 6
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Catania",
-      "N. progetti": 8,
-      "MWp": 693.06,
-      "Clienti unici": 8
     },
     {
       "Filiale cliente": "Catania",
@@ -92,7 +92,7 @@
       "Filiale cliente": "Milano Nord",
       "Filiale cantiere": "Bologna",
       "N. progetti": 2,
-      "MWp": 115.1,
+      "MWp": 114.751,
       "Clienti unici": 2
     },
     {
@@ -597,9 +597,9 @@
     {
       "Provincia cantiere": "Palermo",
       "Regione cantiere": "Sicilia",
-      "N. progetti": 8,
-      "MWp": 625.74,
-      "Clienti unici": 8
+      "N. progetti": 9,
+      "MWp": 646.24,
+      "Clienti unici": 9
     },
     {
       "Provincia cantiere": "Foggia",
@@ -703,7 +703,7 @@
       "Provincia cantiere": "Ferrara",
       "Regione cantiere": "Emilia-Romagna",
       "N. progetti": 5,
-      "MWp": 114.8,
+      "MWp": 114.451,
       "Clienti unici": 5
     },
     {
@@ -927,9 +927,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 51,
-      "Progetti": 57,
-      "MWp": 2390.644
+      "Clienti": 52,
+      "Progetti": 58,
+      "MWp": 2410.796
     },
     {
       "Provincia": "Roma",
@@ -1133,14 +1133,14 @@
     },
     {
       "Filiale cantiere": "Catania",
-      "N. progetti": 34,
-      "MWp": 2640.31,
-      "Clienti unici": 33
+      "N. progetti": 35,
+      "MWp": 2660.81,
+      "Clienti unici": 34
     },
     {
       "Filiale cantiere": "Bologna",
       "N. progetti": 10,
-      "MWp": 277.607,
+      "MWp": 277.258,
       "Clienti unici": 10
     },
     {
@@ -1291,9 +1291,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 39,
-      "MWp": 1514.96,
-      "Clienti unici": 35
+      "N. progetti": 40,
+      "MWp": 1535.46,
+      "Clienti unici": 36
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -1304,7 +1304,7 @@
     {
       "Filiale cliente": "Milano Nord",
       "N. progetti": 12,
-      "MWp": 574.01,
+      "MWp": 573.661,
       "Clienti unici": 10
     },
     {
@@ -1442,18 +1442,18 @@
   ],
   "heatmap_filiali": [
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Catania",
+      "N. progetti": 9,
+      "MWp": 713.56,
+      "Clienti unici": 9
+    },
+    {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Catania",
       "N. progetti": 6,
       "MWp": 701.95,
       "Clienti unici": 6
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Catania",
-      "N. progetti": 8,
-      "MWp": 693.06,
-      "Clienti unici": 8
     },
     {
       "Filiale cliente": "Catania",
@@ -1522,7 +1522,7 @@
       "Filiale cliente": "Milano Nord",
       "Filiale cantiere": "Bologna",
       "N. progetti": 2,
-      "MWp": 115.1,
+      "MWp": 114.751,
       "Clienti unici": 2
     },
     {
@@ -2347,6 +2347,14 @@
       "Potenza MWp": 50.65
     },
     {
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Palermo",
+      "Comune cantiere": "Monreale",
+      "Cliente progetto": "CONTOURGLOBAL AUGIA SRL",
+      "Progetto": "Limes 21",
+      "Potenza MWp": 20.5
+    },
+    {
       "Regione cantiere": "Puglia",
       "Provincia cantiere": "Lecce",
       "Comune cantiere": "Nardò",
@@ -2944,7 +2952,7 @@
       "Comune cantiere": "Vigarano Mainarda",
       "Cliente progetto": "EPSILON TORO SRL",
       "Progetto": "VIGARANO MAINARDA",
-      "Potenza MWp": 26.1
+      "Potenza MWp": 25.751
     },
     {
       "Regione cantiere": "Emilia-Romagna",
@@ -3465,6 +3473,13 @@
       "Cliente progetto": "HF SOLAR 4 SRL",
       "Progetto": "Ramacca",
       "Potenza MWp": 50.65
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Catania",
+      "Cliente progetto": "CONTOURGLOBAL AUGIA SRL",
+      "Progetto": "Limes 21",
+      "Potenza MWp": 20.5
     },
     {
       "Filiale cliente": "Bologna",
@@ -3989,7 +4004,7 @@
       "Filiale cantiere": "Bologna",
       "Cliente progetto": "EPSILON TORO SRL",
       "Progetto": "VIGARANO MAINARDA",
-      "Potenza MWp": 26.1
+      "Potenza MWp": 25.751
     },
     {
       "Filiale cliente": "Torino",
@@ -4983,6 +4998,25 @@
       "Indirizzo sede": "VIA GIACOMO LEOPARDI 7",
       "Tipo account": "Prospect",
       "MWp": 50.65,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "CONTOURGLOBAL AUGIA SRL",
+      "Cliente report": "CONTOURGLOBAL AUGIA SRL",
+      "Progetto": "Limes 21",
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Palermo",
+      "Comune cantiere": "Monreale",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Catania",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA GAETANO NEGRI 4",
+      "Tipo account": "Prospect",
+      "MWp": 20.5,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
@@ -6407,7 +6441,7 @@
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA BERNINA 7",
       "Tipo account": "Prospect",
-      "MWp": 26.1,
+      "MWp": 25.751,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

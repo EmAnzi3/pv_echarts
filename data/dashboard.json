@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 153,
-    "mwp": 6818.364,
+    "projects": 154,
+    "mwp": 6818.363,
     "same_branch": 26,
-    "different_branch": 127,
-    "different_pct": 83.0,
+    "different_branch": 128,
+    "different_pct": 83.1,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -584,6 +584,13 @@
       "N. progetti": 1,
       "MWp": 0.5,
       "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Verona",
+      "N. progetti": 1,
+      "MWp": 0.0,
+      "Clienti unici": 1
     }
   ],
   "province_cantieri": [
@@ -929,13 +936,20 @@
       "N. progetti": 1,
       "MWp": 0.0,
       "Clienti unici": 1
+    },
+    {
+      "Provincia cantiere": "Verona",
+      "Regione cantiere": "Veneto",
+      "N. progetti": 1,
+      "MWp": 0.0,
+      "Clienti unici": 1
     }
   ],
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 55,
-      "Progetti": 61,
+      "Clienti": 56,
+      "Progetti": 62,
       "MWp": 2535.524
     },
     {
@@ -1241,6 +1255,12 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cantiere": "Verona",
+      "N. progetti": 2,
+      "MWp": 13.56,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cantiere": "Lucca",
       "N. progetti": 2,
       "MWp": 7.2,
@@ -1277,12 +1297,6 @@
       "Clienti unici": 1
     },
     {
-      "Filiale cantiere": "Verona",
-      "N. progetti": 1,
-      "MWp": 13.56,
-      "Clienti unici": 1
-    },
-    {
       "Filiale cantiere": "Milano Nord",
       "N. progetti": 1,
       "MWp": 7.2,
@@ -1298,9 +1312,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 42,
+      "N. progetti": 43,
       "MWp": 1616.152,
-      "Clienti unici": 38
+      "Clienti unici": 39
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -2021,6 +2035,13 @@
       "N. progetti": 1,
       "MWp": 0.5,
       "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Verona",
+      "N. progetti": 1,
+      "MWp": 0.0,
+      "Clienti unici": 1
     }
   ],
   "treemap_geografica": [
@@ -2047,6 +2068,14 @@
       "Cliente progetto": "PACIFICO TOPAZIO SRL",
       "Progetto": "PV San Giorgio Bigarello",
       "Potenza MWp": 13.56
+    },
+    {
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Verona",
+      "Comune cantiere": "Castagnaro",
+      "Cliente progetto": "AG 31 SRL",
+      "Progetto": "PV Castagnaro",
+      "Potenza MWp": 0.0
     },
     {
       "Regione cantiere": "Toscana",
@@ -3272,6 +3301,13 @@
       "Potenza MWp": 13.56
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Verona",
+      "Cliente progetto": "AG 31 SRL",
+      "Progetto": "PV Castagnaro",
+      "Potenza MWp": 0.0
+    },
+    {
       "Filiale cliente": "Bergamo",
       "Filiale cantiere": "Livorno",
       "Cliente progetto": "ECOPIU SRL",
@@ -4376,6 +4412,25 @@
       "Indirizzo sede": "PIAZZA WALTHER VON DER VOGELWEIDE 8",
       "Tipo account": "Prospect",
       "MWp": 13.56,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "AG 31 SRL",
+      "Cliente report": "AG 31 SRL",
+      "Progetto": "PV Castagnaro",
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Verona",
+      "Comune cantiere": "Castagnaro",
+      "Area cantiere": "Nord Est",
+      "Filiale cantiere": "Verona",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "PIAZZALE LUIGI CADORNA 6",
+      "Tipo account": "Prospect",
+      "MWp": 0.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

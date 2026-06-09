@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 154,
-    "mwp": 6818.363,
+    "projects": 155,
+    "mwp": 6861.06,
     "same_branch": 26,
-    "different_branch": 128,
-    "different_pct": 83.1,
+    "different_branch": 129,
+    "different_pct": 83.2,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -173,6 +173,13 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 2,
+      "MWp": 68.097,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Milano Ovest",
       "Filiale cantiere": "Milano Ovest",
       "N. progetti": 1,
@@ -296,13 +303,6 @@
       "Filiale cantiere": "Roma Aurelia",
       "N. progetti": 1,
       "MWp": 43.65,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Bolzano",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 1,
-      "MWp": 42.3,
       "Clienti unici": 1
     },
     {
@@ -474,6 +474,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Verona",
+      "N. progetti": 1,
+      "MWp": 16.9,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Venezia",
       "Filiale cantiere": "Bari",
       "N. progetti": 1,
@@ -584,13 +591,6 @@
       "N. progetti": 1,
       "MWp": 0.5,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Verona",
-      "N. progetti": 1,
-      "MWp": 0.0,
-      "Clienti unici": 1
     }
   ],
   "province_cantieri": [
@@ -625,9 +625,9 @@
     {
       "Provincia cantiere": "Foggia",
       "Regione cantiere": "Puglia",
-      "N. progetti": 8,
-      "MWp": 472.83,
-      "Clienti unici": 8
+      "N. progetti": 9,
+      "MWp": 498.627,
+      "Clienti unici": 9
     },
     {
       "Provincia cantiere": "Lecce",
@@ -889,6 +889,13 @@
       "Clienti unici": 1
     },
     {
+      "Provincia cantiere": "Verona",
+      "Regione cantiere": "Veneto",
+      "N. progetti": 1,
+      "MWp": 16.9,
+      "Clienti unici": 1
+    },
+    {
       "Provincia cantiere": "Mantova",
       "Regione cantiere": "Lombardia",
       "N. progetti": 1,
@@ -936,13 +943,6 @@
       "N. progetti": 1,
       "MWp": 0.0,
       "Clienti unici": 1
-    },
-    {
-      "Provincia cantiere": "Verona",
-      "Regione cantiere": "Veneto",
-      "N. progetti": 1,
-      "MWp": 0.0,
-      "Clienti unici": 1
     }
   ],
   "province_clienti": [
@@ -950,7 +950,7 @@
       "Provincia": "Milano",
       "Clienti": 56,
       "Progetti": 62,
-      "MWp": 2535.524
+      "MWp": 2552.424
     },
     {
       "Provincia": "Roma",
@@ -960,9 +960,9 @@
     },
     {
       "Provincia": "Bolzano/Bozen",
-      "Clienti": 10,
-      "Progetti": 10,
-      "MWp": 811.607
+      "Clienti": 11,
+      "Progetti": 11,
+      "MWp": 837.404
     },
     {
       "Provincia": "Bologna",
@@ -1148,9 +1148,9 @@
   "top_cantiere": [
     {
       "Filiale cantiere": "Bari",
-      "N. progetti": 41,
-      "MWp": 1702.259,
-      "Clienti unici": 39
+      "N. progetti": 42,
+      "MWp": 1728.056,
+      "Clienti unici": 40
     },
     {
       "Filiale cantiere": "Catania",
@@ -1257,7 +1257,7 @@
     {
       "Filiale cantiere": "Verona",
       "N. progetti": 2,
-      "MWp": 13.56,
+      "MWp": 30.46,
       "Clienti unici": 2
     },
     {
@@ -1313,7 +1313,7 @@
     {
       "Filiale cliente": "Milano Sud",
       "N. progetti": 43,
-      "MWp": 1616.152,
+      "MWp": 1633.052,
       "Clienti unici": 39
     },
     {
@@ -1329,15 +1329,15 @@
       "Clienti unici": 11
     },
     {
+      "Filiale cliente": "Bolzano",
+      "N. progetti": 11,
+      "MWp": 837.404,
+      "Clienti unici": 11
+    },
+    {
       "Filiale cliente": "Roma Aurelia",
       "N. progetti": 11,
       "MWp": 511.282,
-      "Clienti unici": 10
-    },
-    {
-      "Filiale cliente": "Bolzano",
-      "N. progetti": 10,
-      "MWp": 811.607,
       "Clienti unici": 10
     },
     {
@@ -1624,6 +1624,13 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 2,
+      "MWp": 68.097,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Milano Ovest",
       "Filiale cantiere": "Milano Ovest",
       "N. progetti": 1,
@@ -1747,13 +1754,6 @@
       "Filiale cantiere": "Roma Aurelia",
       "N. progetti": 1,
       "MWp": 43.65,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Bolzano",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 1,
-      "MWp": 42.3,
       "Clienti unici": 1
     },
     {
@@ -1925,6 +1925,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Verona",
+      "N. progetti": 1,
+      "MWp": 16.9,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Venezia",
       "Filiale cantiere": "Bari",
       "N. progetti": 1,
@@ -2035,13 +2042,6 @@
       "N. progetti": 1,
       "MWp": 0.5,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Verona",
-      "N. progetti": 1,
-      "MWp": 0.0,
-      "Clienti unici": 1
     }
   ],
   "treemap_geografica": [
@@ -2075,7 +2075,7 @@
       "Comune cantiere": "Castagnaro",
       "Cliente progetto": "AG 31 SRL",
       "Progetto": "PV Castagnaro",
-      "Potenza MWp": 0.0
+      "Potenza MWp": 16.9
     },
     {
       "Regione cantiere": "Toscana",
@@ -2742,6 +2742,14 @@
       "Potenza MWp": 291.33
     },
     {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Foggia",
+      "Comune cantiere": "San Severo",
+      "Cliente progetto": "APOLLO FOGGIA SRL",
+      "Progetto": "SAN SEVERO PLUS 22",
+      "Potenza MWp": 25.797
+    },
+    {
       "Regione cantiere": "Lazio",
       "Provincia cantiere": "Roma",
       "Comune cantiere": "Velletri",
@@ -3305,7 +3313,7 @@
       "Filiale cantiere": "Verona",
       "Cliente progetto": "AG 31 SRL",
       "Progetto": "PV Castagnaro",
-      "Potenza MWp": 0.0
+      "Potenza MWp": 16.9
     },
     {
       "Filiale cliente": "Bergamo",
@@ -3889,6 +3897,13 @@
       "Potenza MWp": 291.33
     },
     {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "APOLLO FOGGIA SRL",
+      "Progetto": "SAN SEVERO PLUS 22",
+      "Potenza MWp": 25.797
+    },
+    {
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Roma Aurelia",
       "Cliente progetto": "ICA REN ELF SRL",
@@ -4430,7 +4445,7 @@
       "Comune sede": "MILANO",
       "Indirizzo sede": "PIAZZALE LUIGI CADORNA 6",
       "Tipo account": "Prospect",
-      "MWp": 0.0,
+      "MWp": 16.9,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
@@ -6011,6 +6026,25 @@
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "STESSA FILIALE"
+    },
+    {
+      "Cliente": "APOLLO FOGGIA SRL",
+      "Cliente report": "APOLLO FOGGIA SRL",
+      "Progetto": "SAN SEVERO PLUS 22",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Foggia",
+      "Comune cantiere": "San Severo",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Bolzano",
+      "Provincia sede": "Bolzano/Bozen",
+      "Comune sede": "BOLZANO",
+      "Indirizzo sede": "VIALE DELLA STAZIONE 8",
+      "Tipo account": "Prospect",
+      "MWp": 25.797,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
     },
     {
       "Cliente": "ICA REN ELF SRL",

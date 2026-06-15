@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 164,
-    "mwp": 7226.966,
+    "projects": 169,
+    "mwp": 7467.033,
     "same_branch": 26,
-    "different_branch": 138,
-    "different_pct": 84.1,
+    "different_branch": 143,
+    "different_pct": 84.6,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -107,6 +107,13 @@
       "Filiale cantiere": "Napoli",
       "N. progetti": 3,
       "MWp": 107.58,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Udine",
+      "N. progetti": 1,
+      "MWp": 96.09,
       "Clienti unici": 1
     },
     {
@@ -299,6 +306,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Brescia",
+      "Filiale cantiere": "Verona",
+      "N. progetti": 1,
+      "MWp": 47.9,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Milano Nord",
       "Filiale cantiere": "Sassuolo",
       "N. progetti": 1,
@@ -327,10 +341,24 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Cagliari",
+      "N. progetti": 1,
+      "MWp": 41.758,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Roma Aurelia",
       "Filiale cantiere": "Milano Sud",
       "N. progetti": 1,
       "MWp": 40.31,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Padova",
+      "N. progetti": 1,
+      "MWp": 36.32,
       "Clienti unici": 1
     },
     {
@@ -499,6 +527,13 @@
       "Filiale cantiere": "Frosinone",
       "N. progetti": 1,
       "MWp": 18.419,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Ovest",
+      "Filiale cantiere": "Torino",
+      "N. progetti": 1,
+      "MWp": 18.0,
       "Clienti unici": 1
     },
     {
@@ -672,6 +707,13 @@
       "Clienti unici": 4
     },
     {
+      "Provincia cantiere": "Rovigo",
+      "Regione cantiere": "Veneto",
+      "N. progetti": 3,
+      "MWp": 194.32,
+      "Clienti unici": 3
+    },
+    {
       "Provincia cantiere": "Matera",
       "Regione cantiere": "Basilicata",
       "N. progetti": 9,
@@ -698,13 +740,6 @@
       "N. progetti": 3,
       "MWp": 165.612,
       "Clienti unici": 3
-    },
-    {
-      "Provincia cantiere": "Rovigo",
-      "Regione cantiere": "Veneto",
-      "N. progetti": 2,
-      "MWp": 158.0,
-      "Clienti unici": 2
     },
     {
       "Provincia cantiere": "Caserta",
@@ -763,6 +798,13 @@
       "Clienti unici": 3
     },
     {
+      "Provincia cantiere": "Pordenone",
+      "Regione cantiere": "Friuli-Venezia Giulia",
+      "N. progetti": 1,
+      "MWp": 96.09,
+      "Clienti unici": 1
+    },
+    {
       "Provincia cantiere": "Oristano",
       "Regione cantiere": "Sardegna",
       "N. progetti": 2,
@@ -812,6 +854,13 @@
       "Clienti unici": 1
     },
     {
+      "Provincia cantiere": "Verona",
+      "Regione cantiere": "Veneto",
+      "N. progetti": 2,
+      "MWp": 64.8,
+      "Clienti unici": 2
+    },
+    {
       "Provincia cantiere": "Potenza",
       "Regione cantiere": "Basilicata",
       "N. progetti": 3,
@@ -858,6 +907,13 @@
       "Regione cantiere": "Lazio",
       "N. progetti": 1,
       "MWp": 43.65,
+      "Clienti unici": 1
+    },
+    {
+      "Provincia cantiere": "Cagliari",
+      "Regione cantiere": "Sardegna",
+      "N. progetti": 1,
+      "MWp": 41.758,
       "Clienti unici": 1
     },
     {
@@ -910,17 +966,17 @@
       "Clienti unici": 1
     },
     {
+      "Provincia cantiere": "Biella",
+      "Regione cantiere": "Piemonte",
+      "N. progetti": 1,
+      "MWp": 18.0,
+      "Clienti unici": 1
+    },
+    {
       "Provincia cantiere": "Rieti",
       "Regione cantiere": "Lazio",
       "N. progetti": 2,
       "MWp": 17.0,
-      "Clienti unici": 1
-    },
-    {
-      "Provincia cantiere": "Verona",
-      "Regione cantiere": "Veneto",
-      "N. progetti": 1,
-      "MWp": 16.9,
       "Clienti unici": 1
     },
     {
@@ -981,21 +1037,21 @@
     },
     {
       "Provincia": "Bolzano/Bozen",
-      "Clienti": 11,
-      "Progetti": 11,
-      "MWp": 837.404
+      "Clienti": 12,
+      "Progetti": 12,
+      "MWp": 933.494
+    },
+    {
+      "Provincia": "Torino",
+      "Clienti": 7,
+      "Progetti": 7,
+      "MWp": 316.035
     },
     {
       "Provincia": "Bologna",
       "Clienti": 7,
       "Progetti": 9,
       "MWp": 282.984
-    },
-    {
-      "Provincia": "Torino",
-      "Clienti": 5,
-      "Progetti": 5,
-      "MWp": 237.957
     },
     {
       "Provincia": "Palermo",
@@ -1026,6 +1082,12 @@
       "Clienti": 2,
       "Progetti": 2,
       "MWp": 148.3
+    },
+    {
+      "Provincia": "Brescia",
+      "Clienti": 2,
+      "Progetti": 2,
+      "MWp": 113.0
     },
     {
       "Provincia": "Catania",
@@ -1080,12 +1142,6 @@
       "Clienti": 1,
       "Progetti": 1,
       "MWp": 75.0
-    },
-    {
-      "Provincia": "Brescia",
-      "Clienti": 1,
-      "Progetti": 1,
-      "MWp": 65.1
     },
     {
       "Provincia": "Brindisi",
@@ -1148,6 +1204,12 @@
       "MWp": 18.419
     },
     {
+      "Provincia": "Novara",
+      "Clienti": 1,
+      "Progetti": 1,
+      "MWp": 18.0
+    },
+    {
       "Provincia": "Venezia",
       "Clienti": 1,
       "Progetti": 1,
@@ -1198,10 +1260,28 @@
       "Clienti unici": 8
     },
     {
+      "Filiale cantiere": "Cagliari",
+      "N. progetti": 5,
+      "MWp": 188.733,
+      "Clienti unici": 5
+    },
+    {
+      "Filiale cantiere": "Torino",
+      "N. progetti": 5,
+      "MWp": 97.498,
+      "Clienti unici": 5
+    },
+    {
       "Filiale cantiere": "Livorno",
       "N. progetti": 5,
       "MWp": 5.9,
       "Clienti unici": 4
+    },
+    {
+      "Filiale cantiere": "Padova",
+      "N. progetti": 4,
+      "MWp": 242.82,
+      "Clienti unici": 3
     },
     {
       "Filiale cantiere": "Roma Nomentana",
@@ -1210,22 +1290,10 @@
       "Clienti unici": 3
     },
     {
-      "Filiale cantiere": "Cagliari",
+      "Filiale cantiere": "Verona",
       "N. progetti": 4,
-      "MWp": 146.975,
+      "MWp": 103.335,
       "Clienti unici": 4
-    },
-    {
-      "Filiale cantiere": "Torino",
-      "N. progetti": 4,
-      "MWp": 79.498,
-      "Clienti unici": 4
-    },
-    {
-      "Filiale cantiere": "Padova",
-      "N. progetti": 3,
-      "MWp": 206.5,
-      "Clienti unici": 2
     },
     {
       "Filiale cantiere": "Cosenza",
@@ -1258,12 +1326,6 @@
       "Clienti unici": 3
     },
     {
-      "Filiale cantiere": "Verona",
-      "N. progetti": 3,
-      "MWp": 55.435,
-      "Clienti unici": 3
-    },
-    {
       "Filiale cantiere": "Roma Aurelia",
       "N. progetti": 2,
       "MWp": 103.65,
@@ -1286,6 +1348,12 @@
       "N. progetti": 2,
       "MWp": 7.2,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cantiere": "Udine",
+      "N. progetti": 1,
+      "MWp": 96.09,
+      "Clienti unici": 1
     },
     {
       "Filiale cantiere": "Milano Ovest",
@@ -1351,15 +1419,21 @@
     },
     {
       "Filiale cliente": "Bolzano",
-      "N. progetti": 11,
-      "MWp": 837.404,
-      "Clienti unici": 11
+      "N. progetti": 12,
+      "MWp": 933.494,
+      "Clienti unici": 12
     },
     {
       "Filiale cliente": "Roma Aurelia",
       "N. progetti": 11,
       "MWp": 511.282,
       "Clienti unici": 10
+    },
+    {
+      "Filiale cliente": "Torino",
+      "N. progetti": 9,
+      "MWp": 429.56,
+      "Clienti unici": 9
     },
     {
       "Filiale cliente": "Bologna",
@@ -1380,16 +1454,10 @@
       "Clienti unici": 6
     },
     {
-      "Filiale cliente": "Torino",
-      "N. progetti": 7,
-      "MWp": 351.482,
-      "Clienti unici": 7
-    },
-    {
       "Filiale cliente": "Milano Ovest",
-      "N. progetti": 6,
-      "MWp": 362.4,
-      "Clienti unici": 5
+      "N. progetti": 7,
+      "MWp": 380.4,
+      "Clienti unici": 6
     },
     {
       "Filiale cliente": "Cuneo",
@@ -1416,6 +1484,12 @@
       "Clienti unici": 3
     },
     {
+      "Filiale cliente": "Brescia",
+      "N. progetti": 2,
+      "MWp": 113.0,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Napoli",
       "N. progetti": 2,
       "MWp": 39.75,
@@ -1438,12 +1512,6 @@
       "N. progetti": 2,
       "MWp": 23.23,
       "Clienti unici": 2
-    },
-    {
-      "Filiale cliente": "Brescia",
-      "N. progetti": 1,
-      "MWp": 65.1,
-      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Salerno",
@@ -1579,6 +1647,13 @@
       "Filiale cantiere": "Napoli",
       "N. progetti": 3,
       "MWp": 107.58,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Udine",
+      "N. progetti": 1,
+      "MWp": 96.09,
       "Clienti unici": 1
     },
     {
@@ -1771,6 +1846,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Brescia",
+      "Filiale cantiere": "Verona",
+      "N. progetti": 1,
+      "MWp": 47.9,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Milano Nord",
       "Filiale cantiere": "Sassuolo",
       "N. progetti": 1,
@@ -1799,10 +1881,24 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Cagliari",
+      "N. progetti": 1,
+      "MWp": 41.758,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Roma Aurelia",
       "Filiale cantiere": "Milano Sud",
       "N. progetti": 1,
       "MWp": 40.31,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Padova",
+      "N. progetti": 1,
+      "MWp": 36.32,
       "Clienti unici": 1
     },
     {
@@ -1974,6 +2070,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Ovest",
+      "Filiale cantiere": "Torino",
+      "N. progetti": 1,
+      "MWp": 18.0,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Venezia",
       "Filiale cantiere": "Bari",
       "N. progetti": 1,
@@ -2126,6 +2229,14 @@
       "Cliente progetto": "CUBICO NORA SRL",
       "Progetto": "Ceresara 24",
       "Potenza MWp": 24.975
+    },
+    {
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Verona",
+      "Comune cantiere": "Nogara",
+      "Cliente progetto": "TRAIANO SRL",
+      "Progetto": "PV Nogara",
+      "Potenza MWp": 47.9
     },
     {
       "Regione cantiere": "Toscana",
@@ -2873,6 +2984,14 @@
     },
     {
       "Regione cantiere": "Sardegna",
+      "Provincia cantiere": "Cagliari",
+      "Comune cantiere": "Uta",
+      "Cliente progetto": "PV ICHNOSOLAR SRL",
+      "Progetto": "Macchiareddu",
+      "Potenza MWp": 41.758
+    },
+    {
+      "Regione cantiere": "Sardegna",
       "Provincia cantiere": "Sassari",
       "Comune cantiere": "Porto Torres",
       "Cliente progetto": "ENI PLENITUDE RENEWABLES ITALY SPA",
@@ -3312,6 +3431,14 @@
       "Potenza MWp": 84.3
     },
     {
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Rovigo",
+      "Comune cantiere": "Lendinara",
+      "Cliente progetto": "FLYSUN 5 SRL",
+      "Progetto": "Lendinara",
+      "Potenza MWp": 36.32
+    },
+    {
       "Regione cantiere": "Emilia-Romagna",
       "Provincia cantiere": "Piacenza",
       "Comune cantiere": "Podenzano",
@@ -3384,6 +3511,22 @@
       "Potenza MWp": 18.774
     },
     {
+      "Regione cantiere": "Piemonte",
+      "Provincia cantiere": "Biella",
+      "Comune cantiere": "Masserano",
+      "Cliente progetto": "SEGNALETICA NOVARESE SRL",
+      "Progetto": "PV Maserano",
+      "Potenza MWp": 18.0
+    },
+    {
+      "Regione cantiere": "Friuli-Venezia Giulia",
+      "Provincia cantiere": "Pordenone",
+      "Comune cantiere": "Maniago",
+      "Cliente progetto": "ELLOMAY SOLAR ITALY ELEVEN SRL",
+      "Progetto": "Maniago Solar 1- ELLO 11",
+      "Potenza MWp": 96.09
+    },
+    {
       "Regione cantiere": "Veneto",
       "Provincia cantiere": "Venezia",
       "Comune cantiere": "Portogruaro",
@@ -3435,6 +3578,13 @@
       "Cliente progetto": "CUBICO NORA SRL",
       "Progetto": "Ceresara 24",
       "Potenza MWp": 24.975
+    },
+    {
+      "Filiale cliente": "Brescia",
+      "Filiale cantiere": "Verona",
+      "Cliente progetto": "TRAIANO SRL",
+      "Progetto": "PV Nogara",
+      "Potenza MWp": 47.9
     },
     {
       "Filiale cliente": "Bergamo",
@@ -4088,6 +4238,13 @@
       "Potenza MWp": 33.527
     },
     {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Cagliari",
+      "Cliente progetto": "PV ICHNOSOLAR SRL",
+      "Progetto": "Macchiareddu",
+      "Potenza MWp": 41.758
+    },
+    {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Sassari",
       "Cliente progetto": "ENI PLENITUDE RENEWABLES ITALY SPA",
@@ -4473,6 +4630,13 @@
       "Potenza MWp": 84.3
     },
     {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Padova",
+      "Cliente progetto": "FLYSUN 5 SRL",
+      "Progetto": "Lendinara",
+      "Potenza MWp": 36.32
+    },
+    {
       "Filiale cliente": "Cuneo",
       "Filiale cantiere": "Parma",
       "Cliente progetto": "SCOTTA SPA",
@@ -4534,6 +4698,20 @@
       "Cliente progetto": "ECOPIEDMONT 1 SRL",
       "Progetto": "Lombardore 1 - Lombardore 2 - San Benigno 1",
       "Potenza MWp": 18.774
+    },
+    {
+      "Filiale cliente": "Milano Ovest",
+      "Filiale cantiere": "Torino",
+      "Cliente progetto": "SEGNALETICA NOVARESE SRL",
+      "Progetto": "PV Maserano",
+      "Potenza MWp": 18.0
+    },
+    {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Udine",
+      "Cliente progetto": "ELLOMAY SOLAR ITALY ELEVEN SRL",
+      "Progetto": "Maniago Solar 1- ELLO 11",
+      "Potenza MWp": 96.09
     },
     {
       "Filiale cliente": "Torino",
@@ -4642,6 +4820,25 @@
       "Indirizzo sede": "VIA AGNELLO 18",
       "Tipo account": "Prospect",
       "MWp": 24.975,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "TRAIANO SRL",
+      "Cliente report": "TRAIANO SRL",
+      "Progetto": "PV Nogara",
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Verona",
+      "Comune cantiere": "Nogara",
+      "Area cantiere": "Nord Est",
+      "Filiale cantiere": "Verona",
+      "Filiale cliente": "Brescia",
+      "Provincia sede": "Brescia",
+      "Comune sede": "SAN ZENO NAVIGLIO",
+      "Indirizzo sede": "VIA VOLTA 13",
+      "Tipo account": "Prospect",
+      "MWp": 47.9,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
@@ -6414,6 +6611,25 @@
       "Esito": "STESSA FILIALE"
     },
     {
+      "Cliente": "PV ICHNOSOLAR SRL",
+      "Cliente report": "PV ICHNOSOLAR SRL",
+      "Progetto": "Macchiareddu",
+      "Regione cantiere": "Sardegna",
+      "Provincia cantiere": "Cagliari",
+      "Comune cantiere": "Uta",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Cagliari",
+      "Filiale cliente": "Torino",
+      "Provincia sede": "Torino",
+      "Comune sede": "TORINO",
+      "Indirizzo sede": "GALLERIA SAN FEDERICO 16",
+      "Tipo account": "Prospect",
+      "MWp": 41.758,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "ENI PLENITUDE RENEWABLES ITALY SPA",
       "Cliente report": "ENI PLENITUDE RENEWABLES ITALY SPA",
       "Progetto": "Aree Sud",
@@ -7459,6 +7675,25 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "FLYSUN 5 SRL",
+      "Cliente report": "FLYSUN 5 SRL",
+      "Progetto": "Lendinara",
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Rovigo",
+      "Comune cantiere": "Lendinara",
+      "Area cantiere": "Nord Est",
+      "Filiale cantiere": "Padova",
+      "Filiale cliente": "Torino",
+      "Provincia sede": "Torino",
+      "Comune sede": "TORINO",
+      "Indirizzo sede": "LUNGO PO ALESSANDRO ANTONELLI 21",
+      "Tipo account": "Prospect",
+      "MWp": 36.32,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "SCOTTA SPA",
       "Cliente report": "SCOTTA SPA",
       "Progetto": "PV Scotta Piacenza",
@@ -7625,6 +7860,44 @@
       "Indirizzo sede": "VIA SENATO 28",
       "Tipo account": "Prospect",
       "MWp": 18.774,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "SEGNALETICA NOVARESE SRL",
+      "Cliente report": "SEGNALETICA NOVARESE SRL",
+      "Progetto": "PV Maserano",
+      "Regione cantiere": "Piemonte",
+      "Provincia cantiere": "Biella",
+      "Comune cantiere": "Masserano",
+      "Area cantiere": "Nord Ovest",
+      "Filiale cantiere": "Torino",
+      "Filiale cliente": "Milano Ovest",
+      "Provincia sede": "Novara",
+      "Comune sede": "CASTELLETTO SOPRA TICINO",
+      "Indirizzo sede": "VIA VARALLO POMBIA 44",
+      "Tipo account": "Cliente",
+      "MWp": 18.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Procurement",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "ELLOMAY SOLAR ITALY ELEVEN SRL",
+      "Cliente report": "ELLOMAY SOLAR ITALY ELEVEN SRL",
+      "Progetto": "Maniago Solar 1- ELLO 11",
+      "Regione cantiere": "Friuli-Venezia Giulia",
+      "Provincia cantiere": "Pordenone",
+      "Comune cantiere": "Maniago",
+      "Area cantiere": "Nord Est",
+      "Filiale cantiere": "Udine",
+      "Filiale cliente": "Bolzano",
+      "Provincia sede": "Bolzano/Bozen",
+      "Comune sede": "BOLZANO",
+      "Indirizzo sede": "VIA SEBASTIAN ALTMANN 9",
+      "Tipo account": "Prospect",
+      "MWp": 96.09,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

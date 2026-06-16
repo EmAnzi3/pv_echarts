@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 169,
-    "mwp": 7467.033,
+    "projects": 171,
+    "mwp": 7530.144,
     "same_branch": 26,
-    "different_branch": 143,
-    "different_pct": 84.6,
+    "different_branch": 145,
+    "different_pct": 84.8,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -47,6 +47,13 @@
       "Clienti unici": 11
     },
     {
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Catania",
+      "N. progetti": 6,
+      "MWp": 301.82,
+      "Clienti unici": 6
+    },
+    {
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Bari",
       "N. progetti": 10,
@@ -59,13 +66,6 @@
       "N. progetti": 1,
       "MWp": 250.0,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Roma Aurelia",
-      "Filiale cantiere": "Catania",
-      "N. progetti": 5,
-      "MWp": 243.71,
-      "Clienti unici": 5
     },
     {
       "Filiale cliente": "Torino",
@@ -622,6 +622,13 @@
     },
     {
       "Filiale cliente": "Cuneo",
+      "Filiale cantiere": "Firenze",
+      "N. progetti": 1,
+      "MWp": 5.0,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Cuneo",
       "Filiale cantiere": "Bologna",
       "N. progetti": 1,
       "MWp": 2.0,
@@ -695,9 +702,9 @@
     {
       "Provincia cantiere": "Trapani",
       "Regione cantiere": "Sicilia",
-      "N. progetti": 7,
-      "MWp": 272.07,
-      "Clienti unici": 6
+      "N. progetti": 8,
+      "MWp": 330.18,
+      "Clienti unici": 7
     },
     {
       "Provincia cantiere": "Benevento",
@@ -1015,6 +1022,13 @@
       "Clienti unici": 3
     },
     {
+      "Provincia cantiere": "Arezzo",
+      "Regione cantiere": "Toscana",
+      "N. progetti": 1,
+      "MWp": 5.0,
+      "Clienti unici": 1
+    },
+    {
       "Provincia cantiere": "Livorno",
       "Regione cantiere": "Toscana",
       "N. progetti": 1,
@@ -1031,9 +1045,9 @@
     },
     {
       "Provincia": "Roma",
-      "Clienti": 23,
-      "Progetti": 24,
-      "MWp": 897.159
+      "Clienti": 24,
+      "Progetti": 25,
+      "MWp": 955.269
     },
     {
       "Provincia": "Bolzano/Bozen",
@@ -1060,6 +1074,12 @@
       "MWp": 281.607
     },
     {
+      "Provincia": "Cuneo",
+      "Clienti": 4,
+      "Progetti": 5,
+      "MWp": 28.0
+    },
+    {
       "Provincia": "Bari",
       "Clienti": 3,
       "Progetti": 3,
@@ -1070,12 +1090,6 @@
       "Clienti": 3,
       "Progetti": 4,
       "MWp": 334.3
-    },
-    {
-      "Provincia": "Cuneo",
-      "Clienti": 3,
-      "Progetti": 4,
-      "MWp": 23.0
     },
     {
       "Provincia": "Foggia",
@@ -1237,9 +1251,9 @@
     },
     {
       "Filiale cantiere": "Catania",
-      "N. progetti": 39,
-      "MWp": 2887.295,
-      "Clienti unici": 38
+      "N. progetti": 40,
+      "MWp": 2945.405,
+      "Clienti unici": 39
     },
     {
       "Filiale cantiere": "Bologna",
@@ -1344,6 +1358,12 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cantiere": "Firenze",
+      "N. progetti": 2,
+      "MWp": 31.6,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cantiere": "Lucca",
       "N. progetti": 2,
       "MWp": 7.2,
@@ -1359,12 +1379,6 @@
       "Filiale cantiere": "Milano Ovest",
       "N. progetti": 1,
       "MWp": 67.84,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cantiere": "Firenze",
-      "N. progetti": 1,
-      "MWp": 26.6,
       "Clienti unici": 1
     },
     {
@@ -1425,9 +1439,9 @@
     },
     {
       "Filiale cliente": "Roma Aurelia",
-      "N. progetti": 11,
-      "MWp": 511.282,
-      "Clienti unici": 10
+      "N. progetti": 12,
+      "MWp": 569.392,
+      "Clienti unici": 11
     },
     {
       "Filiale cliente": "Torino",
@@ -1461,9 +1475,9 @@
     },
     {
       "Filiale cliente": "Cuneo",
-      "N. progetti": 5,
-      "MWp": 30.0,
-      "Clienti unici": 4
+      "N. progetti": 6,
+      "MWp": 35.0,
+      "Clienti unici": 5
     },
     {
       "Filiale cliente": "Bergamo",
@@ -1587,6 +1601,13 @@
       "Clienti unici": 11
     },
     {
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Catania",
+      "N. progetti": 6,
+      "MWp": 301.82,
+      "Clienti unici": 6
+    },
+    {
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Bari",
       "N. progetti": 10,
@@ -1599,13 +1620,6 @@
       "N. progetti": 1,
       "MWp": 250.0,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Roma Aurelia",
-      "Filiale cantiere": "Catania",
-      "N. progetti": 5,
-      "MWp": 243.71,
-      "Clienti unici": 5
     },
     {
       "Filiale cliente": "Torino",
@@ -2159,6 +2173,13 @@
       "N. progetti": 4,
       "MWp": 5.4,
       "Clienti unici": 3
+    },
+    {
+      "Filiale cliente": "Cuneo",
+      "Filiale cantiere": "Firenze",
+      "N. progetti": 1,
+      "MWp": 5.0,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Cuneo",
@@ -2589,6 +2610,14 @@
       "Cliente progetto": "TROINA SOLAR SRL",
       "Progetto": "PV Troina",
       "Potenza MWp": 64.7
+    },
+    {
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Trapani",
+      "Comune cantiere": "Buseto Palizzolo",
+      "Cliente progetto": "XELIO ANTARES SRL",
+      "Progetto": "Buseto",
+      "Potenza MWp": 58.11
     },
     {
       "Regione cantiere": "Puglia",
@@ -3069,6 +3098,14 @@
       "Cliente progetto": "ACCIONA ENERGIA GLOBAL ITALIA SRL",
       "Progetto": "Greppo",
       "Potenza MWp": 26.6
+    },
+    {
+      "Regione cantiere": "Toscana",
+      "Provincia cantiere": "Arezzo",
+      "Comune cantiere": "Arezzo",
+      "Cliente progetto": "OGR SRL",
+      "Progetto": "PV Arezzo",
+      "Potenza MWp": 5.0
     },
     {
       "Regione cantiere": "Campania",
@@ -3895,6 +3932,13 @@
       "Potenza MWp": 64.7
     },
     {
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Catania",
+      "Cliente progetto": "XELIO ANTARES SRL",
+      "Progetto": "Buseto",
+      "Potenza MWp": 58.11
+    },
+    {
       "Filiale cliente": "Bologna",
       "Filiale cantiere": "Bari",
       "Cliente progetto": "SOLARANTO SRL",
@@ -4313,6 +4357,13 @@
       "Cliente progetto": "ACCIONA ENERGIA GLOBAL ITALIA SRL",
       "Progetto": "Greppo",
       "Potenza MWp": 26.6
+    },
+    {
+      "Filiale cliente": "Cuneo",
+      "Filiale cantiere": "Firenze",
+      "Cliente progetto": "OGR SRL",
+      "Progetto": "PV Arezzo",
+      "Potenza MWp": 5.0
     },
     {
       "Filiale cliente": "Roma Aurelia",
@@ -5680,6 +5731,25 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "XELIO ANTARES SRL",
+      "Cliente report": "XELIO ANTARES SRL",
+      "Progetto": "Buseto",
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Trapani",
+      "Comune cantiere": "Buseto Palizzolo",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Catania",
+      "Filiale cliente": "Roma Aurelia",
+      "Provincia sede": "Roma",
+      "Comune sede": "ROMA",
+      "Indirizzo sede": "CORSO VITTORIO EMANUELE II 349",
+      "Tipo account": "Prospect",
+      "MWp": 58.11,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "SOLARANTO SRL",
       "Cliente report": "SOLARANTO SRL",
       "Progetto": "Calabrese",
@@ -6817,6 +6887,25 @@
       "MWp": 26.6,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "OGR SRL",
+      "Cliente report": "OGR SRL",
+      "Progetto": "PV Arezzo",
+      "Regione cantiere": "Toscana",
+      "Provincia cantiere": "Arezzo",
+      "Comune cantiere": "Arezzo",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Firenze",
+      "Filiale cliente": "Cuneo",
+      "Provincia sede": "Cuneo",
+      "Comune sede": "CUNEO",
+      "Indirizzo sede": "CORSO GIOVANNI GIOLITTI 2",
+      "Tipo account": "Cliente",
+      "MWp": 5.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Procurement",
       "Esito": "FILIALE DIVERSA"
     },
     {

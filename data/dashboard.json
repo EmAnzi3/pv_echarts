@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 172,
-    "mwp": 7581.443,
+    "projects": 173,
+    "mwp": 7599.353,
     "same_branch": 26,
-    "different_branch": 146,
-    "different_pct": 84.9,
+    "different_branch": 147,
+    "different_pct": 85.0,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -362,6 +362,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 2,
+      "MWp": 40.287,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Torino",
       "Filiale cantiere": "Padova",
       "N. progetti": 1,
@@ -471,13 +478,6 @@
       "Filiale cantiere": "Catania",
       "N. progetti": 1,
       "MWp": 22.57,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Bologna",
-      "N. progetti": 1,
-      "MWp": 22.377,
       "Clienti unici": 1
     },
     {
@@ -756,6 +756,13 @@
       "Clienti unici": 3
     },
     {
+      "Provincia cantiere": "Ferrara",
+      "Regione cantiere": "Emilia-Romagna",
+      "N. progetti": 7,
+      "MWp": 154.738,
+      "Clienti unici": 7
+    },
+    {
       "Provincia cantiere": "Caserta",
       "Regione cantiere": "Campania",
       "N. progetti": 5,
@@ -775,13 +782,6 @@
       "N. progetti": 2,
       "MWp": 140.88,
       "Clienti unici": 2
-    },
-    {
-      "Provincia cantiere": "Ferrara",
-      "Regione cantiere": "Emilia-Romagna",
-      "N. progetti": 6,
-      "MWp": 136.828,
-      "Clienti unici": 6
     },
     {
       "Provincia cantiere": "Ravenna",
@@ -1046,9 +1046,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 60,
-      "Progetti": 67,
-      "MWp": 2764.094
+      "Clienti": 61,
+      "Progetti": 68,
+      "MWp": 2782.004
     },
     {
       "Provincia": "Roma",
@@ -1264,9 +1264,9 @@
     },
     {
       "Filiale cantiere": "Bologna",
-      "N. progetti": 12,
-      "MWp": 319.005,
-      "Clienti unici": 12
+      "N. progetti": 13,
+      "MWp": 336.915,
+      "Clienti unici": 13
     },
     {
       "Filiale cantiere": "Napoli",
@@ -1422,9 +1422,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 46,
-      "MWp": 1755.788,
-      "Clienti unici": 42
+      "N. progetti": 47,
+      "MWp": 1773.698,
+      "Clienti unici": 43
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -1923,6 +1923,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 2,
+      "MWp": 40.287,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Torino",
       "Filiale cantiere": "Padova",
       "N. progetti": 1,
@@ -2032,13 +2039,6 @@
       "Filiale cantiere": "Catania",
       "N. progetti": 1,
       "MWp": 22.57,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Bologna",
-      "N. progetti": 1,
-      "MWp": 22.377,
       "Clienti unici": 1
     },
     {
@@ -3394,6 +3394,14 @@
       "Potenza MWp": 22.377
     },
     {
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Ferrara",
+      "Comune cantiere": "Mesola",
+      "Cliente progetto": "ARIAN SOLAR SRL",
+      "Progetto": "PV Mesola",
+      "Potenza MWp": 17.91
+    },
+    {
       "Regione cantiere": "Lombardia",
       "Provincia cantiere": "Brescia",
       "Comune cantiere": "Lonato del Garda",
@@ -4624,6 +4632,13 @@
       "Cliente progetto": "TEAGRI SOLARE 1 SRL",
       "Progetto": "Fratta",
       "Potenza MWp": 22.377
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bologna",
+      "Cliente progetto": "ARIAN SOLAR SRL",
+      "Progetto": "PV Mesola",
+      "Potenza MWp": 17.91
     },
     {
       "Filiale cliente": "Milano Sud",
@@ -7579,6 +7594,25 @@
       "Indirizzo sede": "PIAZZALE LUIGI CADORNA 9",
       "Tipo account": "Prospect",
       "MWp": 22.377,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "ARIAN SOLAR SRL",
+      "Cliente report": "ARIAN SOLAR SRL",
+      "Progetto": "PV Mesola",
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Ferrara",
+      "Comune cantiere": "Mesola",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Bologna",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "PIAZZA SAN SEPOLCRO 1",
+      "Tipo account": "Prospect",
+      "MWp": 17.91,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

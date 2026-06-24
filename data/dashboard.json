@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 207,
-    "mwp": 8906.147,
+    "projects": 208,
+    "mwp": 8929.347,
     "same_branch": 29,
-    "different_branch": 178,
-    "different_pct": 86.0,
+    "different_branch": 179,
+    "different_pct": 86.1,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -551,6 +551,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Brescia",
+      "N. progetti": 1,
+      "MWp": 23.2,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Torino",
       "Filiale cantiere": "Salerno",
       "N. progetti": 1,
@@ -1064,6 +1071,13 @@
       "Clienti unici": 1
     },
     {
+      "Provincia cantiere": "Brescia",
+      "Regione cantiere": "Lombardia",
+      "N. progetti": 2,
+      "MWp": 42.47,
+      "Clienti unici": 2
+    },
+    {
       "Provincia cantiere": "Arezzo",
       "Regione cantiere": "Toscana",
       "N. progetti": 3,
@@ -1127,13 +1141,6 @@
       "Clienti unici": 2
     },
     {
-      "Provincia cantiere": "Brescia",
-      "Regione cantiere": "Lombardia",
-      "N. progetti": 1,
-      "MWp": 19.27,
-      "Clienti unici": 1
-    },
-    {
       "Provincia cantiere": "Biella",
       "Regione cantiere": "Piemonte",
       "N. progetti": 1,
@@ -1184,9 +1191,9 @@
     },
     {
       "Provincia": "Bolzano/Bozen",
-      "Clienti": 13,
-      "Progetti": 13,
-      "MWp": 984.794
+      "Clienti": 14,
+      "Progetti": 14,
+      "MWp": 1007.994
     },
     {
       "Provincia": "Torino",
@@ -1515,6 +1522,12 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cantiere": "Brescia",
+      "N. progetti": 2,
+      "MWp": 42.47,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cantiere": "Lucca",
       "N. progetti": 2,
       "MWp": 7.2,
@@ -1536,12 +1549,6 @@
       "Filiale cantiere": "Venezia",
       "N. progetti": 1,
       "MWp": 20.787,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cantiere": "Brescia",
-      "N. progetti": 1,
-      "MWp": 19.27,
       "Clienti unici": 1
     },
     {
@@ -1590,9 +1597,9 @@
     },
     {
       "Filiale cliente": "Bolzano",
-      "N. progetti": 13,
-      "MWp": 984.794,
-      "Clienti unici": 13
+      "N. progetti": 14,
+      "MWp": 1007.994,
+      "Clienti unici": 14
     },
     {
       "Filiale cliente": "Torino",
@@ -2259,6 +2266,13 @@
       "Filiale cantiere": "Sassuolo",
       "N. progetti": 1,
       "MWp": 24.0,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Brescia",
+      "N. progetti": 1,
+      "MWp": 23.2,
       "Clienti unici": 1
     },
     {
@@ -3904,6 +3918,14 @@
       "Potenza MWp": 19.27
     },
     {
+      "Regione cantiere": "Lombardia",
+      "Provincia cantiere": "Brescia",
+      "Comune cantiere": "Bedizzole",
+      "Cliente progetto": "INE LA CASSETTA SRL",
+      "Progetto": "Lonato",
+      "Potenza MWp": 23.2
+    },
+    {
       "Regione cantiere": "Calabria",
       "Provincia cantiere": "Crotone",
       "Comune cantiere": "Crotone",
@@ -5383,6 +5405,13 @@
       "Cliente progetto": "LIO ENERGY BUBO SRL",
       "Progetto": "PV Lonato del Garda",
       "Potenza MWp": 19.27
+    },
+    {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Brescia",
+      "Cliente progetto": "INE LA CASSETTA SRL",
+      "Progetto": "Lonato",
+      "Potenza MWp": 23.2
     },
     {
       "Filiale cliente": "Bologna",
@@ -8955,6 +8984,25 @@
       "Indirizzo sede": "VIA ARRIGO BOITO 8",
       "Tipo account": "Prospect",
       "MWp": 19.27,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "INE LA CASSETTA SRL",
+      "Cliente report": "INE LA CASSETTA SRL",
+      "Progetto": "Lonato",
+      "Regione cantiere": "Lombardia",
+      "Provincia cantiere": "Brescia",
+      "Comune cantiere": "Bedizzole",
+      "Area cantiere": "Nord Ovest",
+      "Filiale cantiere": "Brescia",
+      "Filiale cliente": "Bolzano",
+      "Provincia sede": "Bolzano/Bozen",
+      "Comune sede": "BOLZANO",
+      "Indirizzo sede": "PIAZZA WALTHER VON DER VOGELWEIDE 8",
+      "Tipo account": "Prospect",
+      "MWp": 23.2,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

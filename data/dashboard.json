@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 208,
-    "mwp": 8929.347,
+    "projects": 210,
+    "mwp": 8944.347,
     "same_branch": 29,
-    "different_branch": 179,
-    "different_pct": 86.1,
+    "different_branch": 181,
+    "different_pct": 86.2,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -656,6 +656,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Milano Sud",
+      "N. progetti": 2,
+      "MWp": 15.0,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Trento",
       "Filiale cantiere": "Bari",
       "N. progetti": 1,
@@ -1155,6 +1162,13 @@
       "Clienti unici": 1
     },
     {
+      "Provincia cantiere": "Alessandria",
+      "Regione cantiere": "Piemonte",
+      "N. progetti": 2,
+      "MWp": 15.0,
+      "Clienti unici": 1
+    },
+    {
       "Provincia cantiere": "Lucca",
       "Regione cantiere": "Toscana",
       "N. progetti": 2,
@@ -1197,9 +1211,9 @@
     },
     {
       "Provincia": "Torino",
-      "Clienti": 8,
-      "Progetti": 8,
-      "MWp": 328.035
+      "Clienti": 9,
+      "Progetti": 10,
+      "MWp": 343.035
     },
     {
       "Provincia": "Bologna",
@@ -1462,6 +1476,12 @@
       "Clienti unici": 4
     },
     {
+      "Filiale cantiere": "Milano Sud",
+      "N. progetti": 5,
+      "MWp": 106.998,
+      "Clienti unici": 4
+    },
+    {
       "Filiale cantiere": "Salerno",
       "N. progetti": 5,
       "MWp": 102.693,
@@ -1507,12 +1527,6 @@
       "Filiale cantiere": "Sassari",
       "N. progetti": 3,
       "MWp": 112.82,
-      "Clienti unici": 3
-    },
-    {
-      "Filiale cantiere": "Milano Sud",
-      "N. progetti": 3,
-      "MWp": 91.998,
       "Clienti unici": 3
     },
     {
@@ -1603,9 +1617,9 @@
     },
     {
       "Filiale cliente": "Torino",
-      "N. progetti": 10,
-      "MWp": 441.56,
-      "Clienti unici": 10
+      "N. progetti": 12,
+      "MWp": 456.56,
+      "Clienti unici": 11
     },
     {
       "Filiale cliente": "Milano Ovest",
@@ -2371,6 +2385,13 @@
       "Filiale cantiere": "Bari",
       "N. progetti": 1,
       "MWp": 16.63,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Milano Sud",
+      "N. progetti": 2,
+      "MWp": 15.0,
       "Clienti unici": 1
     },
     {
@@ -4006,6 +4027,22 @@
       "Potenza MWp": 37.16
     },
     {
+      "Regione cantiere": "Piemonte",
+      "Provincia cantiere": "Alessandria",
+      "Comune cantiere": "Alessandria",
+      "Cliente progetto": "COESA SRL",
+      "Progetto": "PV Alessandria",
+      "Potenza MWp": 5.0
+    },
+    {
+      "Regione cantiere": "Piemonte",
+      "Provincia cantiere": "Alessandria",
+      "Comune cantiere": "Tortona",
+      "Cliente progetto": "COESA SRL",
+      "Progetto": "PV Tortona",
+      "Potenza MWp": 10.0
+    },
+    {
       "Regione cantiere": "Veneto",
       "Provincia cantiere": "Padova",
       "Comune cantiere": "Sant'Urbano",
@@ -5482,6 +5519,20 @@
       "Cliente progetto": "CONTOURGLOBAL CERASUS SRL",
       "Progetto": "Scaldasole 41",
       "Potenza MWp": 37.16
+    },
+    {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Milano Sud",
+      "Cliente progetto": "COESA SRL",
+      "Progetto": "PV Alessandria",
+      "Potenza MWp": 5.0
+    },
+    {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Milano Sud",
+      "Cliente progetto": "COESA SRL",
+      "Progetto": "PV Tortona",
+      "Potenza MWp": 10.0
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -9196,6 +9247,44 @@
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "STESSA FILIALE"
+    },
+    {
+      "Cliente": "COESA SRL",
+      "Cliente report": "COESA SRL",
+      "Progetto": "PV Alessandria",
+      "Regione cantiere": "Piemonte",
+      "Provincia cantiere": "Alessandria",
+      "Comune cantiere": "Alessandria",
+      "Area cantiere": "Nord Ovest",
+      "Filiale cantiere": "Milano Sud",
+      "Filiale cliente": "Torino",
+      "Provincia sede": "Torino",
+      "Comune sede": "TORINO",
+      "Indirizzo sede": "VIA CLAUDIO BEAUMONT 7",
+      "Tipo account": "Prospect",
+      "MWp": 5.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Procurement",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "COESA SRL",
+      "Cliente report": "COESA SRL",
+      "Progetto": "PV Tortona",
+      "Regione cantiere": "Piemonte",
+      "Provincia cantiere": "Alessandria",
+      "Comune cantiere": "Tortona",
+      "Area cantiere": "Nord Ovest",
+      "Filiale cantiere": "Milano Sud",
+      "Filiale cliente": "Torino",
+      "Provincia sede": "Torino",
+      "Comune sede": "TORINO",
+      "Indirizzo sede": "VIA CLAUDIO BEAUMONT 7",
+      "Tipo account": "Prospect",
+      "MWp": 10.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
     },
     {
       "Cliente": "SHELL ENERGY ITALIA SRL",

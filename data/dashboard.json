@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 210,
-    "mwp": 8944.347,
-    "same_branch": 29,
-    "different_branch": 181,
-    "different_pct": 86.2,
+    "projects": 213,
+    "mwp": 9003.828,
+    "same_branch": 30,
+    "different_branch": 183,
+    "different_pct": 85.9,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -425,6 +425,13 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Padova",
+      "Filiale cantiere": "Padova",
+      "N. progetti": 1,
+      "MWp": 37.481,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Torino",
       "Filiale cantiere": "Padova",
       "N. progetti": 1,
@@ -569,6 +576,13 @@
       "Filiale cantiere": "Catania",
       "N. progetti": 1,
       "MWp": 22.57,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Padova",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 2,
+      "MWp": 22.0,
       "Clienti unici": 1
     },
     {
@@ -847,18 +861,18 @@
       "Clienti unici": 4
     },
     {
+      "Provincia cantiere": "Rovigo",
+      "Regione cantiere": "Veneto",
+      "N. progetti": 5,
+      "MWp": 261.531,
+      "Clienti unici": 5
+    },
+    {
       "Provincia cantiere": "Grosseto",
       "Regione cantiere": "Toscana",
       "N. progetti": 7,
       "MWp": 224.8,
       "Clienti unici": 6
-    },
-    {
-      "Provincia cantiere": "Rovigo",
-      "Regione cantiere": "Veneto",
-      "N. progetti": 4,
-      "MWp": 224.05,
-      "Clienti unici": 4
     },
     {
       "Provincia cantiere": "Matera",
@@ -882,18 +896,18 @@
       "Clienti unici": 3
     },
     {
+      "Provincia cantiere": "Bologna",
+      "Regione cantiere": "Emilia-Romagna",
+      "N. progetti": 7,
+      "MWp": 190.177,
+      "Clienti unici": 6
+    },
+    {
       "Provincia cantiere": "Viterbo",
       "Regione cantiere": "Lazio",
       "N. progetti": 2,
       "MWp": 177.86,
       "Clienti unici": 2
-    },
-    {
-      "Provincia cantiere": "Bologna",
-      "Regione cantiere": "Emilia-Romagna",
-      "N. progetti": 5,
-      "MWp": 168.177,
-      "Clienti unici": 5
     },
     {
       "Provincia cantiere": "Ragusa",
@@ -1342,6 +1356,12 @@
       "MWp": 40.2
     },
     {
+      "Provincia": "Rovigo",
+      "Clienti": 1,
+      "Progetti": 1,
+      "MWp": 37.481
+    },
+    {
       "Provincia": "Cagliari",
       "Clienti": 1,
       "Progetti": 1,
@@ -1376,6 +1396,12 @@
       "Clienti": 1,
       "Progetti": 1,
       "MWp": 22.57
+    },
+    {
+      "Provincia": "Padova",
+      "Clienti": 1,
+      "Progetti": 2,
+      "MWp": 22.0
     },
     {
       "Provincia": "Frosinone",
@@ -1428,16 +1454,16 @@
       "Clienti unici": 40
     },
     {
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 15,
+      "MWp": 358.915,
+      "Clienti unici": 14
+    },
+    {
       "Filiale cantiere": "Livorno",
       "N. progetti": 14,
       "MWp": 269.615,
       "Clienti unici": 12
-    },
-    {
-      "Filiale cantiere": "Bologna",
-      "N. progetti": 13,
-      "MWp": 336.915,
-      "Clienti unici": 13
     },
     {
       "Filiale cantiere": "Napoli",
@@ -1458,16 +1484,16 @@
       "Clienti unici": 8
     },
     {
+      "Filiale cantiere": "Padova",
+      "N. progetti": 6,
+      "MWp": 310.031,
+      "Clienti unici": 5
+    },
+    {
       "Filiale cantiere": "Firenze",
       "N. progetti": 6,
       "MWp": 232.666,
       "Clienti unici": 6
-    },
-    {
-      "Filiale cantiere": "Padova",
-      "N. progetti": 5,
-      "MWp": 272.55,
-      "Clienti unici": 4
     },
     {
       "Filiale cantiere": "Roma Nomentana",
@@ -1680,6 +1706,12 @@
       "N. progetti": 3,
       "MWp": 107.33,
       "Clienti unici": 3
+    },
+    {
+      "Filiale cliente": "Padova",
+      "N. progetti": 3,
+      "MWp": 59.481,
+      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Trento",
@@ -2157,6 +2189,13 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Padova",
+      "Filiale cantiere": "Padova",
+      "N. progetti": 1,
+      "MWp": 37.481,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Torino",
       "Filiale cantiere": "Padova",
       "N. progetti": 1,
@@ -2301,6 +2340,13 @@
       "Filiale cantiere": "Catania",
       "N. progetti": 1,
       "MWp": 22.57,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Padova",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 2,
+      "MWp": 22.0,
       "Clienti unici": 1
     },
     {
@@ -3931,6 +3977,22 @@
       "Potenza MWp": 17.91
     },
     {
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Bologna",
+      "Comune cantiere": "Bologna",
+      "Cliente progetto": "ESPE SRL",
+      "Progetto": "PV Espe-1",
+      "Potenza MWp": 12.0
+    },
+    {
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Bologna",
+      "Comune cantiere": "Bologna",
+      "Cliente progetto": "ESPE SRL",
+      "Progetto": "PV Espe-2",
+      "Potenza MWp": 10.0
+    },
+    {
       "Regione cantiere": "Lombardia",
       "Provincia cantiere": "Brescia",
       "Comune cantiere": "Lonato del Garda",
@@ -4081,6 +4143,14 @@
       "Cliente progetto": "EG MARCO POLO SRL",
       "Progetto": "PV Canaro",
       "Potenza MWp": 29.73
+    },
+    {
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Rovigo",
+      "Comune cantiere": "Villadose",
+      "Cliente progetto": "AG 14 SRL",
+      "Progetto": "PV Villadose",
+      "Potenza MWp": 37.481
     },
     {
       "Regione cantiere": "Emilia-Romagna",
@@ -5437,6 +5507,20 @@
       "Potenza MWp": 17.91
     },
     {
+      "Filiale cliente": "Padova",
+      "Filiale cantiere": "Bologna",
+      "Cliente progetto": "ESPE SRL",
+      "Progetto": "PV Espe-1",
+      "Potenza MWp": 12.0
+    },
+    {
+      "Filiale cliente": "Padova",
+      "Filiale cantiere": "Bologna",
+      "Cliente progetto": "ESPE SRL",
+      "Progetto": "PV Espe-2",
+      "Potenza MWp": 10.0
+    },
+    {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Brescia",
       "Cliente progetto": "LIO ENERGY BUBO SRL",
@@ -5568,6 +5652,13 @@
       "Cliente progetto": "EG MARCO POLO SRL",
       "Progetto": "PV Canaro",
       "Potenza MWp": 29.73
+    },
+    {
+      "Filiale cliente": "Padova",
+      "Filiale cantiere": "Padova",
+      "Cliente progetto": "AG 14 SRL",
+      "Progetto": "PV Villadose",
+      "Potenza MWp": 37.481
     },
     {
       "Filiale cliente": "Cuneo",
@@ -9021,6 +9112,44 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "ESPE SRL",
+      "Cliente report": "ESPE SRL",
+      "Progetto": "PV Espe-1",
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Bologna",
+      "Comune cantiere": "Bologna",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Bologna",
+      "Filiale cliente": "Padova",
+      "Provincia sede": "Padova",
+      "Comune sede": "GRANTORTO",
+      "Indirizzo sede": "VIA DELL'ARTIGIANATO 6",
+      "Tipo account": "Prospect",
+      "MWp": 12.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Procurement",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "ESPE SRL",
+      "Cliente report": "ESPE SRL",
+      "Progetto": "PV Espe-2",
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Bologna",
+      "Comune cantiere": "Bologna",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Bologna",
+      "Filiale cliente": "Padova",
+      "Provincia sede": "Padova",
+      "Comune sede": "GRANTORTO",
+      "Indirizzo sede": "VIA DELL'ARTIGIANATO 6",
+      "Tipo account": "Prospect",
+      "MWp": 10.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Procurement",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "LIO ENERGY BUBO SRL",
       "Cliente report": "LIO ENERGY BUBO SRL",
       "Progetto": "PV Lonato del Garda",
@@ -9380,6 +9509,25 @@
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "AG 14 SRL",
+      "Cliente report": "AG 14 SRL",
+      "Progetto": "PV Villadose",
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Rovigo",
+      "Comune cantiere": "Villadose",
+      "Area cantiere": "Nord Est",
+      "Filiale cantiere": "Padova",
+      "Filiale cliente": "Padova",
+      "Provincia sede": "Rovigo",
+      "Comune sede": "ROVIGO",
+      "Indirizzo sede": "VIALE COMBATTENTI ALLEATI D'EUROPA 9/G",
+      "Tipo account": "Prospect",
+      "MWp": 37.481,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "STESSA FILIALE"
     },
     {
       "Cliente": "SCOTTA SPA",

@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 213,
-    "mwp": 9003.828,
-    "same_branch": 30,
+    "projects": 214,
+    "mwp": 9072.338,
+    "same_branch": 31,
     "different_branch": 183,
-    "different_pct": 85.9,
+    "different_pct": 85.5,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -248,6 +248,13 @@
       "N. progetti": 2,
       "MWp": 69.98,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Udine",
+      "Filiale cantiere": "Udine",
+      "N. progetti": 1,
+      "MWp": 68.51,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Bolzano",
@@ -1050,6 +1057,13 @@
       "Clienti unici": 2
     },
     {
+      "Provincia cantiere": "Udine",
+      "Regione cantiere": "Friuli-Venezia Giulia",
+      "N. progetti": 1,
+      "MWp": 68.51,
+      "Clienti unici": 1
+    },
+    {
       "Provincia cantiere": "Milano",
       "Regione cantiere": "Lombardia",
       "N. progetti": 1,
@@ -1326,6 +1340,12 @@
       "MWp": 75.0
     },
     {
+      "Provincia": "Udine",
+      "Clienti": 1,
+      "Progetti": 1,
+      "MWp": 68.51
+    },
+    {
       "Provincia": "Brindisi",
       "Clienti": 1,
       "Progetti": 1,
@@ -1556,6 +1576,12 @@
       "Clienti unici": 3
     },
     {
+      "Filiale cantiere": "Udine",
+      "N. progetti": 2,
+      "MWp": 164.6,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cantiere": "Parma",
       "N. progetti": 2,
       "MWp": 79.0,
@@ -1572,12 +1598,6 @@
       "N. progetti": 2,
       "MWp": 7.2,
       "Clienti unici": 2
-    },
-    {
-      "Filiale cantiere": "Udine",
-      "N. progetti": 1,
-      "MWp": 96.09,
-      "Clienti unici": 1
     },
     {
       "Filiale cantiere": "Milano Ovest",
@@ -1730,6 +1750,12 @@
       "N. progetti": 2,
       "MWp": 24.77,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Udine",
+      "N. progetti": 1,
+      "MWp": 68.51,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Salerno",
@@ -2012,6 +2038,13 @@
       "N. progetti": 2,
       "MWp": 69.98,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Udine",
+      "Filiale cantiere": "Udine",
+      "N. progetti": 1,
+      "MWp": 68.51,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Bolzano",
@@ -4257,6 +4290,14 @@
       "Potenza MWp": 96.09
     },
     {
+      "Regione cantiere": "Friuli-Venezia Giulia",
+      "Provincia cantiere": "Udine",
+      "Comune cantiere": "Bicinicco",
+      "Cliente progetto": "ALPENFRUT",
+      "Progetto": "GREENFRUT",
+      "Potenza MWp": 68.51
+    },
+    {
       "Regione cantiere": "Veneto",
       "Provincia cantiere": "Venezia",
       "Comune cantiere": "Portogruaro",
@@ -5750,6 +5791,13 @@
       "Cliente progetto": "ELLOMAY SOLAR ITALY ELEVEN SRL",
       "Progetto": "Maniago Solar 1- ELLO 11",
       "Potenza MWp": 96.09
+    },
+    {
+      "Filiale cliente": "Udine",
+      "Filiale cantiere": "Udine",
+      "Cliente progetto": "ALPENFRUT",
+      "Progetto": "GREENFRUT",
+      "Potenza MWp": 68.51
     },
     {
       "Filiale cliente": "Torino",
@@ -9775,6 +9823,25 @@
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "ALPENFRUT",
+      "Cliente report": "ALPENFRUT",
+      "Progetto": "GREENFRUT",
+      "Regione cantiere": "Friuli-Venezia Giulia",
+      "Provincia cantiere": "Udine",
+      "Comune cantiere": "Bicinicco",
+      "Area cantiere": "Nord Est",
+      "Filiale cantiere": "Udine",
+      "Filiale cliente": "Udine",
+      "Provincia sede": "Udine",
+      "Comune sede": "BICINICCO",
+      "Indirizzo sede": "STRADA PROVINCIALE N. 82 DI CHIASIELLIS",
+      "Tipo account": "Prospect",
+      "MWp": 68.51,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "STESSA FILIALE"
     },
     {
       "Cliente": "FLYSUN 10 SRL",

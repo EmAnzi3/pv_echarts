@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 215,
-    "mwp": 9179.468,
-    "same_branch": 31,
-    "different_branch": 184,
-    "different_pct": 85.6,
+    "projects": 218,
+    "mwp": 9230.577,
+    "same_branch": 32,
+    "different_branch": 186,
+    "different_pct": 85.3,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -103,17 +103,17 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Padova",
+      "N. progetti": 3,
+      "MWp": 137.23,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Milano Est",
       "Filiale cantiere": "Firenze",
       "N. progetti": 1,
       "MWp": 128.0,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Nord",
-      "Filiale cantiere": "Padova",
-      "N. progetti": 2,
-      "MWp": 122.2,
       "Clienti unici": 1
     },
     {
@@ -390,6 +390,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Napoli",
+      "Filiale cantiere": "Napoli",
+      "N. progetti": 2,
+      "MWp": 45.469,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Milano Nord",
       "Filiale cantiere": "Napoli",
       "N. progetti": 1,
@@ -499,13 +506,6 @@
       "Filiale cantiere": "Rimini",
       "N. progetti": 1,
       "MWp": 28.38,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Napoli",
-      "Filiale cantiere": "Napoli",
-      "N. progetti": 1,
-      "MWp": 28.3,
       "Clienti unici": 1
     },
     {
@@ -646,6 +646,13 @@
       "Filiale cantiere": "Napoli",
       "N. progetti": 1,
       "MWp": 19.021,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Padova",
+      "Filiale cantiere": "Napoli",
+      "N. progetti": 1,
+      "MWp": 18.91,
       "Clienti unici": 1
     },
     {
@@ -875,18 +882,18 @@
       "Clienti unici": 3
     },
     {
+      "Provincia cantiere": "Rovigo",
+      "Regione cantiere": "Veneto",
+      "N. progetti": 6,
+      "MWp": 276.561,
+      "Clienti unici": 6
+    },
+    {
       "Provincia cantiere": "Roma",
       "Regione cantiere": "Lazio",
       "N. progetti": 4,
       "MWp": 274.185,
       "Clienti unici": 4
-    },
-    {
-      "Provincia cantiere": "Rovigo",
-      "Regione cantiere": "Veneto",
-      "N. progetti": 5,
-      "MWp": 261.531,
-      "Clienti unici": 5
     },
     {
       "Provincia cantiere": "Grosseto",
@@ -1183,10 +1190,24 @@
       "Clienti unici": 2
     },
     {
+      "Provincia cantiere": "Napoli",
+      "Regione cantiere": "Campania",
+      "N. progetti": 1,
+      "MWp": 18.91,
+      "Clienti unici": 1
+    },
+    {
       "Provincia cantiere": "Biella",
       "Regione cantiere": "Piemonte",
       "N. progetti": 1,
       "MWp": 18.0,
+      "Clienti unici": 1
+    },
+    {
+      "Provincia cantiere": "Avellino",
+      "Regione cantiere": "Campania",
+      "N. progetti": 1,
+      "MWp": 17.169,
       "Clienti unici": 1
     },
     {
@@ -1228,9 +1249,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 74,
-      "Progetti": 84,
-      "MWp": 3355.996
+      "Clienti": 75,
+      "Progetti": 85,
+      "MWp": 3371.026
     },
     {
       "Provincia": "Roma",
@@ -1281,6 +1302,12 @@
       "MWp": 334.3
     },
     {
+      "Provincia": "nan",
+      "Clienti": 3,
+      "Progetti": 3,
+      "MWp": 56.919
+    },
+    {
       "Provincia": "Trento",
       "Clienti": 3,
       "Progetti": 3,
@@ -1311,10 +1338,10 @@
       "MWp": 77.41
     },
     {
-      "Provincia": "nan",
+      "Provincia": "Padova",
       "Clienti": 2,
-      "Progetti": 2,
-      "MWp": 39.75
+      "Progetti": 3,
+      "MWp": 40.91
     },
     {
       "Provincia": "Verona",
@@ -1425,12 +1452,6 @@
       "MWp": 22.57
     },
     {
-      "Provincia": "Padova",
-      "Clienti": 1,
-      "Progetti": 2,
-      "MWp": 22.0
-    },
-    {
       "Provincia": "Frosinone",
       "Clienti": 1,
       "Progetti": 1,
@@ -1494,9 +1515,9 @@
     },
     {
       "Filiale cantiere": "Napoli",
-      "N. progetti": 9,
-      "MWp": 346.907,
-      "Clienti unici": 7
+      "N. progetti": 11,
+      "MWp": 382.986,
+      "Clienti unici": 9
     },
     {
       "Filiale cantiere": "Cagliari",
@@ -1511,15 +1532,15 @@
       "Clienti unici": 8
     },
     {
+      "Filiale cantiere": "Padova",
+      "N. progetti": 7,
+      "MWp": 325.061,
+      "Clienti unici": 6
+    },
+    {
       "Filiale cantiere": "Roma Nomentana",
       "N. progetti": 6,
       "MWp": 327.29,
-      "Clienti unici": 5
-    },
-    {
-      "Filiale cantiere": "Padova",
-      "N. progetti": 6,
-      "MWp": 310.031,
       "Clienti unici": 5
     },
     {
@@ -1657,16 +1678,16 @@
       "Clienti unici": 16
     },
     {
+      "Filiale cliente": "Milano Nord",
+      "N. progetti": 16,
+      "MWp": 682.787,
+      "Clienti unici": 14
+    },
+    {
       "Filiale cliente": "Bolzano",
       "N. progetti": 15,
       "MWp": 1115.124,
       "Clienti unici": 15
-    },
-    {
-      "Filiale cliente": "Milano Nord",
-      "N. progetti": 15,
-      "MWp": 667.757,
-      "Clienti unici": 13
     },
     {
       "Filiale cliente": "Torino",
@@ -1717,6 +1738,12 @@
       "Clienti unici": 3
     },
     {
+      "Filiale cliente": "Padova",
+      "N. progetti": 4,
+      "MWp": 78.391,
+      "Clienti unici": 3
+    },
+    {
       "Filiale cliente": "Livorno",
       "N. progetti": 4,
       "MWp": 5.4,
@@ -1735,22 +1762,16 @@
       "Clienti unici": 3
     },
     {
-      "Filiale cliente": "Padova",
+      "Filiale cliente": "Napoli",
       "N. progetti": 3,
-      "MWp": 59.481,
-      "Clienti unici": 2
+      "MWp": 56.919,
+      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Trento",
       "N. progetti": 3,
       "MWp": 50.366,
       "Clienti unici": 3
-    },
-    {
-      "Filiale cliente": "Napoli",
-      "N. progetti": 2,
-      "MWp": 39.75,
-      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Verona",
@@ -1900,17 +1921,17 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Padova",
+      "N. progetti": 3,
+      "MWp": 137.23,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Milano Est",
       "Filiale cantiere": "Firenze",
       "N. progetti": 1,
       "MWp": 128.0,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Nord",
-      "Filiale cantiere": "Padova",
-      "N. progetti": 2,
-      "MWp": 122.2,
       "Clienti unici": 1
     },
     {
@@ -2187,6 +2208,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Napoli",
+      "Filiale cantiere": "Napoli",
+      "N. progetti": 2,
+      "MWp": 45.469,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Milano Nord",
       "Filiale cantiere": "Napoli",
       "N. progetti": 1,
@@ -2296,13 +2324,6 @@
       "Filiale cantiere": "Rimini",
       "N. progetti": 1,
       "MWp": 28.38,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Napoli",
-      "Filiale cantiere": "Napoli",
-      "N. progetti": 1,
-      "MWp": 28.3,
       "Clienti unici": 1
     },
     {
@@ -2443,6 +2464,13 @@
       "Filiale cantiere": "Napoli",
       "N. progetti": 1,
       "MWp": 19.021,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Padova",
+      "Filiale cantiere": "Napoli",
+      "N. progetti": 1,
+      "MWp": 18.91,
       "Clienti unici": 1
     },
     {
@@ -3816,6 +3844,22 @@
       "Potenza MWp": 44.036
     },
     {
+      "Regione cantiere": "Campania",
+      "Provincia cantiere": "Avellino",
+      "Comune cantiere": "Ariano Irpino",
+      "Cliente progetto": "HELIOS ONE SRL",
+      "Progetto": "PV Masseria delle Monache",
+      "Potenza MWp": 17.169
+    },
+    {
+      "Regione cantiere": "Campania",
+      "Provincia cantiere": "Napoli",
+      "Comune cantiere": "Caivano",
+      "Cliente progetto": "SOLAR BOREALIS SRL",
+      "Progetto": "Caivano",
+      "Potenza MWp": 18.91
+    },
+    {
       "Regione cantiere": "Umbria",
       "Provincia cantiere": "Terni",
       "Comune cantiere": "Castel Giorgio",
@@ -4206,6 +4250,14 @@
       "Cliente progetto": "AG 14 SRL",
       "Progetto": "PV Villadose",
       "Potenza MWp": 37.481
+    },
+    {
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Rovigo",
+      "Comune cantiere": "Castelnovo Bariano",
+      "Cliente progetto": "CASTELNOVO SRL",
+      "Progetto": "CASTELNOVO B.",
+      "Potenza MWp": 15.03
     },
     {
       "Regione cantiere": "Emilia-Romagna",
@@ -5389,6 +5441,20 @@
     },
     {
       "Filiale cliente": "Napoli",
+      "Filiale cantiere": "Napoli",
+      "Cliente progetto": "HELIOS ONE SRL",
+      "Progetto": "PV Masseria delle Monache",
+      "Potenza MWp": 17.169
+    },
+    {
+      "Filiale cliente": "Padova",
+      "Filiale cantiere": "Napoli",
+      "Cliente progetto": "SOLAR BOREALIS SRL",
+      "Progetto": "Caivano",
+      "Potenza MWp": 18.91
+    },
+    {
+      "Filiale cliente": "Napoli",
       "Filiale cantiere": "Perugia",
       "Cliente progetto": "MAAG TIMO SRL",
       "Progetto": "Maag Black Sheep",
@@ -5729,6 +5795,13 @@
       "Cliente progetto": "AG 14 SRL",
       "Progetto": "PV Villadose",
       "Potenza MWp": 37.481
+    },
+    {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Padova",
+      "Cliente progetto": "CASTELNOVO SRL",
+      "Progetto": "CASTELNOVO B.",
+      "Potenza MWp": 15.03
     },
     {
       "Filiale cliente": "Cuneo",
@@ -8695,6 +8768,44 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "HELIOS ONE SRL",
+      "Cliente report": "HELIOS ONE SRL",
+      "Progetto": "PV Masseria delle Monache",
+      "Regione cantiere": "Campania",
+      "Provincia cantiere": "Avellino",
+      "Comune cantiere": "Ariano Irpino",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Napoli",
+      "Filiale cliente": "Napoli",
+      "Provincia sede": "nan",
+      "Comune sede": "NAPOLI",
+      "Indirizzo sede": "VIA VITTORIA COLONNA 14",
+      "Tipo account": "Prospect",
+      "MWp": 17.169,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "STESSA FILIALE"
+    },
+    {
+      "Cliente": "SOLAR BOREALIS SRL",
+      "Cliente report": "SOLAR BOREALIS SRL",
+      "Progetto": "Caivano",
+      "Regione cantiere": "Campania",
+      "Provincia cantiere": "Napoli",
+      "Comune cantiere": "Caivano",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Napoli",
+      "Filiale cliente": "Padova",
+      "Provincia sede": "Padova",
+      "Comune sede": "CAMPODARSEGO",
+      "Indirizzo sede": "VIA ANTONIANA 220/E",
+      "Tipo account": "Prospect",
+      "MWp": 18.91,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "MAAG TIMO SRL",
       "Cliente report": "MAAG TIMO SRL",
       "Progetto": "Maag Black Sheep",
@@ -9624,6 +9735,25 @@
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "STESSA FILIALE"
+    },
+    {
+      "Cliente": "CASTELNOVO SRL",
+      "Cliente report": "CASTELNOVO SRL",
+      "Progetto": "CASTELNOVO B.",
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Rovigo",
+      "Comune cantiere": "Castelnovo Bariano",
+      "Area cantiere": "Nord Est",
+      "Filiale cantiere": "Padova",
+      "Filiale cliente": "Milano Nord",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA VARESE 194",
+      "Tipo account": "Prospect",
+      "MWp": 15.03,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
     },
     {
       "Cliente": "SCOTTA SPA",

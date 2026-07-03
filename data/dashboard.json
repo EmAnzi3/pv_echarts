@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 218,
-    "mwp": 9230.577,
-    "same_branch": 32,
-    "different_branch": 186,
-    "different_pct": 85.3,
+    "projects": 220,
+    "mwp": 9333.941,
+    "same_branch": 33,
+    "different_branch": 187,
+    "different_pct": 85.0,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -108,6 +108,13 @@
       "N. progetti": 3,
       "MWp": 137.23,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Milano Sud",
+      "N. progetti": 3,
+      "MWp": 130.151,
+      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Milano Est",
@@ -355,13 +362,6 @@
       "Clienti unici": 1
     },
     {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Milano Sud",
-      "N. progetti": 2,
-      "MWp": 51.688,
-      "Clienti unici": 2
-    },
-    {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Cagliari",
       "N. progetti": 1,
@@ -374,6 +374,13 @@
       "N. progetti": 1,
       "MWp": 50.6,
       "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Cagliari",
+      "N. progetti": 2,
+      "MWp": 50.19,
+      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Brescia",
@@ -534,13 +541,6 @@
       "Filiale cantiere": "Roma Nomentana",
       "N. progetti": 1,
       "MWp": 25.3,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Nord",
-      "Filiale cantiere": "Cagliari",
-      "N. progetti": 1,
-      "MWp": 25.29,
       "Clienti unici": 1
     },
     {
@@ -931,11 +931,25 @@
       "Clienti unici": 6
     },
     {
+      "Provincia cantiere": "Pavia",
+      "Regione cantiere": "Lombardia",
+      "N. progetti": 4,
+      "MWp": 170.461,
+      "Clienti unici": 4
+    },
+    {
       "Provincia cantiere": "Ragusa",
       "Regione cantiere": "Sicilia",
       "N. progetti": 3,
       "MWp": 165.612,
       "Clienti unici": 3
+    },
+    {
+      "Provincia cantiere": "Sud Sardegna",
+      "Regione cantiere": "Sardegna",
+      "N. progetti": 5,
+      "MWp": 156.851,
+      "Clienti unici": 5
     },
     {
       "Provincia cantiere": "Ferrara",
@@ -980,13 +994,6 @@
       "Clienti unici": 2
     },
     {
-      "Provincia cantiere": "Sud Sardegna",
-      "Regione cantiere": "Sardegna",
-      "N. progetti": 4,
-      "MWp": 131.951,
-      "Clienti unici": 4
-    },
-    {
       "Provincia cantiere": "Modena",
       "Regione cantiere": "Emilia-Romagna",
       "N. progetti": 3,
@@ -1020,13 +1027,6 @@
       "N. progetti": 2,
       "MWp": 93.46,
       "Clienti unici": 2
-    },
-    {
-      "Provincia cantiere": "Pavia",
-      "Regione cantiere": "Lombardia",
-      "N. progetti": 3,
-      "MWp": 91.998,
-      "Clienti unici": 3
     },
     {
       "Provincia cantiere": "Torino",
@@ -1249,9 +1249,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 75,
-      "Progetti": 85,
-      "MWp": 3371.026
+      "Clienti": 77,
+      "Progetti": 87,
+      "MWp": 3474.39
     },
     {
       "Provincia": "Roma",
@@ -1521,9 +1521,9 @@
     },
     {
       "Filiale cantiere": "Cagliari",
-      "N. progetti": 8,
-      "MWp": 292.459,
-      "Clienti unici": 8
+      "N. progetti": 9,
+      "MWp": 317.359,
+      "Clienti unici": 9
     },
     {
       "Filiale cantiere": "Perugia",
@@ -1551,9 +1551,9 @@
     },
     {
       "Filiale cantiere": "Milano Sud",
-      "N. progetti": 5,
-      "MWp": 106.998,
-      "Clienti unici": 4
+      "N. progetti": 6,
+      "MWp": 185.461,
+      "Clienti unici": 5
     },
     {
       "Filiale cantiere": "Salerno",
@@ -1661,9 +1661,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 54,
-      "MWp": 2061.268,
-      "Clienti unici": 48
+      "N. progetti": 55,
+      "MWp": 2139.73,
+      "Clienti unici": 49
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -1679,9 +1679,9 @@
     },
     {
       "Filiale cliente": "Milano Nord",
-      "N. progetti": 16,
-      "MWp": 682.787,
-      "Clienti unici": 14
+      "N. progetti": 17,
+      "MWp": 707.687,
+      "Clienti unici": 15
     },
     {
       "Filiale cliente": "Bolzano",
@@ -1926,6 +1926,13 @@
       "N. progetti": 3,
       "MWp": 137.23,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Milano Sud",
+      "N. progetti": 3,
+      "MWp": 130.151,
+      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Milano Est",
@@ -2173,13 +2180,6 @@
       "Clienti unici": 1
     },
     {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Milano Sud",
-      "N. progetti": 2,
-      "MWp": 51.688,
-      "Clienti unici": 2
-    },
-    {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Cagliari",
       "N. progetti": 1,
@@ -2192,6 +2192,13 @@
       "N. progetti": 1,
       "MWp": 50.6,
       "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Cagliari",
+      "N. progetti": 2,
+      "MWp": 50.19,
+      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Brescia",
@@ -2352,13 +2359,6 @@
       "Filiale cantiere": "Roma Nomentana",
       "N. progetti": 1,
       "MWp": 25.3,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Nord",
-      "Filiale cantiere": "Cagliari",
-      "N. progetti": 1,
-      "MWp": 25.29,
       "Clienti unici": 1
     },
     {
@@ -3645,6 +3645,14 @@
     },
     {
       "Regione cantiere": "Sardegna",
+      "Provincia cantiere": "Sud Sardegna",
+      "Comune cantiere": "Villacidro",
+      "Cliente progetto": "OPR SUN 8 SRL",
+      "Progetto": "Villacidro zona produttiva",
+      "Potenza MWp": 24.9
+    },
+    {
+      "Regione cantiere": "Sardegna",
       "Provincia cantiere": "Sassari",
       "Comune cantiere": "Porto Torres",
       "Cliente progetto": "ENI PLENITUDE RENEWABLES ITALY SPA",
@@ -4202,6 +4210,14 @@
       "Cliente progetto": "COESA SRL",
       "Progetto": "PV Tortona",
       "Potenza MWp": 10.0
+    },
+    {
+      "Regione cantiere": "Lombardia",
+      "Provincia cantiere": "Pavia",
+      "Comune cantiere": "Santa Cristina e Bissone",
+      "Cliente progetto": "AUKERA ITALY 5 SRL",
+      "Progetto": "PV Bissina",
+      "Potenza MWp": 78.463
     },
     {
       "Regione cantiere": "Veneto",
@@ -5265,6 +5281,13 @@
       "Potenza MWp": 27.136
     },
     {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Cagliari",
+      "Cliente progetto": "OPR SUN 8 SRL",
+      "Progetto": "Villacidro zona produttiva",
+      "Potenza MWp": 24.9
+    },
+    {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Sassari",
       "Cliente progetto": "ENI PLENITUDE RENEWABLES ITALY SPA",
@@ -5753,6 +5776,13 @@
       "Cliente progetto": "COESA SRL",
       "Progetto": "PV Tortona",
       "Potenza MWp": 10.0
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Milano Sud",
+      "Cliente progetto": "AUKERA ITALY 5 SRL",
+      "Progetto": "PV Bissina",
+      "Potenza MWp": 78.463
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -8293,6 +8323,25 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "OPR SUN 8 SRL",
+      "Cliente report": "OPR SUN 8 SRL",
+      "Progetto": "Villacidro zona produttiva",
+      "Regione cantiere": "Sardegna",
+      "Provincia cantiere": "Sud Sardegna",
+      "Comune cantiere": "Villacidro",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Cagliari",
+      "Filiale cliente": "Milano Nord",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA CERESIO 7",
+      "Tipo account": "Prospect",
+      "MWp": 24.9,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "ENI PLENITUDE RENEWABLES ITALY SPA",
       "Cliente report": "ENI PLENITUDE RENEWABLES ITALY SPA",
       "Progetto": "Aree Sud",
@@ -9621,6 +9670,25 @@
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "AUKERA ITALY 5 SRL",
+      "Cliente report": "AUKERA ITALY 5 SRL",
+      "Progetto": "PV Bissina",
+      "Regione cantiere": "Lombardia",
+      "Provincia cantiere": "Pavia",
+      "Comune cantiere": "Santa Cristina e Bissone",
+      "Area cantiere": "Nord Ovest",
+      "Filiale cantiere": "Milano Sud",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "LARGO GUIDO DONEGANI 2",
+      "Tipo account": "Prospect",
+      "MWp": 78.463,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "STESSA FILIALE"
     },
     {
       "Cliente": "SHELL ENERGY ITALIA SRL",

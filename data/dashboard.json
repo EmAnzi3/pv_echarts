@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 222,
-    "mwp": 9379.432,
+    "projects": 225,
+    "mwp": 9490.682,
     "same_branch": 33,
-    "different_branch": 189,
-    "different_pct": 85.1,
+    "different_branch": 192,
+    "different_pct": 85.3,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -47,18 +47,18 @@
       "Clienti unici": 14
     },
     {
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Catania",
+      "N. progetti": 7,
+      "MWp": 354.3,
+      "Clienti unici": 7
+    },
+    {
       "Filiale cliente": "Catania",
       "Filiale cantiere": "Catania",
       "N. progetti": 6,
       "MWp": 328.8,
       "Clienti unici": 5
-    },
-    {
-      "Filiale cliente": "Roma Aurelia",
-      "Filiale cantiere": "Catania",
-      "N. progetti": 6,
-      "MWp": 301.82,
-      "Clienti unici": 6
     },
     {
       "Filiale cliente": "Bergamo",
@@ -129,6 +129,13 @@
       "N. progetti": 1,
       "MWp": 128.0,
       "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Catania",
+      "N. progetti": 3,
+      "MWp": 124.56,
+      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Milano Sud",
@@ -227,13 +234,6 @@
       "N. progetti": 1,
       "MWp": 75.0,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Nord",
-      "Filiale cantiere": "Catania",
-      "N. progetti": 2,
-      "MWp": 73.3,
-      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -495,6 +495,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Verona",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 3,
+      "MWp": 32.28,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Rimini",
       "Filiale cantiere": "Bologna",
       "N. progetti": 1,
@@ -549,13 +556,6 @@
       "N. progetti": 1,
       "MWp": 24.95,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Verona",
-      "Filiale cantiere": "Bologna",
-      "N. progetti": 2,
-      "MWp": 24.77,
-      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -840,18 +840,18 @@
       "Clienti unici": 7
     },
     {
+      "Provincia cantiere": "Palermo",
+      "Regione cantiere": "Sicilia",
+      "N. progetti": 11,
+      "MWp": 737.7,
+      "Clienti unici": 11
+    },
+    {
       "Provincia cantiere": "Foggia",
       "Regione cantiere": "Puglia",
       "N. progetti": 15,
       "MWp": 728.295,
       "Clienti unici": 14
-    },
-    {
-      "Provincia cantiere": "Palermo",
-      "Regione cantiere": "Sicilia",
-      "N. progetti": 10,
-      "MWp": 686.44,
-      "Clienti unici": 10
     },
     {
       "Provincia cantiere": "Brindisi",
@@ -917,18 +917,18 @@
       "Clienti unici": 4
     },
     {
+      "Provincia cantiere": "Bologna",
+      "Regione cantiere": "Emilia-Romagna",
+      "N. progetti": 8,
+      "MWp": 197.687,
+      "Clienti unici": 6
+    },
+    {
       "Provincia cantiere": "Siena",
       "Regione cantiere": "Toscana",
       "N. progetti": 3,
       "MWp": 193.912,
       "Clienti unici": 3
-    },
-    {
-      "Provincia cantiere": "Bologna",
-      "Regione cantiere": "Emilia-Romagna",
-      "N. progetti": 7,
-      "MWp": 190.177,
-      "Clienti unici": 6
     },
     {
       "Provincia cantiere": "Ferrara",
@@ -1006,6 +1006,13 @@
       "N. progetti": 3,
       "MWp": 112.82,
       "Clienti unici": 3
+    },
+    {
+      "Provincia cantiere": "Siracusa",
+      "Regione cantiere": "Sicilia",
+      "N. progetti": 2,
+      "MWp": 112.48,
+      "Clienti unici": 2
     },
     {
       "Provincia cantiere": "Potenza",
@@ -1104,13 +1111,6 @@
       "N. progetti": 3,
       "MWp": 60.95,
       "Clienti unici": 3
-    },
-    {
-      "Provincia cantiere": "Siracusa",
-      "Regione cantiere": "Sicilia",
-      "N. progetti": 1,
-      "MWp": 60.0,
-      "Clienti unici": 1
     },
     {
       "Provincia cantiere": "Padova",
@@ -1249,15 +1249,15 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 78,
-      "Progetti": 88,
-      "MWp": 3500.052
+      "Clienti": 79,
+      "Progetti": 89,
+      "MWp": 3551.312
     },
     {
       "Provincia": "Roma",
-      "Clienti": 33,
-      "Progetti": 36,
-      "MWp": 1457.07
+      "Clienti": 34,
+      "Progetti": 37,
+      "MWp": 1509.55
     },
     {
       "Provincia": "Bolzano/Bozen",
@@ -1346,8 +1346,8 @@
     {
       "Provincia": "Verona",
       "Clienti": 2,
-      "Progetti": 2,
-      "MWp": 24.77
+      "Progetti": 3,
+      "MWp": 32.28
     },
     {
       "Provincia": "Pisa",
@@ -1497,14 +1497,14 @@
     },
     {
       "Filiale cantiere": "Catania",
-      "N. progetti": 41,
-      "MWp": 2985.605,
-      "Clienti unici": 40
+      "N. progetti": 43,
+      "MWp": 3089.345,
+      "Clienti unici": 42
     },
     {
       "Filiale cantiere": "Bologna",
-      "N. progetti": 16,
-      "MWp": 384.577,
+      "N. progetti": 17,
+      "MWp": 392.087,
       "Clienti unici": 15
     },
     {
@@ -1673,15 +1673,15 @@
     },
     {
       "Filiale cliente": "Roma Aurelia",
-      "N. progetti": 18,
-      "MWp": 896.183,
-      "Clienti unici": 16
+      "N. progetti": 19,
+      "MWp": 948.663,
+      "Clienti unici": 17
     },
     {
       "Filiale cliente": "Milano Nord",
-      "N. progetti": 18,
-      "MWp": 733.349,
-      "Clienti unici": 16
+      "N. progetti": 19,
+      "MWp": 784.609,
+      "Clienti unici": 17
     },
     {
       "Filiale cliente": "Bolzano",
@@ -1775,8 +1775,8 @@
     },
     {
       "Filiale cliente": "Verona",
-      "N. progetti": 2,
-      "MWp": 24.77,
+      "N. progetti": 3,
+      "MWp": 32.28,
       "Clienti unici": 2
     },
     {
@@ -1865,18 +1865,18 @@
       "Clienti unici": 14
     },
     {
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Catania",
+      "N. progetti": 7,
+      "MWp": 354.3,
+      "Clienti unici": 7
+    },
+    {
       "Filiale cliente": "Catania",
       "Filiale cantiere": "Catania",
       "N. progetti": 6,
       "MWp": 328.8,
       "Clienti unici": 5
-    },
-    {
-      "Filiale cliente": "Roma Aurelia",
-      "Filiale cantiere": "Catania",
-      "N. progetti": 6,
-      "MWp": 301.82,
-      "Clienti unici": 6
     },
     {
       "Filiale cliente": "Bergamo",
@@ -1947,6 +1947,13 @@
       "N. progetti": 1,
       "MWp": 128.0,
       "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Catania",
+      "N. progetti": 3,
+      "MWp": 124.56,
+      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Milano Sud",
@@ -2045,13 +2052,6 @@
       "N. progetti": 1,
       "MWp": 75.0,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Nord",
-      "Filiale cantiere": "Catania",
-      "N. progetti": 2,
-      "MWp": 73.3,
-      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -2313,6 +2313,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Verona",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 3,
+      "MWp": 32.28,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Rimini",
       "Filiale cantiere": "Bologna",
       "N. progetti": 1,
@@ -2367,13 +2374,6 @@
       "N. progetti": 1,
       "MWp": 24.95,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Verona",
-      "Filiale cantiere": "Bologna",
-      "N. progetti": 2,
-      "MWp": 24.77,
-      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -3130,6 +3130,22 @@
       "Cliente progetto": "DREN SOLARE 10 SRL",
       "Progetto": "PV Alcamo - Monreale",
       "Potenza MWp": 40.2
+    },
+    {
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Siracusa",
+      "Comune cantiere": "Carlentini",
+      "Cliente progetto": "TEP RENEWABLES (CARLENTINI PV) SRL",
+      "Progetto": "PV Carlentini",
+      "Potenza MWp": 52.48
+    },
+    {
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Palermo",
+      "Comune cantiere": "Monreale",
+      "Cliente progetto": "RENANTIS SICILIA SRL",
+      "Progetto": "Pergole",
+      "Potenza MWp": 51.26
     },
     {
       "Regione cantiere": "Puglia",
@@ -4116,6 +4132,14 @@
       "Potenza MWp": 25.662
     },
     {
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Bologna",
+      "Comune cantiere": "San Giovanni in Persiceto",
+      "Cliente progetto": "JUWI ENERGIE RINNOVABILI SRL",
+      "Progetto": "PV San Giovanni in Persiceto",
+      "Potenza MWp": 7.51
+    },
+    {
       "Regione cantiere": "Lombardia",
       "Provincia cantiere": "Brescia",
       "Comune cantiere": "Lonato del Garda",
@@ -4847,6 +4871,20 @@
       "Cliente progetto": "DREN SOLARE 10 SRL",
       "Progetto": "PV Alcamo - Monreale",
       "Potenza MWp": 40.2
+    },
+    {
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Catania",
+      "Cliente progetto": "TEP RENEWABLES (CARLENTINI PV) SRL",
+      "Progetto": "PV Carlentini",
+      "Potenza MWp": 52.48
+    },
+    {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Catania",
+      "Cliente progetto": "RENANTIS SICILIA SRL",
+      "Progetto": "Pergole",
+      "Potenza MWp": 51.26
     },
     {
       "Filiale cliente": "Bologna",
@@ -5708,6 +5746,13 @@
       "Cliente progetto": "OPR SUN 55 SRL",
       "Progetto": "RO",
       "Potenza MWp": 25.662
+    },
+    {
+      "Filiale cliente": "Verona",
+      "Filiale cantiere": "Bologna",
+      "Cliente progetto": "JUWI ENERGIE RINNOVABILI SRL",
+      "Progetto": "PV San Giovanni in Persiceto",
+      "Potenza MWp": 7.51
     },
     {
       "Filiale cliente": "Milano Sud",
@@ -7132,6 +7177,44 @@
       "Indirizzo sede": "VIA TRIBOLDI PIETRO 4",
       "Tipo account": "Prospect",
       "MWp": 40.2,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "TEP RENEWABLES (CARLENTINI PV) SRL",
+      "Cliente report": "TEP RENEWABLES (CARLENTINI PV) SRL",
+      "Progetto": "PV Carlentini",
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Siracusa",
+      "Comune cantiere": "Carlentini",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Catania",
+      "Filiale cliente": "Roma Aurelia",
+      "Provincia sede": "Roma",
+      "Comune sede": "ROMA",
+      "Indirizzo sede": "VIA BENEDETTO CROCE 19",
+      "Tipo account": "Prospect",
+      "MWp": 52.48,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "RENANTIS SICILIA SRL",
+      "Cliente report": "RENANTIS SICILIA SRL",
+      "Progetto": "Pergole",
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Palermo",
+      "Comune cantiere": "Monreale",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Catania",
+      "Filiale cliente": "Milano Nord",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIALE MONZA 259",
+      "Tipo account": "Prospect",
+      "MWp": 51.26,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
@@ -9294,7 +9377,7 @@
       "Filiale cantiere": "Bologna",
       "Filiale cliente": "Verona",
       "Provincia sede": "Verona",
-      "Comune sede": "LEGNANO",
+      "Comune sede": "LEGNAGO",
       "Indirizzo sede": "VIA GOITO 4",
       "Tipo account": "Prospect",
       "MWp": 5.4,
@@ -9469,6 +9552,25 @@
       "Indirizzo sede": "VIA CERESIO 7",
       "Tipo account": "Prospect",
       "MWp": 25.662,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "JUWI ENERGIE RINNOVABILI SRL",
+      "Cliente report": "JUWI ENERGIE RINNOVABILI SRL",
+      "Progetto": "PV San Giovanni in Persiceto",
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Bologna",
+      "Comune cantiere": "San Giovanni in Persiceto",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Bologna",
+      "Filiale cliente": "Verona",
+      "Provincia sede": "Verona",
+      "Comune sede": "VERONA",
+      "Indirizzo sede": "VIA SOMMACAMPAGNA 59/D",
+      "Tipo account": "Prospect",
+      "MWp": 7.51,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

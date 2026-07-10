@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 225,
-    "mwp": 9490.682,
+    "projects": 228,
+    "mwp": 9613.022,
     "same_branch": 33,
-    "different_branch": 192,
-    "different_pct": 85.3,
+    "different_branch": 195,
+    "different_pct": 85.5,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -35,9 +35,9 @@
     {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Bari",
-      "N. progetti": 16,
-      "MWp": 464.477,
-      "Clienti unici": 12
+      "N. progetti": 17,
+      "MWp": 484.557,
+      "Clienti unici": 13
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -87,6 +87,13 @@
       "N. progetti": 1,
       "MWp": 144.335,
       "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 3,
+      "MWp": 141.747,
+      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -269,13 +276,6 @@
       "N. progetti": 1,
       "MWp": 68.51,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Bolzano",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 2,
-      "MWp": 68.097,
-      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Milano Ovest",
@@ -514,6 +514,13 @@
       "N. progetti": 2,
       "MWp": 30.148,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Frosinone",
+      "N. progetti": 1,
+      "MWp": 28.61,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Catania",
@@ -945,6 +952,13 @@
       "Clienti unici": 4
     },
     {
+      "Provincia cantiere": "Taranto",
+      "Regione cantiere": "Puglia",
+      "N. progetti": 4,
+      "MWp": 168.147,
+      "Clienti unici": 4
+    },
+    {
       "Provincia cantiere": "Ragusa",
       "Regione cantiere": "Sicilia",
       "N. progetti": 3,
@@ -1015,6 +1029,13 @@
       "Clienti unici": 2
     },
     {
+      "Provincia cantiere": "Latina",
+      "Regione cantiere": "Lazio",
+      "N. progetti": 3,
+      "MWp": 107.029,
+      "Clienti unici": 3
+    },
+    {
       "Provincia cantiere": "Potenza",
       "Regione cantiere": "Basilicata",
       "N. progetti": 5,
@@ -1041,20 +1062,6 @@
       "N. progetti": 5,
       "MWp": 86.498,
       "Clienti unici": 5
-    },
-    {
-      "Provincia cantiere": "Latina",
-      "Regione cantiere": "Lazio",
-      "N. progetti": 2,
-      "MWp": 78.419,
-      "Clienti unici": 2
-    },
-    {
-      "Provincia cantiere": "Taranto",
-      "Regione cantiere": "Puglia",
-      "N. progetti": 2,
-      "MWp": 74.417,
-      "Clienti unici": 2
     },
     {
       "Provincia cantiere": "Parma",
@@ -1249,9 +1256,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 79,
-      "Progetti": 89,
-      "MWp": 3551.312
+      "Clienti": 81,
+      "Progetti": 91,
+      "MWp": 3600.002
     },
     {
       "Provincia": "Roma",
@@ -1261,9 +1268,9 @@
     },
     {
       "Provincia": "Bolzano/Bozen",
-      "Clienti": 15,
-      "Progetti": 15,
-      "MWp": 1115.124
+      "Clienti": 16,
+      "Progetti": 16,
+      "MWp": 1188.774
     },
     {
       "Provincia": "Torino",
@@ -1491,9 +1498,9 @@
   "top_cantiere": [
     {
       "Filiale cantiere": "Bari",
-      "N. progetti": 53,
-      "MWp": 2127.844,
-      "Clienti unici": 48
+      "N. progetti": 55,
+      "MWp": 2221.574,
+      "Clienti unici": 50
     },
     {
       "Filiale cantiere": "Catania",
@@ -1616,6 +1623,12 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cantiere": "Frosinone",
+      "N. progetti": 2,
+      "MWp": 47.029,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cantiere": "Brescia",
       "N. progetti": 2,
       "MWp": 42.47,
@@ -1640,12 +1653,6 @@
       "Clienti unici": 1
     },
     {
-      "Filiale cantiere": "Frosinone",
-      "N. progetti": 1,
-      "MWp": 18.419,
-      "Clienti unici": 1
-    },
-    {
       "Filiale cantiere": "Milano Nord",
       "N. progetti": 1,
       "MWp": 7.2,
@@ -1661,9 +1668,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 55,
-      "MWp": 2139.73,
-      "Clienti unici": 49
+      "N. progetti": 57,
+      "MWp": 2188.42,
+      "Clienti unici": 51
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -1685,9 +1692,9 @@
     },
     {
       "Filiale cliente": "Bolzano",
-      "N. progetti": 15,
-      "MWp": 1115.124,
-      "Clienti unici": 15
+      "N. progetti": 16,
+      "MWp": 1188.774,
+      "Clienti unici": 16
     },
     {
       "Filiale cliente": "Torino",
@@ -1853,9 +1860,9 @@
     {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Bari",
-      "N. progetti": 16,
-      "MWp": 464.477,
-      "Clienti unici": 12
+      "N. progetti": 17,
+      "MWp": 484.557,
+      "Clienti unici": 13
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -1905,6 +1912,13 @@
       "N. progetti": 1,
       "MWp": 144.335,
       "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 3,
+      "MWp": 141.747,
+      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -2087,13 +2101,6 @@
       "N. progetti": 1,
       "MWp": 68.51,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Bolzano",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 2,
-      "MWp": 68.097,
-      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Milano Ovest",
@@ -2332,6 +2339,13 @@
       "N. progetti": 2,
       "MWp": 30.148,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Frosinone",
+      "N. progetti": 1,
+      "MWp": 28.61,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Catania",
@@ -3572,6 +3586,22 @@
       "Potenza MWp": 19.83
     },
     {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Taranto",
+      "Comune cantiere": "San Giorgio Ionico",
+      "Cliente progetto": "SAN GIORGIO JONICO SRL",
+      "Progetto": "PV Località Serro",
+      "Potenza MWp": 73.65
+    },
+    {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Taranto",
+      "Comune cantiere": "Lizzano",
+      "Cliente progetto": "SKI 09 SRL",
+      "Progetto": "Masseria Mucchio",
+      "Potenza MWp": 20.08
+    },
+    {
       "Regione cantiere": "Lazio",
       "Provincia cantiere": "Roma",
       "Comune cantiere": "Velletri",
@@ -4442,6 +4472,14 @@
       "Cliente progetto": "EGP MAZZOCCHIO SRL",
       "Progetto": "EGPM-FV082",
       "Potenza MWp": 18.419
+    },
+    {
+      "Regione cantiere": "Lazio",
+      "Provincia cantiere": "Latina",
+      "Comune cantiere": "Latina",
+      "Cliente progetto": "SOLAR PV 39 SRL",
+      "Progetto": "Latina Fondazione",
+      "Potenza MWp": 28.61
     }
   ],
   "treemap_filiali": [
@@ -5258,6 +5296,20 @@
       "Potenza MWp": 19.83
     },
     {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "SAN GIORGIO JONICO SRL",
+      "Progetto": "PV Località Serro",
+      "Potenza MWp": 73.65
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "SKI 09 SRL",
+      "Progetto": "Masseria Mucchio",
+      "Potenza MWp": 20.08
+    },
+    {
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Roma Aurelia",
       "Cliente progetto": "ICA REN ELF SRL",
@@ -6019,6 +6071,13 @@
       "Cliente progetto": "EGP MAZZOCCHIO SRL",
       "Progetto": "EGPM-FV082",
       "Potenza MWp": 18.419
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Frosinone",
+      "Cliente progetto": "SOLAR PV 39 SRL",
+      "Progetto": "Latina Fondazione",
+      "Potenza MWp": 28.61
     }
   ],
   "details": [
@@ -8227,6 +8286,44 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "SAN GIORGIO JONICO SRL",
+      "Cliente report": "SAN GIORGIO JONICO SRL",
+      "Progetto": "PV Località Serro",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Taranto",
+      "Comune cantiere": "San Giorgio Ionico",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Bolzano",
+      "Provincia sede": "Bolzano/Bozen",
+      "Comune sede": "BOLZANO",
+      "Indirizzo sede": "PIAZZA WALTHER VON DER VOGELWEIDE 8",
+      "Tipo account": "Prospect",
+      "MWp": 73.65,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "SKI 09 SRL",
+      "Cliente report": "SKI 09 SRL",
+      "Progetto": "Masseria Mucchio",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Taranto",
+      "Comune cantiere": "Lizzano",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "FORO BUONAPARTE 60",
+      "Tipo account": "Prospect",
+      "MWp": 20.08,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "ICA REN ELF SRL",
       "Cliente report": "ICA REN ELF SRL",
       "Progetto": "Velletri-Lazzaria",
@@ -10296,6 +10393,25 @@
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "STESSA FILIALE"
+    },
+    {
+      "Cliente": "SOLAR PV 39 SRL",
+      "Cliente report": "SOLAR PV 39 SRL",
+      "Progetto": "Latina Fondazione",
+      "Regione cantiere": "Lazio",
+      "Provincia cantiere": "Latina",
+      "Comune cantiere": "Latina",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Frosinone",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "PIAZZA CASTELLO 19",
+      "Tipo account": "Prospect",
+      "MWp": 28.61,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
     }
   ]
 }

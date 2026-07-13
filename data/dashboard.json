@@ -1,16 +1,23 @@
 {
   "summary": {
-    "projects": 228,
-    "mwp": 9613.022,
+    "projects": 230,
+    "mwp": 131361.888,
     "same_branch": 33,
-    "different_branch": 195,
-    "different_pct": 85.5,
+    "different_branch": 197,
+    "different_pct": 85.7,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
     ]
   },
   "flows": [
+    {
+      "Filiale cliente": "Udine",
+      "Filiale cantiere": "Milano Sud",
+      "N. progetti": 1,
+      "MWp": 121697.0,
+      "Clienti unici": 1
+    },
     {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Catania",
@@ -353,6 +360,13 @@
       "N. progetti": 3,
       "MWp": 53.3,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Roma Nomentana",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 1,
+      "MWp": 51.866,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Catania",
@@ -833,6 +847,13 @@
   ],
   "province_cantieri": [
     {
+      "Provincia cantiere": "Pavia",
+      "Regione cantiere": "Lombardia",
+      "N. progetti": 5,
+      "MWp": 121867.461,
+      "Clienti unici": 5
+    },
+    {
       "Provincia cantiere": "Catania",
       "Regione cantiere": "Sicilia",
       "N. progetti": 9,
@@ -903,6 +924,13 @@
       "Clienti unici": 4
     },
     {
+      "Provincia cantiere": "Ferrara",
+      "Regione cantiere": "Emilia-Romagna",
+      "N. progetti": 9,
+      "MWp": 232.266,
+      "Clienti unici": 9
+    },
+    {
       "Provincia cantiere": "Matera",
       "Regione cantiere": "Basilicata",
       "N. progetti": 11,
@@ -936,20 +964,6 @@
       "N. progetti": 3,
       "MWp": 193.912,
       "Clienti unici": 3
-    },
-    {
-      "Provincia cantiere": "Ferrara",
-      "Regione cantiere": "Emilia-Romagna",
-      "N. progetti": 8,
-      "MWp": 180.4,
-      "Clienti unici": 8
-    },
-    {
-      "Provincia cantiere": "Pavia",
-      "Regione cantiere": "Lombardia",
-      "N. progetti": 4,
-      "MWp": 170.461,
-      "Clienti unici": 4
     },
     {
       "Provincia cantiere": "Taranto",
@@ -1297,6 +1311,12 @@
       "MWp": 114.2
     },
     {
+      "Provincia": "Pescara",
+      "Clienti": 4,
+      "Progetti": 4,
+      "MWp": 149.106
+    },
+    {
       "Provincia": "Bari",
       "Clienti": 3,
       "Progetti": 3,
@@ -1307,12 +1327,6 @@
       "Clienti": 3,
       "Progetti": 4,
       "MWp": 334.3
-    },
-    {
-      "Provincia": "Pescara",
-      "Clienti": 3,
-      "Progetti": 3,
-      "MWp": 97.24
     },
     {
       "Provincia": "nan",
@@ -1361,6 +1375,12 @@
       "Clienti": 2,
       "Progetti": 3,
       "MWp": 5.4
+    },
+    {
+      "Provincia": "Trieste",
+      "Clienti": 1,
+      "Progetti": 1,
+      "MWp": 121697.0
     },
     {
       "Provincia": "Teramo",
@@ -1510,9 +1530,9 @@
     },
     {
       "Filiale cantiere": "Bologna",
-      "N. progetti": 17,
-      "MWp": 392.087,
-      "Clienti unici": 15
+      "N. progetti": 18,
+      "MWp": 443.953,
+      "Clienti unici": 16
     },
     {
       "Filiale cantiere": "Livorno",
@@ -1539,6 +1559,12 @@
       "Clienti unici": 8
     },
     {
+      "Filiale cantiere": "Milano Sud",
+      "N. progetti": 7,
+      "MWp": 121882.461,
+      "Clienti unici": 6
+    },
+    {
       "Filiale cantiere": "Padova",
       "N. progetti": 7,
       "MWp": 325.061,
@@ -1555,12 +1581,6 @@
       "N. progetti": 6,
       "MWp": 232.666,
       "Clienti unici": 6
-    },
-    {
-      "Filiale cantiere": "Milano Sud",
-      "N. progetti": 6,
-      "MWp": 185.461,
-      "Clienti unici": 5
     },
     {
       "Filiale cantiere": "Salerno",
@@ -1674,9 +1694,9 @@
     },
     {
       "Filiale cliente": "Roma Nomentana",
-      "N. progetti": 22,
-      "MWp": 820.787,
-      "Clienti unici": 21
+      "N. progetti": 23,
+      "MWp": 872.653,
+      "Clienti unici": 22
     },
     {
       "Filiale cliente": "Roma Aurelia",
@@ -1788,9 +1808,9 @@
     },
     {
       "Filiale cliente": "Udine",
-      "N. progetti": 1,
-      "MWp": 68.51,
-      "Clienti unici": 1
+      "N. progetti": 2,
+      "MWp": 121765.51,
+      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Salerno",
@@ -1836,6 +1856,13 @@
     }
   ],
   "heatmap_filiali": [
+    {
+      "Filiale cliente": "Udine",
+      "Filiale cantiere": "Milano Sud",
+      "N. progetti": 1,
+      "MWp": 121697.0,
+      "Clienti unici": 1
+    },
     {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Catania",
@@ -2178,6 +2205,13 @@
       "N. progetti": 3,
       "MWp": 53.3,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Roma Nomentana",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 1,
+      "MWp": 51.866,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Catania",
@@ -4170,6 +4204,14 @@
       "Potenza MWp": 7.51
     },
     {
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Ferrara",
+      "Comune cantiere": "Fiscaglia",
+      "Cliente progetto": "FISCAGLIA AGRI-SOLARE SRL",
+      "Progetto": "AGRO-SOLARE FISCAGLIA",
+      "Potenza MWp": 51.866
+    },
+    {
       "Regione cantiere": "Lombardia",
       "Provincia cantiere": "Brescia",
       "Comune cantiere": "Lonato del Garda",
@@ -4288,6 +4330,14 @@
       "Cliente progetto": "AUKERA ITALY 5 SRL",
       "Progetto": "PV Bissina",
       "Potenza MWp": 78.463
+    },
+    {
+      "Regione cantiere": "Lombardia",
+      "Provincia cantiere": "Pavia",
+      "Comune cantiere": "Dorno",
+      "Cliente progetto": "GRANDE RINNOVABILI SRL",
+      "Progetto": "Cascina Grande",
+      "Potenza MWp": 121697.0
     },
     {
       "Regione cantiere": "Veneto",
@@ -5807,6 +5857,13 @@
       "Potenza MWp": 7.51
     },
     {
+      "Filiale cliente": "Roma Nomentana",
+      "Filiale cantiere": "Bologna",
+      "Cliente progetto": "FISCAGLIA AGRI-SOLARE SRL",
+      "Progetto": "AGRO-SOLARE FISCAGLIA",
+      "Potenza MWp": 51.866
+    },
+    {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Brescia",
       "Cliente progetto": "LIO ENERGY BUBO SRL",
@@ -5910,6 +5967,13 @@
       "Cliente progetto": "AUKERA ITALY 5 SRL",
       "Progetto": "PV Bissina",
       "Potenza MWp": 78.463
+    },
+    {
+      "Filiale cliente": "Udine",
+      "Filiale cantiere": "Milano Sud",
+      "Cliente progetto": "GRANDE RINNOVABILI SRL",
+      "Progetto": "Cascina Grande",
+      "Potenza MWp": 121697.0
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -9673,6 +9737,25 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "FISCAGLIA AGRI-SOLARE SRL",
+      "Cliente report": "FISCAGLIA AGRI-SOLARE SRL",
+      "Progetto": "AGRO-SOLARE FISCAGLIA",
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Ferrara",
+      "Comune cantiere": "Fiscaglia",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Bologna",
+      "Filiale cliente": "Roma Nomentana",
+      "Provincia sede": "Pescara",
+      "Comune sede": "PESCARA",
+      "Indirizzo sede": "PIAZZA ETTORE TROILO 27",
+      "Tipo account": "Prospect",
+      "MWp": 51.866,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "LIO ENERGY BUBO SRL",
       "Cliente report": "LIO ENERGY BUBO SRL",
       "Progetto": "PV Lonato del Garda",
@@ -9956,6 +10039,25 @@
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "STESSA FILIALE"
+    },
+    {
+      "Cliente": "GRANDE RINNOVABILI SRL",
+      "Cliente report": "GRANDE RINNOVABILI SRL",
+      "Progetto": "Cascina Grande",
+      "Regione cantiere": "Lombardia",
+      "Provincia cantiere": "Pavia",
+      "Comune cantiere": "Dorno",
+      "Area cantiere": "Nord Ovest",
+      "Filiale cantiere": "Milano Sud",
+      "Filiale cliente": "Udine",
+      "Provincia sede": "Trieste",
+      "Comune sede": "TRIESTE",
+      "Indirizzo sede": "VIA GIOSUE' CARDUCCI 8",
+      "Tipo account": "Prospect",
+      "MWp": 121697.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
     },
     {
       "Cliente": "SHELL ENERGY ITALIA SRL",

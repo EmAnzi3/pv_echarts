@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 230,
-    "mwp": 9786.586,
+    "projects": 233,
+    "mwp": 9880.316,
     "same_branch": 33,
-    "different_branch": 197,
-    "different_pct": 85.7,
+    "different_branch": 200,
+    "different_pct": 85.8,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -35,8 +35,8 @@
     {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Bari",
-      "N. progetti": 17,
-      "MWp": 484.557,
+      "N. progetti": 18,
+      "MWp": 532.057,
       "Clienti unici": 13
     },
     {
@@ -80,6 +80,13 @@
       "N. progetti": 3,
       "MWp": 161.868,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Padova",
+      "N. progetti": 4,
+      "MWp": 160.26,
+      "Clienti unici": 4
     },
     {
       "Filiale cliente": "Roma Aurelia",
@@ -156,13 +163,6 @@
       "Filiale cantiere": "Roma Aurelia",
       "N. progetti": 2,
       "MWp": 120.9,
-      "Clienti unici": 2
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Padova",
-      "N. progetti": 2,
-      "MWp": 114.03,
       "Clienti unici": 2
     },
     {
@@ -854,6 +854,13 @@
       "Clienti unici": 9
     },
     {
+      "Provincia cantiere": "Foggia",
+      "Regione cantiere": "Puglia",
+      "N. progetti": 16,
+      "MWp": 775.795,
+      "Clienti unici": 14
+    },
+    {
       "Provincia cantiere": "Enna",
       "Regione cantiere": "Sicilia",
       "N. progetti": 7,
@@ -866,13 +873,6 @@
       "N. progetti": 11,
       "MWp": 737.7,
       "Clienti unici": 11
-    },
-    {
-      "Provincia cantiere": "Foggia",
-      "Regione cantiere": "Puglia",
-      "N. progetti": 15,
-      "MWp": 728.295,
-      "Clienti unici": 14
     },
     {
       "Provincia cantiere": "Brindisi",
@@ -896,6 +896,13 @@
       "Clienti unici": 7
     },
     {
+      "Provincia cantiere": "Rovigo",
+      "Regione cantiere": "Veneto",
+      "N. progetti": 7,
+      "MWp": 296.121,
+      "Clienti unici": 7
+    },
+    {
       "Provincia cantiere": "Pavia",
       "Regione cantiere": "Lombardia",
       "N. progetti": 5,
@@ -908,13 +915,6 @@
       "N. progetti": 3,
       "MWp": 284.99,
       "Clienti unici": 3
-    },
-    {
-      "Provincia cantiere": "Rovigo",
-      "Regione cantiere": "Veneto",
-      "N. progetti": 6,
-      "MWp": 276.561,
-      "Clienti unici": 6
     },
     {
       "Provincia cantiere": "Roma",
@@ -1078,6 +1078,13 @@
       "Clienti unici": 5
     },
     {
+      "Provincia cantiere": "Padova",
+      "Regione cantiere": "Veneto",
+      "N. progetti": 2,
+      "MWp": 75.17,
+      "Clienti unici": 2
+    },
+    {
       "Provincia cantiere": "Parma",
       "Regione cantiere": "Emilia-Romagna",
       "N. progetti": 1,
@@ -1132,13 +1139,6 @@
       "N. progetti": 3,
       "MWp": 60.95,
       "Clienti unici": 3
-    },
-    {
-      "Provincia cantiere": "Padova",
-      "Regione cantiere": "Veneto",
-      "N. progetti": 1,
-      "MWp": 48.5,
-      "Clienti unici": 1
     },
     {
       "Provincia cantiere": "Brescia",
@@ -1270,9 +1270,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 81,
-      "Progetti": 91,
-      "MWp": 3600.002
+      "Clienti": 83,
+      "Progetti": 94,
+      "MWp": 3693.732
     },
     {
       "Provincia": "Roma",
@@ -1518,8 +1518,8 @@
   "top_cantiere": [
     {
       "Filiale cantiere": "Bari",
-      "N. progetti": 55,
-      "MWp": 2221.574,
+      "N. progetti": 56,
+      "MWp": 2269.074,
       "Clienti unici": 50
     },
     {
@@ -1547,6 +1547,12 @@
       "Clienti unici": 9
     },
     {
+      "Filiale cantiere": "Padova",
+      "N. progetti": 9,
+      "MWp": 371.291,
+      "Clienti unici": 8
+    },
+    {
       "Filiale cantiere": "Cagliari",
       "N. progetti": 9,
       "MWp": 317.359,
@@ -1557,12 +1563,6 @@
       "N. progetti": 8,
       "MWp": 207.757,
       "Clienti unici": 8
-    },
-    {
-      "Filiale cantiere": "Padova",
-      "N. progetti": 7,
-      "MWp": 325.061,
-      "Clienti unici": 6
     },
     {
       "Filiale cantiere": "Milano Sud",
@@ -1688,9 +1688,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 57,
-      "MWp": 2188.42,
-      "Clienti unici": 51
+      "N. progetti": 60,
+      "MWp": 2282.15,
+      "Clienti unici": 53
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -1880,8 +1880,8 @@
     {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Bari",
-      "N. progetti": 17,
-      "MWp": 484.557,
+      "N. progetti": 18,
+      "MWp": 532.057,
       "Clienti unici": 13
     },
     {
@@ -1925,6 +1925,13 @@
       "N. progetti": 3,
       "MWp": 161.868,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Padova",
+      "N. progetti": 4,
+      "MWp": 160.26,
+      "Clienti unici": 4
     },
     {
       "Filiale cliente": "Roma Aurelia",
@@ -2001,13 +2008,6 @@
       "Filiale cantiere": "Roma Aurelia",
       "N. progetti": 2,
       "MWp": 120.9,
-      "Clienti unici": 2
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Padova",
-      "N. progetti": 2,
-      "MWp": 114.03,
       "Clienti unici": 2
     },
     {
@@ -3636,6 +3636,14 @@
       "Potenza MWp": 20.08
     },
     {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Foggia",
+      "Comune cantiere": "Ascoli Satriano",
+      "Cliente progetto": "WHYSOLE SVILUPPO SRL",
+      "Progetto": "Ascoli Satriano Masseria San Potito",
+      "Potenza MWp": 47.5
+    },
+    {
       "Regione cantiere": "Lazio",
       "Provincia cantiere": "Roma",
       "Comune cantiere": "Velletri",
@@ -4394,6 +4402,22 @@
       "Cliente progetto": "CASTELNOVO SRL",
       "Progetto": "CASTELNOVO B.",
       "Potenza MWp": 15.03
+    },
+    {
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Padova",
+      "Comune cantiere": "Bagnoli di Sopra",
+      "Cliente progetto": "CHIRON ENERGY SPV 07 SRL",
+      "Progetto": "Bagnoli 1, 2, 3, 4",
+      "Potenza MWp": 26.67
+    },
+    {
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Rovigo",
+      "Comune cantiere": "Porto Viro",
+      "Cliente progetto": "CHIRON ENERGY SPV 05 SRL",
+      "Progetto": "PV via Murazze snc",
+      "Potenza MWp": 19.56
     },
     {
       "Regione cantiere": "Emilia-Romagna",
@@ -5360,6 +5384,13 @@
       "Potenza MWp": 20.08
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "WHYSOLE SVILUPPO SRL",
+      "Progetto": "Ascoli Satriano Masseria San Potito",
+      "Potenza MWp": 47.5
+    },
+    {
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Roma Aurelia",
       "Cliente progetto": "ICA REN ELF SRL",
@@ -6023,6 +6054,20 @@
       "Cliente progetto": "CASTELNOVO SRL",
       "Progetto": "CASTELNOVO B.",
       "Potenza MWp": 15.03
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Padova",
+      "Cliente progetto": "CHIRON ENERGY SPV 07 SRL",
+      "Progetto": "Bagnoli 1, 2, 3, 4",
+      "Potenza MWp": 26.67
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Padova",
+      "Cliente progetto": "CHIRON ENERGY SPV 05 SRL",
+      "Progetto": "PV via Murazze snc",
+      "Potenza MWp": 19.56
     },
     {
       "Filiale cliente": "Cuneo",
@@ -8388,6 +8433,25 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "WHYSOLE SVILUPPO SRL",
+      "Cliente report": "WHYSOLE SVILUPPO SRL",
+      "Progetto": "Ascoli Satriano Masseria San Potito",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Foggia",
+      "Comune cantiere": "Ascoli Satriano",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA MERAVIGLI 3",
+      "Tipo account": "Prospect",
+      "MWp": 47.5,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "ICA REN ELF SRL",
       "Cliente report": "ICA REN ELF SRL",
       "Progetto": "Velletri-Lazzaria",
@@ -10188,6 +10252,44 @@
       "Indirizzo sede": "VIA VARESE 194",
       "Tipo account": "Prospect",
       "MWp": 15.03,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "CHIRON ENERGY SPV 07 SRL",
+      "Cliente report": "CHIRON ENERGY SPV 07 SRL",
+      "Progetto": "Bagnoli 1, 2, 3, 4",
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Padova",
+      "Comune cantiere": "Bagnoli di Sopra",
+      "Area cantiere": "Nord Est",
+      "Filiale cantiere": "Padova",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA BIGLI 2",
+      "Tipo account": "Prospect",
+      "MWp": 26.67,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "CHIRON ENERGY SPV 05 SRL",
+      "Cliente report": "CHIRON ENERGY SPV 05 SRL",
+      "Progetto": "PV via Murazze snc",
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Rovigo",
+      "Comune cantiere": "Porto Viro",
+      "Area cantiere": "Nord Est",
+      "Filiale cantiere": "Padova",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA BIGLI 2",
+      "Tipo account": "Prospect",
+      "MWp": 19.56,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

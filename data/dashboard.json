@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 243,
-    "mwp": 10322.302,
+    "projects": 244,
+    "mwp": 10378.372,
     "same_branch": 34,
-    "different_branch": 209,
-    "different_pct": 86.0,
+    "different_branch": 210,
+    "different_pct": 86.1,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -185,6 +185,13 @@
       "N. progetti": 2,
       "MWp": 105.3,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 3,
+      "MWp": 96.357,
+      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Bolzano",
@@ -451,13 +458,6 @@
       "N. progetti": 1,
       "MWp": 40.31,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Bologna",
-      "N. progetti": 2,
-      "MWp": 40.287,
-      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -945,6 +945,13 @@
       "Clienti unici": 5
     },
     {
+      "Provincia cantiere": "Ferrara",
+      "Regione cantiere": "Emilia-Romagna",
+      "N. progetti": 10,
+      "MWp": 288.336,
+      "Clienti unici": 10
+    },
+    {
       "Provincia cantiere": "Viterbo",
       "Regione cantiere": "Lazio",
       "N. progetti": 3,
@@ -957,13 +964,6 @@
       "N. progetti": 4,
       "MWp": 274.185,
       "Clienti unici": 4
-    },
-    {
-      "Provincia cantiere": "Ferrara",
-      "Regione cantiere": "Emilia-Romagna",
-      "N. progetti": 9,
-      "MWp": 232.266,
-      "Clienti unici": 9
     },
     {
       "Provincia cantiere": "Matera",
@@ -1312,9 +1312,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 88,
-      "Progetti": 99,
-      "MWp": 4010.818
+      "Clienti": 89,
+      "Progetti": 100,
+      "MWp": 4066.888
     },
     {
       "Provincia": "Roma",
@@ -1578,9 +1578,9 @@
     },
     {
       "Filiale cantiere": "Bologna",
-      "N. progetti": 18,
-      "MWp": 443.953,
-      "Clienti unici": 16
+      "N. progetti": 19,
+      "MWp": 500.023,
+      "Clienti unici": 17
     },
     {
       "Filiale cantiere": "Livorno",
@@ -1736,9 +1736,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 62,
-      "MWp": 2326.217,
-      "Clienti unici": 55
+      "N. progetti": 63,
+      "MWp": 2382.288,
+      "Clienti unici": 56
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -2080,6 +2080,13 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 3,
+      "MWp": 96.357,
+      "Clienti unici": 3
+    },
+    {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Udine",
       "N. progetti": 1,
@@ -2344,13 +2351,6 @@
       "N. progetti": 1,
       "MWp": 40.31,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Bologna",
-      "N. progetti": 2,
-      "MWp": 40.287,
-      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -4359,6 +4359,14 @@
       "Potenza MWp": 51.866
     },
     {
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Ferrara",
+      "Comune cantiere": "Ferrara",
+      "Cliente progetto": "FERRARA SOLAR SRL",
+      "Progetto": "Cuniola",
+      "Potenza MWp": 56.07
+    },
+    {
       "Regione cantiere": "Lombardia",
       "Provincia cantiere": "Brescia",
       "Comune cantiere": "Lonato del Garda",
@@ -6105,6 +6113,13 @@
       "Cliente progetto": "FISCAGLIA AGRI-SOLARE SRL",
       "Progetto": "AGRO-SOLARE FISCAGLIA",
       "Potenza MWp": 51.866
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bologna",
+      "Cliente progetto": "FERRARA SOLAR SRL",
+      "Progetto": "Cuniola",
+      "Potenza MWp": 56.07
     },
     {
       "Filiale cliente": "Milano Sud",
@@ -10181,6 +10196,25 @@
       "Indirizzo sede": "PIAZZA ETTORE TROILO 27",
       "Tipo account": "Prospect",
       "MWp": 51.866,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "FERRARA SOLAR SRL",
+      "Cliente report": "FERRARA SOLAR SRL",
+      "Progetto": "Cuniola",
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Ferrara",
+      "Comune cantiere": "Ferrara",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Bologna",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "LARGO ARTURO TOSCANINI 1",
+      "Tipo account": "Prospect",
+      "MWp": 56.07,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

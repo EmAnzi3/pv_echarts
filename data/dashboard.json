@@ -1,9 +1,9 @@
 {
   "summary": {
-    "projects": 255,
-    "mwp": 11310.432,
+    "projects": 256,
+    "mwp": 11342.493,
     "same_branch": 34,
-    "different_branch": 221,
+    "different_branch": 222,
     "different_pct": 86.7,
     "omitted_clients": [
       "skynrg srl",
@@ -84,9 +84,9 @@
     {
       "Filiale cliente": "Roma Aurelia",
       "Filiale cantiere": "Bari",
-      "N. progetti": 3,
-      "MWp": 161.868,
-      "Clienti unici": 2
+      "N. progetti": 4,
+      "MWp": 193.928,
+      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Milano Sud",
@@ -1176,6 +1176,13 @@
       "Clienti unici": 1
     },
     {
+      "Provincia cantiere": "Bari",
+      "Regione cantiere": "Puglia",
+      "N. progetti": 3,
+      "MWp": 69.26,
+      "Clienti unici": 3
+    },
+    {
       "Provincia cantiere": "Udine",
       "Regione cantiere": "Friuli-Venezia Giulia",
       "N. progetti": 1,
@@ -1243,13 +1250,6 @@
       "Regione cantiere": "Calabria",
       "N. progetti": 2,
       "MWp": 37.226,
-      "Clienti unici": 2
-    },
-    {
-      "Provincia cantiere": "Bari",
-      "Regione cantiere": "Puglia",
-      "N. progetti": 2,
-      "MWp": 37.2,
       "Clienti unici": 2
     },
     {
@@ -1346,9 +1346,9 @@
     },
     {
       "Provincia": "Roma",
-      "Clienti": 38,
-      "Progetti": 41,
-      "MWp": 2224.955
+      "Clienti": 39,
+      "Progetti": 42,
+      "MWp": 2257.015
     },
     {
       "Provincia": "Bolzano/Bozen",
@@ -1594,9 +1594,9 @@
   "top_cantiere": [
     {
       "Filiale cantiere": "Bari",
-      "N. progetti": 58,
-      "MWp": 2994.064,
-      "Clienti unici": 52
+      "N. progetti": 59,
+      "MWp": 3026.124,
+      "Clienti unici": 53
     },
     {
       "Filiale cantiere": "Catania",
@@ -1782,9 +1782,9 @@
     },
     {
       "Filiale cliente": "Roma Aurelia",
-      "N. progetti": 21,
-      "MWp": 982.495,
-      "Clienti unici": 19
+      "N. progetti": 22,
+      "MWp": 1014.555,
+      "Clienti unici": 20
     },
     {
       "Filiale cliente": "Bolzano",
@@ -2005,9 +2005,9 @@
     {
       "Filiale cliente": "Roma Aurelia",
       "Filiale cantiere": "Bari",
-      "N. progetti": 3,
-      "MWp": 161.868,
-      "Clienti unici": 2
+      "N. progetti": 4,
+      "MWp": 193.928,
+      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Milano Sud",
@@ -3861,6 +3861,14 @@
       "Cliente progetto": "SOLARIA PROMOZIONE E SVILUPPO FOTOVOLTAICO SRL",
       "Progetto": "Spinazzola",
       "Potenza MWp": 669.99
+    },
+    {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Bari",
+      "Comune cantiere": "Gravina in Puglia",
+      "Cliente progetto": "ACEA SOLAR SRL",
+      "Progetto": "PV Gravina",
+      "Potenza MWp": 32.06
     },
     {
       "Regione cantiere": "Lazio",
@@ -5774,6 +5782,13 @@
       "Cliente progetto": "SOLARIA PROMOZIONE E SVILUPPO FOTOVOLTAICO SRL",
       "Progetto": "Spinazzola",
       "Potenza MWp": 669.99
+    },
+    {
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "ACEA SOLAR SRL",
+      "Progetto": "PV Gravina",
+      "Potenza MWp": 32.06
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -9106,6 +9121,25 @@
       "Indirizzo sede": "PIAZZA DELL'INDIPENDENZA 23 B/C",
       "Tipo account": "Prospect",
       "MWp": 669.99,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "ACEA SOLAR SRL",
+      "Cliente report": "ACEA SOLAR SRL",
+      "Progetto": "PV Gravina",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Bari",
+      "Comune cantiere": "Gravina in Puglia",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Roma Aurelia",
+      "Provincia sede": "Roma",
+      "Comune sede": "ROMA",
+      "Indirizzo sede": "PIAZZALE OSTIENSE 2",
+      "Tipo account": "Prospect",
+      "MWp": 32.06,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

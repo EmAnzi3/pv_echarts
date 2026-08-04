@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 257,
-    "mwp": 11372.493,
+    "projects": 260,
+    "mwp": 11605.173,
     "same_branch": 34,
-    "different_branch": 223,
-    "different_pct": 86.8,
+    "different_branch": 226,
+    "different_pct": 86.9,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -21,9 +21,9 @@
     {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Catania",
-      "N. progetti": 11,
-      "MWp": 828.955,
-      "Clienti unici": 11
+      "N. progetti": 12,
+      "MWp": 1010.555,
+      "Clienti unici": 12
     },
     {
       "Filiale cliente": "Bolzano",
@@ -474,6 +474,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Rimini",
+      "N. progetti": 1,
+      "MWp": 36.59,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Torino",
       "Filiale cantiere": "Padova",
       "N. progetti": 1,
@@ -761,6 +768,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Parma",
+      "N. progetti": 1,
+      "MWp": 14.49,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Trento",
       "Filiale cantiere": "Bari",
       "N. progetti": 1,
@@ -912,9 +926,9 @@
     {
       "Provincia cantiere": "Catania",
       "Regione cantiere": "Sicilia",
-      "N. progetti": 11,
-      "MWp": 1045.301,
-      "Clienti unici": 11
+      "N. progetti": 12,
+      "MWp": 1226.901,
+      "Clienti unici": 12
     },
     {
       "Provincia cantiere": "Palermo",
@@ -1260,6 +1274,13 @@
       "Clienti unici": 2
     },
     {
+      "Provincia cantiere": "Macerata",
+      "Regione cantiere": "Marche",
+      "N. progetti": 1,
+      "MWp": 36.59,
+      "Clienti unici": 1
+    },
+    {
       "Provincia cantiere": "Livorno",
       "Regione cantiere": "Toscana",
       "N. progetti": 3,
@@ -1286,6 +1307,13 @@
       "N. progetti": 5,
       "MWp": 24.82,
       "Clienti unici": 4
+    },
+    {
+      "Provincia cantiere": "Piacenza",
+      "Regione cantiere": "Emilia-Romagna",
+      "N. progetti": 2,
+      "MWp": 21.49,
+      "Clienti unici": 2
     },
     {
       "Provincia cantiere": "Napoli",
@@ -1328,21 +1356,14 @@
       "N. progetti": 1,
       "MWp": 7.2,
       "Clienti unici": 1
-    },
-    {
-      "Provincia cantiere": "Piacenza",
-      "Regione cantiere": "Emilia-Romagna",
-      "N. progetti": 1,
-      "MWp": 7.0,
-      "Clienti unici": 1
     }
   ],
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 96,
-      "Progetti": 107,
-      "MWp": 4306.522
+      "Clienti": 99,
+      "Progetti": 110,
+      "MWp": 4539.202
     },
     {
       "Provincia": "Roma",
@@ -1600,9 +1621,9 @@
     },
     {
       "Filiale cantiere": "Catania",
-      "N. progetti": 49,
-      "MWp": 3528.328,
-      "Clienti unici": 48
+      "N. progetti": 50,
+      "MWp": 3709.928,
+      "Clienti unici": 49
     },
     {
       "Filiale cantiere": "Bologna",
@@ -1659,6 +1680,18 @@
       "Clienti unici": 6
     },
     {
+      "Filiale cantiere": "Rimini",
+      "N. progetti": 5,
+      "MWp": 223.939,
+      "Clienti unici": 5
+    },
+    {
+      "Filiale cantiere": "Parma",
+      "N. progetti": 5,
+      "MWp": 130.296,
+      "Clienti unici": 5
+    },
+    {
       "Filiale cantiere": "Verona",
       "N. progetti": 5,
       "MWp": 128.275,
@@ -1683,12 +1716,6 @@
       "Clienti unici": 4
     },
     {
-      "Filiale cantiere": "Rimini",
-      "N. progetti": 4,
-      "MWp": 187.349,
-      "Clienti unici": 4
-    },
-    {
       "Filiale cantiere": "Cosenza",
       "N. progetti": 4,
       "MWp": 178.106,
@@ -1698,12 +1725,6 @@
       "Filiale cantiere": "Sassari",
       "N. progetti": 4,
       "MWp": 128.82,
-      "Clienti unici": 4
-    },
-    {
-      "Filiale cantiere": "Parma",
-      "N. progetti": 4,
-      "MWp": 115.806,
       "Clienti unici": 4
     },
     {
@@ -1764,9 +1785,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 65,
-      "MWp": 2457.108,
-      "Clienti unici": 58
+      "N. progetti": 68,
+      "MWp": 2689.788,
+      "Clienti unici": 61
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -1942,9 +1963,9 @@
     {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Catania",
-      "N. progetti": 11,
-      "MWp": 828.955,
-      "Clienti unici": 11
+      "N. progetti": 12,
+      "MWp": 1010.555,
+      "Clienti unici": 12
     },
     {
       "Filiale cliente": "Bolzano",
@@ -2395,6 +2416,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Rimini",
+      "N. progetti": 1,
+      "MWp": 36.59,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Torino",
       "Filiale cantiere": "Padova",
       "N. progetti": 1,
@@ -2679,6 +2707,13 @@
       "Filiale cantiere": "Brescia",
       "N. progetti": 1,
       "MWp": 14.5,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Parma",
+      "N. progetti": 1,
+      "MWp": 14.49,
       "Clienti unici": 1
     },
     {
@@ -3399,6 +3434,14 @@
       "Potenza MWp": 38.745
     },
     {
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Catania",
+      "Comune cantiere": "Castel di Iudica",
+      "Cliente progetto": "INNOVAZIONE AGRISOLARE SRL",
+      "Progetto": "PV Castel di Iudica",
+      "Potenza MWp": 181.6
+    },
+    {
       "Regione cantiere": "Puglia",
       "Provincia cantiere": "Lecce",
       "Comune cantiere": "Nardò",
@@ -4079,6 +4122,14 @@
       "Potenza MWp": 28.38
     },
     {
+      "Regione cantiere": "Marche",
+      "Provincia cantiere": "Macerata",
+      "Comune cantiere": "Potenza Picena",
+      "Cliente progetto": "E24E SRL",
+      "Progetto": "BACIAMANO",
+      "Potenza MWp": 36.59
+    },
+    {
       "Regione cantiere": "Toscana",
       "Provincia cantiere": "Siena",
       "Comune cantiere": "Montepulciano",
@@ -4751,6 +4802,14 @@
       "Potenza MWp": 20.0
     },
     {
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Piacenza",
+      "Comune cantiere": "Castel San Giovanni",
+      "Cliente progetto": "RERE 62 SRL",
+      "Progetto": "Casella",
+      "Potenza MWp": 14.49
+    },
+    {
       "Regione cantiere": "Basilicata",
       "Provincia cantiere": "Potenza",
       "Comune cantiere": "Montemilone",
@@ -5386,6 +5445,13 @@
       "Potenza MWp": 38.745
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Catania",
+      "Cliente progetto": "INNOVAZIONE AGRISOLARE SRL",
+      "Progetto": "PV Castel di Iudica",
+      "Potenza MWp": 181.6
+    },
+    {
       "Filiale cliente": "Bologna",
       "Filiale cantiere": "Bari",
       "Cliente progetto": "SOLARANTO SRL",
@@ -5981,6 +6047,13 @@
       "Potenza MWp": 28.38
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Rimini",
+      "Cliente progetto": "E24E SRL",
+      "Progetto": "BACIAMANO",
+      "Potenza MWp": 36.59
+    },
+    {
       "Filiale cliente": "Roma Aurelia",
       "Filiale cantiere": "Firenze",
       "Cliente progetto": "ACCIONA ENERGIA GLOBAL ITALIA SRL",
@@ -6567,6 +6640,13 @@
       "Cliente progetto": "DOLOMITI ENERGIA MERCATO SPA",
       "Progetto": "Montecchio Emilia",
       "Potenza MWp": 20.0
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Parma",
+      "Cliente progetto": "RERE 62 SRL",
+      "Progetto": "Casella",
+      "Potenza MWp": 14.49
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -8034,6 +8114,25 @@
       "Indirizzo sede": "VIA MICHELANGELO BUONARROTI 39",
       "Tipo account": "Prospect",
       "MWp": 38.745,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "INNOVAZIONE AGRISOLARE SRL",
+      "Cliente report": "INNOVAZIONE AGRISOLARE SRL",
+      "Progetto": "PV Castel di Iudica",
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Catania",
+      "Comune cantiere": "Castel di Iudica",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Catania",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA CHIARAVALLE 7/9",
+      "Tipo account": "Prospect",
+      "MWp": 181.6,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
@@ -9654,6 +9753,25 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "E24E SRL",
+      "Cliente report": "E24E SRL",
+      "Progetto": "BACIAMANO",
+      "Regione cantiere": "Marche",
+      "Provincia cantiere": "Macerata",
+      "Comune cantiere": "Potenza Picena",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Rimini",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "CORSO DI PORTA VITTORIA 28",
+      "Tipo account": "Prospect",
+      "MWp": 36.59,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "ACCIONA ENERGIA GLOBAL ITALIA SRL",
       "Cliente report": "ACCIONA ENERGIA GLOBAL ITALIA SRL",
       "Progetto": "Greppo",
@@ -11247,6 +11365,25 @@
       "MWp": 20.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Procurement",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "RERE 62 SRL",
+      "Cliente report": "RERE 62 SRL",
+      "Progetto": "Casella",
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Piacenza",
+      "Comune cantiere": "Castel San Giovanni",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Parma",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "PIAZZA BORROMEO 14",
+      "Tipo account": "Prospect",
+      "MWp": 14.49,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
     },
     {

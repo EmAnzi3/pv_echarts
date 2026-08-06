@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 260,
-    "mwp": 11605.173,
+    "projects": 261,
+    "mwp": 11697.019,
     "same_branch": 34,
-    "different_branch": 226,
-    "different_pct": 86.9,
+    "different_branch": 227,
+    "different_pct": 87.0,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -75,6 +75,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 4,
+      "MWp": 233.593,
+      "Clienti unici": 4
+    },
+    {
       "Filiale cliente": "Torino",
       "Filiale cantiere": "Catania",
       "N. progetti": 2,
@@ -108,13 +115,6 @@
       "N. progetti": 1,
       "MWp": 144.335,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Bolzano",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 3,
-      "MWp": 141.747,
-      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Milano Ovest",
@@ -931,18 +931,18 @@
       "Clienti unici": 12
     },
     {
+      "Provincia cantiere": "Foggia",
+      "Regione cantiere": "Puglia",
+      "N. progetti": 17,
+      "MWp": 867.641,
+      "Clienti unici": 15
+    },
+    {
       "Provincia cantiere": "Palermo",
       "Regione cantiere": "Sicilia",
       "N. progetti": 13,
       "MWp": 850.38,
       "Clienti unici": 13
-    },
-    {
-      "Provincia cantiere": "Foggia",
-      "Regione cantiere": "Puglia",
-      "N. progetti": 16,
-      "MWp": 775.795,
-      "Clienti unici": 14
     },
     {
       "Provincia cantiere": "Enna",
@@ -1373,9 +1373,9 @@
     },
     {
       "Provincia": "Bolzano/Bozen",
-      "Clienti": 17,
-      "Progetti": 17,
-      "MWp": 1250.424
+      "Clienti": 18,
+      "Progetti": 18,
+      "MWp": 1342.27
     },
     {
       "Provincia": "Torino",
@@ -1615,9 +1615,9 @@
   "top_cantiere": [
     {
       "Filiale cantiere": "Bari",
-      "N. progetti": 60,
-      "MWp": 3056.124,
-      "Clienti unici": 54
+      "N. progetti": 61,
+      "MWp": 3147.97,
+      "Clienti unici": 55
     },
     {
       "Filiale cantiere": "Catania",
@@ -1809,9 +1809,9 @@
     },
     {
       "Filiale cliente": "Bolzano",
-      "N. progetti": 17,
-      "MWp": 1250.424,
-      "Clienti unici": 17
+      "N. progetti": 18,
+      "MWp": 1342.27,
+      "Clienti unici": 18
     },
     {
       "Filiale cliente": "Torino",
@@ -2017,6 +2017,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 4,
+      "MWp": 233.593,
+      "Clienti unici": 4
+    },
+    {
       "Filiale cliente": "Torino",
       "Filiale cantiere": "Catania",
       "N. progetti": 2,
@@ -2050,13 +2057,6 @@
       "N. progetti": 1,
       "MWp": 144.335,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Bolzano",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 3,
-      "MWp": 141.747,
-      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Milano Ovest",
@@ -3920,6 +3920,14 @@
       "Cliente progetto": "LUMINORA SPARPAGLIATA SRL",
       "Progetto": "Sparpagliata",
       "Potenza MWp": 30.0
+    },
+    {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Foggia",
+      "Comune cantiere": "San Severo",
+      "Cliente progetto": "APOLLO SAN SEVERO SRL",
+      "Progetto": "San Severo 96.2",
+      "Potenza MWp": 91.846
     },
     {
       "Regione cantiere": "Lazio",
@@ -5870,6 +5878,13 @@
       "Cliente progetto": "LUMINORA SPARPAGLIATA SRL",
       "Progetto": "Sparpagliata",
       "Potenza MWp": 30.0
+    },
+    {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "APOLLO SAN SEVERO SRL",
+      "Progetto": "San Severo 96.2",
+      "Potenza MWp": 91.846
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -9273,6 +9288,25 @@
       "Indirizzo sede": "VIA MIKE BONGIORNO 13",
       "Tipo account": "Prospect",
       "MWp": 30.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "APOLLO SAN SEVERO SRL",
+      "Cliente report": "APOLLO SAN SEVERO SRL",
+      "Progetto": "San Severo 96.2",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Foggia",
+      "Comune cantiere": "San Severo",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Bolzano",
+      "Provincia sede": "Bolzano/Bozen",
+      "Comune sede": "BOLZANO",
+      "Indirizzo sede": "VIALE DELLA STAZIONE 8",
+      "Tipo account": "Prospect",
+      "MWp": 91.846,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

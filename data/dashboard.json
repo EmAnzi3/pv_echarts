@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 263,
-    "mwp": 11748.137,
+    "projects": 266,
+    "mwp": 11806.876,
     "same_branch": 35,
-    "different_branch": 228,
-    "different_pct": 86.7,
+    "different_branch": 231,
+    "different_pct": 86.8,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -33,18 +33,18 @@
       "Clienti unici": 7
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 20,
+      "MWp": 616.707,
+      "Clienti unici": 15
+    },
+    {
       "Filiale cliente": "Bari",
       "Filiale cantiere": "Bari",
       "N. progetti": 7,
       "MWp": 598.95,
       "Clienti unici": 7
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 19,
-      "MWp": 587.057,
-      "Clienti unici": 14
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -650,6 +650,13 @@
     },
     {
       "Filiale cliente": "Torino",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 2,
+      "MWp": 22.0,
+      "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Torino",
       "Filiale cantiere": "Venezia",
       "N. progetti": 1,
       "MWp": 20.787,
@@ -688,6 +695,13 @@
       "Filiale cantiere": "Cosenza",
       "N. progetti": 1,
       "MWp": 19.5,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Est",
+      "Filiale cantiere": "Padova",
+      "N. progetti": 1,
+      "MWp": 19.09,
       "Clienti unici": 1
     },
     {
@@ -800,13 +814,6 @@
       "Filiale cantiere": "Milano Nord",
       "N. progetti": 1,
       "MWp": 12.818,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Torino",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 1,
-      "MWp": 12.0,
       "Clienti unici": 1
     },
     {
@@ -968,9 +975,9 @@
     {
       "Provincia cantiere": "Brindisi",
       "Regione cantiere": "Puglia",
-      "N. progetti": 10,
-      "MWp": 649.484,
-      "Clienti unici": 10
+      "N. progetti": 11,
+      "MWp": 679.134,
+      "Clienti unici": 11
     },
     {
       "Provincia cantiere": "Lecce",
@@ -989,9 +996,9 @@
     {
       "Provincia cantiere": "Rovigo",
       "Regione cantiere": "Veneto",
-      "N. progetti": 7,
-      "MWp": 296.121,
-      "Clienti unici": 7
+      "N. progetti": 8,
+      "MWp": 315.211,
+      "Clienti unici": 8
     },
     {
       "Provincia cantiere": "Pavia",
@@ -1057,6 +1064,13 @@
       "Clienti unici": 3
     },
     {
+      "Provincia cantiere": "Taranto",
+      "Regione cantiere": "Puglia",
+      "N. progetti": 5,
+      "MWp": 178.147,
+      "Clienti unici": 5
+    },
+    {
       "Provincia cantiere": "Agrigento",
       "Regione cantiere": "Sicilia",
       "N. progetti": 3,
@@ -1069,13 +1083,6 @@
       "N. progetti": 6,
       "MWp": 168.434,
       "Clienti unici": 6
-    },
-    {
-      "Provincia cantiere": "Taranto",
-      "Regione cantiere": "Puglia",
-      "N. progetti": 4,
-      "MWp": 168.147,
-      "Clienti unici": 4
     },
     {
       "Provincia cantiere": "Caserta",
@@ -1368,9 +1375,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 100,
-      "Progetti": 112,
-      "MWp": 4590.32
+      "Clienti": 102,
+      "Progetti": 114,
+      "MWp": 4639.06
     },
     {
       "Provincia": "Roma",
@@ -1386,9 +1393,9 @@
     },
     {
       "Provincia": "Torino",
-      "Clienti": 9,
-      "Progetti": 10,
-      "MWp": 343.035
+      "Clienti": 10,
+      "Progetti": 11,
+      "MWp": 353.035
     },
     {
       "Provincia": "Bologna",
@@ -1622,9 +1629,9 @@
   "top_cantiere": [
     {
       "Filiale cantiere": "Bari",
-      "N. progetti": 61,
-      "MWp": 3147.97,
-      "Clienti unici": 55
+      "N. progetti": 63,
+      "MWp": 3187.62,
+      "Clienti unici": 57
     },
     {
       "Filiale cantiere": "Catania",
@@ -1651,16 +1658,16 @@
       "Clienti unici": 10
     },
     {
+      "Filiale cantiere": "Padova",
+      "N. progetti": 10,
+      "MWp": 390.381,
+      "Clienti unici": 9
+    },
+    {
       "Filiale cantiere": "Cagliari",
       "N. progetti": 10,
       "MWp": 328.942,
       "Clienti unici": 10
-    },
-    {
-      "Filiale cantiere": "Padova",
-      "N. progetti": 9,
-      "MWp": 371.291,
-      "Clienti unici": 8
     },
     {
       "Filiale cantiere": "Perugia",
@@ -1792,9 +1799,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 68,
-      "MWp": 2689.788,
-      "Clienti unici": 61
+      "N. progetti": 69,
+      "MWp": 2719.438,
+      "Clienti unici": 62
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -1822,9 +1829,9 @@
     },
     {
       "Filiale cliente": "Torino",
-      "N. progetti": 13,
-      "MWp": 468.26,
-      "Clienti unici": 11
+      "N. progetti": 14,
+      "MWp": 478.26,
+      "Clienti unici": 12
     },
     {
       "Filiale cliente": "Milano Ovest",
@@ -1852,9 +1859,9 @@
     },
     {
       "Filiale cliente": "Milano Est",
-      "N. progetti": 7,
-      "MWp": 237.584,
-      "Clienti unici": 7
+      "N. progetti": 8,
+      "MWp": 256.674,
+      "Clienti unici": 8
     },
     {
       "Filiale cliente": "Cuneo",
@@ -1982,18 +1989,18 @@
       "Clienti unici": 7
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 20,
+      "MWp": 616.707,
+      "Clienti unici": 15
+    },
+    {
       "Filiale cliente": "Bari",
       "Filiale cantiere": "Bari",
       "N. progetti": 7,
       "MWp": 598.95,
       "Clienti unici": 7
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 19,
-      "MWp": 587.057,
-      "Clienti unici": 14
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -2599,6 +2606,13 @@
     },
     {
       "Filiale cliente": "Torino",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 2,
+      "MWp": 22.0,
+      "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Torino",
       "Filiale cantiere": "Venezia",
       "N. progetti": 1,
       "MWp": 20.787,
@@ -2637,6 +2651,13 @@
       "Filiale cantiere": "Cosenza",
       "N. progetti": 1,
       "MWp": 19.5,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Est",
+      "Filiale cantiere": "Padova",
+      "N. progetti": 1,
+      "MWp": 19.09,
       "Clienti unici": 1
     },
     {
@@ -2749,13 +2770,6 @@
       "Filiale cantiere": "Milano Nord",
       "N. progetti": 1,
       "MWp": 12.818,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Torino",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 1,
-      "MWp": 12.0,
       "Clienti unici": 1
     },
     {
@@ -3952,6 +3966,22 @@
       "Potenza MWp": 91.846
     },
     {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Taranto",
+      "Comune cantiere": "Taranto",
+      "Cliente progetto": "ALTA CAPITAL 10 SRL",
+      "Progetto": "PV Strada vicinale Nisi",
+      "Potenza MWp": 10.0
+    },
+    {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Brindisi",
+      "Comune cantiere": "Mesagne",
+      "Cliente progetto": "GR VALUE BRINDISI 2 SRL",
+      "Progetto": "Messapia",
+      "Potenza MWp": 29.65
+    },
+    {
       "Regione cantiere": "Lazio",
       "Provincia cantiere": "Roma",
       "Comune cantiere": "Velletri",
@@ -4806,6 +4836,14 @@
       "Cliente progetto": "CHIRON ENERGY SPV 05 SRL",
       "Progetto": "PV via Murazze snc",
       "Potenza MWp": 19.56
+    },
+    {
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Rovigo",
+      "Comune cantiere": "Ariano nel Polesine",
+      "Cliente progetto": "RENPV6 SRL",
+      "Progetto": "PV Ariano nel Polese",
+      "Potenza MWp": 19.09
     },
     {
       "Regione cantiere": "Emilia-Romagna",
@@ -5924,6 +5962,20 @@
       "Potenza MWp": 91.846
     },
     {
+      "Filiale cliente": "Torino",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "ALTA CAPITAL 10 SRL",
+      "Progetto": "PV Strada vicinale Nisi",
+      "Potenza MWp": 10.0
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "GR VALUE BRINDISI 2 SRL",
+      "Progetto": "Messapia",
+      "Potenza MWp": 29.65
+    },
+    {
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Roma Aurelia",
       "Cliente progetto": "ICA REN ELF SRL",
@@ -6671,6 +6723,13 @@
       "Cliente progetto": "CHIRON ENERGY SPV 05 SRL",
       "Progetto": "PV via Murazze snc",
       "Potenza MWp": 19.56
+    },
+    {
+      "Filiale cliente": "Milano Est",
+      "Filiale cantiere": "Padova",
+      "Cliente progetto": "RENPV6 SRL",
+      "Progetto": "PV Ariano nel Polese",
+      "Potenza MWp": 19.09
     },
     {
       "Filiale cliente": "Cuneo",
@@ -9375,6 +9434,44 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "ALTA CAPITAL 10 SRL",
+      "Cliente report": "ALTA CAPITAL 10 SRL",
+      "Progetto": "PV Strada vicinale Nisi",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Taranto",
+      "Comune cantiere": "Taranto",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Torino",
+      "Provincia sede": "Torino",
+      "Comune sede": "TORINO",
+      "Indirizzo sede": "GALLERIA SAN FEDERICO 16",
+      "Tipo account": "Prospect",
+      "MWp": 10.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "GR VALUE BRINDISI 2 SRL",
+      "Cliente report": "GR VALUE BRINDISI 2 SRL",
+      "Progetto": "Messapia",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Brindisi",
+      "Comune cantiere": "Mesagne",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA DURINI 9",
+      "Tipo account": "Prospect",
+      "MWp": 29.65,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "ICA REN ELF SRL",
       "Cliente report": "ICA REN ELF SRL",
       "Progetto": "Velletri-Lazzaria",
@@ -11403,6 +11500,25 @@
       "Indirizzo sede": "VIA BIGLI 2",
       "Tipo account": "Prospect",
       "MWp": 19.56,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "RENPV6 SRL",
+      "Cliente report": "RENPV6 SRL",
+      "Progetto": "PV Ariano nel Polese",
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Rovigo",
+      "Comune cantiere": "Ariano nel Polesine",
+      "Area cantiere": "Nord Est",
+      "Filiale cantiere": "Padova",
+      "Filiale cliente": "Milano Est",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA GIANFRANCO MALIPIERO 16-18",
+      "Tipo account": "Prospect",
+      "MWp": 19.09,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

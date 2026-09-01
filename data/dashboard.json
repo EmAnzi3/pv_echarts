@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 298,
-    "mwp": 12764.177,
+    "projects": 299,
+    "mwp": 12807.917,
     "same_branch": 39,
-    "different_branch": 259,
-    "different_pct": 86.9,
+    "different_branch": 260,
+    "different_pct": 87.0,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -299,6 +299,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Livorno",
+      "N. progetti": 3,
+      "MWp": 72.89,
+      "Clienti unici": 3
+    },
+    {
       "Filiale cliente": "Milano Nord",
       "Filiale cantiere": "Parma",
       "N. progetti": 1,
@@ -569,13 +576,6 @@
       "Filiale cantiere": "Cagliari",
       "N. progetti": 2,
       "MWp": 30.148,
-      "Clienti unici": 2
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Livorno",
-      "N. progetti": 2,
-      "MWp": 29.15,
       "Clienti unici": 2
     },
     {
@@ -1057,6 +1057,13 @@
       "Clienti unici": 12
     },
     {
+      "Provincia cantiere": "Grosseto",
+      "Regione cantiere": "Toscana",
+      "N. progetti": 10,
+      "MWp": 306.976,
+      "Clienti unici": 9
+    },
+    {
       "Provincia cantiere": "Pavia",
       "Regione cantiere": "Lombardia",
       "N. progetti": 5,
@@ -1083,13 +1090,6 @@
       "N. progetti": 4,
       "MWp": 274.185,
       "Clienti unici": 4
-    },
-    {
-      "Provincia cantiere": "Grosseto",
-      "Regione cantiere": "Toscana",
-      "N. progetti": 9,
-      "MWp": 263.236,
-      "Clienti unici": 8
     },
     {
       "Provincia cantiere": "Siena",
@@ -1438,9 +1438,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 116,
-      "Progetti": 128,
-      "MWp": 5078.718
+      "Clienti": 117,
+      "Progetti": 129,
+      "MWp": 5122.457
     },
     {
       "Provincia": "Roma",
@@ -1710,9 +1710,9 @@
     },
     {
       "Filiale cantiere": "Livorno",
-      "N. progetti": 23,
-      "MWp": 395.867,
-      "Clienti unici": 20
+      "N. progetti": 24,
+      "MWp": 439.607,
+      "Clienti unici": 21
     },
     {
       "Filiale cantiere": "Bologna",
@@ -1868,9 +1868,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 76,
-      "MWp": 3067.712,
-      "Clienti unici": 69
+      "N. progetti": 77,
+      "MWp": 3111.452,
+      "Clienti unici": 70
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -2324,6 +2324,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Livorno",
+      "N. progetti": 3,
+      "MWp": 72.89,
+      "Clienti unici": 3
+    },
+    {
       "Filiale cliente": "Milano Nord",
       "Filiale cantiere": "Parma",
       "N. progetti": 1,
@@ -2594,13 +2601,6 @@
       "Filiale cantiere": "Cagliari",
       "N. progetti": 2,
       "MWp": 30.148,
-      "Clienti unici": 2
-    },
-    {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Livorno",
-      "N. progetti": 2,
-      "MWp": 29.15,
       "Clienti unici": 2
     },
     {
@@ -3250,6 +3250,14 @@
       "Cliente progetto": "SORGENIA GREEN SOLUTIONS SRL",
       "Progetto": "FTV SAN MINIATO",
       "Potenza MWp": 0.82
+    },
+    {
+      "Regione cantiere": "Toscana",
+      "Provincia cantiere": "Grosseto",
+      "Comune cantiere": "Roccastrada",
+      "Cliente progetto": "VOLT 9 SRL",
+      "Progetto": "Drea",
+      "Potenza MWp": 43.74
     },
     {
       "Regione cantiere": "Sicilia",
@@ -5606,6 +5614,13 @@
       "Cliente progetto": "SORGENIA GREEN SOLUTIONS SRL",
       "Progetto": "FTV SAN MINIATO",
       "Potenza MWp": 0.82
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Livorno",
+      "Cliente progetto": "VOLT 9 SRL",
+      "Progetto": "Drea",
+      "Potenza MWp": 43.74
     },
     {
       "Filiale cliente": "Catania",
@@ -8051,6 +8066,25 @@
       "Indirizzo sede": "VIA LUNGO SERIO 17",
       "Tipo account": "-",
       "MWp": 0.82,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "VOLT 9 SRL",
+      "Cliente report": "VOLT 9 SRL",
+      "Progetto": "Drea",
+      "Regione cantiere": "Toscana",
+      "Provincia cantiere": "Grosseto",
+      "Comune cantiere": "Roccastrada",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Livorno",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA VINCENZO MONTI 11",
+      "Tipo account": "-",
+      "MWp": 43.74,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

@@ -1,9 +1,9 @@
 {
   "summary": {
-    "projects": 299,
-    "mwp": 12807.917,
+    "projects": 300,
+    "mwp": 12827.108,
     "same_branch": 39,
-    "different_branch": 260,
+    "different_branch": 261,
     "different_pct": 87.0,
     "omitted_clients": [
       "skynrg srl",
@@ -719,6 +719,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Milano Est",
+      "N. progetti": 1,
+      "MWp": 19.191,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Milano Est",
       "Filiale cantiere": "Padova",
       "N. progetti": 1,
@@ -1393,6 +1400,13 @@
       "Clienti unici": 2
     },
     {
+      "Provincia cantiere": "Lodi",
+      "Regione cantiere": "Lombardia",
+      "N. progetti": 1,
+      "MWp": 19.191,
+      "Clienti unici": 1
+    },
+    {
       "Provincia cantiere": "Napoli",
       "Regione cantiere": "Campania",
       "N. progetti": 1,
@@ -1438,9 +1452,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 117,
-      "Progetti": 129,
-      "MWp": 5122.457
+      "Clienti": 118,
+      "Progetti": 130,
+      "MWp": 5141.648
     },
     {
       "Provincia": "Roma",
@@ -1859,6 +1873,12 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cantiere": "Milano Est",
+      "N. progetti": 1,
+      "MWp": 19.191,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cantiere": "Cuneo",
       "N. progetti": 1,
       "MWp": 7.0,
@@ -1868,9 +1888,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 77,
-      "MWp": 3111.452,
-      "Clienti unici": 70
+      "N. progetti": 78,
+      "MWp": 3130.642,
+      "Clienti unici": 71
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -2741,6 +2761,13 @@
       "Filiale cantiere": "Cosenza",
       "N. progetti": 1,
       "MWp": 19.5,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Milano Est",
+      "N. progetti": 1,
+      "MWp": 19.191,
       "Clienti unici": 1
     },
     {
@@ -5013,6 +5040,14 @@
     },
     {
       "Regione cantiere": "Lombardia",
+      "Provincia cantiere": "Lodi",
+      "Comune cantiere": "Ospedaletto Lodigiano",
+      "Cliente progetto": "OPERATION ENERGY S.R.L.",
+      "Progetto": "PV Ospedaletto Lodigiano",
+      "Potenza MWp": 19.191
+    },
+    {
+      "Regione cantiere": "Lombardia",
       "Provincia cantiere": "Monza e della Brianza",
       "Comune cantiere": "Bovisio-Masciago",
       "Cliente progetto": "OPEN SOLAR 3 SRL",
@@ -7154,6 +7189,13 @@
       "Cliente progetto": "FOTOVOLTAICO SERVICE SRLS",
       "Progetto": "PV Virle Piemonte",
       "Potenza MWp": 7.0
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Milano Est",
+      "Cliente progetto": "OPERATION ENERGY S.R.L.",
+      "Progetto": "PV Ospedaletto Lodigiano",
+      "Potenza MWp": 19.191
     },
     {
       "Filiale cliente": "Milano Sud",
@@ -12249,6 +12291,25 @@
       "Stato progetto": "Attivo",
       "Fase attuale": "Costruzione",
       "Esito": "STESSA FILIALE"
+    },
+    {
+      "Cliente": "OPERATION ENERGY S.R.L.",
+      "Cliente report": "OPERATION ENERGY S.R.L.",
+      "Progetto": "PV Ospedaletto Lodigiano",
+      "Regione cantiere": "Lombardia",
+      "Provincia cantiere": "Lodi",
+      "Comune cantiere": "Ospedaletto Lodigiano",
+      "Area cantiere": "Nord Ovest",
+      "Filiale cantiere": "Milano Est",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "PIAZZA CARLO MIRABELLO 2",
+      "Tipo account": "-",
+      "MWp": 19.191,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
     },
     {
       "Cliente": "OPEN SOLAR 3 SRL",

@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 300,
-    "mwp": 12827.108,
+    "projects": 309,
+    "mwp": 13058.129,
     "same_branch": 39,
-    "different_branch": 261,
-    "different_pct": 87.0,
+    "different_branch": 270,
+    "different_pct": 87.4,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -49,9 +49,9 @@
     {
       "Filiale cliente": "Milano Nord",
       "Filiale cantiere": "Catania",
-      "N. progetti": 9,
-      "MWp": 504.448,
-      "Clienti unici": 8
+      "N. progetti": 10,
+      "MWp": 557.247,
+      "Clienti unici": 9
     },
     {
       "Filiale cliente": "Bolzano",
@@ -68,6 +68,13 @@
       "Clienti unici": 6
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Padova",
+      "N. progetti": 7,
+      "MWp": 358.738,
+      "Clienti unici": 7
+    },
+    {
       "Filiale cliente": "Roma Aurelia",
       "Filiale cantiere": "Catania",
       "N. progetti": 7,
@@ -75,11 +82,11 @@
       "Clienti unici": 7
     },
     {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Padova",
-      "N. progetti": 6,
-      "MWp": 310.168,
-      "Clienti unici": 6
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 5,
+      "MWp": 253.268,
+      "Clienti unici": 4
     },
     {
       "Filiale cliente": "Bergamo",
@@ -94,13 +101,6 @@
       "N. progetti": 2,
       "MWp": 220.6,
       "Clienti unici": 2
-    },
-    {
-      "Filiale cliente": "Roma Aurelia",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 4,
-      "MWp": 193.928,
-      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -250,10 +250,24 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Sassuolo",
+      "N. progetti": 2,
+      "MWp": 94.94,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Rimini",
       "N. progetti": 2,
       "MWp": 94.295,
+      "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Rimini",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 2,
+      "MWp": 91.455,
       "Clienti unici": 2
     },
     {
@@ -289,13 +303,6 @@
       "Filiale cantiere": "Napoli",
       "N. progetti": 1,
       "MWp": 77.99,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Rimini",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 1,
-      "MWp": 75.0,
       "Clienti unici": 1
     },
     {
@@ -443,13 +450,6 @@
       "Filiale cantiere": "Verona",
       "N. progetti": 1,
       "MWp": 47.9,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Nord",
-      "Filiale cantiere": "Sassuolo",
-      "N. progetti": 1,
-      "MWp": 47.47,
       "Clienti unici": 1
     },
     {
@@ -882,9 +882,9 @@
     {
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Firenze",
-      "N. progetti": 1,
-      "MWp": 9.388,
-      "Clienti unici": 1
+      "N. progetti": 2,
+      "MWp": 10.263,
+      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Trento",
@@ -946,7 +946,7 @@
       "Filiale cliente": "Livorno",
       "Filiale cantiere": "Livorno",
       "N. progetti": 4,
-      "MWp": 5.4,
+      "MWp": 5.914,
       "Clienti unici": 3
     },
     {
@@ -964,6 +964,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Genova",
+      "Filiale cantiere": "Livorno",
+      "N. progetti": 1,
+      "MWp": 3.0,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Cuneo",
       "Filiale cantiere": "Bologna",
       "N. progetti": 1,
@@ -976,6 +983,20 @@
       "N. progetti": 2,
       "MWp": 1.32,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Brescia",
+      "Filiale cantiere": "Firenze",
+      "N. progetti": 1,
+      "MWp": 1.0,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Firenze",
+      "Filiale cantiere": "Livorno",
+      "N. progetti": 1,
+      "MWp": 0.998,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Rimini",
@@ -1003,16 +1024,16 @@
     {
       "Provincia cantiere": "Foggia",
       "Regione cantiere": "Puglia",
-      "N. progetti": 19,
-      "MWp": 947.453,
-      "Clienti unici": 17
+      "N. progetti": 20,
+      "MWp": 1006.793,
+      "Clienti unici": 18
     },
     {
       "Provincia cantiere": "Palermo",
       "Regione cantiere": "Sicilia",
-      "N. progetti": 13,
-      "MWp": 850.38,
-      "Clienti unici": 13
+      "N. progetti": 14,
+      "MWp": 903.179,
+      "Clienti unici": 14
     },
     {
       "Provincia cantiere": "Barletta-Andria-Trani",
@@ -1038,9 +1059,9 @@
     {
       "Provincia cantiere": "Rovigo",
       "Regione cantiere": "Veneto",
-      "N. progetti": 11,
-      "MWp": 524.036,
-      "Clienti unici": 11
+      "N. progetti": 12,
+      "MWp": 572.606,
+      "Clienti unici": 12
     },
     {
       "Provincia cantiere": "Lecce",
@@ -1066,9 +1087,16 @@
     {
       "Provincia cantiere": "Grosseto",
       "Regione cantiere": "Toscana",
-      "N. progetti": 10,
-      "MWp": 306.976,
-      "Clienti unici": 9
+      "N. progetti": 11,
+      "MWp": 309.976,
+      "Clienti unici": 10
+    },
+    {
+      "Provincia cantiere": "Matera",
+      "Regione cantiere": "Basilicata",
+      "N. progetti": 13,
+      "MWp": 308.382,
+      "Clienti unici": 13
     },
     {
       "Provincia cantiere": "Pavia",
@@ -1076,13 +1104,6 @@
       "N. progetti": 5,
       "MWp": 292.158,
       "Clienti unici": 5
-    },
-    {
-      "Provincia cantiere": "Matera",
-      "Regione cantiere": "Basilicata",
-      "N. progetti": 12,
-      "MWp": 291.927,
-      "Clienti unici": 12
     },
     {
       "Provincia cantiere": "Viterbo",
@@ -1101,9 +1122,9 @@
     {
       "Provincia cantiere": "Siena",
       "Regione cantiere": "Toscana",
-      "N. progetti": 5,
-      "MWp": 209.862,
-      "Clienti unici": 5
+      "N. progetti": 7,
+      "MWp": 211.737,
+      "Clienti unici": 7
     },
     {
       "Provincia cantiere": "Bologna",
@@ -1132,6 +1153,13 @@
       "N. progetti": 5,
       "MWp": 178.147,
       "Clienti unici": 5
+    },
+    {
+      "Provincia cantiere": "Modena",
+      "Regione cantiere": "Emilia-Romagna",
+      "N. progetti": 4,
+      "MWp": 175.48,
+      "Clienti unici": 4
     },
     {
       "Provincia cantiere": "Agrigento",
@@ -1190,13 +1218,6 @@
       "Clienti unici": 3
     },
     {
-      "Provincia cantiere": "Modena",
-      "Regione cantiere": "Emilia-Romagna",
-      "N. progetti": 3,
-      "MWp": 128.01,
-      "Clienti unici": 3
-    },
-    {
       "Provincia cantiere": "Latina",
       "Regione cantiere": "Lazio",
       "N. progetti": 4,
@@ -1241,9 +1262,9 @@
     {
       "Provincia cantiere": "Pisa",
       "Regione cantiere": "Toscana",
-      "N. progetti": 9,
-      "MWp": 87.6,
-      "Clienti unici": 8
+      "N. progetti": 10,
+      "MWp": 88.598,
+      "Clienti unici": 9
     },
     {
       "Provincia cantiere": "Torino",
@@ -1333,7 +1354,7 @@
       "Provincia cantiere": "Livorno",
       "Regione cantiere": "Toscana",
       "N. progetti": 5,
-      "MWp": 45.031,
+      "MWp": 45.545,
       "Clienti unici": 4
     },
     {
@@ -1452,15 +1473,15 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 118,
-      "Progetti": 130,
-      "MWp": 5141.648
+      "Clienti": 121,
+      "Progetti": 133,
+      "MWp": 5290.488
     },
     {
       "Provincia": "Roma",
-      "Clienti": 42,
-      "Progetti": 45,
-      "MWp": 2336.005
+      "Clienti": 44,
+      "Progetti": 47,
+      "MWp": 2396.22
     },
     {
       "Provincia": "Bolzano/Bozen",
@@ -1505,6 +1526,12 @@
       "MWp": 335.12
     },
     {
+      "Provincia": "Brescia",
+      "Clienti": 4,
+      "Progetti": 4,
+      "MWp": 120.86
+    },
+    {
       "Provincia": "Trento",
       "Clienti": 4,
       "Progetti": 4,
@@ -1515,12 +1542,6 @@
       "Clienti": 3,
       "Progetti": 3,
       "MWp": 368.23
-    },
-    {
-      "Provincia": "Brescia",
-      "Clienti": 3,
-      "Progetti": 3,
-      "MWp": 119.86
     },
     {
       "Provincia": "nan",
@@ -1565,6 +1586,12 @@
       "MWp": 40.91
     },
     {
+      "Provincia": "Alessandria",
+      "Clienti": 2,
+      "Progetti": 4,
+      "MWp": 39.611
+    },
+    {
       "Provincia": "Chieti",
       "Clienti": 2,
       "Progetti": 2,
@@ -1575,6 +1602,12 @@
       "Clienti": 2,
       "Progetti": 3,
       "MWp": 32.28
+    },
+    {
+      "Provincia": "Ancona",
+      "Clienti": 2,
+      "Progetti": 2,
+      "MWp": 17.385
     },
     {
       "Provincia": "Pisa",
@@ -1629,12 +1662,6 @@
       "Clienti": 1,
       "Progetti": 1,
       "MWp": 40.2
-    },
-    {
-      "Provincia": "Alessandria",
-      "Clienti": 1,
-      "Progetti": 3,
-      "MWp": 36.611
     },
     {
       "Provincia": "Cagliari",
@@ -1697,36 +1724,36 @@
       "MWp": 3.6
     },
     {
-      "Provincia": "Ancona",
+      "Provincia": "Firenze",
       "Clienti": 1,
       "Progetti": 1,
-      "MWp": 0.93
+      "MWp": 0.998
     },
     {
       "Provincia": "Livorno",
       "Clienti": 1,
       "Progetti": 1,
-      "MWp": 0.0
+      "MWp": 0.514
     }
   ],
   "top_cantiere": [
     {
       "Filiale cantiere": "Bari",
-      "N. progetti": 68,
-      "MWp": 3433.699,
-      "Clienti unici": 62
+      "N. progetti": 70,
+      "MWp": 3509.494,
+      "Clienti unici": 64
     },
     {
       "Filiale cantiere": "Catania",
-      "N. progetti": 54,
-      "MWp": 3881.838,
-      "Clienti unici": 52
+      "N. progetti": 55,
+      "MWp": 3934.637,
+      "Clienti unici": 53
     },
     {
       "Filiale cantiere": "Livorno",
-      "N. progetti": 24,
-      "MWp": 439.607,
-      "Clienti unici": 21
+      "N. progetti": 26,
+      "MWp": 444.119,
+      "Clienti unici": 23
     },
     {
       "Filiale cantiere": "Bologna",
@@ -1736,21 +1763,21 @@
     },
     {
       "Filiale cantiere": "Padova",
-      "N. progetti": 13,
-      "MWp": 599.206,
-      "Clienti unici": 12
+      "N. progetti": 14,
+      "MWp": 647.776,
+      "Clienti unici": 13
+    },
+    {
+      "Filiale cantiere": "Firenze",
+      "N. progetti": 14,
+      "MWp": 272.038,
+      "Clienti unici": 13
     },
     {
       "Filiale cantiere": "Napoli",
       "N. progetti": 12,
       "MWp": 402.806,
       "Clienti unici": 10
-    },
-    {
-      "Filiale cantiere": "Firenze",
-      "N. progetti": 12,
-      "MWp": 270.163,
-      "Clienti unici": 11
     },
     {
       "Filiale cantiere": "Cagliari",
@@ -1825,6 +1852,12 @@
       "Clienti unici": 4
     },
     {
+      "Filiale cantiere": "Sassuolo",
+      "N. progetti": 4,
+      "MWp": 175.48,
+      "Clienti unici": 4
+    },
+    {
       "Filiale cantiere": "Frosinone",
       "N. progetti": 4,
       "MWp": 94.911,
@@ -1835,12 +1868,6 @@
       "N. progetti": 4,
       "MWp": 73.17,
       "Clienti unici": 4
-    },
-    {
-      "Filiale cantiere": "Sassuolo",
-      "N. progetti": 3,
-      "MWp": 128.01,
-      "Clienti unici": 3
     },
     {
       "Filiale cantiere": "Venezia",
@@ -1888,27 +1915,27 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 78,
-      "MWp": 3130.642,
-      "Clienti unici": 71
+      "N. progetti": 79,
+      "MWp": 3179.212,
+      "Clienti unici": 72
     },
     {
       "Filiale cliente": "Milano Nord",
-      "N. progetti": 30,
-      "MWp": 1262.355,
-      "Clienti unici": 27
+      "N. progetti": 32,
+      "MWp": 1362.624,
+      "Clienti unici": 29
     },
     {
       "Filiale cliente": "Roma Nomentana",
-      "N. progetti": 29,
-      "MWp": 1597.18,
-      "Clienti unici": 28
+      "N. progetti": 30,
+      "MWp": 1598.055,
+      "Clienti unici": 29
     },
     {
       "Filiale cliente": "Roma Aurelia",
-      "N. progetti": 24,
-      "MWp": 1081.745,
-      "Clienti unici": 22
+      "N. progetti": 25,
+      "MWp": 1141.085,
+      "Clienti unici": 23
     },
     {
       "Filiale cliente": "Bolzano",
@@ -1972,8 +1999,14 @@
     },
     {
       "Filiale cliente": "Brescia",
+      "N. progetti": 5,
+      "MWp": 161.06,
+      "Clienti unici": 5
+    },
+    {
+      "Filiale cliente": "Rimini",
       "N. progetti": 4,
-      "MWp": 160.06,
+      "MWp": 123.785,
       "Clienti unici": 4
     },
     {
@@ -1985,19 +2018,13 @@
     {
       "Filiale cliente": "Livorno",
       "N. progetti": 4,
-      "MWp": 5.4,
+      "MWp": 5.914,
       "Clienti unici": 3
     },
     {
       "Filiale cliente": "Udine",
       "N. progetti": 3,
       "MWp": 207.013,
-      "Clienti unici": 3
-    },
-    {
-      "Filiale cliente": "Rimini",
-      "N. progetti": 3,
-      "MWp": 107.33,
       "Clienti unici": 3
     },
     {
@@ -2013,16 +2040,16 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Firenze",
+      "N. progetti": 3,
+      "MWp": 14.885,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Salerno",
       "N. progetti": 2,
       "MWp": 96.1,
       "Clienti unici": 2
-    },
-    {
-      "Filiale cliente": "Firenze",
-      "N. progetti": 2,
-      "MWp": 13.887,
-      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Parma",
@@ -2052,6 +2079,12 @@
       "Filiale cliente": "Venezia",
       "N. progetti": 1,
       "MWp": 16.63,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Genova",
+      "N. progetti": 1,
+      "MWp": 3.0,
       "Clienti unici": 1
     }
   ],
@@ -2094,9 +2127,9 @@
     {
       "Filiale cliente": "Milano Nord",
       "Filiale cantiere": "Catania",
-      "N. progetti": 9,
-      "MWp": 504.448,
-      "Clienti unici": 8
+      "N. progetti": 10,
+      "MWp": 557.247,
+      "Clienti unici": 9
     },
     {
       "Filiale cliente": "Bolzano",
@@ -2113,6 +2146,13 @@
       "Clienti unici": 6
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Padova",
+      "N. progetti": 7,
+      "MWp": 358.738,
+      "Clienti unici": 7
+    },
+    {
       "Filiale cliente": "Roma Aurelia",
       "Filiale cantiere": "Catania",
       "N. progetti": 7,
@@ -2120,11 +2160,11 @@
       "Clienti unici": 7
     },
     {
-      "Filiale cliente": "Milano Sud",
-      "Filiale cantiere": "Padova",
-      "N. progetti": 6,
-      "MWp": 310.168,
-      "Clienti unici": 6
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 5,
+      "MWp": 253.268,
+      "Clienti unici": 4
     },
     {
       "Filiale cliente": "Bergamo",
@@ -2139,13 +2179,6 @@
       "N. progetti": 2,
       "MWp": 220.6,
       "Clienti unici": 2
-    },
-    {
-      "Filiale cliente": "Roma Aurelia",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 4,
-      "MWp": 193.928,
-      "Clienti unici": 3
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -2295,10 +2328,24 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Sassuolo",
+      "N. progetti": 2,
+      "MWp": 94.94,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Rimini",
       "N. progetti": 2,
       "MWp": 94.295,
+      "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Rimini",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 2,
+      "MWp": 91.455,
       "Clienti unici": 2
     },
     {
@@ -2334,13 +2381,6 @@
       "Filiale cantiere": "Napoli",
       "N. progetti": 1,
       "MWp": 77.99,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Rimini",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 1,
-      "MWp": 75.0,
       "Clienti unici": 1
     },
     {
@@ -2488,13 +2528,6 @@
       "Filiale cantiere": "Verona",
       "N. progetti": 1,
       "MWp": 47.9,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Milano Nord",
-      "Filiale cantiere": "Sassuolo",
-      "N. progetti": 1,
-      "MWp": 47.47,
       "Clienti unici": 1
     },
     {
@@ -2927,9 +2960,9 @@
     {
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Firenze",
-      "N. progetti": 1,
-      "MWp": 9.388,
-      "Clienti unici": 1
+      "N. progetti": 2,
+      "MWp": 10.263,
+      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Trento",
@@ -2991,7 +3024,7 @@
       "Filiale cliente": "Livorno",
       "Filiale cantiere": "Livorno",
       "N. progetti": 4,
-      "MWp": 5.4,
+      "MWp": 5.914,
       "Clienti unici": 3
     },
     {
@@ -3009,6 +3042,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Genova",
+      "Filiale cantiere": "Livorno",
+      "N. progetti": 1,
+      "MWp": 3.0,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Cuneo",
       "Filiale cantiere": "Bologna",
       "N. progetti": 1,
@@ -3021,6 +3061,20 @@
       "N. progetti": 2,
       "MWp": 1.32,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Brescia",
+      "Filiale cantiere": "Firenze",
+      "N. progetti": 1,
+      "MWp": 1.0,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Firenze",
+      "Filiale cantiere": "Livorno",
+      "N. progetti": 1,
+      "MWp": 0.998,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Rimini",
@@ -3132,7 +3186,7 @@
       "Comune cantiere": "Rosignano Marittimo",
       "Cliente progetto": "MANNINI IMMOBILIARE TECNOLOGY GREEN",
       "Progetto": "FV ROSIGNANO",
-      "Potenza MWp": 0.0
+      "Potenza MWp": 0.514
     },
     {
       "Regione cantiere": "Toscana",
@@ -3285,6 +3339,22 @@
       "Cliente progetto": "VOLT 9 SRL",
       "Progetto": "Drea",
       "Potenza MWp": 43.74
+    },
+    {
+      "Regione cantiere": "Toscana",
+      "Provincia cantiere": "Grosseto",
+      "Comune cantiere": "Scansano",
+      "Cliente progetto": "IDROAGRI SOC AGRICOLA SRL",
+      "Progetto": "AGRI AQUILAIA 5",
+      "Potenza MWp": 3.0
+    },
+    {
+      "Regione cantiere": "Toscana",
+      "Provincia cantiere": "Pisa",
+      "Comune cantiere": "Pontedera",
+      "Cliente progetto": "SPD TRE SRL",
+      "Progetto": "FTV GELLO NORD",
+      "Potenza MWp": 0.998
     },
     {
       "Regione cantiere": "Sicilia",
@@ -3717,6 +3787,14 @@
       "Cliente progetto": "VATT ENERGY SRL",
       "Progetto": "PV Vatt",
       "Potenza MWp": 79.61
+    },
+    {
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Palermo",
+      "Comune cantiere": "Monreale",
+      "Cliente progetto": "EPSILON GEMINI SRL",
+      "Progetto": "FV_MONREALE 2",
+      "Potenza MWp": 52.799
     },
     {
       "Regione cantiere": "Puglia",
@@ -4263,6 +4341,22 @@
       "Potenza MWp": 61.227
     },
     {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Foggia",
+      "Comune cantiere": "Sant'Agata di Puglia",
+      "Cliente progetto": "S2SE TRE SRL",
+      "Progetto": "Solare Sant'Agata di Puglia - S2S",
+      "Potenza MWp": 59.34
+    },
+    {
+      "Regione cantiere": "Basilicata",
+      "Provincia cantiere": "Matera",
+      "Comune cantiere": "Grottole",
+      "Cliente progetto": "EEC SOLAR 3 SRL",
+      "Progetto": "PV Agro di Grottole",
+      "Potenza MWp": 16.455
+    },
+    {
       "Regione cantiere": "Lazio",
       "Provincia cantiere": "Roma",
       "Comune cantiere": "Velletri",
@@ -4439,6 +4533,14 @@
       "Potenza MWp": 24.0
     },
     {
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Modena",
+      "Comune cantiere": "Carpi",
+      "Cliente progetto": "SONNEDIX MAG SRL",
+      "Progetto": "Magarotto-Marconi",
+      "Potenza MWp": 47.47
+    },
+    {
       "Regione cantiere": "Marche",
       "Provincia cantiere": "Ancona",
       "Comune cantiere": "Chiaravalle",
@@ -4573,6 +4675,22 @@
       "Cliente progetto": "SOCIETA' AGRICOLA AGRI - POWER SRL",
       "Progetto": "FTV VIA VIGNACCE",
       "Potenza MWp": 4.903
+    },
+    {
+      "Regione cantiere": "Toscana",
+      "Provincia cantiere": "Siena",
+      "Comune cantiere": "Montepulciano",
+      "Cliente progetto": "ACHEON SRL",
+      "Progetto": "FTV TRE BERTE",
+      "Potenza MWp": 0.875
+    },
+    {
+      "Regione cantiere": "Toscana",
+      "Provincia cantiere": "Siena",
+      "Comune cantiere": "Casole d'Elsa",
+      "Cliente progetto": "SOTTOCOLLE SRL",
+      "Progetto": "FTV SI070",
+      "Potenza MWp": 1.0
     },
     {
       "Regione cantiere": "Campania",
@@ -5247,6 +5365,14 @@
       "Potenza MWp": 58.917
     },
     {
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Rovigo",
+      "Comune cantiere": "Rovigo",
+      "Cliente progetto": "PHOTOSOL ENERGIA ITALIA SRL",
+      "Progetto": "PV Rovigo",
+      "Potenza MWp": 48.57
+    },
+    {
       "Regione cantiere": "Emilia-Romagna",
       "Provincia cantiere": "Piacenza",
       "Comune cantiere": "Podenzano",
@@ -5522,7 +5648,7 @@
       "Filiale cantiere": "Livorno",
       "Cliente progetto": "MANNINI IMMOBILIARE TECNOLOGY GREEN",
       "Progetto": "FV ROSIGNANO",
-      "Potenza MWp": 0.0
+      "Potenza MWp": 0.514
     },
     {
       "Filiale cliente": "Cuneo",
@@ -5656,6 +5782,20 @@
       "Cliente progetto": "VOLT 9 SRL",
       "Progetto": "Drea",
       "Potenza MWp": 43.74
+    },
+    {
+      "Filiale cliente": "Genova",
+      "Filiale cantiere": "Livorno",
+      "Cliente progetto": "IDROAGRI SOC AGRICOLA SRL",
+      "Progetto": "AGRI AQUILAIA 5",
+      "Potenza MWp": 3.0
+    },
+    {
+      "Filiale cliente": "Firenze",
+      "Filiale cantiere": "Livorno",
+      "Cliente progetto": "SPD TRE SRL",
+      "Progetto": "FTV GELLO NORD",
+      "Potenza MWp": 0.998
     },
     {
       "Filiale cliente": "Catania",
@@ -6034,6 +6174,13 @@
       "Cliente progetto": "VATT ENERGY SRL",
       "Progetto": "PV Vatt",
       "Potenza MWp": 79.61
+    },
+    {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Catania",
+      "Cliente progetto": "EPSILON GEMINI SRL",
+      "Progetto": "FV_MONREALE 2",
+      "Potenza MWp": 52.799
     },
     {
       "Filiale cliente": "Bologna",
@@ -6512,6 +6659,20 @@
       "Potenza MWp": 61.227
     },
     {
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "S2SE TRE SRL",
+      "Progetto": "Solare Sant'Agata di Puglia - S2S",
+      "Potenza MWp": 59.34
+    },
+    {
+      "Filiale cliente": "Rimini",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "EEC SOLAR 3 SRL",
+      "Progetto": "PV Agro di Grottole",
+      "Potenza MWp": 16.455
+    },
+    {
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Roma Aurelia",
       "Cliente progetto": "ICA REN ELF SRL",
@@ -6666,6 +6827,13 @@
       "Potenza MWp": 24.0
     },
     {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Sassuolo",
+      "Cliente progetto": "SONNEDIX MAG SRL",
+      "Progetto": "Magarotto-Marconi",
+      "Potenza MWp": 47.47
+    },
+    {
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Rimini",
       "Cliente progetto": "BLUSOLAR CHIARAVALLE 1 SRL",
@@ -6783,6 +6951,20 @@
       "Cliente progetto": "SOCIETA' AGRICOLA AGRI - POWER SRL",
       "Progetto": "FTV VIA VIGNACCE",
       "Potenza MWp": 4.903
+    },
+    {
+      "Filiale cliente": "Roma Nomentana",
+      "Filiale cantiere": "Firenze",
+      "Cliente progetto": "ACHEON SRL",
+      "Progetto": "FTV TRE BERTE",
+      "Potenza MWp": 0.875
+    },
+    {
+      "Filiale cliente": "Brescia",
+      "Filiale cantiere": "Firenze",
+      "Cliente progetto": "SOTTOCOLLE SRL",
+      "Progetto": "FTV SI070",
+      "Potenza MWp": 1.0
     },
     {
       "Filiale cliente": "Roma Aurelia",
@@ -7373,6 +7555,13 @@
       "Potenza MWp": 58.917
     },
     {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Padova",
+      "Cliente progetto": "PHOTOSOL ENERGIA ITALIA SRL",
+      "Progetto": "PV Rovigo",
+      "Potenza MWp": 48.57
+    },
+    {
       "Filiale cliente": "Cuneo",
       "Filiale cantiere": "Parma",
       "Cliente progetto": "SCOTTA SPA",
@@ -7612,7 +7801,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "PIAZZALE LUIGI CADORNA 6",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 16.9,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -7631,7 +7820,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA AGNELLO 18",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 24.975,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -7765,7 +7954,7 @@
       "Comune sede": "CAMPIGLIA MARITTIMA",
       "Indirizzo sede": "VIA NANETTI NINO 9",
       "Tipo account": "-",
-      "MWp": 0.0,
+      "MWp": 0.514,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Procurement",
       "Esito": "STESSA FILIALE"
@@ -7973,7 +8162,7 @@
       "Provincia sede": "Brescia",
       "Comune sede": "ROVATO",
       "Indirizzo sede": "VIA XXV APRILE 18",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 6.86,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8049,7 +8238,7 @@
       "Provincia sede": "Bolzano/Bozen",
       "Comune sede": "BOLZANO",
       "Indirizzo sede": "VIALE DELLA STAZIONE 8",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 50.8,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8132,6 +8321,44 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "IDROAGRI SOC AGRICOLA SRL",
+      "Cliente report": "IDROAGRI SOC AGRICOLA SRL",
+      "Progetto": "AGRI AQUILAIA 5",
+      "Regione cantiere": "Toscana",
+      "Provincia cantiere": "Grosseto",
+      "Comune cantiere": "Scansano",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Livorno",
+      "Filiale cliente": "Genova",
+      "Provincia sede": "Alessandria",
+      "Comune sede": "SEZZADIO",
+      "Indirizzo sede": "REGIONE BOSCHI 48",
+      "Tipo account": "-",
+      "MWp": 3.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "SPD TRE SRL",
+      "Cliente report": "SPD TRE SRL",
+      "Progetto": "FTV GELLO NORD",
+      "Regione cantiere": "Toscana",
+      "Provincia cantiere": "Pisa",
+      "Comune cantiere": "Pontedera",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Livorno",
+      "Filiale cliente": "Firenze",
+      "Provincia sede": "Firenze",
+      "Comune sede": "FIRENZE",
+      "Indirizzo sede": "PIAZZALE DONATELLO 4",
+      "Tipo account": "-",
+      "MWp": 0.998,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "ALTOBRANDO SRL",
       "Cliente report": "ALTOBRANDO SRL",
       "Progetto": "Altobrando",
@@ -8144,7 +8371,7 @@
       "Provincia sede": "Catania",
       "Comune sede": "TREMESTIERI ETNEO",
       "Indirizzo sede": "VIA DEL PARCO 16",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 45.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8239,7 +8466,7 @@
       "Provincia sede": "Palermo",
       "Comune sede": "PALERMO",
       "Indirizzo sede": "VIALE CROCE ROSSA 25",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 42.3,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8277,7 +8504,7 @@
       "Provincia sede": "Brescia",
       "Comune sede": "BRENO",
       "Indirizzo sede": "VIA ALDO MORO 28",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 65.1,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8448,7 +8675,7 @@
       "Provincia sede": "Palermo",
       "Comune sede": "PALERMO",
       "Indirizzo sede": "VIA EMERICO AMARI 8",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 80.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8467,7 +8694,7 @@
       "Provincia sede": "Valle d'Aosta/Vallée d'Aoste",
       "Comune sede": "CHATILLON",
       "Indirizzo sede": "VIA STAZIONE 31",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 90.6,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8505,7 +8732,7 @@
       "Provincia sede": "Ancona",
       "Comune sede": "JESI",
       "Indirizzo sede": "VIA PASQUINELLI 2 A",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 0.93,
       "Stato progetto": "Attivo",
       "Fase attuale": "Costruzione",
@@ -8524,7 +8751,7 @@
       "Provincia sede": "Bergamo",
       "Comune sede": "GRASSOBBIO",
       "Indirizzo sede": "VIA LUNGO SERIO 13/P",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 250.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8581,7 +8808,7 @@
       "Provincia sede": "Palermo",
       "Comune sede": "PALERMO",
       "Indirizzo sede": "VIALE CROCE ROSSA 25",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 62.5,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8619,7 +8846,7 @@
       "Provincia sede": "Bolzano/Bozen",
       "Comune sede": "BOLZANO",
       "Indirizzo sede": "CORSO ITALIA 27",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 63.23,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8695,7 +8922,7 @@
       "Provincia sede": "Torino",
       "Comune sede": "TORINO",
       "Indirizzo sede": "GALLERIA SAN FEDERICO 16",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 130.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8733,7 +8960,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "VIALE DELL'ARTE 25",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 50.32,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8790,7 +9017,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA GAETANO NEGRI 4",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 20.5,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8809,7 +9036,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA GAETANO NEGRI 4",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 40.012,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -8980,7 +9207,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "CORSO BUENOS AIRES 54",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 227.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9113,7 +9340,7 @@
       "Provincia sede": "Palermo",
       "Comune sede": "PALERMO",
       "Indirizzo sede": "VIA EMERICO AMARI 8",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 51.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9153,6 +9380,25 @@
       "Indirizzo sede": "VIA GIOVANNI BOCCACCIO 7",
       "Tipo account": "-",
       "MWp": 79.61,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "EPSILON GEMINI SRL",
+      "Cliente report": "EPSILON GEMINI SRL",
+      "Progetto": "FV_MONREALE 2",
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Palermo",
+      "Comune cantiere": "Monreale",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Catania",
+      "Filiale cliente": "Milano Nord",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA BERNINA 7",
+      "Tipo account": "-",
+      "MWp": 52.799,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
@@ -9227,7 +9473,7 @@
       "Provincia sede": "Foggia",
       "Comune sede": "TORREMAGGIORE",
       "Indirizzo sede": "VIA REINELLA SNC",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 83.6,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9284,7 +9530,7 @@
       "Provincia sede": "Brindisi",
       "Comune sede": "SAN VITO DEI NORMANNI",
       "Indirizzo sede": "VIA ANTONIO FRANCAVILLA 6",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 64.9,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9436,7 +9682,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "VIA FRATELLI RUSPOLI 8",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 12.16,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9474,7 +9720,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "VIA TEVERE 41",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 19.99,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9493,7 +9739,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "VIA TEVERE 41",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 19.99,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9512,7 +9758,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "VIA TEVERE 41",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 19.99,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9531,7 +9777,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA MIKE BONGIORNO 13",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 19.99,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9550,7 +9796,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "VIA TEVERE 41",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 19.9,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9645,7 +9891,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "VIA SAVOIA 78",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 65.7,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9740,7 +9986,7 @@
       "Provincia sede": "Pescara",
       "Comune sede": "PESCARA",
       "Indirizzo sede": "VIA CARAVAGGIO 125",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 39.25,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9759,7 +10005,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "VIA SAVOIA 78",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 19.578,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9778,7 +10024,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "CORSO EUROPA 13",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 54.4,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9949,7 +10195,7 @@
       "Provincia sede": "Bolzano/Bozen",
       "Comune sede": "BOLZANO",
       "Indirizzo sede": "VIALE DELLA STAZIONE 8",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 25.797,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -9987,7 +10233,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "VIA TEVERE 41",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 19.95,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -10139,7 +10385,7 @@
       "Provincia sede": "Torino",
       "Comune sede": "RIVOLI",
       "Indirizzo sede": "VIA CHIVASSO 15/A",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 12.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Procurement",
@@ -10158,7 +10404,7 @@
       "Provincia sede": "Pescara",
       "Comune sede": "PESCARA",
       "Indirizzo sede": "VIA CARAVAGGIO 125",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 19.83,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -10272,7 +10518,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "PIAZZALE OSTIENSE 2",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 32.06,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -10310,7 +10556,7 @@
       "Provincia sede": "Bolzano/Bozen",
       "Comune sede": "BOLZANO",
       "Indirizzo sede": "VIALE DELLA STAZIONE 8",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 91.846,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -10329,7 +10575,7 @@
       "Provincia sede": "Torino",
       "Comune sede": "TORINO",
       "Indirizzo sede": "GALLERIA SAN FEDERICO 16",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 10.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -10443,8 +10689,46 @@
       "Provincia sede": "Bolzano/Bozen",
       "Comune sede": "BOLZANO",
       "Indirizzo sede": "PIAZZA WALTHER VON DER VOGELWEIDE 8",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 61.227,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "S2SE TRE SRL",
+      "Cliente report": "S2SE TRE SRL",
+      "Progetto": "Solare Sant'Agata di Puglia - S2S",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Foggia",
+      "Comune cantiere": "Sant'Agata di Puglia",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Roma Aurelia",
+      "Provincia sede": "Roma",
+      "Comune sede": "ROMA",
+      "Indirizzo sede": "VIA DI SELVA CANDIDA 452",
+      "Tipo account": "-",
+      "MWp": 59.34,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "EEC SOLAR 3 SRL",
+      "Cliente report": "EEC SOLAR 3 SRL",
+      "Progetto": "PV Agro di Grottole",
+      "Regione cantiere": "Basilicata",
+      "Provincia cantiere": "Matera",
+      "Comune cantiere": "Grottole",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Rimini",
+      "Provincia sede": "Ancona",
+      "Comune sede": "JESI",
+      "Indirizzo sede": "PIAZZALE ANNA CIABOTTI 8",
+      "Tipo account": "-",
+      "MWp": 16.455,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
@@ -10519,7 +10803,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "PIAZZA ALBANIA 10",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 144.335,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -10538,7 +10822,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA LARGA 2",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 10.16,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -10652,7 +10936,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA BERNINA 7",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 25.29,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -10709,7 +10993,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "VIA NICOLO' PORPORA 12",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 11.583,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -10747,7 +11031,7 @@
       "Provincia sede": "Torino",
       "Comune sede": "TORINO",
       "Indirizzo sede": "CORSO VITTORIO EMANUELE II 6",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 30.15,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -10766,7 +11050,7 @@
       "Provincia sede": "Torino",
       "Comune sede": "TORINO",
       "Indirizzo sede": "CORSO VITTORIO EMANUELE II 6",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 32.07,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -10868,6 +11152,25 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "SONNEDIX MAG SRL",
+      "Cliente report": "SONNEDIX MAG SRL",
+      "Progetto": "Magarotto-Marconi",
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Modena",
+      "Comune cantiere": "Carpi",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Sassuolo",
+      "Filiale cliente": "Milano Nord",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "CORSO BUENOS AIRES 54",
+      "Tipo account": "-",
+      "MWp": 47.47,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "BLUSOLAR CHIARAVALLE 1 SRL",
       "Cliente report": "BLUSOLAR CHIARAVALLE 1 SRL",
       "Progetto": "Blusolar Chiaravalle",
@@ -10880,7 +11183,7 @@
       "Provincia sede": "Pescara",
       "Comune sede": "PESCARA",
       "Indirizzo sede": "VIA CARAVAGGIO 125",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 38.16,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -10975,7 +11278,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "VIALE DELL'ARTE 25",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 26.6,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -11146,7 +11449,7 @@
       "Provincia sede": "Vicenza",
       "Comune sede": "CASSOLA",
       "Indirizzo sede": "VIA VALSUGANA 102",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 3.6,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -11189,6 +11492,44 @@
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "STESSA FILIALE"
+    },
+    {
+      "Cliente": "ACHEON SRL",
+      "Cliente report": "ACHEON SRL",
+      "Progetto": "FTV TRE BERTE",
+      "Regione cantiere": "Toscana",
+      "Provincia cantiere": "Siena",
+      "Comune cantiere": "Montepulciano",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Firenze",
+      "Filiale cliente": "Roma Nomentana",
+      "Provincia sede": "Roma",
+      "Comune sede": "ROMA",
+      "Indirizzo sede": "VIA ANTONIO BERTOLONI 19",
+      "Tipo account": "-",
+      "MWp": 0.875,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "SOTTOCOLLE SRL",
+      "Cliente report": "SOTTOCOLLE SRL",
+      "Progetto": "FTV SI070",
+      "Regione cantiere": "Toscana",
+      "Provincia cantiere": "Siena",
+      "Comune cantiere": "Casole d'Elsa",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Firenze",
+      "Filiale cliente": "Brescia",
+      "Provincia sede": "Brescia",
+      "Comune sede": "PISOGNE",
+      "Indirizzo sede": "VIA AGOSTINO CAGGIOLI 2/C",
+      "Tipo account": "-",
+      "MWp": 1.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
     },
     {
       "Cliente": "RWE RENEWABLES ITALIA SRL",
@@ -11298,7 +11639,7 @@
       "Provincia sede": "Bolzano/Bozen",
       "Comune sede": "BRESSANONE",
       "Indirizzo sede": "VIA JULIUS DURST 6",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 19.021,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -11355,7 +11696,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIALE FRANCESCO RESTELLI 3/7",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 44.036,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -11450,7 +11791,7 @@
       "Provincia sede": "Trento",
       "Comune sede": "BORGO CHIESE",
       "Indirizzo sede": "VIA ROMA 151",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 9.2,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -11507,7 +11848,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA BERGAMO 7",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 16.974,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -11526,7 +11867,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA GAETANO NEGRI 4",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 34.6,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -11583,7 +11924,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA AGNELLO 18",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 36.3,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -11944,7 +12285,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "PIAZZA SAN SEPOLCRO 1",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 17.91,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -12077,7 +12418,7 @@
       "Provincia sede": "Pescara",
       "Comune sede": "PESCARA",
       "Indirizzo sede": "VIA CARAVAGGIO 125",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 11.846,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -12438,7 +12779,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA GAETANO NEGRI 4",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 37.16,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -12457,7 +12798,7 @@
       "Provincia sede": "Torino",
       "Comune sede": "TORINO",
       "Indirizzo sede": "VIA CLAUDIO BEAUMONT 7",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 5.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Procurement",
@@ -12476,7 +12817,7 @@
       "Provincia sede": "Torino",
       "Comune sede": "TORINO",
       "Indirizzo sede": "VIA CLAUDIO BEAUMONT 7",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 10.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -12495,7 +12836,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "LARGO GUIDO DONEGANI 2",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 78.463,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -12590,7 +12931,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "LARGO GUIDO DONEGANI 2",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 84.3,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -12647,7 +12988,7 @@
       "Provincia sede": "Rovigo",
       "Comune sede": "ROVIGO",
       "Indirizzo sede": "VIALE COMBATTENTI ALLEATI D'EUROPA 9/G",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 37.481,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -12666,7 +13007,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA VARESE 194",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 15.03,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -12685,7 +13026,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA BIGLI 2",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 26.67,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -12704,7 +13045,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA BIGLI 2",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 19.56,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -12761,7 +13102,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "PIAZZALE LUIGI CADORNA 6",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 32.008,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -12780,11 +13121,30 @@
       "Provincia sede": "Rovigo",
       "Comune sede": "ROVIGO",
       "Indirizzo sede": "VIALE COMBATTENTI ALLEATI D'EUROPA 9/G",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 58.917,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "STESSA FILIALE"
+    },
+    {
+      "Cliente": "PHOTOSOL ENERGIA ITALIA SRL",
+      "Cliente report": "PHOTOSOL ENERGIA ITALIA SRL",
+      "Progetto": "PV Rovigo",
+      "Regione cantiere": "Veneto",
+      "Provincia cantiere": "Rovigo",
+      "Comune cantiere": "Rovigo",
+      "Area cantiere": "Nord Est",
+      "Filiale cantiere": "Padova",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA SANTA MARIA SEGRETA 6",
+      "Tipo account": "-",
+      "MWp": 48.57,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
     },
     {
       "Cliente": "SCOTTA SPA",
@@ -12837,7 +13197,7 @@
       "Provincia sede": "Udine",
       "Comune sede": "UDINE",
       "Indirizzo sede": "VIA ANTONIO ANDREUZZI 12",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 16.806,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -12856,7 +13216,7 @@
       "Provincia sede": "Trento",
       "Comune sede": "TRENTO",
       "Indirizzo sede": "VIA FERSINA 23",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 20.0,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Procurement",
@@ -12894,7 +13254,7 @@
       "Provincia sede": "Roma",
       "Comune sede": "ROMA",
       "Indirizzo sede": "VIA TEVERE 41",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 19.88,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -13103,7 +13463,7 @@
       "Provincia sede": "Udine",
       "Comune sede": "BICINICCO",
       "Indirizzo sede": "STRADA PROVINCIALE N. 82 DI CHIASIELLIS",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 68.51,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
@@ -13141,7 +13501,7 @@
       "Provincia sede": "Milano",
       "Comune sede": "MILANO",
       "Indirizzo sede": "VIA BIGLI 2",
-      "Tipo account": "Prospect",
+      "Tipo account": "-",
       "MWp": 27.867,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",

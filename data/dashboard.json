@@ -1,9 +1,9 @@
 {
   "summary": {
-    "projects": 314,
-    "mwp": 13530.944,
+    "projects": 315,
+    "mwp": 13586.883,
     "same_branch": 39,
-    "different_branch": 275,
+    "different_branch": 276,
     "different_pct": 87.6,
     "omitted_clients": [
       "skynrg srl",
@@ -394,6 +394,13 @@
       "Filiale cantiere": "Sassuolo",
       "N. progetti": 1,
       "MWp": 56.54,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Roma Nomentana",
+      "Filiale cantiere": "Udine",
+      "N. progetti": 1,
+      "MWp": 55.94,
       "Clienti unici": 1
     },
     {
@@ -1197,6 +1204,13 @@
       "Clienti unici": 4
     },
     {
+      "Provincia cantiere": "Pordenone",
+      "Regione cantiere": "Friuli-Venezia Giulia",
+      "N. progetti": 2,
+      "MWp": 152.03,
+      "Clienti unici": 2
+    },
+    {
       "Provincia cantiere": "Terni",
       "Regione cantiere": "Umbria",
       "N. progetti": 5,
@@ -1244,13 +1258,6 @@
       "N. progetti": 3,
       "MWp": 102.054,
       "Clienti unici": 3
-    },
-    {
-      "Provincia cantiere": "Pordenone",
-      "Regione cantiere": "Friuli-Venezia Giulia",
-      "N. progetti": 1,
-      "MWp": 96.09,
-      "Clienti unici": 1
     },
     {
       "Provincia cantiere": "Oristano",
@@ -1516,9 +1523,9 @@
     },
     {
       "Provincia": "Pescara",
-      "Clienti": 5,
-      "Progetti": 5,
-      "MWp": 160.952
+      "Clienti": 6,
+      "Progetti": 6,
+      "MWp": 216.892
     },
     {
       "Provincia": "Cuneo",
@@ -1877,16 +1884,16 @@
       "Clienti unici": 4
     },
     {
+      "Filiale cantiere": "Udine",
+      "N. progetti": 3,
+      "MWp": 220.54,
+      "Clienti unici": 3
+    },
+    {
       "Filiale cantiere": "Venezia",
       "N. progetti": 3,
       "MWp": 102.054,
       "Clienti unici": 3
-    },
-    {
-      "Filiale cantiere": "Udine",
-      "N. progetti": 2,
-      "MWp": 164.6,
-      "Clienti unici": 2
     },
     {
       "Filiale cantiere": "Milano Ovest",
@@ -1934,9 +1941,9 @@
     },
     {
       "Filiale cliente": "Roma Nomentana",
-      "N. progetti": 30,
-      "MWp": 1598.055,
-      "Clienti unici": 29
+      "N. progetti": 31,
+      "MWp": 1653.995,
+      "Clienti unici": 30
     },
     {
       "Filiale cliente": "Roma Aurelia",
@@ -2479,6 +2486,13 @@
       "Filiale cantiere": "Sassuolo",
       "N. progetti": 1,
       "MWp": 56.54,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Roma Nomentana",
+      "Filiale cantiere": "Udine",
+      "N. progetti": 1,
+      "MWp": 55.94,
       "Clienti unici": 1
     },
     {
@@ -5563,6 +5577,14 @@
       "Potenza MWp": 68.51
     },
     {
+      "Regione cantiere": "Friuli-Venezia Giulia",
+      "Provincia cantiere": "Pordenone",
+      "Comune cantiere": "Sesto al Reghena",
+      "Cliente progetto": "BLUSOLAR SESTO AL REGHENA 1 SRL",
+      "Progetto": "PV Sesto al Reghena",
+      "Potenza MWp": 55.94
+    },
+    {
       "Regione cantiere": "Veneto",
       "Provincia cantiere": "Venezia",
       "Comune cantiere": "Portogruaro",
@@ -7768,6 +7790,13 @@
       "Cliente progetto": "ALPENFRUT",
       "Progetto": "GREENFRUT",
       "Potenza MWp": 68.51
+    },
+    {
+      "Filiale cliente": "Roma Nomentana",
+      "Filiale cantiere": "Udine",
+      "Cliente progetto": "BLUSOLAR SESTO AL REGHENA 1 SRL",
+      "Progetto": "PV Sesto al Reghena",
+      "Potenza MWp": 55.94
     },
     {
       "Filiale cliente": "Torino",
@@ -13652,6 +13681,25 @@
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "STESSA FILIALE"
+    },
+    {
+      "Cliente": "BLUSOLAR SESTO AL REGHENA 1 SRL",
+      "Cliente report": "BLUSOLAR SESTO AL REGHENA 1 SRL",
+      "Progetto": "PV Sesto al Reghena",
+      "Regione cantiere": "Friuli-Venezia Giulia",
+      "Provincia cantiere": "Pordenone",
+      "Comune cantiere": "Sesto al Reghena",
+      "Area cantiere": "Nord Est",
+      "Filiale cantiere": "Udine",
+      "Filiale cliente": "Roma Nomentana",
+      "Provincia sede": "Pescara",
+      "Comune sede": "PESCARA",
+      "Indirizzo sede": "VIA CARAVAGGIO 125",
+      "Tipo account": "-",
+      "MWp": 55.94,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
     },
     {
       "Cliente": "FLYSUN 10 SRL",

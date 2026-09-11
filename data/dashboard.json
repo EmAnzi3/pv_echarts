@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 315,
-    "mwp": 13586.883,
+    "projects": 316,
+    "mwp": 13633.577,
     "same_branch": 39,
-    "different_branch": 276,
-    "different_pct": 87.6,
+    "different_branch": 277,
+    "different_pct": 87.7,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -28,8 +28,8 @@
     {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Catania",
-      "N. progetti": 7,
-      "MWp": 763.6,
+      "N. progetti": 8,
+      "MWp": 810.294,
       "Clienti unici": 7
     },
     {
@@ -1036,18 +1036,18 @@
       "Clienti unici": 15
     },
     {
+      "Provincia cantiere": "Palermo",
+      "Regione cantiere": "Sicilia",
+      "N. progetti": 16,
+      "MWp": 1006.873,
+      "Clienti unici": 14
+    },
+    {
       "Provincia cantiere": "Foggia",
       "Regione cantiere": "Puglia",
       "N. progetti": 20,
       "MWp": 1006.793,
       "Clienti unici": 18
-    },
-    {
-      "Provincia cantiere": "Palermo",
-      "Regione cantiere": "Sicilia",
-      "N. progetti": 15,
-      "MWp": 960.179,
-      "Clienti unici": 14
     },
     {
       "Provincia cantiere": "Rovigo",
@@ -1500,8 +1500,8 @@
     {
       "Provincia": "Bolzano/Bozen",
       "Clienti": 23,
-      "Progetti": 23,
-      "MWp": 1563.637
+      "Progetti": 24,
+      "MWp": 1610.331
     },
     {
       "Provincia": "Torino",
@@ -1759,8 +1759,8 @@
     },
     {
       "Filiale cantiere": "Catania",
-      "N. progetti": 58,
-      "MWp": 4125.497,
+      "N. progetti": 59,
+      "MWp": 4172.191,
       "Clienti unici": 54
     },
     {
@@ -1953,8 +1953,8 @@
     },
     {
       "Filiale cliente": "Bolzano",
-      "N. progetti": 23,
-      "MWp": 1563.637,
+      "N. progetti": 24,
+      "MWp": 1610.331,
       "Clienti unici": 23
     },
     {
@@ -2120,8 +2120,8 @@
     {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Catania",
-      "N. progetti": 7,
-      "MWp": 763.6,
+      "N. progetti": 8,
+      "MWp": 810.294,
       "Clienti unici": 7
     },
     {
@@ -3847,6 +3847,14 @@
       "Cliente progetto": "EDPR SICILIA PV SRL",
       "Progetto": "Victora Solar Farm",
       "Potenza MWp": 83.66
+    },
+    {
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Palermo",
+      "Comune cantiere": "Campofelice di Fitalia",
+      "Cliente progetto": "FRIEL SUN SRL",
+      "Progetto": "Agrovoltaico Campofelice",
+      "Potenza MWp": 46.694
     },
     {
       "Regione cantiere": "Puglia",
@@ -6278,6 +6286,13 @@
       "Cliente progetto": "EDPR SICILIA PV SRL",
       "Progetto": "Victora Solar Farm",
       "Potenza MWp": 83.66
+    },
+    {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Catania",
+      "Cliente progetto": "FRIEL SUN SRL",
+      "Progetto": "Agrovoltaico Campofelice",
+      "Potenza MWp": 46.694
     },
     {
       "Filiale cliente": "Bologna",
@@ -9574,6 +9589,25 @@
       "Indirizzo sede": "VIA ROBERTO LEPETIT 8/10",
       "Tipo account": "-",
       "MWp": 83.66,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "FRIEL SUN SRL",
+      "Cliente report": "FRIEL SUN SRL",
+      "Progetto": "Agrovoltaico Campofelice",
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Palermo",
+      "Comune cantiere": "Campofelice di Fitalia",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Catania",
+      "Filiale cliente": "Bolzano",
+      "Provincia sede": "Bolzano/Bozen",
+      "Comune sede": "BOLZANO",
+      "Indirizzo sede": "PIAZZA DEL GRANO 3",
+      "Tipo account": "-",
+      "MWp": 46.694,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

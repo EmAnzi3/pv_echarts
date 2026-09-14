@@ -1,9 +1,9 @@
 {
   "summary": {
-    "projects": 316,
-    "mwp": 13633.577,
+    "projects": 317,
+    "mwp": 13700.853,
     "same_branch": 39,
-    "different_branch": 277,
+    "different_branch": 278,
     "different_pct": 87.7,
     "omitted_clients": [
       "skynrg srl",
@@ -54,18 +54,18 @@
       "Clienti unici": 7
     },
     {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 8,
+      "MWp": 467.135,
+      "Clienti unici": 8
+    },
+    {
       "Filiale cliente": "Milano Nord",
       "Filiale cantiere": "Padova",
       "N. progetti": 4,
       "MWp": 403.848,
       "Clienti unici": 3
-    },
-    {
-      "Filiale cliente": "Bolzano",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 7,
-      "MWp": 399.86,
-      "Clienti unici": 7
     },
     {
       "Filiale cliente": "Catania",
@@ -1080,9 +1080,9 @@
     {
       "Provincia cantiere": "Lecce",
       "Regione cantiere": "Puglia",
-      "N. progetti": 11,
-      "MWp": 423.438,
-      "Clienti unici": 11
+      "N. progetti": 12,
+      "MWp": 490.713,
+      "Clienti unici": 12
     },
     {
       "Provincia cantiere": "Trapani",
@@ -1499,9 +1499,9 @@
     },
     {
       "Provincia": "Bolzano/Bozen",
-      "Clienti": 23,
-      "Progetti": 24,
-      "MWp": 1610.331
+      "Clienti": 24,
+      "Progetti": 25,
+      "MWp": 1677.606
     },
     {
       "Provincia": "Torino",
@@ -1753,9 +1753,9 @@
   "top_cantiere": [
     {
       "Filiale cantiere": "Bari",
-      "N. progetti": 70,
-      "MWp": 3509.494,
-      "Clienti unici": 64
+      "N. progetti": 71,
+      "MWp": 3576.769,
+      "Clienti unici": 65
     },
     {
       "Filiale cantiere": "Catania",
@@ -1953,9 +1953,9 @@
     },
     {
       "Filiale cliente": "Bolzano",
-      "N. progetti": 24,
-      "MWp": 1610.331,
-      "Clienti unici": 23
+      "N. progetti": 25,
+      "MWp": 1677.606,
+      "Clienti unici": 24
     },
     {
       "Filiale cliente": "Torino",
@@ -2146,18 +2146,18 @@
       "Clienti unici": 7
     },
     {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 8,
+      "MWp": 467.135,
+      "Clienti unici": 8
+    },
+    {
       "Filiale cliente": "Milano Nord",
       "Filiale cantiere": "Padova",
       "N. progetti": 4,
       "MWp": 403.848,
       "Clienti unici": 3
-    },
-    {
-      "Filiale cliente": "Bolzano",
-      "Filiale cantiere": "Bari",
-      "N. progetti": 7,
-      "MWp": 399.86,
-      "Clienti unici": 7
     },
     {
       "Filiale cliente": "Catania",
@@ -4415,6 +4415,14 @@
       "Cliente progetto": "EEC SOLAR 3 SRL",
       "Progetto": "PV Agro di Grottole",
       "Potenza MWp": 16.455
+    },
+    {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Lecce",
+      "Comune cantiere": "Nardò",
+      "Cliente progetto": "INE NARDO' SRL",
+      "Progetto": "PV Maramonti",
+      "Potenza MWp": 67.275
     },
     {
       "Regione cantiere": "Lazio",
@@ -6783,6 +6791,13 @@
       "Cliente progetto": "EEC SOLAR 3 SRL",
       "Progetto": "PV Agro di Grottole",
       "Potenza MWp": 16.455
+    },
+    {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "INE NARDO' SRL",
+      "Progetto": "PV Maramonti",
+      "Potenza MWp": 67.275
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -10938,6 +10953,25 @@
       "Indirizzo sede": "PIAZZALE ANNA CIABOTTI 8",
       "Tipo account": "-",
       "MWp": 16.455,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "INE NARDO' SRL",
+      "Cliente report": "INE NARDO' SRL",
+      "Progetto": "PV Maramonti",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Lecce",
+      "Comune cantiere": "Nardò",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Bolzano",
+      "Provincia sede": "Bolzano/Bozen",
+      "Comune sede": "BOLZANO",
+      "Indirizzo sede": "PIAZZA WALTHER VON DER VOGELWEIDE 8",
+      "Tipo account": "-",
+      "MWp": 67.275,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

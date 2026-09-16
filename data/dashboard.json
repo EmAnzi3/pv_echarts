@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 317,
-    "mwp": 13700.853,
-    "same_branch": 39,
+    "projects": 318,
+    "mwp": 13710.653,
+    "same_branch": 40,
     "different_branch": 278,
-    "different_pct": 87.7,
+    "different_pct": 87.4,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -901,6 +901,13 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Cosenza",
+      "Filiale cantiere": "Cosenza",
+      "N. progetti": 1,
+      "MWp": 9.8,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Trento",
       "Filiale cantiere": "Perugia",
       "N. progetti": 1,
@@ -1365,6 +1372,13 @@
       "Clienti unici": 5
     },
     {
+      "Provincia cantiere": "Crotone",
+      "Regione cantiere": "Calabria",
+      "N. progetti": 3,
+      "MWp": 47.026,
+      "Clienti unici": 3
+    },
+    {
       "Provincia cantiere": "Livorno",
       "Regione cantiere": "Toscana",
       "N. progetti": 5,
@@ -1384,13 +1398,6 @@
       "N. progetti": 1,
       "MWp": 38.16,
       "Clienti unici": 1
-    },
-    {
-      "Provincia cantiere": "Crotone",
-      "Regione cantiere": "Calabria",
-      "N. progetti": 2,
-      "MWp": 37.226,
-      "Clienti unici": 2
     },
     {
       "Provincia cantiere": "Reggio nell'Emilia",
@@ -1732,6 +1739,12 @@
       "MWp": 9.92
     },
     {
+      "Provincia": "Crotone",
+      "Clienti": 1,
+      "Progetti": 1,
+      "MWp": 9.8
+    },
+    {
       "Provincia": "Vicenza",
       "Clienti": 1,
       "Progetti": 1,
@@ -1836,6 +1849,12 @@
       "Clienti unici": 5
     },
     {
+      "Filiale cantiere": "Cosenza",
+      "N. progetti": 5,
+      "MWp": 187.906,
+      "Clienti unici": 5
+    },
+    {
       "Filiale cantiere": "Verona",
       "N. progetti": 5,
       "MWp": 128.275,
@@ -1857,12 +1876,6 @@
       "Filiale cantiere": "Roma Aurelia",
       "N. progetti": 4,
       "MWp": 308.885,
-      "Clienti unici": 4
-    },
-    {
-      "Filiale cantiere": "Cosenza",
-      "N. progetti": 4,
-      "MWp": 178.106,
       "Clienti unici": 4
     },
     {
@@ -2066,6 +2079,12 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Cosenza",
+      "N. progetti": 2,
+      "MWp": 32.37,
+      "Clienti unici": 2
+    },
+    {
       "Filiale cliente": "Parma",
       "N. progetti": 1,
       "MWp": 56.54,
@@ -2075,12 +2094,6 @@
       "Filiale cliente": "Cagliari",
       "N. progetti": 1,
       "MWp": 33.527,
-      "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Cosenza",
-      "N. progetti": 1,
-      "MWp": 22.57,
       "Clienti unici": 1
     },
     {
@@ -2991,6 +3004,13 @@
       "N. progetti": 2,
       "MWp": 10.263,
       "Clienti unici": 2
+    },
+    {
+      "Filiale cliente": "Cosenza",
+      "Filiale cantiere": "Cosenza",
+      "N. progetti": 1,
+      "MWp": 9.8,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Trento",
@@ -5215,6 +5235,14 @@
       "Cliente progetto": "HABEMUS SRL",
       "Progetto": "Crotone",
       "Potenza MWp": 17.726
+    },
+    {
+      "Regione cantiere": "Calabria",
+      "Provincia cantiere": "Crotone",
+      "Comune cantiere": "Cutro",
+      "Cliente progetto": "CR RINNOVABILI 4 SRL",
+      "Progetto": "PV Cutro",
+      "Potenza MWp": 9.8
     },
     {
       "Regione cantiere": "Piemonte",
@@ -7491,6 +7519,13 @@
       "Cliente progetto": "HABEMUS SRL",
       "Progetto": "Crotone",
       "Potenza MWp": 17.726
+    },
+    {
+      "Filiale cliente": "Cosenza",
+      "Filiale cantiere": "Cosenza",
+      "Cliente progetto": "CR RINNOVABILI 4 SRL",
+      "Progetto": "PV Cutro",
+      "Potenza MWp": 9.8
     },
     {
       "Filiale cliente": "Cuneo",
@@ -12856,6 +12891,25 @@
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "CR RINNOVABILI 4 SRL",
+      "Cliente report": "CR RINNOVABILI 4 SRL",
+      "Progetto": "PV Cutro",
+      "Regione cantiere": "Calabria",
+      "Provincia cantiere": "Crotone",
+      "Comune cantiere": "Cutro",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Cosenza",
+      "Filiale cliente": "Cosenza",
+      "Provincia sede": "Crotone",
+      "Comune sede": "CUTRO",
+      "Indirizzo sede": "VIA NAZIONALE SNC",
+      "Tipo account": "-",
+      "MWp": 9.8,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "STESSA FILIALE"
     },
     {
       "Cliente": "FOTOVOLTAICO SERVICE SRLS",

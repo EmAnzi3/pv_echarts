@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 318,
-    "mwp": 13710.653,
+    "projects": 319,
+    "mwp": 13730.632,
     "same_branch": 40,
-    "different_branch": 278,
-    "different_pct": 87.4,
+    "different_branch": 279,
+    "different_pct": 87.5,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -705,6 +705,13 @@
       "Clienti unici": 1
     },
     {
+      "Filiale cliente": "Perugia",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 1,
+      "MWp": 19.98,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Milano Ovest",
       "Filiale cantiere": "Salerno",
       "N. progetti": 1,
@@ -1099,6 +1106,13 @@
       "Clienti unici": 7
     },
     {
+      "Provincia cantiere": "Matera",
+      "Regione cantiere": "Basilicata",
+      "N. progetti": 14,
+      "MWp": 328.362,
+      "Clienti unici": 14
+    },
+    {
       "Provincia cantiere": "Ferrara",
       "Regione cantiere": "Emilia-Romagna",
       "N. progetti": 12,
@@ -1111,13 +1125,6 @@
       "N. progetti": 11,
       "MWp": 309.976,
       "Clienti unici": 10
-    },
-    {
-      "Provincia cantiere": "Matera",
-      "Regione cantiere": "Basilicata",
-      "N. progetti": 13,
-      "MWp": 308.382,
-      "Clienti unici": 13
     },
     {
       "Provincia cantiere": "Pavia",
@@ -1709,6 +1716,12 @@
       "MWp": 22.57
     },
     {
+      "Provincia": "Perugia",
+      "Clienti": 1,
+      "Progetti": 1,
+      "MWp": 19.98
+    },
+    {
       "Provincia": "Frosinone",
       "Clienti": 1,
       "Progetti": 1,
@@ -1766,9 +1779,9 @@
   "top_cantiere": [
     {
       "Filiale cantiere": "Bari",
-      "N. progetti": 71,
-      "MWp": 3576.769,
-      "Clienti unici": 65
+      "N. progetti": 72,
+      "MWp": 3596.749,
+      "Clienti unici": 66
     },
     {
       "Filiale cantiere": "Catania",
@@ -2094,6 +2107,12 @@
       "Filiale cliente": "Cagliari",
       "N. progetti": 1,
       "MWp": 33.527,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Perugia",
+      "N. progetti": 1,
+      "MWp": 19.98,
       "Clienti unici": 1
     },
     {
@@ -2807,6 +2826,13 @@
       "Filiale cantiere": "Parma",
       "N. progetti": 1,
       "MWp": 20.0,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Perugia",
+      "Filiale cantiere": "Bari",
+      "N. progetti": 1,
+      "MWp": 19.98,
       "Clienti unici": 1
     },
     {
@@ -4297,7 +4323,7 @@
       "Provincia cantiere": "Matera",
       "Comune cantiere": "Grottole",
       "Cliente progetto": "BLUSOLAR GROTTOLE 1 SRL",
-      "Progetto": "SIN Valbasento",
+      "Progetto": "SIN VALBASENTO",
       "Potenza MWp": 19.83
     },
     {
@@ -4443,6 +4469,14 @@
       "Cliente progetto": "INE NARDO' SRL",
       "Progetto": "PV Maramonti",
       "Potenza MWp": 67.275
+    },
+    {
+      "Regione cantiere": "Basilicata",
+      "Provincia cantiere": "Matera",
+      "Comune cantiere": "Craco",
+      "Cliente progetto": "CONCOM SOLAR ITALIA 02 SRL",
+      "Progetto": "Calanchi Solari",
+      "Potenza MWp": 19.98
     },
     {
       "Regione cantiere": "Lazio",
@@ -6698,7 +6732,7 @@
       "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Bari",
       "Cliente progetto": "BLUSOLAR GROTTOLE 1 SRL",
-      "Progetto": "SIN Valbasento",
+      "Progetto": "SIN VALBASENTO",
       "Potenza MWp": 19.83
     },
     {
@@ -6826,6 +6860,13 @@
       "Cliente progetto": "INE NARDO' SRL",
       "Progetto": "PV Maramonti",
       "Potenza MWp": 67.275
+    },
+    {
+      "Filiale cliente": "Perugia",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "CONCOM SOLAR ITALIA 02 SRL",
+      "Progetto": "Calanchi Solari",
+      "Potenza MWp": 19.98
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -10653,7 +10694,7 @@
     {
       "Cliente": "BLUSOLAR GROTTOLE 1 SRL",
       "Cliente report": "BLUSOLAR GROTTOLE 1 SRL",
-      "Progetto": "SIN Valbasento",
+      "Progetto": "SIN VALBASENTO",
       "Regione cantiere": "Basilicata",
       "Provincia cantiere": "Matera",
       "Comune cantiere": "Grottole",
@@ -11007,6 +11048,25 @@
       "Indirizzo sede": "PIAZZA WALTHER VON DER VOGELWEIDE 8",
       "Tipo account": "-",
       "MWp": 67.275,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "CONCOM SOLAR ITALIA 02 SRL",
+      "Cliente report": "CONCOM SOLAR ITALIA 02 SRL",
+      "Progetto": "Calanchi Solari",
+      "Regione cantiere": "Basilicata",
+      "Provincia cantiere": "Matera",
+      "Comune cantiere": "Craco",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Perugia",
+      "Provincia sede": "Perugia",
+      "Comune sede": "PERUGIA",
+      "Indirizzo sede": "VIA GERARDO DOTTORI 85",
+      "Tipo account": "-",
+      "MWp": 19.98,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

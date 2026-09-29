@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 326,
-    "mwp": 14293.311,
+    "projects": 328,
+    "mwp": 14407.472,
     "same_branch": 42,
-    "different_branch": 284,
-    "different_pct": 87.1,
+    "different_branch": 286,
+    "different_pct": 87.2,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -14,9 +14,9 @@
     {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Catania",
-      "N. progetti": 9,
-      "MWp": 1141.494,
-      "Clienti unici": 8
+      "N. progetti": 10,
+      "MWp": 1219.654,
+      "Clienti unici": 9
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -110,17 +110,17 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 5,
+      "MWp": 200.953,
+      "Clienti unici": 5
+    },
+    {
       "Filiale cliente": "Milano Ovest",
       "Filiale cantiere": "Catania",
       "N. progetti": 4,
       "MWp": 175.625,
-      "Clienti unici": 4
-    },
-    {
-      "Filiale cliente": "Milano Nord",
-      "Filiale cantiere": "Bologna",
-      "N. progetti": 4,
-      "MWp": 164.953,
       "Clienti unici": 4
     },
     {
@@ -1162,18 +1162,18 @@
       "Clienti unici": 4
     },
     {
+      "Provincia cantiere": "Bologna",
+      "Regione cantiere": "Emilia-Romagna",
+      "N. progetti": 11,
+      "MWp": 260.922,
+      "Clienti unici": 9
+    },
+    {
       "Provincia cantiere": "Ragusa",
       "Regione cantiere": "Sicilia",
       "N. progetti": 5,
       "MWp": 252.272,
       "Clienti unici": 5
-    },
-    {
-      "Provincia cantiere": "Bologna",
-      "Regione cantiere": "Emilia-Romagna",
-      "N. progetti": 10,
-      "MWp": 224.922,
-      "Clienti unici": 8
     },
     {
       "Provincia cantiere": "Siena",
@@ -1236,6 +1236,13 @@
       "Regione cantiere": "Friuli-Venezia Giulia",
       "N. progetti": 2,
       "MWp": 152.03,
+      "Clienti unici": 2
+    },
+    {
+      "Provincia cantiere": "Caltanissetta",
+      "Regione cantiere": "Sicilia",
+      "N. progetti": 2,
+      "MWp": 148.4,
       "Clienti unici": 2
     },
     {
@@ -1335,13 +1342,6 @@
       "N. progetti": 4,
       "MWp": 73.17,
       "Clienti unici": 4
-    },
-    {
-      "Provincia cantiere": "Caltanissetta",
-      "Regione cantiere": "Sicilia",
-      "N. progetti": 1,
-      "MWp": 70.24,
-      "Clienti unici": 1
     },
     {
       "Provincia cantiere": "Bari",
@@ -1522,9 +1522,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 124,
-      "Progetti": 138,
-      "MWp": 5763.354
+      "Clienti": 125,
+      "Progetti": 139,
+      "MWp": 5799.354
     },
     {
       "Provincia": "Roma",
@@ -1534,9 +1534,9 @@
     },
     {
       "Provincia": "Bolzano/Bozen",
-      "Clienti": 25,
-      "Progetti": 26,
-      "MWp": 2008.806
+      "Clienti": 26,
+      "Progetti": 27,
+      "MWp": 2086.966
     },
     {
       "Provincia": "Torino",
@@ -1812,20 +1812,20 @@
     },
     {
       "Filiale cantiere": "Catania",
-      "N. progetti": 61,
-      "MWp": 4573.216,
-      "Clienti unici": 56
+      "N. progetti": 62,
+      "MWp": 4651.376,
+      "Clienti unici": 57
+    },
+    {
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 26,
+      "MWp": 703.301,
+      "Clienti unici": 24
     },
     {
       "Filiale cantiere": "Livorno",
       "N. progetti": 26,
       "MWp": 444.119,
-      "Clienti unici": 23
-    },
-    {
-      "Filiale cantiere": "Bologna",
-      "N. progetti": 25,
-      "MWp": 667.301,
       "Clienti unici": 23
     },
     {
@@ -1988,9 +1988,9 @@
     },
     {
       "Filiale cliente": "Milano Nord",
-      "N. progetti": 35,
-      "MWp": 1769.902,
-      "Clienti unici": 30
+      "N. progetti": 36,
+      "MWp": 1805.902,
+      "Clienti unici": 31
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -2000,9 +2000,9 @@
     },
     {
       "Filiale cliente": "Bolzano",
-      "N. progetti": 26,
-      "MWp": 2008.806,
-      "Clienti unici": 25
+      "N. progetti": 27,
+      "MWp": 2086.966,
+      "Clienti unici": 26
     },
     {
       "Filiale cliente": "Roma Aurelia",
@@ -2165,9 +2165,9 @@
     {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Catania",
-      "N. progetti": 9,
-      "MWp": 1141.494,
-      "Clienti unici": 8
+      "N. progetti": 10,
+      "MWp": 1219.654,
+      "Clienti unici": 9
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -2261,17 +2261,17 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Bologna",
+      "N. progetti": 5,
+      "MWp": 200.953,
+      "Clienti unici": 5
+    },
+    {
       "Filiale cliente": "Milano Ovest",
       "Filiale cantiere": "Catania",
       "N. progetti": 4,
       "MWp": 175.625,
-      "Clienti unici": 4
-    },
-    {
-      "Filiale cliente": "Milano Nord",
-      "Filiale cantiere": "Bologna",
-      "N. progetti": 4,
-      "MWp": 164.953,
       "Clienti unici": 4
     },
     {
@@ -3960,6 +3960,14 @@
       "Potenza MWp": 331.2
     },
     {
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Caltanissetta",
+      "Comune cantiere": "Gela",
+      "Cliente progetto": "SOLAR INVESTMENT SRL",
+      "Progetto": "PV Acate",
+      "Potenza MWp": 78.16
+    },
+    {
       "Regione cantiere": "Puglia",
       "Provincia cantiere": "Lecce",
       "Comune cantiere": "Nardò",
@@ -5288,6 +5296,14 @@
       "Potenza MWp": 52.85
     },
     {
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Bologna",
+      "Comune cantiere": "Ozzano dell'Emilia",
+      "Cliente progetto": "OPR SUN 23 SRL",
+      "Progetto": "PV OZZANO DELL'EMILIA",
+      "Potenza MWp": 36.0
+    },
+    {
       "Regione cantiere": "Lombardia",
       "Provincia cantiere": "Brescia",
       "Comune cantiere": "Lonato del Garda",
@@ -6476,6 +6492,13 @@
       "Potenza MWp": 331.2
     },
     {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Catania",
+      "Cliente progetto": "SOLAR INVESTMENT SRL",
+      "Progetto": "PV Acate",
+      "Potenza MWp": 78.16
+    },
+    {
       "Filiale cliente": "Bologna",
       "Filiale cantiere": "Bari",
       "Cliente progetto": "SOLARANTO SRL",
@@ -7636,6 +7659,13 @@
       "Cliente progetto": "ENVIROSUN SRL",
       "Progetto": "GALLO",
       "Potenza MWp": 52.85
+    },
+    {
+      "Filiale cliente": "Milano Nord",
+      "Filiale cantiere": "Bologna",
+      "Cliente progetto": "OPR SUN 23 SRL",
+      "Progetto": "PV OZZANO DELL'EMILIA",
+      "Potenza MWp": 36.0
     },
     {
       "Filiale cliente": "Milano Sud",
@@ -9883,6 +9913,25 @@
       "Indirizzo sede": "VIALE AMEDEO DUCA D'AOSTA 76",
       "Tipo account": "-",
       "MWp": 331.2,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "SOLAR INVESTMENT SRL",
+      "Cliente report": "SOLAR INVESTMENT SRL",
+      "Progetto": "PV Acate",
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Caltanissetta",
+      "Comune cantiere": "Gela",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Catania",
+      "Filiale cliente": "Bolzano",
+      "Provincia sede": "Bolzano/Bozen",
+      "Comune sede": "APPIANO",
+      "Indirizzo sede": "STRADA RIVA DI SOTTO 74",
+      "Tipo account": "-",
+      "MWp": 78.16,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
@@ -13040,6 +13089,25 @@
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "STESSA FILIALE"
+    },
+    {
+      "Cliente": "OPR SUN 23 SRL",
+      "Cliente report": "OPR SUN 23 SRL",
+      "Progetto": "PV OZZANO DELL'EMILIA",
+      "Regione cantiere": "Emilia-Romagna",
+      "Provincia cantiere": "Bologna",
+      "Comune cantiere": "Ozzano dell'Emilia",
+      "Area cantiere": "Centro",
+      "Filiale cantiere": "Bologna",
+      "Filiale cliente": "Milano Nord",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "VIA CERESIO 7",
+      "Tipo account": "-",
+      "MWp": 36.0,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
     },
     {
       "Cliente": "LIO ENERGY BUBO SRL",

@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 370,
-    "mwp": 15895.236,
+    "projects": 372,
+    "mwp": 15952.834,
     "same_branch": 50,
-    "different_branch": 320,
-    "different_pct": 86.5,
+    "different_branch": 322,
+    "different_pct": 86.6,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -56,9 +56,9 @@
     {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Bari",
-      "N. progetti": 10,
-      "MWp": 499.854,
-      "Clienti unici": 10
+      "N. progetti": 11,
+      "MWp": 517.852,
+      "Clienti unici": 11
     },
     {
       "Filiale cliente": "Catania",
@@ -159,6 +159,13 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Brescia",
+      "Filiale cantiere": "Catania",
+      "N. progetti": 3,
+      "MWp": 144.9,
+      "Clienti unici": 3
+    },
+    {
       "Filiale cliente": "Roma Aurelia",
       "Filiale cantiere": "Roma Aurelia",
       "N. progetti": 1,
@@ -234,13 +241,6 @@
       "N. progetti": 1,
       "MWp": 107.13,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Brescia",
-      "Filiale cantiere": "Catania",
-      "N. progetti": 2,
-      "MWp": 105.3,
-      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Salerno",
@@ -1192,9 +1192,9 @@
     {
       "Provincia cantiere": "Brindisi",
       "Regione cantiere": "Puglia",
-      "N. progetti": 13,
-      "MWp": 715.413,
-      "Clienti unici": 13
+      "N. progetti": 14,
+      "MWp": 733.411,
+      "Clienti unici": 14
     },
     {
       "Provincia cantiere": "Ferrara",
@@ -1295,6 +1295,13 @@
       "Clienti unici": 7
     },
     {
+      "Provincia cantiere": "Agrigento",
+      "Regione cantiere": "Sicilia",
+      "N. progetti": 4,
+      "MWp": 211.445,
+      "Clienti unici": 4
+    },
+    {
       "Provincia cantiere": "Benevento",
       "Regione cantiere": "Campania",
       "N. progetti": 4,
@@ -1335,13 +1342,6 @@
       "N. progetti": 4,
       "MWp": 172.301,
       "Clienti unici": 4
-    },
-    {
-      "Provincia cantiere": "Agrigento",
-      "Regione cantiere": "Sicilia",
-      "N. progetti": 3,
-      "MWp": 171.845,
-      "Clienti unici": 3
     },
     {
       "Provincia cantiere": "Caserta",
@@ -1632,9 +1632,9 @@
     },
     {
       "Provincia": "Bolzano/Bozen",
-      "Clienti": 28,
-      "Progetti": 29,
-      "MWp": 2119.685
+      "Clienti": 29,
+      "Progetti": 30,
+      "MWp": 2137.683
     },
     {
       "Provincia": "Bologna",
@@ -1721,6 +1721,12 @@
       "MWp": 115.086
     },
     {
+      "Provincia": "Cremona",
+      "Clienti": 3,
+      "Progetti": 3,
+      "MWp": 90.95
+    },
+    {
       "Provincia": "Padova",
       "Clienti": 3,
       "Progetti": 4,
@@ -1743,12 +1749,6 @@
       "Clienti": 2,
       "Progetti": 2,
       "MWp": 78.74
-    },
-    {
-      "Provincia": "Cremona",
-      "Clienti": 2,
-      "Progetti": 2,
-      "MWp": 51.35
     },
     {
       "Provincia": "Alessandria",
@@ -1928,15 +1928,15 @@
   "top_cantiere": [
     {
       "Filiale cantiere": "Bari",
-      "N. progetti": 80,
-      "MWp": 3923.962,
-      "Clienti unici": 74
+      "N. progetti": 81,
+      "MWp": 3941.96,
+      "Clienti unici": 75
     },
     {
       "Filiale cantiere": "Catania",
-      "N. progetti": 66,
-      "MWp": 4780.49,
-      "Clienti unici": 60
+      "N. progetti": 67,
+      "MWp": 4820.09,
+      "Clienti unici": 61
     },
     {
       "Filiale cantiere": "Bologna",
@@ -2128,9 +2128,9 @@
     },
     {
       "Filiale cliente": "Bolzano",
-      "N. progetti": 29,
-      "MWp": 2119.685,
-      "Clienti unici": 28
+      "N. progetti": 30,
+      "MWp": 2137.683,
+      "Clienti unici": 29
     },
     {
       "Filiale cliente": "Torino",
@@ -2175,15 +2175,15 @@
       "Clienti unici": 7
     },
     {
+      "Filiale cliente": "Brescia",
+      "N. progetti": 7,
+      "MWp": 211.81,
+      "Clienti unici": 7
+    },
+    {
       "Filiale cliente": "Cuneo",
       "N. progetti": 7,
       "MWp": 121.2,
-      "Clienti unici": 6
-    },
-    {
-      "Filiale cliente": "Brescia",
-      "N. progetti": 6,
-      "MWp": 172.21,
       "Clienti unici": 6
     },
     {
@@ -2329,9 +2329,9 @@
     {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Bari",
-      "N. progetti": 10,
-      "MWp": 499.854,
-      "Clienti unici": 10
+      "N. progetti": 11,
+      "MWp": 517.852,
+      "Clienti unici": 11
     },
     {
       "Filiale cliente": "Catania",
@@ -2432,6 +2432,13 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Brescia",
+      "Filiale cantiere": "Catania",
+      "N. progetti": 3,
+      "MWp": 144.9,
+      "Clienti unici": 3
+    },
+    {
       "Filiale cliente": "Roma Aurelia",
       "Filiale cantiere": "Roma Aurelia",
       "N. progetti": 1,
@@ -2507,13 +2514,6 @@
       "N. progetti": 1,
       "MWp": 107.13,
       "Clienti unici": 1
-    },
-    {
-      "Filiale cliente": "Brescia",
-      "Filiale cantiere": "Catania",
-      "N. progetti": 2,
-      "MWp": 105.3,
-      "Clienti unici": 2
     },
     {
       "Filiale cliente": "Salerno",
@@ -4245,6 +4245,14 @@
       "Potenza MWp": 7.0
     },
     {
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Agrigento",
+      "Comune cantiere": "Licata",
+      "Cliente progetto": "DREN SOLARE 13 SRL",
+      "Progetto": "AGV LICATA",
+      "Potenza MWp": 39.6
+    },
+    {
       "Regione cantiere": "Puglia",
       "Provincia cantiere": "Lecce",
       "Comune cantiere": "Nardò",
@@ -4883,6 +4891,14 @@
       "Cliente progetto": "X ELIO ITALIA 10 SRL",
       "Progetto": "BARONE",
       "Potenza MWp": 58.23
+    },
+    {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Brindisi",
+      "Comune cantiere": "Brindisi",
+      "Cliente progetto": "BARONINUOVI SRL",
+      "Progetto": "Baroninuovi",
+      "Potenza MWp": 17.998
     },
     {
       "Regione cantiere": "Lazio",
@@ -7104,6 +7120,13 @@
       "Potenza MWp": 7.0
     },
     {
+      "Filiale cliente": "Brescia",
+      "Filiale cantiere": "Catania",
+      "Cliente progetto": "DREN SOLARE 13 SRL",
+      "Progetto": "AGV LICATA",
+      "Potenza MWp": 39.6
+    },
+    {
       "Filiale cliente": "Bologna",
       "Filiale cantiere": "Bari",
       "Cliente progetto": "SOLARANTO SRL",
@@ -7662,6 +7685,13 @@
       "Cliente progetto": "X ELIO ITALIA 10 SRL",
       "Progetto": "BARONE",
       "Potenza MWp": 58.23
+    },
+    {
+      "Filiale cliente": "Bolzano",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "BARONINUOVI SRL",
+      "Progetto": "Baroninuovi",
+      "Potenza MWp": 17.998
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -10932,6 +10962,25 @@
       "Esito": "FILIALE DIVERSA"
     },
     {
+      "Cliente": "DREN SOLARE 13 SRL",
+      "Cliente report": "DREN SOLARE 13 SRL",
+      "Progetto": "AGV LICATA",
+      "Regione cantiere": "Sicilia",
+      "Provincia cantiere": "Agrigento",
+      "Comune cantiere": "Licata",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Catania",
+      "Filiale cliente": "Brescia",
+      "Provincia sede": "Cremona",
+      "Comune sede": "SORESINA",
+      "Indirizzo sede": "VIA TRIBOLDI PIETRO 4",
+      "Tipo account": "-",
+      "MWp": 39.6,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
       "Cliente": "SOLARANTO SRL",
       "Cliente report": "SOLARANTO SRL",
       "Progetto": "Calabrese",
@@ -12447,6 +12496,25 @@
       "Indirizzo sede": "CORSO VITTORIO EMANUELE II 349",
       "Tipo account": "-",
       "MWp": 58.23,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "BARONINUOVI SRL",
+      "Cliente report": "BARONINUOVI SRL",
+      "Progetto": "Baroninuovi",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Brindisi",
+      "Comune cantiere": "Brindisi",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Bolzano",
+      "Provincia sede": "Bolzano/Bozen",
+      "Comune sede": "BOLZANO",
+      "Indirizzo sede": "VIALE AMEDEO DUCA D'AOSTA 51",
+      "Tipo account": "-",
+      "MWp": 17.998,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

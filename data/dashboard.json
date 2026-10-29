@@ -1,10 +1,10 @@
 {
   "summary": {
-    "projects": 372,
-    "mwp": 15952.834,
+    "projects": 375,
+    "mwp": 16002.844,
     "same_branch": 50,
-    "different_branch": 322,
-    "different_pct": 86.6,
+    "different_branch": 325,
+    "different_pct": 86.7,
     "omitted_clients": [
       "skynrg srl",
       "t.e.a.. gest srl"
@@ -187,6 +187,13 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Bologna",
+      "Filiale cantiere": "Napoli",
+      "N. progetti": 4,
+      "MWp": 127.38,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Udine",
       "Filiale cantiere": "Milano Sud",
       "N. progetti": 1,
@@ -229,13 +236,6 @@
       "Clienti unici": 5
     },
     {
-      "Filiale cliente": "Bologna",
-      "Filiale cantiere": "Napoli",
-      "N. progetti": 3,
-      "MWp": 107.58,
-      "Clienti unici": 1
-    },
-    {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Roma Nomentana",
       "N. progetti": 1,
@@ -262,6 +262,13 @@
       "N. progetti": 3,
       "MWp": 95.81,
       "Clienti unici": 3
+    },
+    {
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Napoli",
+      "N. progetti": 2,
+      "MWp": 95.39,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Padova",
@@ -325,13 +332,6 @@
       "N. progetti": 2,
       "MWp": 80.204,
       "Clienti unici": 2
-    },
-    {
-      "Filiale cliente": "Roma Aurelia",
-      "Filiale cantiere": "Napoli",
-      "N. progetti": 1,
-      "MWp": 77.99,
-      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Milano Sud",
@@ -993,6 +993,13 @@
     },
     {
       "Filiale cliente": "Roma Nomentana",
+      "Filiale cantiere": "Napoli",
+      "N. progetti": 1,
+      "MWp": 12.81,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Roma Nomentana",
       "Filiale cantiere": "Milano Sud",
       "N. progetti": 1,
       "MWp": 11.8,
@@ -1302,6 +1309,13 @@
       "Clienti unici": 4
     },
     {
+      "Provincia cantiere": "Caserta",
+      "Regione cantiere": "Campania",
+      "N. progetti": 8,
+      "MWp": 200.531,
+      "Clienti unici": 5
+    },
+    {
       "Provincia cantiere": "Benevento",
       "Regione cantiere": "Campania",
       "N. progetti": 4,
@@ -1341,13 +1355,6 @@
       "Regione cantiere": "Emilia-Romagna",
       "N. progetti": 4,
       "MWp": 172.301,
-      "Clienti unici": 4
-    },
-    {
-      "Provincia cantiere": "Caserta",
-      "Regione cantiere": "Campania",
-      "N. progetti": 6,
-      "MWp": 167.921,
       "Clienti unici": 4
     },
     {
@@ -1547,6 +1554,13 @@
       "Clienti unici": 1
     },
     {
+      "Provincia cantiere": "Avellino",
+      "Regione cantiere": "Campania",
+      "N. progetti": 2,
+      "MWp": 34.569,
+      "Clienti unici": 2
+    },
+    {
       "Provincia cantiere": "Pesaro e Urbino",
       "Regione cantiere": "Marche",
       "N. progetti": 1,
@@ -1589,13 +1603,6 @@
       "Clienti unici": 1
     },
     {
-      "Provincia cantiere": "Avellino",
-      "Regione cantiere": "Campania",
-      "N. progetti": 1,
-      "MWp": 17.169,
-      "Clienti unici": 1
-    },
-    {
       "Provincia cantiere": "Firenze",
       "Regione cantiere": "Toscana",
       "N. progetti": 1,
@@ -1626,9 +1633,9 @@
     },
     {
       "Provincia": "Roma",
-      "Clienti": 51,
-      "Progetti": 56,
-      "MWp": 2672.037
+      "Clienti": 52,
+      "Progetti": 58,
+      "MWp": 2702.247
     },
     {
       "Provincia": "Bolzano/Bozen",
@@ -1639,8 +1646,8 @@
     {
       "Provincia": "Bologna",
       "Clienti": 11,
-      "Progetti": 13,
-      "MWp": 459.396
+      "Progetti": 14,
+      "MWp": 479.196
     },
     {
       "Provincia": "Torino",
@@ -1957,16 +1964,16 @@
       "Clienti unici": 19
     },
     {
+      "Filiale cantiere": "Napoli",
+      "N. progetti": 15,
+      "MWp": 452.816,
+      "Clienti unici": 11
+    },
+    {
       "Filiale cantiere": "Firenze",
       "N. progetti": 15,
       "MWp": 273.035,
       "Clienti unici": 13
-    },
-    {
-      "Filiale cantiere": "Napoli",
-      "N. progetti": 12,
-      "MWp": 402.806,
-      "Clienti unici": 10
     },
     {
       "Filiale cantiere": "Cagliari",
@@ -2116,14 +2123,14 @@
     },
     {
       "Filiale cliente": "Roma Nomentana",
-      "N. progetti": 35,
-      "MWp": 1804.851,
-      "Clienti unici": 33
+      "N. progetti": 36,
+      "MWp": 1817.661,
+      "Clienti unici": 34
     },
     {
       "Filiale cliente": "Roma Aurelia",
-      "N. progetti": 32,
-      "MWp": 1395.955,
+      "N. progetti": 33,
+      "MWp": 1413.355,
       "Clienti unici": 29
     },
     {
@@ -2139,15 +2146,15 @@
       "Clienti unici": 13
     },
     {
-      "Filiale cliente": "Milano Ovest",
-      "N. progetti": 13,
-      "MWp": 517.398,
+      "Filiale cliente": "Bologna",
+      "N. progetti": 14,
+      "MWp": 479.196,
       "Clienti unici": 11
     },
     {
-      "Filiale cliente": "Bologna",
+      "Filiale cliente": "Milano Ovest",
       "N. progetti": 13,
-      "MWp": 459.396,
+      "MWp": 517.398,
       "Clienti unici": 11
     },
     {
@@ -2460,6 +2467,13 @@
       "Clienti unici": 2
     },
     {
+      "Filiale cliente": "Bologna",
+      "Filiale cantiere": "Napoli",
+      "N. progetti": 4,
+      "MWp": 127.38,
+      "Clienti unici": 1
+    },
+    {
       "Filiale cliente": "Udine",
       "Filiale cantiere": "Milano Sud",
       "N. progetti": 1,
@@ -2502,13 +2516,6 @@
       "Clienti unici": 5
     },
     {
-      "Filiale cliente": "Bologna",
-      "Filiale cantiere": "Napoli",
-      "N. progetti": 3,
-      "MWp": 107.58,
-      "Clienti unici": 1
-    },
-    {
       "Filiale cliente": "Bolzano",
       "Filiale cantiere": "Roma Nomentana",
       "N. progetti": 1,
@@ -2535,6 +2542,13 @@
       "N. progetti": 3,
       "MWp": 95.81,
       "Clienti unici": 3
+    },
+    {
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Napoli",
+      "N. progetti": 2,
+      "MWp": 95.39,
+      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Padova",
@@ -2598,13 +2612,6 @@
       "N. progetti": 2,
       "MWp": 80.204,
       "Clienti unici": 2
-    },
-    {
-      "Filiale cliente": "Roma Aurelia",
-      "Filiale cantiere": "Napoli",
-      "N. progetti": 1,
-      "MWp": 77.99,
-      "Clienti unici": 1
     },
     {
       "Filiale cliente": "Milano Sud",
@@ -3262,6 +3269,13 @@
       "Filiale cantiere": "Milano Nord",
       "N. progetti": 1,
       "MWp": 12.818,
+      "Clienti unici": 1
+    },
+    {
+      "Filiale cliente": "Roma Nomentana",
+      "Filiale cantiere": "Napoli",
+      "N. progetti": 1,
+      "MWp": 12.81,
       "Clienti unici": 1
     },
     {
@@ -5379,6 +5393,30 @@
       "Cliente progetto": "SMARTENERGYIT2104 SRL",
       "Progetto": "Cancello Arnone",
       "Potenza MWp": 19.82
+    },
+    {
+      "Regione cantiere": "Campania",
+      "Provincia cantiere": "Avellino",
+      "Comune cantiere": "Casalbore",
+      "Cliente progetto": "RWE RENEWABLES ITALIA SRL",
+      "Progetto": "PV Casalbore",
+      "Potenza MWp": 17.4
+    },
+    {
+      "Regione cantiere": "Campania",
+      "Provincia cantiere": "Caserta",
+      "Comune cantiere": "Pignataro Maggiore",
+      "Cliente progetto": "ABSOLUTE ENERGY SPA",
+      "Progetto": "PV PIGNATARO MAGGIORE",
+      "Potenza MWp": 12.81
+    },
+    {
+      "Regione cantiere": "Campania",
+      "Provincia cantiere": "Caserta",
+      "Comune cantiere": "Cancello ed Arnone",
+      "Cliente progetto": "SIG PROJECT ITALY 1 SRL",
+      "Progetto": "Cancello ed Arnone 1",
+      "Potenza MWp": 19.8
     },
     {
       "Regione cantiere": "Umbria",
@@ -8112,6 +8150,27 @@
       "Cliente progetto": "SMARTENERGYIT2104 SRL",
       "Progetto": "Cancello Arnone",
       "Potenza MWp": 19.82
+    },
+    {
+      "Filiale cliente": "Roma Aurelia",
+      "Filiale cantiere": "Napoli",
+      "Cliente progetto": "RWE RENEWABLES ITALIA SRL",
+      "Progetto": "PV Casalbore",
+      "Potenza MWp": 17.4
+    },
+    {
+      "Filiale cliente": "Roma Nomentana",
+      "Filiale cantiere": "Napoli",
+      "Cliente progetto": "ABSOLUTE ENERGY SPA",
+      "Progetto": "PV PIGNATARO MAGGIORE",
+      "Potenza MWp": 12.81
+    },
+    {
+      "Filiale cliente": "Bologna",
+      "Filiale cantiere": "Napoli",
+      "Cliente progetto": "SIG PROJECT ITALY 1 SRL",
+      "Progetto": "Cancello ed Arnone 1",
+      "Potenza MWp": 19.8
     },
     {
       "Filiale cliente": "Napoli",
@@ -13655,6 +13714,63 @@
       "Indirizzo sede": "PIAZZA CONTE CAMILLO BENSO DI CAVOUR 1",
       "Tipo account": "-",
       "MWp": 19.82,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "RWE RENEWABLES ITALIA SRL",
+      "Cliente report": "RWE RENEWABLES ITALIA SRL",
+      "Progetto": "PV Casalbore",
+      "Regione cantiere": "Campania",
+      "Provincia cantiere": "Avellino",
+      "Comune cantiere": "Casalbore",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Napoli",
+      "Filiale cliente": "Roma Aurelia",
+      "Provincia sede": "Roma",
+      "Comune sede": "ROMA",
+      "Indirizzo sede": "VIA ANDREA DORIA 41 G",
+      "Tipo account": "-",
+      "MWp": 17.4,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "ABSOLUTE ENERGY SPA",
+      "Cliente report": "ABSOLUTE ENERGY SPA",
+      "Progetto": "PV PIGNATARO MAGGIORE",
+      "Regione cantiere": "Campania",
+      "Provincia cantiere": "Caserta",
+      "Comune cantiere": "Pignataro Maggiore",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Napoli",
+      "Filiale cliente": "Roma Nomentana",
+      "Provincia sede": "Roma",
+      "Comune sede": "ROMA",
+      "Indirizzo sede": "VIA DI VILLA EMILIANI 10",
+      "Tipo account": "-",
+      "MWp": 12.81,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "SIG PROJECT ITALY 1 SRL",
+      "Cliente report": "SIG PROJECT ITALY 1 SRL",
+      "Progetto": "Cancello ed Arnone 1",
+      "Regione cantiere": "Campania",
+      "Provincia cantiere": "Caserta",
+      "Comune cantiere": "Cancello ed Arnone",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Napoli",
+      "Filiale cliente": "Bologna",
+      "Provincia sede": "Bologna",
+      "Comune sede": "BOLOGNA",
+      "Indirizzo sede": "VIA SANTO STEFANO 11",
+      "Tipo account": "-",
+      "MWp": 19.8,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"

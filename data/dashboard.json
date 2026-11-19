@@ -1,9 +1,9 @@
 {
   "summary": {
-    "projects": 398,
-    "mwp": 16658.154,
+    "projects": 399,
+    "mwp": 16677.834,
     "same_branch": 51,
-    "different_branch": 347,
+    "different_branch": 348,
     "different_pct": 87.2,
     "omitted_clients": [
       "skynrg srl",
@@ -49,9 +49,9 @@
     {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Bari",
-      "N. progetti": 23,
-      "MWp": 689.532,
-      "Clienti unici": 18
+      "N. progetti": 24,
+      "MWp": 709.212,
+      "Clienti unici": 19
     },
     {
       "Filiale cliente": "Bolzano",
@@ -1393,6 +1393,13 @@
       "Clienti unici": 4
     },
     {
+      "Provincia cantiere": "Taranto",
+      "Regione cantiere": "Puglia",
+      "N. progetti": 6,
+      "MWp": 197.827,
+      "Clienti unici": 6
+    },
+    {
       "Provincia cantiere": "Siracusa",
       "Regione cantiere": "Sicilia",
       "N. progetti": 4,
@@ -1405,13 +1412,6 @@
       "N. progetti": 9,
       "MWp": 182.533,
       "Clienti unici": 9
-    },
-    {
-      "Provincia cantiere": "Taranto",
-      "Regione cantiere": "Puglia",
-      "N. progetti": 5,
-      "MWp": 178.147,
-      "Clienti unici": 5
     },
     {
       "Provincia cantiere": "Cosenza",
@@ -1704,9 +1704,9 @@
   "province_clienti": [
     {
       "Provincia": "Milano",
-      "Clienti": 146,
-      "Progetti": 163,
-      "MWp": 6357.73
+      "Clienti": 147,
+      "Progetti": 164,
+      "MWp": 6377.41
     },
     {
       "Provincia": "Roma",
@@ -2012,9 +2012,9 @@
   "top_cantiere": [
     {
       "Filiale cantiere": "Bari",
-      "N. progetti": 86,
-      "MWp": 4116.633,
-      "Clienti unici": 80
+      "N. progetti": 87,
+      "MWp": 4136.313,
+      "Clienti unici": 81
     },
     {
       "Filiale cantiere": "Catania",
@@ -2188,9 +2188,9 @@
   "top_cliente": [
     {
       "Filiale cliente": "Milano Sud",
-      "N. progetti": 99,
-      "MWp": 3798.156,
-      "Clienti unici": 90
+      "N. progetti": 100,
+      "MWp": 3817.836,
+      "Clienti unici": 91
     },
     {
       "Filiale cliente": "Milano Nord",
@@ -2406,9 +2406,9 @@
     {
       "Filiale cliente": "Milano Sud",
       "Filiale cantiere": "Bari",
-      "N. progetti": 23,
-      "MWp": 689.532,
-      "Clienti unici": 18
+      "N. progetti": 24,
+      "MWp": 709.212,
+      "Clienti unici": 19
     },
     {
       "Filiale cliente": "Bolzano",
@@ -5126,6 +5126,14 @@
       "Cliente progetto": "AEI SOLAR PROJECT II SRL",
       "Progetto": "FOGGIA II",
       "Potenza MWp": 50.83
+    },
+    {
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Taranto",
+      "Comune cantiere": "Statte",
+      "Cliente progetto": "METKA EGN APULIA SRL",
+      "Progetto": "PV Statte",
+      "Potenza MWp": 19.68
     },
     {
       "Regione cantiere": "Lazio",
@@ -8117,6 +8125,13 @@
       "Cliente progetto": "AEI SOLAR PROJECT II SRL",
       "Progetto": "FOGGIA II",
       "Potenza MWp": 50.83
+    },
+    {
+      "Filiale cliente": "Milano Sud",
+      "Filiale cantiere": "Bari",
+      "Cliente progetto": "METKA EGN APULIA SRL",
+      "Progetto": "PV Statte",
+      "Potenza MWp": 19.68
     },
     {
       "Filiale cliente": "Roma Nomentana",
@@ -13242,6 +13257,25 @@
       "Indirizzo sede": "VIA SAVOIA 78",
       "Tipo account": "-",
       "MWp": 50.83,
+      "Stato progetto": "In pipeline",
+      "Fase attuale": "Autorizzazioni",
+      "Esito": "FILIALE DIVERSA"
+    },
+    {
+      "Cliente": "METKA EGN APULIA SRL",
+      "Cliente report": "METKA EGN APULIA SRL",
+      "Progetto": "PV Statte",
+      "Regione cantiere": "Puglia",
+      "Provincia cantiere": "Taranto",
+      "Comune cantiere": "Statte",
+      "Area cantiere": "Sud",
+      "Filiale cantiere": "Bari",
+      "Filiale cliente": "Milano Sud",
+      "Provincia sede": "Milano",
+      "Comune sede": "MILANO",
+      "Indirizzo sede": "PIAZZA FONTANA 6",
+      "Tipo account": "-",
+      "MWp": 19.68,
       "Stato progetto": "In pipeline",
       "Fase attuale": "Autorizzazioni",
       "Esito": "FILIALE DIVERSA"
